@@ -3,7 +3,7 @@
 
 err = 2, warn = 4, info = 0
 IG Publisher Version: 1.1.76
-Generated Wed Jul 07 12:47:24 UTC 2021. FHIR version 4.0.1 for openimis.org.fhir.openimis_fhir_r4#0.1.0-test (canonical = http://demo.openimis.org/fhir-ig/openimis_fhir_r4)
+Generated Wed Jul 07 12:47:48 UTC 2021. FHIR version 4.0.1 for openimis.org.fhir.openimis_fhir_r4#0.1.0-test (canonical = http://demo.openimis.org/fhir-ig/openimis_fhir_r4)
 
  Build Errors : 15 / 2 / 0
  /github/workspace/fsh-generated/resources/StructureDefinition-PatientProfile : 0 / 1 / 1
