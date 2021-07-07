@@ -1,0 +1,20 @@
+﻿openIMISFHIRR4 : Validation Results
+=========================================
+
+err = 2, warn = 4, info = 0
+IG Publisher Version: 1.1.76
+Generated Wed Jul 07 12:32:04 UTC 2021. FHIR version 4.0.1 for openimis.org.fhir.openimis_fhir_r4#0.1.0-test (canonical = http://demo.openimis.org/fhir-ig/openimis_fhir_r4)
+
+ Build Errors : 1 / 2 / 0
+ /github/workspace/fsh-generated/resources/StructureDefinition-PatientProfile : 0 / 1 / 1
+ /github/workspace/input/openimis_fhir_r4 : 1 / 1 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be openimis.org.fhir.openimis_fhir_r4
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/PatientProfile.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PatientProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+== /github/workspace/fsh-generated/resources/StructureDefinition-PatientProfile.json ==
+WARNING: StructureDefinition.where(url = 'http://demo.openimis.org/fhir-ig/openimis_fhir_r4/StructureDefinition/PatientProfile'): The Implementation Guide contains no examples for this profile
+== /github/workspace/input/openimis_fhir_r4.xml ==
+WARNING: ImplementationGuide/openimis_fhir_r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: ImplementationGuide/openimis_fhir_r4: ImplementationGuide.packageId: id value 'openimis.org.fhir.openimis_fhir_r4' is not valid

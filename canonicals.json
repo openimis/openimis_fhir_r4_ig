@@ -1,0 +1,16 @@
+[
+  {
+    "id": "openimis_fhir_r4",
+    "type": "ImplementationGuide",
+    "url": "http://demo.openimis.org/fhir-ig/openimis_fhir_r4/ImplementationGuide/openimis_fhir_r4",
+    "version": "0.1.0-test",
+    "name": "openIMISFHIRR4"
+  },
+  {
+    "id": "PatientProfile",
+    "type": "StructureDefinition",
+    "url": "http://demo.openimis.org/fhir-ig/openimis_fhir_r4/StructureDefinition/PatientProfile",
+    "version": "0.1.0-test",
+    "name": "PatientProfile"
+  }
+]
