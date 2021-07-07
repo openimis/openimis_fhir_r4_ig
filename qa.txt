@@ -3,9 +3,9 @@
 
 err = 2, warn = 4, info = 0
 IG Publisher Version: 1.1.76
-Generated Wed Jul 07 12:32:04 UTC 2021. FHIR version 4.0.1 for openimis.org.fhir.openimis_fhir_r4#0.1.0-test (canonical = http://demo.openimis.org/fhir-ig/openimis_fhir_r4)
+Generated Wed Jul 07 12:47:24 UTC 2021. FHIR version 4.0.1 for openimis.org.fhir.openimis_fhir_r4#0.1.0-test (canonical = http://demo.openimis.org/fhir-ig/openimis_fhir_r4)
 
- Build Errors : 1 / 2 / 0
+ Build Errors : 15 / 2 / 0
  /github/workspace/fsh-generated/resources/StructureDefinition-PatientProfile : 0 / 1 / 1
  /github/workspace/input/openimis_fhir_r4 : 1 / 1 / 1
 </table>
@@ -13,6 +13,20 @@ Generated Wed Jul 07 12:32:04 UTC 2021. FHIR version 4.0.1 for openimis.org.fhir
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be openimis.org.fhir.openimis_fhir_r4
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/PatientProfile.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PatientProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/StructureDefinition-PatientProfile-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-PatientProfile-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-PatientProfile-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-PatientProfile.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-PatientProfile.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-PatientProfile.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-PatientProfile.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-PatientProfile.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/scope.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 == /github/workspace/fsh-generated/resources/StructureDefinition-PatientProfile.json ==
 WARNING: StructureDefinition.where(url = 'http://demo.openimis.org/fhir-ig/openimis_fhir_r4/StructureDefinition/PatientProfile'): The Implementation Guide contains no examples for this profile
 == /github/workspace/input/openimis_fhir_r4.xml ==

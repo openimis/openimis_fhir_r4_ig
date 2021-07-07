@@ -12,7 +12,7 @@
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-07-07T12:31:57+00:00"/>
+  <date value="2021-07-07T12:47:16+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <telecom>
@@ -223,6 +223,11 @@
         <nameUrl value="index.html"/>
         <title value="MyIG Home Page"/>
         <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="scope.html"/>
+        <title value="Functional Scope"/>
+        <generation value="markdown"/>
       </page>
       <page>
         <nameUrl value="downloads.html"/>
