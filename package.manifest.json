@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0-test",
+  "version": "0.1.0",
   "fhirVersion": "[4.0.1]",
-  "date": "20210707124717",
-  "name": "openimis.org.fhir.openimis_fhir_r4"
+  "date": "20210708125156",
+  "name": "openimis.fhir.r4"
 }

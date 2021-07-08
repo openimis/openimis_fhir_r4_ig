@@ -1,0 +1,36 @@
+{
+  "resourceType": "Patient",
+  "id": "adam-everyman",
+  "meta": {
+    "profile": [
+      "https://openimis.github.io/openimis_fhir_r4_ig//StructureDefinition/oi-patient"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig//CodeSystem/oi-identifiers-cs",
+            "code": "Code"
+          }
+        ]
+      },
+      "value": "123456789"
+    }
+  ],
+  "name": [
+    {
+      "family": "Doe",
+      "given": [
+        "John"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1962-02-05"
+}

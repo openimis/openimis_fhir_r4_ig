@@ -1,34 +1,24 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 2, warn = 4, info = 0
+err = 5, warn = 1, info = 0
 IG Publisher Version: 1.1.76
-Generated Wed Jul 07 12:47:48 UTC 2021. FHIR version 4.0.1 for openimis.org.fhir.openimis_fhir_r4#0.1.0-test (canonical = http://demo.openimis.org/fhir-ig/openimis_fhir_r4)
+Generated Thu Jul 08 12:54:45 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig/)
 
- Build Errors : 15 / 2 / 0
- /github/workspace/fsh-generated/resources/StructureDefinition-PatientProfile : 0 / 1 / 1
- /github/workspace/input/openimis_fhir_r4 : 1 / 1 / 1
+ Build Errors : 1 / 0 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-oi-identifiers-cs : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/Patient-adam-everyman : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-oi-patient : 0 / 0 / 1
 </table>
 == n/a ==
-WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be openimis.org.fhir.openimis_fhir_r4
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/PatientProfile.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PatientProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/StructureDefinition-PatientProfile-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-PatientProfile-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-PatientProfile-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-PatientProfile.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-PatientProfile.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-PatientProfile.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-PatientProfile.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-PatientProfile.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/changes.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/downloads.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/scope.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-== /github/workspace/fsh-generated/resources/StructureDefinition-PatientProfile.json ==
-WARNING: StructureDefinition.where(url = 'http://demo.openimis.org/fhir-ig/openimis_fhir_r4/StructureDefinition/PatientProfile'): The Implementation Guide contains no examples for this profile
-== /github/workspace/input/openimis_fhir_r4.xml ==
-WARNING: ImplementationGuide/openimis_fhir_r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: ImplementationGuide/openimis_fhir_r4: ImplementationGuide.packageId: id value 'openimis.org.fhir.openimis_fhir_r4' is not valid
+ERROR: /github/workspace/output/connected_partner.html#/html/body/div/div/div/div/div/div/figure/img at Line 219, column 4: The image source 'vendor-integration-process.png' cannot be resolved
+== /github/workspace/fsh-generated/resources/CodeSystem-oi-identifiers-cs.json ==
+== /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
+ERROR: ImplementationGuide.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig//ImplementationGuide/openimis.fhir.r4'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json - the canonical URL (https://openimis.github.io/openimis_fhir_r4_ig/ImplementationGuide/openimis.fhir.r4) does not match the URL (https://openimis.github.io/openimis_fhir_r4_ig//ImplementationGuide/openimis.fhir.r4)
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== /github/workspace/fsh-generated/resources/Patient-adam-everyman.json ==
+ERROR: Patient/adam-everyman: Patient.identifier[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice Patient.identifier:InsureeCode in profile https://openimis.github.io/openimis_fhir_r4_ig//StructureDefinition/oi-patient - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: Patient/adam-everyman: Patient.identifier[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice Patient.identifier:InsureeUUID in profile https://openimis.github.io/openimis_fhir_r4_ig//StructureDefinition/oi-patient - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: Patient/adam-everyman: Patient.identifier[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice Patient.identifier:InsureeID in profile https://openimis.github.io/openimis_fhir_r4_ig//StructureDefinition/oi-patient - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+== /github/workspace/fsh-generated/resources/StructureDefinition-oi-patient.json ==

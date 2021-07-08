@@ -1,14 +1,13 @@
 {
-  "package": "openimis.org.fhir.openimis_fhir_r4",
-  "version": "0.1.0-test",
+  "package": "openimis.fhir.r4",
+  "version": "0.1.0",
   "fhirVersion": "4.0.1",
-  "jurisdiction": "001",
   "extensions": [],
   "profiles": {
     "Patient": [
       {
-        "url": "http://demo.openimis.org/fhir-ig/openimis_fhir_r4/StructureDefinition/PatientProfile",
-        "title": "PatientProfile"
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig//StructureDefinition/oi-patient",
+        "title": "openIMIS Patient"
       }
     ]
   },
@@ -27,6 +26,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
