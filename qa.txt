@@ -3,7 +3,7 @@
 
 err = 5, warn = 1, info = 0
 IG Publisher Version: 1.1.76
-Generated Thu Jul 08 12:54:45 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig/)
+Generated Thu Jul 08 12:55:00 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig/)
 
  Build Errors : 1 / 0 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-oi-identifiers-cs : 0 / 0 / 1
