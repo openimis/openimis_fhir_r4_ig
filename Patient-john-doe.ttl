@@ -17,13 +17,14 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Rapta R1D1M2V1 Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Rapta R1D1M2V1 Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs Brother/Sister}\">Brother/Sister</span></td><td>Jane Doe </td></tr></table></div>"
   ];
   fhir:Patient.identifier [
      fhir:index 0;
      fhir:Identifier.type [
        fhir:CodeableConcept.coding [
          fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs" ];
          fhir:Coding.code [ fhir:value "Code" ]
        ]
      ];
@@ -57,6 +58,24 @@
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus" ];
        fhir:Coding.code [ fhir:value "M" ]
+     ]
+  ];
+  fhir:Patient.contact [
+     fhir:index 0;
+     fhir:Patient.contact.relationship [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs" ];
+         fhir:Coding.code [ fhir:value "Brother/Sister" ]
+       ]
+     ];
+     fhir:Patient.contact.name [
+       fhir:HumanName.family [ fhir:value "Doe" ];
+       fhir:HumanName.given [
+         fhir:value "Jane";
+         fhir:index 0
+       ]
      ]
   ] .
 

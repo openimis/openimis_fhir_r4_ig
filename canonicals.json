@@ -7,6 +7,13 @@
     "name": "Example Capability Statement"
   },
   {
+    "id": "openimis-contact-relationship-cs",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs",
+    "version": "0.1.0",
+    "name": "OpenIMISContactRelationshipCS"
+  },
+  {
     "id": "openimis-identifiers-cs",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs",
@@ -33,6 +40,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient",
     "version": "0.1.0",
     "name": "OpenIMISPatient"
+  },
+  {
+    "id": "openimis-contact-relationship-vs",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-contact-relationship-vs",
+    "version": "0.1.0",
+    "name": "OpenIMISContactRelationshipVS"
   },
   {
     "id": "openimis-identifiers-vs",

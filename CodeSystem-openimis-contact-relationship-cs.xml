@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="openimis-contact-relationship-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Spouse<a name="openimis-contact-relationship-cs-Spouse"> </a></td><td>Spouse</td></tr><tr><td style="white-space:nowrap">Brother/Sister<a name="openimis-contact-relationship-cs-Brother.47Sister"> </a></td><td>Brother/Sister</td></tr><tr><td style="white-space:nowrap">Father/Mother<a name="openimis-contact-relationship-cs-Father.47Mother"> </a></td><td>Father/Mother</td></tr><tr><td style="white-space:nowrap">Uncle/Aunt<a name="openimis-contact-relationship-cs-Uncle.47Aunt"> </a></td><td>Uncle/Aunt</td></tr><tr><td style="white-space:nowrap">Son/Daughter<a name="openimis-contact-relationship-cs-Son.47Daughter"> </a></td><td>Son/Daughter</td></tr><tr><td style="white-space:nowrap">GrandParents<a name="openimis-contact-relationship-cs-GrandParents"> </a></td><td>Grand parents</td></tr><tr><td style="white-space:nowrap">Employee<a name="openimis-contact-relationship-cs-Employee"> </a></td><td>Employee</td></tr><tr><td style="white-space:nowrap">Others<a name="openimis-contact-relationship-cs-Others"> </a></td><td>Others</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs"/>
+  <version value="0.1.0"/>
+  <name value="OpenIMISContactRelationshipCS"/>
+  <title value="openIMIS Contact Relationship code system"/>
+  <status value="active"/>
+  <date value="2021-07-13T16:08:02+00:00"/>
+  <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+  <contact>
+    <name value="Swiss TPH - SCIH - openIMIS Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the Relationship of a Patient with the Head of the Family"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="Spouse"/>
+    <display value="Spouse"/>
+  </concept>
+  <concept>
+    <code value="Brother/Sister"/>
+    <display value="Brother/Sister"/>
+  </concept>
+  <concept>
+    <code value="Father/Mother"/>
+    <display value="Father/Mother"/>
+  </concept>
+  <concept>
+    <code value="Uncle/Aunt"/>
+    <display value="Uncle/Aunt"/>
+  </concept>
+  <concept>
+    <code value="Son/Daughter"/>
+    <display value="Son/Daughter"/>
+  </concept>
+  <concept>
+    <code value="GrandParents"/>
+    <display value="Grand parents"/>
+  </concept>
+  <concept>
+    <code value="Employee"/>
+    <display value="Employee"/>
+  </concept>
+  <concept>
+    <code value="Others"/>
+    <display value="Others"/>
+  </concept>
+</CodeSystem>

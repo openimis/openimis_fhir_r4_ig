@@ -1,17 +1,19 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 3, warn = 6, info = 0
+err = 5, warn = 5, info = 0
 IG Publisher Version: 1.1.76
-Generated Tue Jul 13 15:05:01 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Tue Jul 13 16:08:21 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
 
  Build Errors : 1 / 1 / 0
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-openimis-contact-relationship-cs : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-openimis-identifiers-cs : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/Patient-john-doe : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/Patient-john-doe : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-is-head : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-openimis-contact-relationship-vs : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers-vs : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-openimis-marital-status-vs : 0 / 1 / 1
 </table>
@@ -22,14 +24,17 @@ ERROR: /github/workspace/output/connected_partner.html#/html/body/div/div/div/di
 WARNING: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement: cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement: cpb-2: 'A Capability Statement SHALL have at least one of description, software, or implementation element.' Rule 'A Capability Statement SHALL have at least one of description, software, or implementation element.' Failed
 ERROR: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement.rest[0].resource[1].searchParam[4].definition: Canonical URL 'http://hl7.org/fhir/us/saner/SearchParameter/SearchParameter-code' does not resolve
+== /github/workspace/fsh-generated/resources/CodeSystem-openimis-contact-relationship-cs.json ==
+ERROR: CodeSystem.url: Resource id/url mismatch: openimis-contact-relationship-cs/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs
 == /github/workspace/fsh-generated/resources/CodeSystem-openimis-identifiers-cs.json ==
 == /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == /github/workspace/fsh-generated/resources/Patient-john-doe.json ==
-WARNING: Patient/john-doe: Patient.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Patient/john-doe: Patient.contact[0].relationship[0].coding[0]: Unknown Code https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs#Brother/Sister in https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs for 'https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs#Brother/Sister'
 == /github/workspace/fsh-generated/resources/StructureDefinition-is-head.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head'): The Implementation Guide contains no examples for this extension
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-openimis-contact-relationship-vs.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers-vs.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-openimis-marital-status-vs.json ==
 WARNING: ValueSet/openimis-marital-status-vs: ValueSet.compose[0].include[0].concept[4]: The code UNK is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
