@@ -2,16 +2,27 @@
   "package": "openimis.fhir.r4",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head",
+      "title": "Is Head of the Family",
+      "types": [
+        "boolean"
+      ]
+    }
+  ],
   "profiles": {
     "Patient": [
       {
-        "url": "https://openimis.github.io/openimis_fhir_r4_ig//StructureDefinition/oi-patient",
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient",
         "title": "openIMIS Patient"
       }
     ]
   },
   "usage": {
+    "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation": [
+      "CapabilityStatement.rest.resource"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -50,6 +61,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head": [
+      "Patient"
     ]
   }
 }

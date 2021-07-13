@@ -1,23 +1,51 @@
 [
   {
-    "id": "oi-identifiers-cs",
+    "id": "ExampleCapabilityStatement",
+    "type": "CapabilityStatement",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CapabilityStatement/ExampleCapabilityStatement",
+    "version": "0.1.0",
+    "name": "Example Capability Statement"
+  },
+  {
+    "id": "openimis-identifiers-cs",
     "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig//CodeSystem/oi-identifiers-cs",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs",
     "version": "0.1.0",
     "name": "OpenIMISIdentifierCS"
   },
   {
     "id": "openimis.fhir.r4",
     "type": "ImplementationGuide",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig//ImplementationGuide/openimis.fhir.r4",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ImplementationGuide/openimis.fhir.r4",
     "version": "0.1.0",
     "name": "openIMISFHIRR4"
   },
   {
-    "id": "oi-patient",
+    "id": "is-head",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig//StructureDefinition/oi-patient",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head",
+    "version": "0.1.0",
+    "name": "IsHead"
+  },
+  {
+    "id": "openimis-patient",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient",
     "version": "0.1.0",
     "name": "OpenIMISPatient"
+  },
+  {
+    "id": "openimis-identifiers-vs",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-identifiers-vs",
+    "version": "0.1.0",
+    "name": "OpenIMISIdentifierVS"
+  },
+  {
+    "id": "openimis-marital-status-vs",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-marital-status-vs",
+    "version": "0.1.0",
+    "name": "OpenIMISMaritalStatusVS"
   }
 ]

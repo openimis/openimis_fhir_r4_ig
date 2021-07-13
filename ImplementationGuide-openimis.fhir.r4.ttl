@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "openimis.fhir.r4"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>openIMISFHIRR4</h2><p>The official URL for this implementation guide is: </p><pre>https://openimis.github.io/openimis_fhir_r4_ig//ImplementationGuide/openimis.fhir.r4</pre><div><p>This IG is about the mapping and usage of FHIR R4 to integrate openIMIS with other external systems.</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>openIMISFHIRR4</h2><p>The official URL for this implementation guide is: </p><pre>https://openimis.github.io/openimis_fhir_r4_ig/ImplementationGuide/openimis.fhir.r4</pre><div><p>This IG is about the mapping and usage of FHIR R4 to integrate openIMIS with other external systems.</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig//ImplementationGuide/openimis.fhir.r4"];
+  fhir:ImplementationGuide.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/ImplementationGuide/openimis.fhir.r4"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "openIMISFHIRR4"];
   fhir:ImplementationGuide.title [ fhir:value "openIMIS FHIR R4 Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-08T12:54:44+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-13T15:04:31+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Swiss TPH - SCIH - openIMIS Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -145,7 +145,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig//history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -277,8 +277,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/oi-patient>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/oi-patient" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/openimis-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Patient" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines a Patient for openIMIS which maps to an Insuree" ];
@@ -288,31 +288,86 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/oi-identifiers-cs>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/oi-identifiers-cs" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/is-head" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Identifiers code system" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifiers that are specific to openIMIS and could not be found in standard sources" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Is Head of the Family" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Whether the Patient is the Head of the Family" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-identifiers-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/openimis-identifiers-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Identifiers Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Identifier type" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-marital-status-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/openimis-marital-status-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Marital Status Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Marital status of an Insuree" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/openimis-identifiers-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Identifiers code system" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifiers that are specific to openIMIS and could not be found in standard sources" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CapabilityStatement" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CapabilityStatement/ExampleCapabilityStatement>;
+         fhir:Reference.reference [ fhir:value "CapabilityStatement/ExampleCapabilityStatement" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Create a Capability Statement using RuleSets" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Patient/adam-everyman>;
-         fhir:Reference.reference [ fhir:value "Patient/adam-everyman" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Patient/john-doe>;
+         fhir:Reference.reference [ fhir:value "Patient/john-doe" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "adam-everyman" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "john-doe" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of openIMIS Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://openimis.github.io/openimis_fhir_r4_ig//StructureDefinition/oi-patient";
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig//StructureDefinition/oi-patient>
+         fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient";
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient>
        ]
      ];
      fhir:ImplementationGuide.definition.page [

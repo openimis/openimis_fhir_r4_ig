@@ -3,14 +3,14 @@
   "id": "openimis.fhir.r4",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>openIMISFHIRR4</h2><p>The official URL for this implementation guide is: </p><pre>https://openimis.github.io/openimis_fhir_r4_ig//ImplementationGuide/openimis.fhir.r4</pre><div><p>This IG is about the mapping and usage of FHIR R4 to integrate openIMIS with other external systems.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>openIMISFHIRR4</h2><p>The official URL for this implementation guide is: </p><pre>https://openimis.github.io/openimis_fhir_r4_ig/ImplementationGuide/openimis.fhir.r4</pre><div><p>This IG is about the mapping and usage of FHIR R4 to integrate openIMIS with other external systems.</p>\n</div></div>"
   },
-  "url": "https://openimis.github.io/openimis_fhir_r4_ig//ImplementationGuide/openimis.fhir.r4",
+  "url": "https://openimis.github.io/openimis_fhir_r4_ig/ImplementationGuide/openimis.fhir.r4",
   "version": "0.1.0",
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-07-08T12:54:44+00:00",
+  "date": "2021-07-13T15:04:31+00:00",
   "publisher": "Swiss TPH - SCIH - openIMIS Group",
   "contact": [
     {
@@ -147,7 +147,7 @@
           },
           {
             "url": "value",
-            "valueString": "https://openimis.github.io/openimis_fhir_r4_ig//history.html"
+            "valueString": "https://openimis.github.io/openimis_fhir_r4_ig/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -292,10 +292,52 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/oi-patient"
+          "reference": "StructureDefinition/openimis-patient"
         },
         "name": "openIMIS Patient",
         "description": "Defines a Patient for openIMIS which maps to an Insuree",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/is-head"
+        },
+        "name": "Is Head of the Family",
+        "description": "Whether the Patient is the Head of the Family",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/openimis-identifiers-vs"
+        },
+        "name": "openIMIS Identifiers Value Set",
+        "description": "Indicates the Identifier type",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/openimis-marital-status-vs"
+        },
+        "name": "openIMIS Marital Status Value Set",
+        "description": "Indicates the Marital status of an Insuree",
         "exampleBoolean": false
       },
       {
@@ -306,10 +348,23 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/oi-identifiers-cs"
+          "reference": "CodeSystem/openimis-identifiers-cs"
         },
         "name": "openIMIS Identifiers code system",
         "description": "Identifiers that are specific to openIMIS and could not be found in standard sources",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/ExampleCapabilityStatement"
+        },
+        "name": "Create a Capability Statement using RuleSets",
         "exampleBoolean": false
       },
       {
@@ -320,11 +375,11 @@
           }
         ],
         "reference": {
-          "reference": "Patient/adam-everyman"
+          "reference": "Patient/john-doe"
         },
-        "name": "adam-everyman",
+        "name": "john-doe",
         "description": "Example of openIMIS Patient",
-        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig//StructureDefinition/oi-patient"
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient"
       }
     ],
     "page": {

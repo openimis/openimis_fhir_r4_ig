@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="openimis.fhir.r4"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>openIMISFHIRR4</h2><p>The official URL for this implementation guide is: </p><pre>https://openimis.github.io/openimis_fhir_r4_ig//ImplementationGuide/openimis.fhir.r4</pre><div><p>This IG is about the mapping and usage of FHIR R4 to integrate openIMIS with other external systems.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>openIMISFHIRR4</h2><p>The official URL for this implementation guide is: </p><pre>https://openimis.github.io/openimis_fhir_r4_ig/ImplementationGuide/openimis.fhir.r4</pre><div><p>This IG is about the mapping and usage of FHIR R4 to integrate openIMIS with other external systems.</p>
 </div></div>
   </text>
-  <url value="https://openimis.github.io/openimis_fhir_r4_ig//ImplementationGuide/openimis.fhir.r4"/>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ImplementationGuide/openimis.fhir.r4"/>
   <version value="0.1.0"/>
   <name value="openIMISFHIRR4"/>
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-07-08T12:54:44+00:00"/>
+  <date value="2021-07-13T15:04:31+00:00"/>
   <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
   <contact>
     <name value="Swiss TPH - SCIH - openIMIS Group"/>
@@ -98,7 +98,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://openimis.github.io/openimis_fhir_r4_ig//history.html"/>
+        <valueString value="https://openimis.github.io/openimis_fhir_r4_ig/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -186,7 +186,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/oi-patient"/>
+        <reference value="StructureDefinition/openimis-patient"/>
       </reference>
       <name value="openIMIS Patient"/>
       <description value="Defines a Patient for openIMIS which maps to an Insuree"/>
@@ -194,10 +194,43 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/is-head"/>
+      </reference>
+      <name value="Is Head of the Family"/>
+      <description value="Whether the Patient is the Head of the Family"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/openimis-identifiers-vs"/>
+      </reference>
+      <name value="openIMIS Identifiers Value Set"/>
+      <description value="Indicates the Identifier type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/openimis-marital-status-vs"/>
+      </reference>
+      <name value="openIMIS Marital Status Value Set"/>
+      <description value="Indicates the Marital status of an Insuree"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/oi-identifiers-cs"/>
+        <reference value="CodeSystem/openimis-identifiers-cs"/>
       </reference>
       <name value="openIMIS Identifiers code system"/>
       <description value="Identifiers that are specific to openIMIS and could not be found in standard sources"/>
@@ -205,14 +238,24 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CapabilityStatement"/>
+      </extension>
+      <reference>
+        <reference value="CapabilityStatement/ExampleCapabilityStatement"/>
+      </reference>
+      <name value="Create a Capability Statement using RuleSets"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
       <reference>
-        <reference value="Patient/adam-everyman"/>
+        <reference value="Patient/john-doe"/>
       </reference>
-      <name value="adam-everyman"/>
+      <name value="john-doe"/>
       <description value="Example of openIMIS Patient"/>
-      <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig//StructureDefinition/oi-patient"/>
+      <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>
