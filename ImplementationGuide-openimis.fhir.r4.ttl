@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "openIMISFHIRR4"];
   fhir:ImplementationGuide.title [ fhir:value "openIMIS FHIR R4 Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-13T16:08:13+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-15T08:25:21+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Swiss TPH - SCIH - openIMIS Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -302,6 +302,20 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/municipality>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/municipality" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Municipality Location" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The location level between District and City/Village" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -312,7 +326,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Relationship of a Patient with the Head of the Family" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -326,7 +340,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Identifier type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -340,7 +354,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Marital status of an Insuree" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -354,7 +368,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Relationship of a Patient with the Head of the Family" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -368,7 +382,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifiers that are specific to openIMIS and could not be found in standard sources" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -381,7 +395,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Create a Capability Statement using RuleSets" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

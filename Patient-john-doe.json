@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Rapta R1D1M2V1 Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs Brother/Sister}\">Brother/Sister</span></td><td>Jane Doe </td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Ultha R1D1M2V1 (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs Brother/Sister}\">Brother/Sister</span></td><td>Jane Doe </td></tr></table></div>"
   },
   "identifier": [
     {
@@ -35,15 +35,19 @@
   "birthDate": "1962-02-05",
   "address": [
     {
+      "extension": [
+        {
+          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/municipality"
+        }
+      ],
       "use": "home",
       "line": [
         "5 Tsoka"
       ],
       "city": "Jamula",
-      "district": "Jamu",
-      "state": "Rapta",
-      "postalCode": "R1D1M2V1",
-      "country": "Ultha"
+      "district": "Rapta",
+      "state": "Ultha",
+      "postalCode": "R1D1M2V1"
     }
   ],
   "maritalStatus": {
@@ -60,7 +64,7 @@
         {
           "coding": [
             {
-              "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs",
+              "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs",
               "code": "Brother/Sister"
             }
           ]

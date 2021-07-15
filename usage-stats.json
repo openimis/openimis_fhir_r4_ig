@@ -9,6 +9,13 @@
       "types": [
         "boolean"
       ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/municipality",
+      "title": "Municipality Location",
+      "types": [
+        "string"
+      ]
     }
   ],
   "profiles": {
@@ -64,6 +71,9 @@
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head": [
       "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/municipality": [
+      "Patient.address"
     ]
   }
 }

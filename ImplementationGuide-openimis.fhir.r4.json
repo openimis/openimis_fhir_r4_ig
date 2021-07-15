@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-07-13T16:08:13+00:00",
+  "date": "2021-07-15T08:25:21+00:00",
   "publisher": "Swiss TPH - SCIH - openIMIS Group",
   "contact": [
     {
@@ -310,6 +310,20 @@
         },
         "name": "Is Head of the Family",
         "description": "Whether the Patient is the Head of the Family",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/municipality"
+        },
+        "name": "Municipality Location",
+        "description": "The location level between District and City/Village",
         "exampleBoolean": false
       },
       {

@@ -3,14 +3,14 @@
   "id": "openimis-contact-relationship-vs",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-openimis-identifiers-cs.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-openimis-contact-relationship-cs.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs</code></a></li></ul></div>"
   },
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-contact-relationship-vs",
   "version": "0.1.0",
   "name": "OpenIMISContactRelationshipVS",
   "title": "openIMIS Contact Relationship code system",
   "status": "active",
-  "date": "2021-07-13T16:08:13+00:00",
+  "date": "2021-07-15T08:25:21+00:00",
   "publisher": "Swiss TPH - SCIH - openIMIS Group",
   "contact": [
     {
@@ -31,7 +31,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs"
+        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs"
       }
     ]
   }

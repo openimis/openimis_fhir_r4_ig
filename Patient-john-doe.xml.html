@@ -45,8 +45,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.9"}
-    h3,h4,h5,h6{--heading-prefix:"8.9"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.10"}
+    h3,h4,h5,h6{--heading-prefix:"8.10"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -211,7 +211,7 @@
   &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: Unique code: 123456789&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: John Doe &lt;/p&gt;&lt;p&gt;&lt;b&gt;gender&lt;/b&gt;: male&lt;/p&gt;&lt;p&gt;&lt;b&gt;birthDate&lt;/b&gt;: 1962-02-05&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: 5 Tsoka Jamula Rapta R1D1M2V1 Ultha (HOME)&lt;/p&gt;&lt;p&gt;&lt;b&gt;maritalStatus&lt;/b&gt;: &lt;span title=&quot;Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}&quot;&gt;Married&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Contacts&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs Brother/Sister}&quot;&gt;Brother/Sister&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Jane Doe &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: Unique code: 123456789&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: John Doe &lt;/p&gt;&lt;p&gt;&lt;b&gt;gender&lt;/b&gt;: male&lt;/p&gt;&lt;p&gt;&lt;b&gt;birthDate&lt;/b&gt;: 1962-02-05&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: 5 Tsoka Jamula Ultha R1D1M2V1 (HOME)&lt;/p&gt;&lt;p&gt;&lt;b&gt;maritalStatus&lt;/b&gt;: &lt;span title=&quot;Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}&quot;&gt;Married&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Contacts&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs Brother/Sister}&quot;&gt;Brother/Sister&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Jane Doe &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
   &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">type</a>&gt;
@@ -230,13 +230,14 @@
   &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">gender</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;male&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">birthDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;1962-02-05&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.address">address</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.extension">extension</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/municipality&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;home&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;5 Tsoka&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Jamula&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.district">district</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Jamu&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Rapta&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.district">district</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Rapta&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ultha&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;R1D1M2V1&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ultha&quot;/&gt;
   &lt;/address&gt;
   &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.maritalStatus">maritalStatus</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -248,7 +249,7 @@
     &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.relationship">relationship</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
-                <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs&quot;/&gt;
+                <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Brother/Sister&quot;/&gt;
       &lt;/coding&gt;
     &lt;/relationship&gt;
@@ -285,7 +286,7 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.swisstph.ch/en/">Swiss TPH - SCIH - openIMIS Group</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 13, 2021 16:08+0000">2021-07-13</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.swisstph.ch/en/">Swiss TPH - SCIH - openIMIS Group</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 15, 2021 08:25+0000">2021-07-15</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
