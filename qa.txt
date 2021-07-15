@@ -3,7 +3,7 @@
 
 err = 6, warn = 5, info = 0
 IG Publisher Version: 1.1.76
-Generated Thu Jul 15 08:25:41 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Thu Jul 15 08:25:53 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
 
  Build Errors : 1 / 1 / 0
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
