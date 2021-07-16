@@ -1,9 +1,9 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 22, warn = 4, info = 0
+err = 24, warn = 4, info = 0
 IG Publisher Version: 1.1.76
-Generated Fri Jul 16 14:02:25 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Fri Jul 16 16:35:13 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
 
  Build Errors : 1 / 1 / 0
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
@@ -12,14 +12,21 @@ Generated Fri Jul 16 14:02:25 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/CodeSystem-patient-education-level : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-patient-identification-types : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-patient-profession : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/Group-doe-family : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/Location-5345EF14-12AB-4E98-A07C-1E08D7105DF4 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Location-dace872d-7f56-4b79-b6ac-b62760063853 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-RaptaDistrictHospital : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-jane-doe : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-john-doe : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-address-location-reference : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-address-municipality : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-health-facility-organization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-card-issued : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-education-level : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-group-reference : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-identification : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-is-head : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-profession : 1 / 0 / 1
@@ -47,20 +54,29 @@ ERROR: CodeSystem.url: Resource id/url mismatch: patient-education-level/https:/
 ERROR: CodeSystem.url: Resource id/url mismatch: patient-identification-types/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types
 == /github/workspace/fsh-generated/resources/CodeSystem-patient-profession.json ==
 ERROR: CodeSystem.url: Resource id/url mismatch: patient-profession/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession
+== /github/workspace/fsh-generated/resources/Group-doe-family.json ==
 == /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== /github/workspace/fsh-generated/resources/Location-5345EF14-12AB-4E98-A07C-1E08D7105DF4.json ==
 == /github/workspace/fsh-generated/resources/Location-dace872d-7f56-4b79-b6ac-b62760063853.json ==
+== /github/workspace/fsh-generated/resources/Organization-RaptaDistrictHospital.json ==
+== /github/workspace/fsh-generated/resources/Patient-jane-doe.json ==
+ERROR: Patient/jane-doe: Patient.extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level#University in https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level for 'https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level#University'
 == /github/workspace/fsh-generated/resources/Patient-john-doe.json ==
 ERROR: Patient/john-doe: Patient.extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level#University in https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level for 'https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level#University'
 == /github/workspace/fsh-generated/resources/StructureDefinition-address-location-reference.json ==
 ERROR: StructureDefinition.url: Resource id/url mismatch: address-location-reference/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference
 == /github/workspace/fsh-generated/resources/StructureDefinition-address-municipality.json ==
 ERROR: StructureDefinition.url: Resource id/url mismatch: address-municipality/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality
+== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group.json ==
+== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-health-facility-organization.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-patient-card-issued.json ==
 ERROR: StructureDefinition.url: Resource id/url mismatch: patient-card-issued/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued
 == /github/workspace/fsh-generated/resources/StructureDefinition-patient-education-level.json ==
 ERROR: StructureDefinition.url: Resource id/url mismatch: patient-education-level/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level
+== /github/workspace/fsh-generated/resources/StructureDefinition-patient-group-reference.json ==
+ERROR: StructureDefinition.url: Resource id/url mismatch: patient-group-reference/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference
 == /github/workspace/fsh-generated/resources/StructureDefinition-patient-identification.json ==
 ERROR: StructureDefinition.url: Resource id/url mismatch: patient-identification/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification
 == /github/workspace/fsh-generated/resources/StructureDefinition-patient-is-head.json ==

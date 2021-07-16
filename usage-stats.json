@@ -33,6 +33,13 @@
       ]
     },
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference",
+      "title": "Group Reference (Patient)",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification",
       "title": "Identification (Patient)",
       "types": [
@@ -108,6 +115,18 @@
     }
   ],
   "profiles": {
+    "Group": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group",
+        "title": "openIMIS Group"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization",
+        "title": "openIMIS Health Facility Organization"
+      }
+    ],
     "Patient": [
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient",
@@ -159,6 +178,7 @@
       "ImplementationGuide.definition.resource"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference": [
+      "Organization.address",
       "Patient.address"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality": [
@@ -168,6 +188,9 @@
       "Patient"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level": [
+      "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference": [
       "Patient"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification": [

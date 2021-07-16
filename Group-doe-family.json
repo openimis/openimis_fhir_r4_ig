@@ -1,0 +1,43 @@
+{
+  "resourceType": "Group",
+  "id": "doe-family",
+  "meta": {
+    "profile": [
+      "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82</p><p><b>active</b>: true</p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>name</b>: Doe Jane</p><p><b>quantity</b>: 2</p><blockquote><p><b>member</b></p><p><b>entity</b>: <a href=\"Patient-john-doe.html\">Generated Summary: Unique code: 123456789; John Doe ; gender: male; birthDate: 1962-02-05; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p></blockquote><blockquote><p><b>member</b></p><p><b>entity</b>: <a href=\"Patient-jane-doe.html\">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p></blockquote></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers",
+            "code": "UUID"
+          }
+        ]
+      },
+      "value": "D30F70DF-D10B-43D4-BF31-5137C118AD82"
+    }
+  ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "name": "Doe Jane",
+  "quantity": 2,
+  "member": [
+    {
+      "entity": {
+        "reference": "Patient/john-doe"
+      }
+    },
+    {
+      "entity": {
+        "reference": "Patient/jane-doe"
+      }
+    }
+  ]
+}

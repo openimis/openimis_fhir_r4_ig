@@ -77,6 +77,13 @@
     "name": "PatientEducationLevelExtension"
   },
   {
+    "id": "patient-group-reference",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference",
+    "version": "0.1.0",
+    "name": "PatientGroupReference"
+  },
+  {
     "id": "patient-identification",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification",
@@ -96,6 +103,20 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession",
     "version": "0.1.0",
     "name": "PatientProfessionExtension"
+  },
+  {
+    "id": "openimis-group",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group",
+    "version": "0.1.0",
+    "name": "OpenIMISGroup"
+  },
+  {
+    "id": "openimis-health-facility-organization",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization",
+    "version": "0.1.0",
+    "name": "OpenIMISHealthFacilityOrganization"
   },
   {
     "id": "openimis-patient",

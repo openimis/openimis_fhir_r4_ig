@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-07-16T14:02:04+00:00",
+  "date": "2021-07-16T16:34:49+00:00",
   "publisher": "Swiss TPH - SCIH - openIMIS Group",
   "contact": [
     {
@@ -292,6 +292,34 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/openimis-group"
+        },
+        "name": "openIMIS Group",
+        "description": "Defines a Group for openIMIS which maps to an Family",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-health-facility-organization"
+        },
+        "name": "openIMIS Health Facility Organization",
+        "description": "Defines an Organization for openIMIS which maps to a Health Facility",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/openimis-patient"
         },
         "name": "openIMIS Patient",
@@ -337,7 +365,7 @@
           "reference": "StructureDefinition/patient-card-issued"
         },
         "name": "Card Issued (Patient)",
-        "description": "Whether a card was issued to the Patient during enrolment.",
+        "description": "Whether a card was issued to the Patient/Insuree during enrolment.",
         "exampleBoolean": false
       },
       {
@@ -351,7 +379,21 @@
           "reference": "StructureDefinition/patient-education-level"
         },
         "name": "Education Level (Patient)",
-        "description": "Specifies the Patient's education level",
+        "description": "Specifies the Patient/Insuree's education level",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/patient-group-reference"
+        },
+        "name": "Group Reference (Patient)",
+        "description": "The reference to the Group/Family the Patient/Insuree is part of.",
         "exampleBoolean": false
       },
       {
@@ -365,7 +407,7 @@
           "reference": "StructureDefinition/patient-identification"
         },
         "name": "Identification (Patient)",
-        "description": "Specifies the Patient official identification and the type of identification document.",
+        "description": "Specifies the Patient/Insuree official identification and the type of identification document.",
         "exampleBoolean": false
       },
       {
@@ -379,7 +421,7 @@
           "reference": "StructureDefinition/patient-is-head"
         },
         "name": "IsHead (Patient)",
-        "description": "Whether the Patient is the Head of the Family.",
+        "description": "Whether the Patient/Insuree is the Head of the Family.",
         "exampleBoolean": false
       },
       {
@@ -393,7 +435,7 @@
           "reference": "StructureDefinition/patient-profession"
         },
         "name": "Profession (Patient)",
-        "description": "Specifies the Patient's profession",
+        "description": "Specifies the Patient/Insuree's profession",
         "exampleBoolean": false
       },
       {
@@ -554,6 +596,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/5345EF14-12AB-4E98-A07C-1E08D7105DF4"
+        },
+        "name": "Rapta-district",
+        "description": "Example of a District",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CapabilityStatement"
           }
         ],
@@ -562,6 +618,20 @@
         },
         "name": "Create a Capability Statement using RuleSets",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/RaptaDistrictHospital"
+        },
+        "name": "RaptaDistrictHospital",
+        "description": "Example of openIMIS Health Facility",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization"
       },
       {
         "extension": [
@@ -576,6 +646,34 @@
         "name": "Jamula-village",
         "description": "Example of a Village",
         "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Group"
+          }
+        ],
+        "reference": {
+          "reference": "Group/doe-family"
+        },
+        "name": "doe-family",
+        "description": "Example of openIMIS Group",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/jane-doe"
+        },
+        "name": "jane-doe",
+        "description": "Example of openIMIS Patient",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient"
       },
       {
         "extension": [

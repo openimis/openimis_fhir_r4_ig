@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="RaptaDistrictHospital"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: RAHOS001, UUID unique identifier: D8A25F21-F36A-4D4D-9E58-1DB8FFBE7036</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}">Healthcare Provider</span></p><p><b>name</b>: Rapta District Hospital</p><p><b>address</b>: Ultha </p></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers"/>
+        <code value="Code"/>
+      </coding>
+    </type>
+    <value value="RAHOS001"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers"/>
+        <code value="UUID"/>
+      </coding>
+    </type>
+    <value value="D8A25F21-F36A-4D4D-9E58-1DB8FFBE7036"/>
+  </identifier>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+      <code value="prov"/>
+    </coding>
+  </type>
+  <name value="Rapta District Hospital"/>
+  <address>
+    <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference">
+      <valueReference>
+        <reference value="Location/5345EF14-12AB-4E98-A07C-1E08D7105DF4"/>
+      </valueReference>
+    </extension>
+    <type value="physical"/>
+    <district value="Rapta"/>
+    <state value="Ultha"/>
+  </address>
+</Organization>

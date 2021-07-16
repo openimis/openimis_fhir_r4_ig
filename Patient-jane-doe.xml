@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="jane-doe"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>IsHead (Patient)</b>: true</p><p><b>Education Level (Patient)</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level University}">University</span></p><p><b>Profession (Patient)</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession 3}">Self Employee</span></p><blockquote><p><b>Identification (Patient)</b></p><p><b>value</b>: NationaID2</p><p><b>value</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types N}">National ID</span></p></blockquote><p><b>Card Issued (Patient)</b>: true</p><p><b>Group Reference (Patient)</b>: <a href="Group-doe-family.html">Generated Summary: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82; active; type: person; actual; name: Doe Jane; 2</a></p><p><b>identifier</b>: Unique code: 123456788</p><p><b>name</b>: Jane Doe </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1964-05-15</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></p></div>
+  </text>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-is-head">
+    <valueBoolean value="true"/>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level"/>
+        <code value="University"/>
+        <display value="University"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession"/>
+        <code value="3"/>
+        <display value="Self Employee"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification">
+    <extension url="number">
+      <valueString value="NationaID2"/>
+    </extension>
+    <extension url="type">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types"/>
+          <code value="N"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued">
+    <valueBoolean value="true"/>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference">
+    <valueReference>
+      <reference value="Group/doe-family"/>
+    </valueReference>
+  </extension>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers"/>
+        <code value="Code"/>
+      </coding>
+    </type>
+    <value value="123456788"/>
+  </identifier>
+  <name>
+    <family value="Doe"/>
+    <given value="Jane"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="1964-05-15"/>
+  <address>
+    <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality">
+      <valueString value="Jamu"/>
+    </extension>
+    <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference">
+      <valueReference>
+        <reference value="Location/dace872d-7f56-4b79-b6ac-b62760063853"/>
+      </valueReference>
+    </extension>
+    <use value="home"/>
+    <line value="5 Tsoka"/>
+    <city value="Jamula"/>
+    <district value="Rapta"/>
+    <state value="Ultha"/>
+  </address>
+  <maritalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+      <code value="M"/>
+    </coding>
+  </maritalStatus>
+</Patient>

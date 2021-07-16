@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/Group/doe-family> a fhir:Group;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "doe-family"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group";
+       fhir:index 0;
+       fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82</p><p><b>active</b>: true</p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>name</b>: Doe Jane</p><p><b>quantity</b>: 2</p><blockquote><p><b>member</b></p><p><b>entity</b>: <a href=\"Patient-john-doe.html\">Generated Summary: Unique code: 123456789; John Doe ; gender: male; birthDate: 1962-02-05; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p></blockquote><blockquote><p><b>member</b></p><p><b>entity</b>: <a href=\"Patient-jane-doe.html\">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p></blockquote></div>"
+  ];
+  fhir:Group.identifier [
+     fhir:index 0;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers" ];
+         fhir:Coding.code [ fhir:value "UUID" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "D30F70DF-D10B-43D4-BF31-5137C118AD82" ]
+  ];
+  fhir:Group.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Group.type [ fhir:value "person"];
+  fhir:Group.actual [ fhir:value "true"^^xsd:boolean];
+  fhir:Group.name [ fhir:value "Doe Jane"];
+  fhir:Group.quantity [ fhir:value "2"^^xsd:nonNegativeInteger];
+  fhir:Group.member [
+     fhir:index 0;
+     fhir:Group.member.entity [
+       fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Patient/john-doe>;
+       fhir:Reference.reference [ fhir:value "Patient/john-doe" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Group.member.entity [
+       fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Patient/jane-doe>;
+       fhir:Reference.reference [ fhir:value "Patient/jane-doe" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/Group/doe-family.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

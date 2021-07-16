@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "openIMISFHIRR4"];
   fhir:ImplementationGuide.title [ fhir:value "openIMIS FHIR R4 Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-16T14:02:04+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-16T16:34:49+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Swiss TPH - SCIH - openIMIS Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -277,6 +277,34 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/openimis-group" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Group" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines a Group for openIMIS which maps to an Family" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/openimis-health-facility-organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Health Facility Organization" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines an Organization for openIMIS which maps to a Health Facility" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/openimis-patient" ]
        ];
@@ -284,7 +312,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines a Patient for openIMIS which maps to an Insuree" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 1;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -298,7 +326,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The reference to adress location for City/Village level" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 2;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -312,7 +340,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The location level between District and City/Village" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -323,10 +351,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-card-issued" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Card Issued (Patient)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Whether a card was issued to the Patient during enrolment." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Whether a card was issued to the Patient/Insuree during enrolment." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -337,10 +365,24 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-education-level" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Education Level (Patient)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Specifies the Patient's education level" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Specifies the Patient/Insuree's education level" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-group-reference>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-group-reference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Group Reference (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The reference to the Group/Family the Patient/Insuree is part of." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -351,10 +393,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-identification" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Identification (Patient)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Specifies the Patient official identification and the type of identification document." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Specifies the Patient/Insuree official identification and the type of identification document." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -365,10 +407,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-is-head" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IsHead (Patient)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Whether the Patient is the Head of the Family." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Whether the Patient/Insuree is the Head of the Family." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -379,10 +421,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-profession" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profession (Patient)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Specifies the Patient's profession" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Specifies the Patient/Insuree's profession" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -396,7 +438,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Identifier type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -410,7 +452,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Relationship of a Patient with the Head of the Family." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -424,7 +466,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Education level of a Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 11;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -438,7 +480,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the type of document the Patient used to identify himself." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -452,7 +494,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Marital status of a Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 13;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -466,7 +508,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the profession of a Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 14;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -480,7 +522,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifiers that are specific to openIMIS and could not be found in standard sources" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 15;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -494,7 +536,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Relationship of a Patient with the Head of the Family. Values defined by openIMIS." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 16;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -508,7 +550,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Education level of a Patient. Values defined by openIMIS. Can be extended." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 17;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -522,7 +564,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the type of document the Patient used to identify himself. Values defined by openIMIS. Can be extended." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 18;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -536,7 +578,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the profession of a Patient. Values defined by openIMIS. Can be extended." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 19;
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Location" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Location/5345EF14-12AB-4E98-A07C-1E08D7105DF4>;
+         fhir:Reference.reference [ fhir:value "Location/5345EF14-12AB-4E98-A07C-1E08D7105DF4" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Rapta-district" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of a District" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -549,7 +605,24 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Create a Capability Statement using RuleSets" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 20;
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Organization/RaptaDistrictHospital>;
+         fhir:Reference.reference [ fhir:value "Organization/RaptaDistrictHospital" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "RaptaDistrictHospital" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of openIMIS Health Facility" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization";
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization>
+       ]
+     ], [
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -563,7 +636,41 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of a Village" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 21;
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Group" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Group/doe-family>;
+         fhir:Reference.reference [ fhir:value "Group/doe-family" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "doe-family" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of openIMIS Group" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group";
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group>
+       ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Patient/jane-doe>;
+         fhir:Reference.reference [ fhir:value "Patient/jane-doe" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "jane-doe" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of openIMIS Patient" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient";
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient>
+       ]
+     ], [
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
