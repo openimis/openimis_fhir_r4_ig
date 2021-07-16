@@ -6,12 +6,49 @@
     <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></p><h3>Contacts</h3><table class="grid"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs Brother/Sister}">Brother/Sister</span></td><td>Jane Doe </td></tr></table></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>IsHead (Patient)</b>: false</p><p><b>Education Level (Patient)</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level University}">University</span></p><p><b>Profession (Patient)</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession 2}">Employee</span></p><blockquote><p><b>Identification (Patient)</b></p><p><b>value</b>: NationaID1</p><p><b>value</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types N}">National ID</span></p></blockquote><p><b>Card Issued (Patient)</b>: true</p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></p><h3>Contacts</h3><table class="grid"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship Brother/Sister}">Brother/Sister</span></td><td>Jane Doe </td></tr></table></div>
   </text>
+  <extension url="https://openimis.github.io/openimis_fhi/ValueSet-patient-is-head">
+    <valueBoolean value="false"/>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhi/ValueSet-patient-education-level">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level"/>
+        <code value="University"/>
+        <display value="University"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhi/ValueSet-patient-profession">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession"/>
+        <code value="2"/>
+        <display value="Employee"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhi/ValueSet-patient-identification">
+    <extension url="number">
+      <valueString value="NationaID1"/>
+    </extension>
+    <extension url="type">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types"/>
+          <code value="N"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhi/ValueSet-patient-card-issued">
+    <valueBoolean value="true"/>
+  </extension>
   <identifier>
     <type>
       <coding>
-        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs"/>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers"/>
         <code value="Code"/>
       </coding>
     </type>
@@ -47,7 +84,7 @@
   <contact>
     <relationship>
       <coding>
-        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs"/>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship"/>
         <code value="Brother/Sister"/>
       </coding>
     </relationship>

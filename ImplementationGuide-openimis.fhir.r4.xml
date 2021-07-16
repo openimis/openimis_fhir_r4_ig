@@ -11,7 +11,7 @@
   <name value="openIMISFHIRR4"/>
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-07-16T09:11:54+00:00"/>
+  <date value="2021-07-16T13:22:24+00:00"/>
   <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
   <contact>
     <name value="Swiss TPH - SCIH - openIMIS Group"/>
@@ -219,21 +219,54 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/is-head"/>
+        <reference value="StructureDefinition/patient-card-issued"/>
       </reference>
-      <name value="Is Head of the Family"/>
-      <description value="Whether the Patient is the Head of the Family"/>
+      <name value="Card Issued (Patient)"/>
+      <description value="Whether a card was issued to the Patient during enrolment."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="ValueSet/openimis-contact-relationship-vs"/>
+        <reference value="StructureDefinition/patient-education-level"/>
       </reference>
-      <name value="openIMIS Contact Relationship code system"/>
-      <description value="Indicates the Relationship of a Patient with the Head of the Family"/>
+      <name value="Education Level (Patient)"/>
+      <description value="Specifies the Patient&#39;s education level"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-identification"/>
+      </reference>
+      <name value="Identification (Patient)"/>
+      <description value="Specifies the Patient official identification and the type of identification document."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-is-head"/>
+      </reference>
+      <name value="IsHead (Patient)"/>
+      <description value="Whether the Patient is the Head of the Family."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-profession"/>
+      </reference>
+      <name value="Profession (Patient)"/>
+      <description value="Specifies the Patient&#39;s profession"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -252,10 +285,54 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/openimis-marital-status-vs"/>
+        <reference value="ValueSet/patient-contact-relationship"/>
       </reference>
-      <name value="openIMIS Marital Status Value Set"/>
-      <description value="Indicates the Marital status of an Insuree"/>
+      <name value="Contact Relationship (Patient)"/>
+      <description value="Indicates the Relationship of a Patient with the Head of the Family."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/patient-education-level"/>
+      </reference>
+      <name value="Education Level (Patient)"/>
+      <description value="Indicates the Education level of a Patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/patient-identification-types"/>
+      </reference>
+      <name value="Identification Types (Patient)"/>
+      <description value="Indicates the type of document the Patient used to identify himself."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/patient-marital-status"/>
+      </reference>
+      <name value="Marital Status (Patient)"/>
+      <description value="Indicates the Marital status of a Patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/patient-profession"/>
+      </reference>
+      <name value="Patient Profession Value Set"/>
+      <description value="Indicates the profession of a Patient"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -263,21 +340,54 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/openimis-contact-relationship-cs"/>
-      </reference>
-      <name value="openIMIS Contact Relationship code system"/>
-      <description value="Indicates the Relationship of a Patient with the Head of the Family"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/openimis-identifiers-cs"/>
+        <reference value="CodeSystem/openimis-identifiers"/>
       </reference>
       <name value="openIMIS Identifiers code system"/>
       <description value="Identifiers that are specific to openIMIS and could not be found in standard sources"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/patient-contact-relationship"/>
+      </reference>
+      <name value="Patient Contact Relationship code system"/>
+      <description value="Indicates the Relationship of a Patient with the Head of the Family. Values defined by openIMIS."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/patient-education-level"/>
+      </reference>
+      <name value="Patient Education Level Code System"/>
+      <description value="Indicates the Education level of a Patient. Values defined by openIMIS. Can be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/patient-identification-types"/>
+      </reference>
+      <name value="Identification Types (Patient)"/>
+      <description value="Indicates the type of document the Patient used to identify himself. Values defined by openIMIS. Can be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/patient-profession"/>
+      </reference>
+      <name value="Patient Profession Code System"/>
+      <description value="Indicates the profession of a Patient. Values defined by openIMIS. Can be extended."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "patient-education-level"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"patient-education-level-1\"> </a></td><td>Nursery</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"patient-education-level-2\"> </a></td><td>Primary school</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"patient-education-level-3\"> </a></td><td>Secondary school</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"patient-education-level-4\"> </a></td><td>University</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"patient-education-level-5\"> </a></td><td>Postgraduate studies</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"patient-education-level-6\"> </a></td><td>PHD</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"patient-education-level-7\"> </a></td><td>Other</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "PatientEducationLevelCS"];
+  fhir:CodeSystem.title [ fhir:value "Patient Education Level Code System"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-07-16T13:22:24+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Swiss TPH - SCIH - openIMIS Group"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Swiss TPH - SCIH - openIMIS Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.swisstph.ch/en/" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "dragos.dobre@swisstph.ch" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Indicates the Education level of a Patient. Values defined by openIMIS. Can be extended."];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "7"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nursery" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Primary school" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Secondary school" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ];
+     fhir:CodeSystem.concept.display [ fhir:value "University" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Postgraduate studies" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ];
+     fhir:CodeSystem.concept.display [ fhir:value "PHD" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

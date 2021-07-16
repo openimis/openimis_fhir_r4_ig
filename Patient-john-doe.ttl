@@ -16,15 +16,64 @@
      ]
   ];
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs Brother/Sister}\">Brother/Sister</span></td><td>Jane Doe </td></tr></table></div>"
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>IsHead (Patient)</b>: false</p><p><b>Education Level (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level University}\">University</span></p><p><b>Profession (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession 2}\">Employee</span></p><blockquote><p><b>Identification (Patient)</b></p><p><b>value</b>: NationaID1</p><p><b>value</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types N}\">National ID</span></p></blockquote><p><b>Card Issued (Patient)</b>: true</p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship Brother/Sister}\">Brother/Sister</span></td><td>Jane Doe </td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhi/ValueSet-patient-is-head" ];
+     fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhi/ValueSet-patient-education-level" ];
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level" ];
+         fhir:Coding.code [ fhir:value "University" ];
+         fhir:Coding.display [ fhir:value "University" ]
+       ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhi/ValueSet-patient-profession" ];
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession" ];
+         fhir:Coding.code [ fhir:value "2" ];
+         fhir:Coding.display [ fhir:value "Employee" ]
+       ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "number" ];
+       fhir:Extension.valueString [ fhir:value "NationaID1" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "type" ];
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types" ];
+           fhir:Coding.code [ fhir:value "N" ]
+         ]
+       ]
+     ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhi/ValueSet-patient-identification" ]
+  ], [
+     fhir:index 4;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhi/ValueSet-patient-card-issued" ];
+     fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
   ];
   fhir:Patient.identifier [
      fhir:index 0;
      fhir:Identifier.type [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs" ];
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers" ];
          fhir:Coding.code [ fhir:value "Code" ]
        ]
      ];
@@ -76,7 +125,7 @@
        fhir:index 0;
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs" ];
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship" ];
          fhir:Coding.code [ fhir:value "Brother/Sister" ]
        ]
      ];

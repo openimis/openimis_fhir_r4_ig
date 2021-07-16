@@ -1,5 +1,47 @@
 [
   {
+    "id": "openimis-identifiers-vs",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhi/StructureDefinition-patient-profession",
+    "version": "0.1.0",
+    "name": "OpenIMISIdentifierVS"
+  },
+  {
+    "id": "patient-card-issued",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-card-issued",
+    "version": "0.1.0",
+    "name": "PatientCardIssuedExtension"
+  },
+  {
+    "id": "patient-education-level",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-education-level",
+    "version": "0.1.0",
+    "name": "PatientEducationLevelExtension"
+  },
+  {
+    "id": "patient-identification",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-identification",
+    "version": "0.1.0",
+    "name": "PatientIdentificationExtension"
+  },
+  {
+    "id": "patient-is-head",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-is-head",
+    "version": "0.1.0",
+    "name": "PatientIsHeadExtension"
+  },
+  {
+    "id": "patient-profession",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-profession",
+    "version": "0.1.0",
+    "name": "PatientProfessionExtension"
+  },
+  {
     "id": "ExampleCapabilityStatement",
     "type": "CapabilityStatement",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CapabilityStatement/ExampleCapabilityStatement",
@@ -7,18 +49,39 @@
     "name": "Example Capability Statement"
   },
   {
-    "id": "openimis-contact-relationship-cs",
+    "id": "openimis-identifiers",
     "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs",
-    "version": "0.1.0",
-    "name": "OpenIMISContactRelationshipCS"
-  },
-  {
-    "id": "openimis-identifiers-cs",
-    "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers",
     "version": "0.1.0",
     "name": "OpenIMISIdentifierCS"
+  },
+  {
+    "id": "patient-contact-relationship",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
+    "version": "0.1.0",
+    "name": "PatientContactRelationshipCS"
+  },
+  {
+    "id": "patient-education-level",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level",
+    "version": "0.1.0",
+    "name": "PatientEducationLevelCS"
+  },
+  {
+    "id": "patient-identification-types",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types",
+    "version": "0.1.0",
+    "name": "PatientIdentificationTypesCS"
+  },
+  {
+    "id": "patient-profession",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession",
+    "version": "0.1.0",
+    "name": "PatientProfessionCS"
   },
   {
     "id": "openimis.fhir.r4",
@@ -42,13 +105,6 @@
     "name": "AddressMunicipality"
   },
   {
-    "id": "is-head",
-    "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head",
-    "version": "0.1.0",
-    "name": "IsHead"
-  },
-  {
     "id": "openimis-patient",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient",
@@ -56,24 +112,38 @@
     "name": "OpenIMISPatient"
   },
   {
-    "id": "openimis-contact-relationship-vs",
+    "id": "patient-contact-relationship",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-contact-relationship-vs",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship",
     "version": "0.1.0",
-    "name": "OpenIMISContactRelationshipVS"
+    "name": "PatientContactRelationshipVS"
   },
   {
-    "id": "openimis-identifiers-vs",
+    "id": "patient-education-level",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-identifiers-vs",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-education-level",
     "version": "0.1.0",
-    "name": "OpenIMISIdentifierVS"
+    "name": "PatientEducationLevelVS"
   },
   {
-    "id": "openimis-marital-status-vs",
+    "id": "patient-identification-types",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-marital-status-vs",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-types",
     "version": "0.1.0",
-    "name": "OpenIMISMaritalStatusVS"
+    "name": "PatientIdentificationTypesVS"
+  },
+  {
+    "id": "patient-marital-status",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-marital-status",
+    "version": "0.1.0",
+    "name": "PatientMaritalStatusVS"
+  },
+  {
+    "id": "patient-profession",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession",
+    "version": "0.1.0",
+    "name": "PatientProfessionVS"
   }
 ]

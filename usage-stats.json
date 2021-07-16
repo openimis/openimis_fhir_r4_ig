@@ -4,6 +4,95 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
+      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-card-issued",
+      "title": "Card Issued (Patient)",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-education-level",
+      "title": "Education Level (Patient)",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-identification",
+      "title": "Identification (Patient)",
+      "types": [
+        "string",
+        "CodeableConcept",
+        "CodeableConcept",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-is-head",
+      "title": "IsHead (Patient)",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-profession",
+      "title": "Profession (Patient)",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference-ext",
       "title": "Address Location Reference",
       "types": [
@@ -15,13 +104,6 @@
       "title": "Address Municipality Location",
       "types": [
         "string"
-      ]
-    },
-    {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head",
-      "title": "Is Head of the Family",
-      "types": [
-        "boolean"
       ]
     }
   ],
@@ -76,14 +158,26 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "https://openimis.github.io/openimis_fhi/ValueSet-patient-card-issued": [
+      "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhi/ValueSet-patient-education-level": [
+      "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhi/ValueSet-patient-identification": [
+      "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhi/ValueSet-patient-is-head": [
+      "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhi/ValueSet-patient-profession": [
+      "Patient"
+    ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference-ext": [
       "Patient.address"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality-ext": [
       "Patient.address"
-    ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head": [
-      "Patient"
     ]
   }
 }

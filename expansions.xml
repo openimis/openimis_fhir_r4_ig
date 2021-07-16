@@ -1,184 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="54627c3c-4651-4041-974a-7f138aba9cb7"/>
+  <id value="b4c532ea-b60f-456e-9101-cb841a4fbf6c"/>
   <meta>
-    <lastUpdated value="2021-07-16T09:11:54.999+00:00"/>
+    <lastUpdated value="2021-07-16T13:22:24.380+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-contact-relationship-vs"/>
-    <resource>
-      <ValueSet>
-        <id value="openimis-contact-relationship-vs"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 8 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-openimis-contact-relationship-cs.html">openIMIS Contact Relationship code system v0.1.0 (CodeSystem)</a>
-            </p>
-            <p>All codes from system 
-              <a href="CodeSystem-openimis-contact-relationship-cs.html">
-                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs</code>
-              </a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-contact-relationship-cs-Spouse"> </a>
-                  <a href="CodeSystem-openimis-contact-relationship-cs.html#openimis-contact-relationship-cs-Spouse">Spouse</a>
-                </td>
-                <td>Spouse</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-contact-relationship-cs-Brother-Sister"> </a>
-                  <a href="CodeSystem-openimis-contact-relationship-cs.html#openimis-contact-relationship-cs-Brother.47Sister">Brother/Sister</a>
-                </td>
-                <td>Brother/Sister</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-contact-relationship-cs-Father-Mother"> </a>
-                  <a href="CodeSystem-openimis-contact-relationship-cs.html#openimis-contact-relationship-cs-Father.47Mother">Father/Mother</a>
-                </td>
-                <td>Father/Mother</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-contact-relationship-cs-Uncle-Aunt"> </a>
-                  <a href="CodeSystem-openimis-contact-relationship-cs.html#openimis-contact-relationship-cs-Uncle.47Aunt">Uncle/Aunt</a>
-                </td>
-                <td>Uncle/Aunt</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-contact-relationship-cs-Son-Daughter"> </a>
-                  <a href="CodeSystem-openimis-contact-relationship-cs.html#openimis-contact-relationship-cs-Son.47Daughter">Son/Daughter</a>
-                </td>
-                <td>Son/Daughter</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-contact-relationship-cs-GrandParents"> </a>
-                  <a href="CodeSystem-openimis-contact-relationship-cs.html#openimis-contact-relationship-cs-GrandParents">GrandParents</a>
-                </td>
-                <td>Grand parents</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-contact-relationship-cs-Employee"> </a>
-                  <a href="CodeSystem-openimis-contact-relationship-cs.html#openimis-contact-relationship-cs-Employee">Employee</a>
-                </td>
-                <td>Employee</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-contact-relationship-cs-Others"> </a>
-                  <a href="CodeSystem-openimis-contact-relationship-cs.html#openimis-contact-relationship-cs-Others">Others</a>
-                </td>
-                <td>Others</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-contact-relationship-vs"/>
-        <version value="0.1.0"/>
-        <name value="OpenIMISContactRelationshipVS"/>
-        <title value="openIMIS Contact Relationship code system"/>
-        <status value="active"/>
-        <date value="2021-07-16T09:11:54+00:00"/>
-        <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
-        <contact>
-          <name value="Swiss TPH - SCIH - openIMIS Group"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://www.swisstph.ch/en/"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="dragos.dobre@swisstph.ch"/>
-          </telecom>
-        </contact>
-        <description value="Indicates the Relationship of a Patient with the Head of the Family"/>
-        <expansion>
-          <identifier value="urn:uuid:48e42806-1dd9-483a-9277-20e75555a784"/>
-          <timestamp value="2021-07-16T09:12:10+00:00"/>
-          <total value="8"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs"/>
-            <code value="Spouse"/>
-            <display value="Spouse"/>
-          </contains>
-          <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs"/>
-            <code value="Brother/Sister"/>
-            <display value="Brother/Sister"/>
-          </contains>
-          <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs"/>
-            <code value="Father/Mother"/>
-            <display value="Father/Mother"/>
-          </contains>
-          <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs"/>
-            <code value="Uncle/Aunt"/>
-            <display value="Uncle/Aunt"/>
-          </contains>
-          <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs"/>
-            <code value="Son/Daughter"/>
-            <display value="Son/Daughter"/>
-          </contains>
-          <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs"/>
-            <code value="GrandParents"/>
-            <display value="Grand parents"/>
-          </contains>
-          <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs"/>
-            <code value="Employee"/>
-            <display value="Employee"/>
-          </contains>
-          <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs"/>
-            <code value="Others"/>
-            <display value="Others"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-identifiers-vs"/>
+    <fullUrl value="https://openimis.github.io/openimis_fhi/StructureDefinition-patient-profession"/>
     <resource>
       <ValueSet>
         <id value="openimis-identifiers-vs"/>
@@ -187,11 +16,11 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-openimis-identifiers-cs.html">openIMIS Identifiers code system v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-openimis-identifiers.html">openIMIS Identifiers code system v0.1.0 (CodeSystem)</a>
             </p>
             <p>All codes from system 
-              <a href="CodeSystem-openimis-identifiers-cs.html">
-                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs</code>
+              <a href="CodeSystem-openimis-identifiers.html">
+                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers</code>
               </a>
             </p>
             <table class="codes">
@@ -208,24 +37,24 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-cs-UUID"> </a>
-                  <a href="CodeSystem-openimis-identifiers-cs.html#openimis-identifiers-cs-UUID">UUID</a>
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-UUID"> </a>
+                  <a href="CodeSystem-openimis-identifiers.html#openimis-identifiers-UUID">UUID</a>
                 </td>
                 <td>UUID unique identifier</td>
                 <td>The UUID V4 unique identifier that is generated by the openIMIS Database</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-cs-DBID"> </a>
-                  <a href="CodeSystem-openimis-identifiers-cs.html#openimis-identifiers-cs-DBID">DBID</a>
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-DBID"> </a>
+                  <a href="CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID">DBID</a>
                 </td>
                 <td>DB unique identifier</td>
                 <td>The DB unique integer identifier managed by the openIMIS DB</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-cs-Code"> </a>
-                  <a href="CodeSystem-openimis-identifiers-cs.html#openimis-identifiers-cs-Code">Code</a>
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-Code"> </a>
+                  <a href="CodeSystem-openimis-identifiers.html#openimis-identifiers-Code">Code</a>
                 </td>
                 <td>Unique code</td>
                 <td>An identifier issued by the implementer to identify an openIMIS entity</td>
@@ -233,12 +62,12 @@
             </table>
           </div>
         </text>
-        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-identifiers-vs"/>
+        <url value="https://openimis.github.io/openimis_fhi/StructureDefinition-patient-profession"/>
         <version value="0.1.0"/>
         <name value="OpenIMISIdentifierVS"/>
         <title value="openIMIS Identifiers Value Set"/>
         <status value="active"/>
-        <date value="2021-07-16T09:11:54+00:00"/>
+        <date value="2021-07-16T13:22:24+00:00"/>
         <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
         <contact>
           <name value="Swiss TPH - SCIH - openIMIS Group"/>
@@ -253,8 +82,8 @@
         </contact>
         <description value="Indicates the Identifier type"/>
         <expansion>
-          <identifier value="urn:uuid:82b8552b-2df9-4014-b792-61d95a3c85bd"/>
-          <timestamp value="2021-07-16T09:12:10+00:00"/>
+          <identifier value="urn:uuid:7f7189df-6ec2-4b02-83fa-f0262ac8a381"/>
+          <timestamp value="2021-07-16T13:22:38+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -262,20 +91,20 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers|0.1.0"/>
           </parameter>
           <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs"/>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers"/>
             <code value="UUID"/>
             <display value="UUID unique identifier"/>
           </contains>
           <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs"/>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers"/>
             <code value="DBID"/>
             <display value="DB unique identifier"/>
           </contains>
           <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs"/>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers"/>
             <code value="Code"/>
             <display value="Unique code"/>
           </contains>
@@ -284,10 +113,458 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-marital-status-vs"/>
+    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship"/>
     <resource>
       <ValueSet>
-        <id value="openimis-marital-status-vs"/>
+        <id value="patient-contact-relationship"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 8 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-patient-contact-relationship.html">Patient Contact Relationship code system v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-patient-contact-relationship.html">
+                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-Spouse"> </a>
+                  <a href="CodeSystem-patient-contact-relationship.html#patient-contact-relationship-Spouse">Spouse</a>
+                </td>
+                <td>Spouse</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-Brother-Sister"> </a>
+                  <a href="CodeSystem-patient-contact-relationship.html#patient-contact-relationship-Brother.47Sister">Brother/Sister</a>
+                </td>
+                <td>Brother/Sister</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-Father-Mother"> </a>
+                  <a href="CodeSystem-patient-contact-relationship.html#patient-contact-relationship-Father.47Mother">Father/Mother</a>
+                </td>
+                <td>Father/Mother</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-Uncle-Aunt"> </a>
+                  <a href="CodeSystem-patient-contact-relationship.html#patient-contact-relationship-Uncle.47Aunt">Uncle/Aunt</a>
+                </td>
+                <td>Uncle/Aunt</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-Son-Daughter"> </a>
+                  <a href="CodeSystem-patient-contact-relationship.html#patient-contact-relationship-Son.47Daughter">Son/Daughter</a>
+                </td>
+                <td>Son/Daughter</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-GrandParents"> </a>
+                  <a href="CodeSystem-patient-contact-relationship.html#patient-contact-relationship-GrandParents">GrandParents</a>
+                </td>
+                <td>Grand parents</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-Employee"> </a>
+                  <a href="CodeSystem-patient-contact-relationship.html#patient-contact-relationship-Employee">Employee</a>
+                </td>
+                <td>Employee</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-Others"> </a>
+                  <a href="CodeSystem-patient-contact-relationship.html#patient-contact-relationship-Others">Others</a>
+                </td>
+                <td>Others</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship"/>
+        <version value="0.1.0"/>
+        <name value="PatientContactRelationshipVS"/>
+        <title value="Contact Relationship (Patient)"/>
+        <status value="active"/>
+        <date value="2021-07-16T13:22:24+00:00"/>
+        <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+        <contact>
+          <name value="Swiss TPH - SCIH - openIMIS Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.swisstph.ch/en/"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="dragos.dobre@swisstph.ch"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the Relationship of a Patient with the Head of the Family."/>
+        <expansion>
+          <identifier value="urn:uuid:efbf169b-6819-427d-9a86-cbe7e1b60d72"/>
+          <timestamp value="2021-07-16T13:22:38+00:00"/>
+          <total value="8"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship"/>
+            <code value="Spouse"/>
+            <display value="Spouse"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship"/>
+            <code value="Brother/Sister"/>
+            <display value="Brother/Sister"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship"/>
+            <code value="Father/Mother"/>
+            <display value="Father/Mother"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship"/>
+            <code value="Uncle/Aunt"/>
+            <display value="Uncle/Aunt"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship"/>
+            <code value="Son/Daughter"/>
+            <display value="Son/Daughter"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship"/>
+            <code value="GrandParents"/>
+            <display value="Grand parents"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship"/>
+            <code value="Employee"/>
+            <display value="Employee"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship"/>
+            <code value="Others"/>
+            <display value="Others"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-education-level"/>
+    <resource>
+      <ValueSet>
+        <id value="patient-education-level"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-patient-education-level.html">Patient Education Level Code System v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-patient-education-level.html">
+                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-1"> </a>
+                  <a href="CodeSystem-patient-education-level.html#patient-education-level-1">1</a>
+                </td>
+                <td>Nursery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-2"> </a>
+                  <a href="CodeSystem-patient-education-level.html#patient-education-level-2">2</a>
+                </td>
+                <td>Primary school</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-3"> </a>
+                  <a href="CodeSystem-patient-education-level.html#patient-education-level-3">3</a>
+                </td>
+                <td>Secondary school</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-4"> </a>
+                  <a href="CodeSystem-patient-education-level.html#patient-education-level-4">4</a>
+                </td>
+                <td>University</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-5"> </a>
+                  <a href="CodeSystem-patient-education-level.html#patient-education-level-5">5</a>
+                </td>
+                <td>Postgraduate studies</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-6"> </a>
+                  <a href="CodeSystem-patient-education-level.html#patient-education-level-6">6</a>
+                </td>
+                <td>PHD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-7"> </a>
+                  <a href="CodeSystem-patient-education-level.html#patient-education-level-7">7</a>
+                </td>
+                <td>Other</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-education-level"/>
+        <version value="0.1.0"/>
+        <name value="PatientEducationLevelVS"/>
+        <title value="Education Level (Patient)"/>
+        <status value="active"/>
+        <date value="2021-07-16T13:22:24+00:00"/>
+        <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+        <contact>
+          <name value="Swiss TPH - SCIH - openIMIS Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.swisstph.ch/en/"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="dragos.dobre@swisstph.ch"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the Education level of a Patient"/>
+        <expansion>
+          <identifier value="urn:uuid:866ba52a-9b73-4109-bd79-5b748cb2c5da"/>
+          <timestamp value="2021-07-16T13:22:38+00:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level"/>
+            <code value="1"/>
+            <display value="Nursery"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level"/>
+            <code value="2"/>
+            <display value="Primary school"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level"/>
+            <code value="3"/>
+            <display value="Secondary school"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level"/>
+            <code value="4"/>
+            <display value="University"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level"/>
+            <code value="5"/>
+            <display value="Postgraduate studies"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level"/>
+            <code value="6"/>
+            <display value="PHD"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level"/>
+            <code value="7"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-types"/>
+    <resource>
+      <ValueSet>
+        <id value="patient-identification-types"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-patient-identification-types.html">Identification Types (Patient) v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-patient-identification-types.html">
+                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-identification-types-D"> </a>
+                  <a href="CodeSystem-patient-identification-types.html#patient-identification-types-D">D</a>
+                </td>
+                <td>Driver&#39;s License</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-identification-types-N"> </a>
+                  <a href="CodeSystem-patient-identification-types.html#patient-identification-types-N">N</a>
+                </td>
+                <td>National ID</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-identification-types-P"> </a>
+                  <a href="CodeSystem-patient-identification-types.html#patient-identification-types-P">P</a>
+                </td>
+                <td>Passport</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-identification-types-V"> </a>
+                  <a href="CodeSystem-patient-identification-types.html#patient-identification-types-V">V</a>
+                </td>
+                <td>Voter Card</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-types"/>
+        <version value="0.1.0"/>
+        <name value="PatientIdentificationTypesVS"/>
+        <title value="Identification Types (Patient)"/>
+        <status value="active"/>
+        <date value="2021-07-16T13:22:24+00:00"/>
+        <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+        <contact>
+          <name value="Swiss TPH - SCIH - openIMIS Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.swisstph.ch/en/"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="dragos.dobre@swisstph.ch"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the type of document the Patient used to identify himself."/>
+        <expansion>
+          <identifier value="urn:uuid:5fa42b7c-473f-4bb1-ac84-cff89d69d1e7"/>
+          <timestamp value="2021-07-16T13:22:38+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types"/>
+            <code value="D"/>
+            <display value="Driver&#39;s License"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types"/>
+            <code value="N"/>
+            <display value="National ID"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types"/>
+            <code value="P"/>
+            <display value="Passport"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types"/>
+            <code value="V"/>
+            <display value="Voter Card"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-marital-status"/>
+    <resource>
+      <ValueSet>
+        <id value="patient-marital-status"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -355,12 +632,12 @@
             </table>
           </div>
         </text>
-        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-marital-status-vs"/>
+        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-marital-status"/>
         <version value="0.1.0"/>
-        <name value="OpenIMISMaritalStatusVS"/>
-        <title value="openIMIS Marital Status Value Set"/>
+        <name value="PatientMaritalStatusVS"/>
+        <title value="Marital Status (Patient)"/>
         <status value="active"/>
-        <date value="2021-07-16T09:11:54+00:00"/>
+        <date value="2021-07-16T13:22:24+00:00"/>
         <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
         <contact>
           <name value="Swiss TPH - SCIH - openIMIS Group"/>
@@ -373,10 +650,10 @@
             <value value="dragos.dobre@swisstph.ch"/>
           </telecom>
         </contact>
-        <description value="Indicates the Marital status of an Insuree"/>
+        <description value="Indicates the Marital status of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:3c4fd8af-8845-493e-8afd-52193e33c302"/>
-          <timestamp value="2021-07-16T09:12:10+00:00"/>
+          <identifier value="urn:uuid:23cc4ce1-62f5-4e82-bf3d-c5301214659a"/>
+          <timestamp value="2021-07-16T13:22:38+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -410,6 +687,125 @@
             <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
             <code value="UNK"/>
             <display value="unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession"/>
+    <resource>
+      <ValueSet>
+        <id value="patient-profession"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-patient-profession.html">Patient Profession Code System v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-patient-profession.html">
+                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-1"> </a>
+                  <a href="CodeSystem-patient-profession.html#patient-profession-1">1</a>
+                </td>
+                <td>Housewife</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-2"> </a>
+                  <a href="CodeSystem-patient-profession.html#patient-profession-2">2</a>
+                </td>
+                <td>Employee</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-3"> </a>
+                  <a href="CodeSystem-patient-profession.html#patient-profession-3">3</a>
+                </td>
+                <td>Self Employee</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-4"> </a>
+                  <a href="CodeSystem-patient-profession.html#patient-profession-4">4</a>
+                </td>
+                <td>Other</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession"/>
+        <version value="0.1.0"/>
+        <name value="PatientProfessionVS"/>
+        <title value="Patient Profession Value Set"/>
+        <status value="active"/>
+        <date value="2021-07-16T13:22:24+00:00"/>
+        <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+        <contact>
+          <name value="Swiss TPH - SCIH - openIMIS Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.swisstph.ch/en/"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="dragos.dobre@swisstph.ch"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the profession of a Patient"/>
+        <expansion>
+          <identifier value="urn:uuid:1509d56a-0af7-4038-9b93-26ef29a1cff2"/>
+          <timestamp value="2021-07-16T13:22:38+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession"/>
+            <code value="1"/>
+            <display value="Housewife"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession"/>
+            <code value="2"/>
+            <display value="Employee"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession"/>
+            <code value="3"/>
+            <display value="Self Employee"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession"/>
+            <code value="4"/>
+            <display value="Other"/>
           </contains>
         </expansion>
       </ValueSet>

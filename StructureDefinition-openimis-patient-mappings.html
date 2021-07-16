@@ -355,7 +355,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>./usablePeriod[type=&quot;IVL&lt;TS&gt;&quot;]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/administrativeGender</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/birthTime</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;deceased[x]</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/deceasedInd, player[classCode=PSN|ANM and determinerCode=INSTANCE]/deceasedTime</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>addr</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>unique(./use)</td> </tr>
@@ -393,7 +392,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;country</td><td>AD.part[parttype = CNT]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>./usablePeriod[type=&quot;IVL&lt;TS&gt;&quot;]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;maritalStatus</td><td>player[classCode=PSN]/maritalStatusCode</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;multipleBirth[x]</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/multipleBirthInd,  player[classCode=PSN|ANM and determinerCode=INSTANCE]/multipleBirthOrderNumber</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;photo</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/desc</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
@@ -452,12 +450,10 @@
  <tr><td>&nbsp;&nbsp;&nbsp;telecom (phone)</td><td>.telecom</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>.patient.administrativeGenderCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>.patient.birthTime</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;deceased[x]</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>.addr</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address (FamilyAddress)</td><td>.addr</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address (InsureeAddress)</td><td>.addr</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;maritalStatus</td><td>.patient.maritalStatusCode</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;multipleBirth[x]</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;photo</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;photo (URL)</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;photo (Data)</td><td>n/a</td> </tr>
@@ -567,7 +563,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>PID-8</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>PID-7</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;deceased[x]</td><td>PID-30  (bool) and PID-29 (datetime)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>PID-11</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>XAD.7</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>XAD.18</td> </tr>
@@ -600,7 +595,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;country</td><td>XAD.6</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>XAD.12 / XAD.13 + XAD.14</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;maritalStatus</td><td>PID-16</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;multipleBirth[x]</td><td>PID-24 (bool), PID-25 (integer)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;photo</td><td>OBX-5 - needs a profile</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contentType</td><td>ED.2+ED.3/RP.2+RP.3. Note conversion may be needed if old style values are being used</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data</td><td>ED.5</td> </tr>
@@ -676,7 +670,7 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.swisstph.ch/en/">Swiss TPH - SCIH - openIMIS Group</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 16, 2021 09:11+0000">2021-07-16</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.swisstph.ch/en/">Swiss TPH - SCIH - openIMIS Group</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 16, 2021 13:22+0000">2021-07-16</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

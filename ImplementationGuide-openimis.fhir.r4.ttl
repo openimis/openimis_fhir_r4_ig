@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "openIMISFHIRR4"];
   fhir:ImplementationGuide.title [ fhir:value "openIMIS FHIR R4 Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-16T09:11:54+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-16T13:22:24+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Swiss TPH - SCIH - openIMIS Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -319,28 +319,70 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/is-head" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-card-issued>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-card-issued" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Is Head of the Family" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Whether the Patient is the Head of the Family" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Card Issued (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Whether a card was issued to the Patient during enrolment." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-contact-relationship-vs>;
-         fhir:Reference.reference [ fhir:value "ValueSet/openimis-contact-relationship-vs" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-education-level>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-education-level" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Contact Relationship code system" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Relationship of a Patient with the Head of the Family" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Education Level (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Specifies the Patient's education level" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-identification>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-identification" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Identification (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Specifies the Patient official identification and the type of identification document." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-is-head>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-is-head" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IsHead (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Whether the Patient is the Head of the Family." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-profession>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-profession" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profession (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Specifies the Patient's profession" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -354,49 +396,147 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Identifier type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-marital-status-vs>;
-         fhir:Reference.reference [ fhir:value "ValueSet/openimis-marital-status-vs" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship>;
+         fhir:Reference.reference [ fhir:value "ValueSet/patient-contact-relationship" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Marital Status Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Marital status of an Insuree" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Contact Relationship (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Relationship of a Patient with the Head of the Family." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-education-level>;
+         fhir:Reference.reference [ fhir:value "ValueSet/patient-education-level" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Education Level (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Education level of a Patient" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-types>;
+         fhir:Reference.reference [ fhir:value "ValueSet/patient-identification-types" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Identification Types (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the type of document the Patient used to identify himself." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-marital-status>;
+         fhir:Reference.reference [ fhir:value "ValueSet/patient-marital-status" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Marital Status (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Marital status of a Patient" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession>;
+         fhir:Reference.reference [ fhir:value "ValueSet/patient-profession" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Profession Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the profession of a Patient" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/openimis-contact-relationship-cs" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Contact Relationship code system" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Relationship of a Patient with the Head of the Family" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 8;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers-cs>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/openimis-identifiers-cs" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/openimis-identifiers" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Identifiers code system" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifiers that are specific to openIMIS and could not be found in standard sources" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/patient-contact-relationship" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Contact Relationship code system" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Relationship of a Patient with the Head of the Family. Values defined by openIMIS." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/patient-education-level" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Education Level Code System" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Education level of a Patient. Values defined by openIMIS. Can be extended." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-identification-types>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/patient-identification-types" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Identification Types (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the type of document the Patient used to identify himself. Values defined by openIMIS. Can be extended." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/patient-profession" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Profession Code System" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the profession of a Patient. Values defined by openIMIS. Can be extended." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -409,7 +549,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Create a Capability Statement using RuleSets" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -423,7 +563,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of a Village" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 11;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

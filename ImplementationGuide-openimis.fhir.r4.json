@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-07-16T09:11:54+00:00",
+  "date": "2021-07-16T13:22:24+00:00",
   "publisher": "Swiss TPH - SCIH - openIMIS Group",
   "contact": [
     {
@@ -334,24 +334,66 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/is-head"
+          "reference": "StructureDefinition/patient-card-issued"
         },
-        "name": "Is Head of the Family",
-        "description": "Whether the Patient is the Head of the Family",
+        "name": "Card Issued (Patient)",
+        "description": "Whether a card was issued to the Patient during enrolment.",
         "exampleBoolean": false
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
+            "valueString": "StructureDefinition:extension"
           }
         ],
         "reference": {
-          "reference": "ValueSet/openimis-contact-relationship-vs"
+          "reference": "StructureDefinition/patient-education-level"
         },
-        "name": "openIMIS Contact Relationship code system",
-        "description": "Indicates the Relationship of a Patient with the Head of the Family",
+        "name": "Education Level (Patient)",
+        "description": "Specifies the Patient's education level",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/patient-identification"
+        },
+        "name": "Identification (Patient)",
+        "description": "Specifies the Patient official identification and the type of identification document.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/patient-is-head"
+        },
+        "name": "IsHead (Patient)",
+        "description": "Whether the Patient is the Head of the Family.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/patient-profession"
+        },
+        "name": "Profession (Patient)",
+        "description": "Specifies the Patient's profession",
         "exampleBoolean": false
       },
       {
@@ -376,10 +418,66 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/openimis-marital-status-vs"
+          "reference": "ValueSet/patient-contact-relationship"
         },
-        "name": "openIMIS Marital Status Value Set",
-        "description": "Indicates the Marital status of an Insuree",
+        "name": "Contact Relationship (Patient)",
+        "description": "Indicates the Relationship of a Patient with the Head of the Family.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/patient-education-level"
+        },
+        "name": "Education Level (Patient)",
+        "description": "Indicates the Education level of a Patient",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/patient-identification-types"
+        },
+        "name": "Identification Types (Patient)",
+        "description": "Indicates the type of document the Patient used to identify himself.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/patient-marital-status"
+        },
+        "name": "Marital Status (Patient)",
+        "description": "Indicates the Marital status of a Patient",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/patient-profession"
+        },
+        "name": "Patient Profession Value Set",
+        "description": "Indicates the profession of a Patient",
         "exampleBoolean": false
       },
       {
@@ -390,24 +488,66 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/openimis-contact-relationship-cs"
-        },
-        "name": "openIMIS Contact Relationship code system",
-        "description": "Indicates the Relationship of a Patient with the Head of the Family",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/openimis-identifiers-cs"
+          "reference": "CodeSystem/openimis-identifiers"
         },
         "name": "openIMIS Identifiers code system",
         "description": "Identifiers that are specific to openIMIS and could not be found in standard sources",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/patient-contact-relationship"
+        },
+        "name": "Patient Contact Relationship code system",
+        "description": "Indicates the Relationship of a Patient with the Head of the Family. Values defined by openIMIS.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/patient-education-level"
+        },
+        "name": "Patient Education Level Code System",
+        "description": "Indicates the Education level of a Patient. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/patient-identification-types"
+        },
+        "name": "Identification Types (Patient)",
+        "description": "Indicates the type of document the Patient used to identify himself. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/patient-profession"
+        },
+        "name": "Patient Profession Code System",
+        "description": "Indicates the profession of a Patient. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
       {
