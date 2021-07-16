@@ -4,17 +4,24 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference-ext",
+      "title": "Address Location Reference",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality-ext",
+      "title": "Address Municipality Location",
+      "types": [
+        "string"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head",
       "title": "Is Head of the Family",
       "types": [
         "boolean"
-      ]
-    },
-    {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/municipality",
-      "title": "Municipality Location",
-      "types": [
-        "string"
       ]
     }
   ],
@@ -69,11 +76,14 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference-ext": [
+      "Patient.address"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality-ext": [
+      "Patient.address"
+    ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head": [
       "Patient"
-    ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/municipality": [
-      "Patient.address"
     ]
   }
 }

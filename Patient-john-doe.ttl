@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Ultha R1D1M2V1 (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs Brother/Sister}\">Brother/Sister</span></td><td>Jane Doe </td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-contact-relationship-cs Brother/Sister}\">Brother/Sister</span></td><td>Jane Doe </td></tr></table></div>"
   ];
   fhir:Patient.identifier [
      fhir:index 0;
@@ -44,7 +44,15 @@
      fhir:index 0;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/municipality" ]
+       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality-ext" ];
+       fhir:Extension.valueString [ fhir:value "Jamu" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference-ext" ];
+       fhir:Extension.valueReference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Location/dace872d-7f56-4b79-b6ac-b62760063853>;
+         fhir:Reference.reference [ fhir:value "Location/dace872d-7f56-4b79-b6ac-b62760063853" ]
+       ]
      ];
      fhir:Address.use [ fhir:value "home" ];
      fhir:Address.line [
@@ -53,8 +61,7 @@
      ];
      fhir:Address.city [ fhir:value "Jamula" ];
      fhir:Address.district [ fhir:value "Rapta" ];
-     fhir:Address.state [ fhir:value "Ultha" ];
-     fhir:Address.postalCode [ fhir:value "R1D1M2V1" ]
+     fhir:Address.state [ fhir:value "Ultha" ]
   ];
   fhir:Patient.maritalStatus [
      fhir:CodeableConcept.coding [

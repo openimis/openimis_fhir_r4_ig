@@ -28,18 +28,25 @@
     "name": "openIMISFHIRR4"
   },
   {
+    "id": "address-location-reference-ext",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference-ext",
+    "version": "0.1.0",
+    "name": "AddressLocationReference"
+  },
+  {
+    "id": "address-municipality-ext",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality-ext",
+    "version": "0.1.0",
+    "name": "AddressMunicipality"
+  },
+  {
     "id": "is-head",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/is-head",
     "version": "0.1.0",
     "name": "IsHead"
-  },
-  {
-    "id": "municipality",
-    "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/municipality",
-    "version": "0.1.0",
-    "name": "Municipality"
   },
   {
     "id": "openimis-patient",

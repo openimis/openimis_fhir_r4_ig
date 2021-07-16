@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "IsHead"];
   fhir:StructureDefinition.title [ fhir:value "Is Head of the Family"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-07-15T08:25:34+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-07-16T09:10:38+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH - SCIH - openIMIS Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
