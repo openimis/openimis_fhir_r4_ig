@@ -4,14 +4,28 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-card-issued",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference",
+      "title": "Location Reference (Address)",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality",
+      "title": "Municipality (Address)",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued",
       "title": "Card Issued (Patient)",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-education-level",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level",
       "title": "Education Level (Patient)",
       "types": [
         "CodeableConcept",
@@ -19,7 +33,7 @@
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-identification",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification",
       "title": "Identification (Patient)",
       "types": [
         "string",
@@ -78,32 +92,18 @@
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-is-head",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-is-head",
       "title": "IsHead (Patient)",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-profession",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession",
       "title": "Profession (Patient)",
       "types": [
         "CodeableConcept",
         "CodeableConcept"
-      ]
-    },
-    {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference-ext",
-      "title": "Address Location Reference",
-      "types": [
-        "Reference"
-      ]
-    },
-    {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality-ext",
-      "title": "Address Municipality Location",
-      "types": [
-        "string"
       ]
     }
   ],
@@ -158,26 +158,26 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://openimis.github.io/openimis_fhi/ValueSet-patient-card-issued": [
-      "Patient"
-    ],
-    "https://openimis.github.io/openimis_fhi/ValueSet-patient-education-level": [
-      "Patient"
-    ],
-    "https://openimis.github.io/openimis_fhi/ValueSet-patient-identification": [
-      "Patient"
-    ],
-    "https://openimis.github.io/openimis_fhi/ValueSet-patient-is-head": [
-      "Patient"
-    ],
-    "https://openimis.github.io/openimis_fhi/ValueSet-patient-profession": [
-      "Patient"
-    ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference-ext": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference": [
       "Patient.address"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality-ext": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality": [
       "Patient.address"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued": [
+      "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level": [
+      "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification": [
+      "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-is-head": [
+      "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession": [
+      "Patient"
     ]
   }
 }

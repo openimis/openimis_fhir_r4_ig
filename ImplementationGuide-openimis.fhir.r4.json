@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-07-16T13:22:39+00:00",
+  "date": "2021-07-16T14:01:56+00:00",
   "publisher": "Swiss TPH - SCIH - openIMIS Group",
   "contact": [
     {
@@ -306,9 +306,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/address-location-reference-ext"
+          "reference": "StructureDefinition/address-location-reference"
         },
-        "name": "Address Location Reference",
+        "name": "Location Reference (Address)",
         "description": "The reference to adress location for City/Village level",
         "exampleBoolean": false
       },
@@ -320,9 +320,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/address-municipality-ext"
+          "reference": "StructureDefinition/address-municipality"
         },
-        "name": "Address Municipality Location",
+        "name": "Municipality (Address)",
         "description": "The location level between District and City/Village",
         "exampleBoolean": false
       },
@@ -404,7 +404,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/openimis-identifiers-vs"
+          "reference": "ValueSet/openimis-identifiers"
         },
         "name": "openIMIS Identifiers Value Set",
         "description": "Indicates the Identifier type",

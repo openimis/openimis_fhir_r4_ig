@@ -3,14 +3,14 @@
   "id": "patient-contact-relationship",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Spouse<a name=\"patient-contact-relationship-Spouse\"> </a></td><td>Spouse</td></tr><tr><td style=\"white-space:nowrap\">Brother/Sister<a name=\"patient-contact-relationship-Brother.47Sister\"> </a></td><td>Brother/Sister</td></tr><tr><td style=\"white-space:nowrap\">Father/Mother<a name=\"patient-contact-relationship-Father.47Mother\"> </a></td><td>Father/Mother</td></tr><tr><td style=\"white-space:nowrap\">Uncle/Aunt<a name=\"patient-contact-relationship-Uncle.47Aunt\"> </a></td><td>Uncle/Aunt</td></tr><tr><td style=\"white-space:nowrap\">Son/Daughter<a name=\"patient-contact-relationship-Son.47Daughter\"> </a></td><td>Son/Daughter</td></tr><tr><td style=\"white-space:nowrap\">GrandParents<a name=\"patient-contact-relationship-GrandParents\"> </a></td><td>Grand parents</td></tr><tr><td style=\"white-space:nowrap\">Employee<a name=\"patient-contact-relationship-Employee\"> </a></td><td>Employee</td></tr><tr><td style=\"white-space:nowrap\">Others<a name=\"patient-contact-relationship-Others\"> </a></td><td>Others</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"patient-contact-relationship-1\"> </a></td><td>Brother/Sister</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"patient-contact-relationship-2\"> </a></td><td>Father/Mother</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"patient-contact-relationship-3\"> </a></td><td>Uncle/Aunt</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"patient-contact-relationship-4\"> </a></td><td>Son/Daughter</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"patient-contact-relationship-5\"> </a></td><td>Grand parents</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"patient-contact-relationship-6\"> </a></td><td>Employee</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"patient-contact-relationship-7\"> </a></td><td>Others</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"patient-contact-relationship-8\"> </a></td><td>Spouse</td></tr></table></div>"
   },
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
   "version": "0.1.0",
   "name": "PatientContactRelationshipCS",
   "title": "Patient Contact Relationship code system",
   "status": "active",
-  "date": "2021-07-16T13:22:39+00:00",
+  "date": "2021-07-16T14:01:56+00:00",
   "publisher": "Swiss TPH - SCIH - openIMIS Group",
   "contact": [
     {
@@ -32,36 +32,36 @@
   "count": 8,
   "concept": [
     {
-      "code": "Spouse",
-      "display": "Spouse"
-    },
-    {
-      "code": "Brother/Sister",
+      "code": "1",
       "display": "Brother/Sister"
     },
     {
-      "code": "Father/Mother",
+      "code": "2",
       "display": "Father/Mother"
     },
     {
-      "code": "Uncle/Aunt",
+      "code": "3",
       "display": "Uncle/Aunt"
     },
     {
-      "code": "Son/Daughter",
+      "code": "4",
       "display": "Son/Daughter"
     },
     {
-      "code": "GrandParents",
+      "code": "5",
       "display": "Grand parents"
     },
     {
-      "code": "Employee",
+      "code": "6",
       "display": "Employee"
     },
     {
-      "code": "Others",
+      "code": "7",
       "display": "Others"
+    },
+    {
+      "code": "8",
+      "display": "Spouse"
     }
   ]
 }

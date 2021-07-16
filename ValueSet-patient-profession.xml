@@ -5,12 +5,12 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-patient-profession.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession</code></a></li></ul></div>
   </text>
-  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession"/>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-profession"/>
   <version value="0.1.0"/>
   <name value="PatientProfessionVS"/>
   <title value="Patient Profession Value Set"/>
   <status value="active"/>
-  <date value="2021-07-16T13:22:39+00:00"/>
+  <date value="2021-07-16T14:01:56+00:00"/>
   <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
   <contact>
     <name value="Swiss TPH - SCIH - openIMIS Group"/>

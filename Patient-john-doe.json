@@ -8,15 +8,15 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>IsHead (Patient)</b>: false</p><p><b>Education Level (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level University}\">University</span></p><p><b>Profession (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession 2}\">Employee</span></p><blockquote><p><b>Identification (Patient)</b></p><p><b>value</b>: NationaID1</p><p><b>value</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types N}\">National ID</span></p></blockquote><p><b>Card Issued (Patient)</b>: true</p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship Brother/Sister}\">Brother/Sister</span></td><td>Jane Doe </td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>IsHead (Patient)</b>: false</p><p><b>Education Level (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level University}\">University</span></p><p><b>Profession (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession 2}\">Employee</span></p><blockquote><p><b>Identification (Patient)</b></p><p><b>value</b>: NationaID1</p><p><b>value</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types N}\">National ID</span></p></blockquote><p><b>Card Issued (Patient)</b>: true</p><p><b>identifier</b>: Unique code: 123456789</p><p><b>name</b>: John Doe </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1962-02-05</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship 1}\">Brother/Sister</span></td><td>Jane Doe </td></tr></table></div>"
   },
   "extension": [
     {
-      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-is-head",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-is-head",
       "valueBoolean": false
     },
     {
-      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-education-level",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level",
       "valueCodeableConcept": {
         "coding": [
           {
@@ -28,7 +28,7 @@
       }
     },
     {
-      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-profession",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession",
       "valueCodeableConcept": {
         "coding": [
           {
@@ -57,10 +57,10 @@
           }
         }
       ],
-      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-identification"
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification"
     },
     {
-      "url": "https://openimis.github.io/openimis_fhi/ValueSet-patient-card-issued",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued",
       "valueBoolean": true
     }
   ],
@@ -91,11 +91,11 @@
     {
       "extension": [
         {
-          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality-ext",
+          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality",
           "valueString": "Jamu"
         },
         {
-          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference-ext",
+          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference",
           "valueReference": {
             "reference": "Location/dace872d-7f56-4b79-b6ac-b62760063853"
           }
@@ -125,7 +125,7 @@
           "coding": [
             {
               "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
-              "code": "Brother/Sister"
+              "code": "1"
             }
           ]
         }

@@ -5,12 +5,12 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-patient-contact-relationship.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship</code></a></li></ul></div>"
   },
-  "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship",
+  "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-contact-relationship",
   "version": "0.1.0",
   "name": "PatientContactRelationshipVS",
   "title": "Contact Relationship (Patient)",
   "status": "active",
-  "date": "2021-07-16T13:22:39+00:00",
+  "date": "2021-07-16T14:01:56+00:00",
   "publisher": "Swiss TPH - SCIH - openIMIS Group",
   "contact": [
     {

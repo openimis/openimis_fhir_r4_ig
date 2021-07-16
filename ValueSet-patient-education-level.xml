@@ -5,12 +5,12 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-patient-education-level.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level</code></a></li></ul></div>
   </text>
-  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-education-level"/>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-education-level"/>
   <version value="0.1.0"/>
   <name value="PatientEducationLevelVS"/>
   <title value="Education Level (Patient)"/>
   <status value="active"/>
-  <date value="2021-07-16T13:22:39+00:00"/>
+  <date value="2021-07-16T14:01:56+00:00"/>
   <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
   <contact>
     <name value="Swiss TPH - SCIH - openIMIS Group"/>
