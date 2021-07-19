@@ -58,7 +58,8 @@
          fhir:CodeableConcept.coding [
            fhir:index 0;
            fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types" ];
-           fhir:Coding.code [ fhir:value "N" ]
+           fhir:Coding.code [ fhir:value "N" ];
+           fhir:Coding.display [ fhir:value "National ID" ]
          ]
        ]
      ];

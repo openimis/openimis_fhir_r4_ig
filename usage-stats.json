@@ -18,6 +18,102 @@
       ]
     },
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-address",
+      "title": "Poverty Status (Group)",
+      "types": [
+        "Address",
+        "Address",
+        "string",
+        "Extension",
+        "Extension",
+        "Extension",
+        "code",
+        "code",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "Period"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-confirmation",
+      "title": "Confirmation (Group)",
+      "types": [
+        "string",
+        "CodeableConcept",
+        "CodeableConcept",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-poverty-status",
+      "title": "Poverty Status (Group)",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-type",
+      "title": "Group Type (Group)",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued",
       "title": "Card Issued (Patient)",
       "types": [
@@ -112,6 +208,13 @@
         "CodeableConcept",
         "CodeableConcept"
       ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-vulnerability-status",
+      "title": "Vulnerability Status (Patient)",
+      "types": [
+        "boolean"
+      ]
     }
   ],
   "profiles": {
@@ -178,11 +281,25 @@
       "ImplementationGuide.definition.resource"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference": [
+      "Extension.value[x]",
       "Organization.address",
       "Patient.address"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality": [
+      "Extension.value[x]",
       "Patient.address"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-address": [
+      "Group"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-confirmation": [
+      "Group"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-poverty-status": [
+      "Group"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-type": [
+      "Group"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued": [
       "Patient"
@@ -200,6 +317,9 @@
       "Patient"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession": [
+      "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-vulnerability-status": [
       "Patient"
     ]
   }

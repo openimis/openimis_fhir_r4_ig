@@ -11,7 +11,7 @@
   <name value="openIMISFHIRR4"/>
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-07-16T16:34:49+00:00"/>
+  <date value="2021-07-19T12:49:52+00:00"/>
   <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
   <contact>
     <name value="Swiss TPH - SCIH - openIMIS Group"/>
@@ -241,6 +241,50 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/group-address"/>
+      </reference>
+      <name value="Poverty Status (Group)"/>
+      <description value="Whether the Group has the poverty status."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/group-confirmation"/>
+      </reference>
+      <name value="Confirmation (Group)"/>
+      <description value="Indicates the confirmation for the Group."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/group-poverty-status"/>
+      </reference>
+      <name value="Poverty Status (Group)"/>
+      <description value="Whether the Group has the poverty status."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/group-type"/>
+      </reference>
+      <name value="Group Type (Group)"/>
+      <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/patient-card-issued"/>
       </reference>
       <name value="Card Issued (Patient)"/>
@@ -300,6 +344,39 @@
       </reference>
       <name value="Profession (Patient)"/>
       <description value="Specifies the Patient/Insuree&#39;s profession"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-vulnerability-status"/>
+      </reference>
+      <name value="Vulnerability Status (Patient)"/>
+      <description value="Whether the Patient/Insuree has the vulnerability status."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/group-confirmation-type"/>
+      </reference>
+      <name value="Confirmation Types (Group)"/>
+      <description value="Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/group-types"/>
+      </reference>
+      <name value="Group Types (Group)"/>
+      <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -366,6 +443,28 @@
       </reference>
       <name value="Patient Profession Value Set"/>
       <description value="Indicates the profession of a Patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/group-confirmation-type"/>
+      </reference>
+      <name value="Confirmation Types (Group)"/>
+      <description value="Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/group-types"/>
+      </reference>
+      <name value="Group Types (Group)"/>
+      <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

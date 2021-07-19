@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="group-confirmation-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">A<a name="group-confirmation-type-A"> </a></td><td>Local council</td></tr><tr><td style="white-space:nowrap">B<a name="group-confirmation-type-B"> </a></td><td>Municipality</td></tr><tr><td style="white-space:nowrap">C<a name="group-confirmation-type-C"> </a></td><td>State</td></tr><tr><td style="white-space:nowrap">D<a name="group-confirmation-type-D"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type"/>
+  <version value="0.1.0"/>
+  <name value="GroupConfirmationTypeCS"/>
+  <title value="Confirmation Types (Group)"/>
+  <status value="active"/>
+  <date value="2021-07-19T12:49:52+00:00"/>
+  <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+  <contact>
+    <name value="Swiss TPH - SCIH - openIMIS Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended."/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="A"/>
+    <display value="Local council"/>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="Municipality"/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="State"/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="Other"/>
+  </concept>
+</CodeSystem>

@@ -1,11 +1,152 @@
 {
   "resourceType" : "Bundle",
-  "id" : "27426551-fbeb-424d-9b08-343970b01c59",
+  "id" : "86e3b7db-9fea-4073-80f1-1ce35e8c9961",
   "meta" : {
-    "lastUpdated" : "2021-07-16T16:34:49.069+00:00"
+    "lastUpdated" : "2021-07-19T12:49:52.135+00:00"
   },
   "type" : "collection",
   "entry" : [{
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-confirmation-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "group-confirmation-type",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-group-confirmation-type.html\">Confirmation Types (Group) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-group-confirmation-type.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-confirmation-type-A\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-A\">A</a></td><td>Local council</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-confirmation-type-B\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-B\">B</a></td><td>Municipality</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-confirmation-type-C\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-C\">C</a></td><td>State</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-confirmation-type-D\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-D\">D</a></td><td>Other</td><td/></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-confirmation-type",
+      "version" : "0.1.0",
+      "name" : "GroupConfirmationTypeVS",
+      "title" : "Confirmation Types (Group)",
+      "status" : "active",
+      "date" : "2021-07-19T12:49:52+00:00",
+      "publisher" : "Swiss TPH - SCIH - openIMIS Group",
+      "contact" : [{
+        "name" : "Swiss TPH - SCIH - openIMIS Group",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        },
+        {
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch"
+        }]
+      }],
+      "description" : "Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended.",
+      "expansion" : {
+        "identifier" : "urn:uuid:4c7ceebd-c04d-4b3a-ad58-8a6fe63a877d",
+        "timestamp" : "2021-07-19T12:50:07+00:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type",
+          "code" : "A",
+          "display" : "Local council"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type",
+          "code" : "B",
+          "display" : "Municipality"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type",
+          "code" : "C",
+          "display" : "State"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type",
+          "code" : "D",
+          "display" : "Other"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-group-types",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "group-types",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-group-types.html\">Group Types (Group) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-group-types.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-C\"> </a><a href=\"CodeSystem-group-types.html#group-types-C\">C</a></td><td>Council</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-G\"> </a><a href=\"CodeSystem-group-types.html#group-types-G\">G</a></td><td>Organization</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-H\"> </a><a href=\"CodeSystem-group-types.html#group-types-H\">H</a></td><td>Household</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-O\"> </a><a href=\"CodeSystem-group-types.html#group-types-O\">O</a></td><td>Other</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-P\"> </a><a href=\"CodeSystem-group-types.html#group-types-P\">P</a></td><td>Priests</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-S\"> </a><a href=\"CodeSystem-group-types.html#group-types-S\">S</a></td><td>Students</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-T\"> </a><a href=\"CodeSystem-group-types.html#group-types-T\">T</a></td><td>Teachers</td><td/></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-group-types",
+      "version" : "0.1.0",
+      "name" : "GroupTypesVS",
+      "title" : "Group Types (Group)",
+      "status" : "active",
+      "date" : "2021-07-19T12:49:52+00:00",
+      "publisher" : "Swiss TPH - SCIH - openIMIS Group",
+      "contact" : [{
+        "name" : "Swiss TPH - SCIH - openIMIS Group",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        },
+        {
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch"
+        }]
+      }],
+      "description" : "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
+      "expansion" : {
+        "identifier" : "urn:uuid:89bcb82a-7ebd-4f54-8f9a-2a2f2f82b650",
+        "timestamp" : "2021-07-19T12:50:08+00:00",
+        "total" : 7,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "code" : "C",
+          "display" : "Council"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "code" : "G",
+          "display" : "Organization"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "code" : "H",
+          "display" : "Household"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "code" : "O",
+          "display" : "Other"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "code" : "P",
+          "display" : "Priests"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "code" : "S",
+          "display" : "Students"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "code" : "T",
+          "display" : "Teachers"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-openimis-identifiers",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -19,7 +160,7 @@
       "name" : "OpenIMISIdentifierVS",
       "title" : "openIMIS Identifiers Value Set",
       "status" : "active",
-      "date" : "2021-07-16T16:34:49+00:00",
+      "date" : "2021-07-19T12:49:52+00:00",
       "publisher" : "Swiss TPH - SCIH - openIMIS Group",
       "contact" : [{
         "name" : "Swiss TPH - SCIH - openIMIS Group",
@@ -34,8 +175,8 @@
       }],
       "description" : "Indicates the Identifier type",
       "expansion" : {
-        "identifier" : "urn:uuid:3714611c-eb1c-4c86-8a97-5cd26b3caca3",
-        "timestamp" : "2021-07-16T16:35:03+00:00",
+        "identifier" : "urn:uuid:a7df8774-9382-4980-8549-917be7a4e812",
+        "timestamp" : "2021-07-19T12:50:08+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -77,7 +218,7 @@
       "name" : "PatientContactRelationshipVS",
       "title" : "Contact Relationship (Patient)",
       "status" : "active",
-      "date" : "2021-07-16T16:34:49+00:00",
+      "date" : "2021-07-19T12:49:52+00:00",
       "publisher" : "Swiss TPH - SCIH - openIMIS Group",
       "contact" : [{
         "name" : "Swiss TPH - SCIH - openIMIS Group",
@@ -92,8 +233,8 @@
       }],
       "description" : "Indicates the Relationship of a Patient with the Head of the Family.",
       "expansion" : {
-        "identifier" : "urn:uuid:2f98c27f-f13d-461f-9d7d-0d708b54a00f",
-        "timestamp" : "2021-07-16T16:35:03+00:00",
+        "identifier" : "urn:uuid:0403b39b-b7bf-4bf2-9612-89fba7fa4e0f",
+        "timestamp" : "2021-07-19T12:50:08+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -160,7 +301,7 @@
       "name" : "PatientEducationLevelVS",
       "title" : "Education Level (Patient)",
       "status" : "active",
-      "date" : "2021-07-16T16:34:49+00:00",
+      "date" : "2021-07-19T12:49:52+00:00",
       "publisher" : "Swiss TPH - SCIH - openIMIS Group",
       "contact" : [{
         "name" : "Swiss TPH - SCIH - openIMIS Group",
@@ -175,8 +316,8 @@
       }],
       "description" : "Indicates the Education level of a Patient",
       "expansion" : {
-        "identifier" : "urn:uuid:b3fc8da3-9231-48c6-ae1e-7ff60d917b2a",
-        "timestamp" : "2021-07-16T16:35:03+00:00",
+        "identifier" : "urn:uuid:a267cec5-1039-4cee-9df6-191f6968e954",
+        "timestamp" : "2021-07-19T12:50:08+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -238,7 +379,7 @@
       "name" : "PatientIdentificationTypesVS",
       "title" : "Identification Types (Patient)",
       "status" : "active",
-      "date" : "2021-07-16T16:34:49+00:00",
+      "date" : "2021-07-19T12:49:52+00:00",
       "publisher" : "Swiss TPH - SCIH - openIMIS Group",
       "contact" : [{
         "name" : "Swiss TPH - SCIH - openIMIS Group",
@@ -253,8 +394,8 @@
       }],
       "description" : "Indicates the type of document the Patient used to identify himself.",
       "expansion" : {
-        "identifier" : "urn:uuid:ed232f40-003e-4a6f-9115-64072957b5d7",
-        "timestamp" : "2021-07-16T16:35:03+00:00",
+        "identifier" : "urn:uuid:2b3e7433-323e-420c-bbe7-00056b254cb0",
+        "timestamp" : "2021-07-19T12:50:08+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -301,7 +442,7 @@
       "name" : "PatientMaritalStatusVS",
       "title" : "Marital Status (Patient)",
       "status" : "active",
-      "date" : "2021-07-16T16:34:49+00:00",
+      "date" : "2021-07-19T12:49:52+00:00",
       "publisher" : "Swiss TPH - SCIH - openIMIS Group",
       "contact" : [{
         "name" : "Swiss TPH - SCIH - openIMIS Group",
@@ -316,8 +457,8 @@
       }],
       "description" : "Indicates the Marital status of a Patient",
       "expansion" : {
-        "identifier" : "urn:uuid:56952c40-82a2-47da-8f4c-0bf86b33295a",
-        "timestamp" : "2021-07-16T16:35:03+00:00",
+        "identifier" : "urn:uuid:0b5d2ee3-90cf-451b-9478-35c7a40b2d1c",
+        "timestamp" : "2021-07-19T12:50:08+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -369,7 +510,7 @@
       "name" : "PatientProfessionVS",
       "title" : "Patient Profession Value Set",
       "status" : "active",
-      "date" : "2021-07-16T16:34:49+00:00",
+      "date" : "2021-07-19T12:49:52+00:00",
       "publisher" : "Swiss TPH - SCIH - openIMIS Group",
       "contact" : [{
         "name" : "Swiss TPH - SCIH - openIMIS Group",
@@ -384,8 +525,8 @@
       }],
       "description" : "Indicates the profession of a Patient",
       "expansion" : {
-        "identifier" : "urn:uuid:5f7bce90-8016-47b2-914d-d4357d59c414",
-        "timestamp" : "2021-07-16T16:35:03+00:00",
+        "identifier" : "urn:uuid:b92bb467-1b47-46fb-b933-b96abcbfdcaa",
+        "timestamp" : "2021-07-19T12:50:08+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",

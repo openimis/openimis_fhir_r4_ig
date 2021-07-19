@@ -13,6 +13,8 @@
     <sch:title>f:Organization</sch:title>
     <sch:rule context="f:Organization">
       <sch:assert test="count(f:active) &lt;= 0">active: maximum cardinality of 'active' is 0</sch:assert>
+      <sch:assert test="count(f:type) &gt;= 1">type: minimum cardinality of 'type' is 1</sch:assert>
+      <sch:assert test="count(f:type) &lt;= 1">type: maximum cardinality of 'type' is 1</sch:assert>
       <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>
       <sch:assert test="count(f:alias) &lt;= 0">alias: maximum cardinality of 'alias' is 0</sch:assert>
       <sch:assert test="count(f:address) &gt;= 1">address: minimum cardinality of 'address' is 1</sch:assert>
@@ -620,6 +622,7 @@
   <sch:pattern>
     <sch:title>f:Organization/f:contact</sch:title>
     <sch:rule context="f:Organization/f:contact">
+      <sch:assert test="count(f:purpose) &gt;= 1">purpose: minimum cardinality of 'purpose' is 1</sch:assert>
       <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

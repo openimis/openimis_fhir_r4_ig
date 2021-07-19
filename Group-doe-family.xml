@@ -6,8 +6,43 @@
     <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82</p><p><b>active</b>: true</p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>name</b>: Doe Jane</p><p><b>quantity</b>: 2</p><blockquote><p><b>member</b></p><p><b>entity</b>: <a href="Patient-john-doe.html">Generated Summary: Unique code: 123456789; John Doe ; gender: male; birthDate: 1962-02-05; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></a></p></blockquote><blockquote><p><b>member</b></p><p><b>entity</b>: <a href="Patient-jane-doe.html">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></a></p></blockquote></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Poverty Status (Group)</b>: </p><p><b>Poverty Status (Group)</b>: false</p><p><b>Group Type (Group)</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types H}">Household</span></p><blockquote><p><b>Confirmation (Group)</b></p><p><b>value</b>: Reg123456</p><p><b>value</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type B}">Municipality</span></p></blockquote><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82</p><p><b>active</b>: true</p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>name</b>: Doe Jane</p><p><b>quantity</b>: 2</p><blockquote><p><b>member</b></p><p><b>entity</b>: <a href="Patient-john-doe.html">Generated Summary: Unique code: 123456789; John Doe ; gender: male; birthDate: 1962-02-05; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></a></p></blockquote><blockquote><p><b>member</b></p><p><b>entity</b>: <a href="Patient-jane-doe.html">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></a></p></blockquote></div>
   </text>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-address">
+    <valueAddress>
+      <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference">
+        <valueReference>
+          <reference value="Location/dace872d-7f56-4b79-b6ac-b62760063853"/>
+        </valueReference>
+      </extension>
+    </valueAddress>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-poverty-status">
+    <valueBoolean value="false"/>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-type">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types"/>
+        <code value="H"/>
+        <display value="Household"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-confirmation">
+    <extension url="number">
+      <valueString value="Reg123456"/>
+    </extension>
+    <extension url="type">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type"/>
+          <code value="B"/>
+          <display value="Municipality"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
   <identifier>
     <type>
       <coding>

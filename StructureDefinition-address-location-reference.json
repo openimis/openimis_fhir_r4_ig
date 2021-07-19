@@ -7,10 +7,10 @@
   },
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference",
   "version": "0.1.0",
-  "name": "AddressLocationReference",
+  "name": "AddressLocationReferenceExtension",
   "title": "Location Reference (Address)",
   "status": "active",
-  "date": "2021-07-16T16:34:49+00:00",
+  "date": "2021-07-19T12:49:52+00:00",
   "publisher": "Swiss TPH - SCIH - openIMIS Group",
   "contact": [
     {

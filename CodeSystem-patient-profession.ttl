@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "PatientProfessionCS"];
   fhir:CodeSystem.title [ fhir:value "Patient Profession Code System"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-07-16T16:34:49+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-07-19T12:49:52+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH - SCIH - openIMIS Group"];
   fhir:CodeSystem.contact [
      fhir:index 0;

@@ -25,27 +25,31 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension","isHead","","",0,1,"Y","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-is-head]]} {[]}
-","Head of Family","True if the Patient is the Head of the Family","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Head of Family","True if the Patient is the Head of the Family.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension","educationLevel","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level]]} {[]}
-","Patient Education Level","Specifies the Patient's education level","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Patient Education Level","Specifies the Patient's education level.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension","profession","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession]]} {[]}
-","Patient Profession Level","Specifies the Patient's profession","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Patient Profession Level","Specifies the Patient's profession.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension","identification","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification]]} {[]}
-","Patient Identification","Specifies the Patient's identification","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Patient Identification","Specifies the Patient's identification.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension","cardIssued","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued]]} {[]}
-","Patient Card Issued","Specifies if Patient has an insuree card","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Patient Card Issued","Specifies if Patient has an insuree card.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension","group","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference]]} {[]}
-","Patient Group Reference","Specifies the Group the Patient is part of","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Patient Group Reference","Specifies the Group the Patient is part of.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Patient.extension","vulnerability","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-vulnerability-status]]} {[]}
+","Patient Vulnerability Status","Specifies the Patient's vulnerability status.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.modifierExtension","","extensions
@@ -589,7 +593,7 @@ integer {[]} {[]}","Whether patient is part of a multiple birth","Indicates whet
 * Use id photos, not clinical photos.
 * Limit dimensions to thumbnail.
 * Keep byte count low to ease resource updates.","Many EHR systems have the capability to capture an image of the patient. Fits with newer social media usage too.","","","","","","","",,,,,"","exists:url}
-","Defines if photo is sent by URL or data",,"closed","Patient.photo",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Defines if photo is sent by URL or data.",,"closed","Patient.photo",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","player[classCode=PSN|ANM and determinerCode=INSTANCE]/desc","n/a","OBX-5 - needs a profile"
 "Patient.photo.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

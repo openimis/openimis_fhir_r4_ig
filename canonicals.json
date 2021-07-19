@@ -7,6 +7,20 @@
     "name": "Example Capability Statement"
   },
   {
+    "id": "group-confirmation-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type",
+    "version": "0.1.0",
+    "name": "GroupConfirmationTypeCS"
+  },
+  {
+    "id": "group-types",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+    "version": "0.1.0",
+    "name": "GroupTypesCS"
+  },
+  {
     "id": "openimis-identifiers",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers",
@@ -53,14 +67,42 @@
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference",
     "version": "0.1.0",
-    "name": "AddressLocationReference"
+    "name": "AddressLocationReferenceExtension"
   },
   {
     "id": "address-municipality",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality",
     "version": "0.1.0",
-    "name": "AddressMunicipality"
+    "name": "AddressMunicipalityExtension"
+  },
+  {
+    "id": "group-address",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-address",
+    "version": "0.1.0",
+    "name": "GroupAddressExtension"
+  },
+  {
+    "id": "group-confirmation",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-confirmation",
+    "version": "0.1.0",
+    "name": "GroupConfirmationExtension"
+  },
+  {
+    "id": "group-poverty-status",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-poverty-status",
+    "version": "0.1.0",
+    "name": "GroupPovertyStatusExtension"
+  },
+  {
+    "id": "group-type",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-type",
+    "version": "0.1.0",
+    "name": "GroupTypeExtension"
   },
   {
     "id": "patient-card-issued",
@@ -105,6 +147,13 @@
     "name": "PatientProfessionExtension"
   },
   {
+    "id": "patient-vulnerability-status",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-vulnerability-status",
+    "version": "0.1.0",
+    "name": "PatientVulnerabilityStatusExtension"
+  },
+  {
     "id": "openimis-group",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group",
@@ -124,6 +173,20 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient",
     "version": "0.1.0",
     "name": "OpenIMISPatient"
+  },
+  {
+    "id": "group-confirmation-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-confirmation-type",
+    "version": "0.1.0",
+    "name": "GroupConfirmationTypeVS"
+  },
+  {
+    "id": "group-types",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-group-types",
+    "version": "0.1.0",
+    "name": "GroupTypesVS"
   },
   {
     "id": "openimis-identifiers",

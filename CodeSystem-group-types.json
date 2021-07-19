@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "group-types",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"group-types-C\"> </a></td><td>Council</td></tr><tr><td style=\"white-space:nowrap\">G<a name=\"group-types-G\"> </a></td><td>Organization</td></tr><tr><td style=\"white-space:nowrap\">H<a name=\"group-types-H\"> </a></td><td>Household</td></tr><tr><td style=\"white-space:nowrap\">O<a name=\"group-types-O\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"group-types-P\"> </a></td><td>Priests</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"group-types-S\"> </a></td><td>Students</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"group-types-T\"> </a></td><td>Teachers</td></tr></table></div>"
+  },
+  "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+  "version": "0.1.0",
+  "name": "GroupTypesCS",
+  "title": "Group Types (Group)",
+  "status": "active",
+  "date": "2021-07-19T12:49:52+00:00",
+  "publisher": "Swiss TPH - SCIH - openIMIS Group",
+  "contact": [
+    {
+      "name": "Swiss TPH - SCIH - openIMIS Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.swisstph.ch/en/"
+        },
+        {
+          "system": "email",
+          "value": "dragos.dobre@swisstph.ch"
+        }
+      ]
+    }
+  ],
+  "description": "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
+  "content": "complete",
+  "count": 7,
+  "concept": [
+    {
+      "code": "C",
+      "display": "Council"
+    },
+    {
+      "code": "G",
+      "display": "Organization"
+    },
+    {
+      "code": "H",
+      "display": "Household"
+    },
+    {
+      "code": "O",
+      "display": "Other"
+    },
+    {
+      "code": "P",
+      "display": "Priests"
+    },
+    {
+      "code": "S",
+      "display": "Students"
+    },
+    {
+      "code": "T",
+      "display": "Teachers"
+    }
+  ]
+}

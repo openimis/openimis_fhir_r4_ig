@@ -38,6 +38,7 @@
         <coding>
           <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types"/>
           <code value="N"/>
+          <display value="National ID"/>
         </coding>
       </valueCodeableConcept>
     </extension>

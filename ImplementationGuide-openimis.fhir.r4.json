@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-07-16T16:34:49+00:00",
+  "date": "2021-07-19T12:49:52+00:00",
   "publisher": "Swiss TPH - SCIH - openIMIS Group",
   "contact": [
     {
@@ -362,6 +362,62 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/group-address"
+        },
+        "name": "Poverty Status (Group)",
+        "description": "Whether the Group has the poverty status.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/group-confirmation"
+        },
+        "name": "Confirmation (Group)",
+        "description": "Indicates the confirmation for the Group.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/group-poverty-status"
+        },
+        "name": "Poverty Status (Group)",
+        "description": "Whether the Group has the poverty status.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/group-type"
+        },
+        "name": "Group Type (Group)",
+        "description": "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/patient-card-issued"
         },
         "name": "Card Issued (Patient)",
@@ -436,6 +492,48 @@
         },
         "name": "Profession (Patient)",
         "description": "Specifies the Patient/Insuree's profession",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/patient-vulnerability-status"
+        },
+        "name": "Vulnerability Status (Patient)",
+        "description": "Whether the Patient/Insuree has the vulnerability status.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/group-confirmation-type"
+        },
+        "name": "Confirmation Types (Group)",
+        "description": "Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/group-types"
+        },
+        "name": "Group Types (Group)",
+        "description": "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
       {
@@ -520,6 +618,34 @@
         },
         "name": "Patient Profession Value Set",
         "description": "Indicates the profession of a Patient",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/group-confirmation-type"
+        },
+        "name": "Confirmation Types (Group)",
+        "description": "Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/group-types"
+        },
+        "name": "Group Types (Group)",
+        "description": "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
       {
