@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "PatientIdentificationExtension"];
   fhir:StructureDefinition.title [ fhir:value "Identification (Patient)"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-07-19T12:49:52+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-07-19T12:50:33+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH - SCIH - openIMIS Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
