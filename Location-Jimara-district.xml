@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="Jimara-district"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: R1D1</p><p><b>name</b>: Jimara</p><p><b>physicalType</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type D}">District</span></p><p><b>partOf</b>: <a href="Location-Upper-River-Region.html">Generated Summary: Unique code: R1; name: Upper River Region; <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type R}">Region</span></a></p></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="Code"/>
+      </coding>
+    </type>
+    <value value="R1D1"/>
+  </identifier>
+  <name value="Jimara"/>
+  <physicalType>
+    <coding>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type"/>
+      <code value="D"/>
+      <display value="District"/>
+    </coding>
+  </physicalType>
+  <partOf>
+    <reference value="Location/Upper-River-Region"/>
+  </partOf>
+</Location>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+  <id value="GeneralConsultationService"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService</code></p><p><b>identifier</b>: Unique code: A1, UUID unique identifier: db2c3a6c-af07-49bd-8f6a-96aa1fc2bcf9</p><p><b>version</b>: 0.1.0</p><p><b>name</b>: A1</p><p><b>title</b>: General Consultation</p><p><b>status</b>: active</p><p><b>date</b>: 2020-01-01</p><p><b>publisher</b>: Swiss TPH</p><p><b>contact</b>: Swiss TPH: <a href="https://www.swisstph.ch/en/">https://www.swisstph.ch/en/</a>, Dragos Dobre: <a href="mailto:dragos.dobre@swisstph.ch">dragos.dobre@swisstph.ch</a></p><p><b>topic</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type P}">Preventive</span></p><p><b>timing</b>: Do Once per 0 days</p></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService"/>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="Code"/>
+      </coding>
+    </type>
+    <value value="A1"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="UUID"/>
+      </coding>
+    </type>
+    <value value="db2c3a6c-af07-49bd-8f6a-96aa1fc2bcf9"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="A1"/>
+  <title value="General Consultation"/>
+  <status value="active"/>
+  <date value="2020-01-01"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <useContext>
+    <code>
+      <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>
+      <code value="venue"/>
+      <display value="Clinical Venue"/>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+        <code value="AMB"/>
+        <display value="ambulatory"/>
+      </coding>
+    </valueCodeableConcept>
+  </useContext>
+  <useContext>
+    <code>
+      <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>
+      <code value="gender"/>
+      <display value="Gender"/>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://hl7.org/fhir/administrative-gender"/>
+        <code value="male"/>
+        <display value="Male"/>
+      </coding>
+      <coding>
+        <system value="http://hl7.org/fhir/administrative-gender"/>
+        <code value="female"/>
+        <display value="Female"/>
+      </coding>
+    </valueCodeableConcept>
+  </useContext>
+  <useContext>
+    <code>
+      <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>
+      <code value="age"/>
+      <display value="Age"/>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type"/>
+        <code value="adult"/>
+        <display value="Adult"/>
+      </coding>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type"/>
+        <code value="child"/>
+        <display value="Child"/>
+      </coding>
+    </valueCodeableConcept>
+  </useContext>
+  <topic>
+    <coding>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type"/>
+      <code value="P"/>
+      <display value="Preventive"/>
+    </coding>
+  </topic>
+  <timingTiming>
+    <repeat>
+      <frequency value="1"/>
+      <period value="0"/>
+      <periodUnit value="d"/>
+    </repeat>
+  </timingTiming>
+</ActivityDefinition>

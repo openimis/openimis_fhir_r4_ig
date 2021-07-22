@@ -3,24 +3,28 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="patient-contact-relationship"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="patient-contact-relationship-1"> </a></td><td>Brother/Sister</td></tr><tr><td style="white-space:nowrap">2<a name="patient-contact-relationship-2"> </a></td><td>Father/Mother</td></tr><tr><td style="white-space:nowrap">3<a name="patient-contact-relationship-3"> </a></td><td>Uncle/Aunt</td></tr><tr><td style="white-space:nowrap">4<a name="patient-contact-relationship-4"> </a></td><td>Son/Daughter</td></tr><tr><td style="white-space:nowrap">5<a name="patient-contact-relationship-5"> </a></td><td>Grand parents</td></tr><tr><td style="white-space:nowrap">6<a name="patient-contact-relationship-6"> </a></td><td>Employee</td></tr><tr><td style="white-space:nowrap">7<a name="patient-contact-relationship-7"> </a></td><td>Others</td></tr><tr><td style="white-space:nowrap">8<a name="patient-contact-relationship-8"> </a></td><td>Spouse</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="patient-contact-relationship-1"> </a></td><td>Brother/Sister</td></tr><tr><td style="white-space:nowrap">2<a name="patient-contact-relationship-2"> </a></td><td>Father/Mother</td></tr><tr><td style="white-space:nowrap">3<a name="patient-contact-relationship-3"> </a></td><td>Uncle/Aunt</td></tr><tr><td style="white-space:nowrap">4<a name="patient-contact-relationship-4"> </a></td><td>Son/Daughter</td></tr><tr><td style="white-space:nowrap">5<a name="patient-contact-relationship-5"> </a></td><td>Grand parents</td></tr><tr><td style="white-space:nowrap">6<a name="patient-contact-relationship-6"> </a></td><td>Employee</td></tr><tr><td style="white-space:nowrap">7<a name="patient-contact-relationship-7"> </a></td><td>Others</td></tr><tr><td style="white-space:nowrap">8<a name="patient-contact-relationship-8"> </a></td><td>Spouse</td></tr></table></div>
   </text>
-  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship"/>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship"/>
   <version value="0.1.0"/>
   <name value="PatientContactRelationshipCS"/>
   <title value="Patient Contact Relationship code system"/>
   <status value="active"/>
-  <date value="2021-07-19T12:50:33+00:00"/>
-  <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+  <date value="2021-07-22T15:08:05+00:00"/>
+  <publisher value="Swiss TPH"/>
   <contact>
-    <name value="Swiss TPH - SCIH - openIMIS Group"/>
+    <name value="Swiss TPH"/>
     <telecom>
       <system value="url"/>
       <value value="https://www.swisstph.ch/en/"/>
     </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
     <telecom>
       <system value="email"/>
       <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <description value="Indicates the Relationship of a Patient with the Head of the Family. Values defined by openIMIS."/>

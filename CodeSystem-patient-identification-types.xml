@@ -10,17 +10,21 @@
   <name value="PatientIdentificationTypesCS"/>
   <title value="Identification Types (Patient)"/>
   <status value="active"/>
-  <date value="2021-07-19T12:50:33+00:00"/>
-  <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+  <date value="2021-07-22T15:08:05+00:00"/>
+  <publisher value="Swiss TPH"/>
   <contact>
-    <name value="Swiss TPH - SCIH - openIMIS Group"/>
+    <name value="Swiss TPH"/>
     <telecom>
       <system value="url"/>
       <value value="https://www.swisstph.ch/en/"/>
     </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
     <telecom>
       <system value="email"/>
       <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <description value="Indicates the type of document the Patient used to identify himself. Values defined by openIMIS. Can be extended."/>

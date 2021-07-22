@@ -1,45 +1,17 @@
 [
   {
+    "id": "GeneralConsultationService",
+    "type": "ActivityDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService",
+    "version": "0.1.0",
+    "name": "A1"
+  },
+  {
     "id": "ExampleCapabilityStatement",
     "type": "CapabilityStatement",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CapabilityStatement/ExampleCapabilityStatement",
     "version": "0.1.0",
     "name": "Example Capability Statement"
-  },
-  {
-    "id": "group-confirmation-type",
-    "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type",
-    "version": "0.1.0",
-    "name": "GroupConfirmationTypeCS"
-  },
-  {
-    "id": "group-types",
-    "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
-    "version": "0.1.0",
-    "name": "GroupTypesCS"
-  },
-  {
-    "id": "openimis-identifiers",
-    "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers",
-    "version": "0.1.0",
-    "name": "OpenIMISIdentifierCS"
-  },
-  {
-    "id": "patient-contact-relationship",
-    "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
-    "version": "0.1.0",
-    "name": "PatientContactRelationshipCS"
-  },
-  {
-    "id": "patient-education-level",
-    "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level",
-    "version": "0.1.0",
-    "name": "PatientEducationLevelCS"
   },
   {
     "id": "patient-identification-types",
@@ -49,9 +21,86 @@
     "name": "PatientIdentificationTypesCS"
   },
   {
+    "id": "activity-definition-service-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionServiceTypeCS"
+  },
+  {
+    "id": "activity-definition-usage-context-age-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionUsageContextAgeTypeCS"
+  },
+  {
+    "id": "activity-definition-usage-context-workflow-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionUsageContextWorkflowTypeCS"
+  },
+  {
+    "id": "group-confirmation-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type",
+    "version": "0.1.0",
+    "name": "GroupConfirmationTypeCS"
+  },
+  {
+    "id": "group-types",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types",
+    "version": "0.1.0",
+    "name": "GroupTypesCS"
+  },
+  {
+    "id": "location-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type",
+    "version": "0.1.0",
+    "name": "LocationTypeCS"
+  },
+  {
+    "id": "openimis-identifiers",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
+    "version": "0.1.0",
+    "name": "OpenIMISIdentifierCS"
+  },
+  {
+    "id": "organization-hf-level",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level",
+    "version": "0.1.0",
+    "name": "OrganizationHFLevelCS"
+  },
+  {
+    "id": "organization-legal-form",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form",
+    "version": "0.1.0",
+    "name": "OrganizationLegalFormCS"
+  },
+  {
+    "id": "patient-contact-relationship",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship",
+    "version": "0.1.0",
+    "name": "PatientContactRelationshipCS"
+  },
+  {
+    "id": "patient-education-level",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level",
+    "version": "0.1.0",
+    "name": "PatientEducationLevelCS"
+  },
+  {
     "id": "patient-profession",
     "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession",
     "version": "0.1.0",
     "name": "PatientProfessionCS"
   },
@@ -65,93 +114,65 @@
   {
     "id": "address-location-reference",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference",
     "version": "0.1.0",
     "name": "AddressLocationReferenceExtension"
   },
   {
     "id": "address-municipality",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality",
     "version": "0.1.0",
     "name": "AddressMunicipalityExtension"
   },
   {
     "id": "group-address",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-address",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-address",
     "version": "0.1.0",
     "name": "GroupAddressExtension"
   },
   {
     "id": "group-confirmation",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-confirmation",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-confirmation",
     "version": "0.1.0",
     "name": "GroupConfirmationExtension"
   },
   {
     "id": "group-poverty-status",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-poverty-status",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-poverty-status",
     "version": "0.1.0",
     "name": "GroupPovertyStatusExtension"
   },
   {
     "id": "group-type",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-type",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-type",
     "version": "0.1.0",
     "name": "GroupTypeExtension"
   },
   {
-    "id": "patient-card-issued",
+    "id": "medication-frequency",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency",
     "version": "0.1.0",
-    "name": "PatientCardIssuedExtension"
+    "name": "MedicationFrequencyExtension"
   },
   {
-    "id": "patient-education-level",
+    "id": "medication-unit-price",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-unit-price",
     "version": "0.1.0",
-    "name": "PatientEducationLevelExtension"
+    "name": "MedicationUnitPriceExtension"
   },
   {
-    "id": "patient-group-reference",
+    "id": "openimis-activitiy-definition",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition",
     "version": "0.1.0",
-    "name": "PatientGroupReference"
-  },
-  {
-    "id": "patient-identification",
-    "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification",
-    "version": "0.1.0",
-    "name": "PatientIdentificationExtension"
-  },
-  {
-    "id": "patient-is-head",
-    "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-is-head",
-    "version": "0.1.0",
-    "name": "PatientIsHeadExtension"
-  },
-  {
-    "id": "patient-profession",
-    "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession",
-    "version": "0.1.0",
-    "name": "PatientProfessionExtension"
-  },
-  {
-    "id": "patient-vulnerability-status",
-    "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-vulnerability-status",
-    "version": "0.1.0",
-    "name": "PatientVulnerabilityStatusExtension"
+    "name": "OpenIMISActivityDefinition"
   },
   {
     "id": "openimis-group",
@@ -168,6 +189,20 @@
     "name": "OpenIMISHealthFacilityOrganization"
   },
   {
+    "id": "openimis-location",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location",
+    "version": "0.1.0",
+    "name": "OpenIMISLocation"
+  },
+  {
+    "id": "openimis-medication",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-medication",
+    "version": "0.1.0",
+    "name": "OpenIMISMedication"
+  },
+  {
     "id": "openimis-patient",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient",
@@ -175,58 +210,184 @@
     "name": "OpenIMISPatient"
   },
   {
+    "id": "organization-hf-level",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level",
+    "version": "0.1.0",
+    "name": "OrganizationHFLevelExtension"
+  },
+  {
+    "id": "organization-legal-form",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form",
+    "version": "0.1.0",
+    "name": "OrganizationLegalFormExtension"
+  },
+  {
+    "id": "patient-card-issued",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-card-issued",
+    "version": "0.1.0",
+    "name": "PatientCardIssuedExtension"
+  },
+  {
+    "id": "patient-education-level",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-education-level",
+    "version": "0.1.0",
+    "name": "PatientEducationLevelExtension"
+  },
+  {
+    "id": "patient-group-reference",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-group-reference",
+    "version": "0.1.0",
+    "name": "PatientGroupReference"
+  },
+  {
+    "id": "patient-identification",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-identification",
+    "version": "0.1.0",
+    "name": "PatientIdentificationExtension"
+  },
+  {
+    "id": "patient-is-head",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-is-head",
+    "version": "0.1.0",
+    "name": "PatientIsHeadExtension"
+  },
+  {
+    "id": "patient-profession",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-profession",
+    "version": "0.1.0",
+    "name": "PatientProfessionExtension"
+  },
+  {
+    "id": "patient-vulnerability-status",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-vulnerability-status",
+    "version": "0.1.0",
+    "name": "PatientVulnerabilityStatusExtension"
+  },
+  {
+    "id": "activity-definition-service-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-service-type",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionServiceTypeVS"
+  },
+  {
+    "id": "activity-definition-usage-context-age-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-age-type",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionUsageContextAgeTypeVS"
+  },
+  {
+    "id": "activity-definition-usage-context-gender-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-gender-type",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionUsageContextGenderTypeVS"
+  },
+  {
+    "id": "activity-definition-usage-context-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-type",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionUsageContextTypeVS"
+  },
+  {
+    "id": "activity-definition-usage-context-venue-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-venue-type",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionUsageContextVenueTypeVS"
+  },
+  {
+    "id": "activity-definition-usage-context-workflow-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-workflow-type",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionUsageContextWorkflowTypeVS"
+  },
+  {
     "id": "group-confirmation-type",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-confirmation-type",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-confirmation-type",
     "version": "0.1.0",
     "name": "GroupConfirmationTypeVS"
   },
   {
     "id": "group-types",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-group-types",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-types",
     "version": "0.1.0",
     "name": "GroupTypesVS"
   },
   {
+    "id": "location-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/location-type",
+    "version": "0.1.0",
+    "name": "LocationTypeVS"
+  },
+  {
     "id": "openimis-identifiers",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-openimis-identifiers",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-identifiers",
     "version": "0.1.0",
     "name": "OpenIMISIdentifierVS"
   },
   {
+    "id": "organization-hf-level",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-level",
+    "version": "0.1.0",
+    "name": "OrganizationHFLevelVS"
+  },
+  {
+    "id": "organization-legal-form",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-legal-form",
+    "version": "0.1.0",
+    "name": "OrganizationLegalFormVS"
+  },
+  {
     "id": "patient-contact-relationship",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-contact-relationship",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship",
     "version": "0.1.0",
     "name": "PatientContactRelationshipVS"
   },
   {
     "id": "patient-education-level",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-education-level",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-education-level",
     "version": "0.1.0",
     "name": "PatientEducationLevelVS"
   },
   {
     "id": "patient-identification-types",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-identification-types",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-types",
     "version": "0.1.0",
     "name": "PatientIdentificationTypesVS"
   },
   {
     "id": "patient-marital-status",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-marital-status",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-marital-status",
     "version": "0.1.0",
     "name": "PatientMaritalStatusVS"
   },
   {
     "id": "patient-profession",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-profession",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession",
     "version": "0.1.0",
     "name": "PatientProfessionVS"
   }

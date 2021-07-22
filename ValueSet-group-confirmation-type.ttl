@@ -10,33 +10,38 @@
   fhir:Resource.id [ fhir:value "group-confirmation-type"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-group-confirmation-type.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-group-confirmation-type.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type</code></a></li></ul></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-confirmation-type"];
+  fhir:ValueSet.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-confirmation-type"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "GroupConfirmationTypeVS"];
   fhir:ValueSet.title [ fhir:value "Confirmation Types (Group)"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-07-19T12:50:33+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "Swiss TPH - SCIH - openIMIS Group"];
+  fhir:ValueSet.date [ fhir:value "2021-07-22T15:08:05+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Swiss TPH"];
   fhir:ValueSet.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Swiss TPH - SCIH - openIMIS Group" ];
+     fhir:ContactDetail.name [ fhir:value "Swiss TPH" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
        fhir:ContactPoint.value [ fhir:value "https://www.swisstph.ch/en/" ]
-     ], [
-       fhir:index 1;
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Dragos Dobre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "dragos.dobre@swisstph.ch" ]
+       fhir:ContactPoint.value [ fhir:value "dragos.dobre@swisstph.ch" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended."];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type" ]
      ]
   ] .
 

@@ -3,30 +3,34 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="patient-education-level"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-patient-education-level.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-patient-education-level.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level</code></a></li></ul></div>
   </text>
-  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-education-level"/>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-education-level"/>
   <version value="0.1.0"/>
   <name value="PatientEducationLevelVS"/>
   <title value="Education Level (Patient)"/>
   <status value="active"/>
-  <date value="2021-07-19T12:50:33+00:00"/>
-  <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+  <date value="2021-07-22T15:08:05+00:00"/>
+  <publisher value="Swiss TPH"/>
   <contact>
-    <name value="Swiss TPH - SCIH - openIMIS Group"/>
+    <name value="Swiss TPH"/>
     <telecom>
       <system value="url"/>
       <value value="https://www.swisstph.ch/en/"/>
     </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
     <telecom>
       <system value="email"/>
       <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <description value="Indicates the Education level of a Patient"/>
   <compose>
     <include>
-      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level"/>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level"/>
     </include>
   </compose>
 </ValueSet>

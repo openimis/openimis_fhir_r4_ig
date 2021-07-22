@@ -1,41 +1,216 @@
 {
   "resourceType" : "Bundle",
-  "id" : "2ac82993-08a4-417b-ad05-c3d4863cbf18",
+  "id" : "41a7f851-8796-49bf-bd6a-0fc7123b5534",
   "meta" : {
-    "lastUpdated" : "2021-07-19T12:50:33.263+00:00"
+    "lastUpdated" : "2021-07-22T15:08:05.370+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-confirmation-type",
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-service-type",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "group-confirmation-type",
+      "id" : "activity-definition-service-type",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-group-confirmation-type.html\">Confirmation Types (Group) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-group-confirmation-type.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-confirmation-type-A\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-A\">A</a></td><td>Local council</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-confirmation-type-B\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-B\">B</a></td><td>Municipality</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-confirmation-type-C\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-C\">C</a></td><td>State</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-confirmation-type-D\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-D\">D</a></td><td>Other</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-activity-definition-service-type.html\">Service Type (ActivityDefinition) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-activity-definition-service-type.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-activity-definition-service-type-C\"> </a><a href=\"CodeSystem-activity-definition-service-type.html#activity-definition-service-type-C\">C</a></td><td>Curative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-activity-definition-service-type-P\"> </a><a href=\"CodeSystem-activity-definition-service-type.html#activity-definition-service-type-P\">P</a></td><td>Preventive</td><td/></tr></table></div>"
       },
-      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-confirmation-type",
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-service-type",
       "version" : "0.1.0",
-      "name" : "GroupConfirmationTypeVS",
-      "title" : "Confirmation Types (Group)",
+      "name" : "ActivityDefinitionServiceTypeVS",
+      "title" : "Service Type (ActivityDefinition)",
       "status" : "active",
-      "date" : "2021-07-19T12:50:33+00:00",
-      "publisher" : "Swiss TPH - SCIH - openIMIS Group",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
       "contact" : [{
-        "name" : "Swiss TPH - SCIH - openIMIS Group",
+        "name" : "Swiss TPH",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.swisstph.ch/en/"
-        },
-        {
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
           "system" : "email",
-          "value" : "dragos.dobre@swisstph.ch"
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
         }]
       }],
-      "description" : "Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended.",
+      "description" : "Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:d070e130-157e-4414-bf5c-e888cdee8119",
-        "timestamp" : "2021-07-19T12:50:50+00:00",
+        "identifier" : "urn:uuid:785feb31-dcd4-4369-b61f-b75382e778ac",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type",
+          "code" : "C",
+          "display" : "Curative"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type",
+          "code" : "P",
+          "display" : "Preventive"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-age-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "activity-definition-usage-context-age-type",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-activity-definition-usage-context-age-type.html\">Usage Context for Age Type (ActivityDefinition) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-activity-definition-usage-context-age-type.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-activity-definition-usage-context-age-type-adult\"> </a><a href=\"CodeSystem-activity-definition-usage-context-age-type.html#activity-definition-usage-context-age-type-adult\">adult</a></td><td>Adult</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-activity-definition-usage-context-age-type-child\"> </a><a href=\"CodeSystem-activity-definition-usage-context-age-type.html#activity-definition-usage-context-age-type-child\">child</a></td><td>Child</td><td/></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-age-type",
+      "version" : "0.1.0",
+      "name" : "ActivityDefinitionUsageContextAgeTypeVS",
+      "title" : "Usage Context for Age Type (ActivityDefinition)",
+      "status" : "active",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
+      "contact" : [{
+        "name" : "Swiss TPH",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the Usage Context for Age Type for an ActivityDefinition.",
+      "expansion" : {
+        "identifier" : "urn:uuid:de1fcfb9-71ef-4302-9d27-8ee566af8a04",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type",
+          "code" : "adult",
+          "display" : "Adult"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type",
+          "code" : "child",
+          "display" : "Child"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-gender-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "activity-definition-usage-context-gender-type",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">AdministrativeGender v4.0.1 (CodeSystem)</a></p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\"><code>http://hl7.org/fhir/administrative-gender</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-male\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>Male</td><td>Male.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-female\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>Female</td><td>Female.</td></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-gender-type",
+      "version" : "0.1.0",
+      "name" : "ActivityDefinitionUsageContextGenderTypeVS",
+      "title" : "Usage Context for Gender Type (ActivityDefinition)",
+      "status" : "active",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
+      "contact" : [{
+        "name" : "Swiss TPH",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the Usage Context for Gender Type for an ActivityDefinition.",
+      "expansion" : {
+        "identifier" : "urn:uuid:724bdb17-ecbe-4aa8-b9ff-6ccfd1b63dd3",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Male"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Female"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "activity-definition-usage-context-type",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-usage-context-type.html\">UsageContextType v0.5.0 (CodeSystem)</a></p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-usage-context-type.html\"><code>http://terminology.hl7.org/CodeSystem/usage-context-type</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-usage-context-type-gender\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-usage-context-type.html#usage-context-type-gender\">gender</a></td><td>Gender</td><td>The gender of the patient. For this context type, appropriate values can be found in the http://hl7.org/fhir/ValueSet/administrative-gender value set.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-usage-context-type-age\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-usage-context-type.html#usage-context-type-age\">age</a></td><td>Age Range</td><td>The age of the patient. For this context type, the value could be a range that specifies the applicable ages or a code from an appropriate value set such as the MeSH value set http://terminology.hl7.org/ValueSet/v3-AgeGroupObservationValue.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-usage-context-type-workflow\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-usage-context-type.html#usage-context-type-workflow\">workflow</a></td><td>Workflow Setting</td><td>The settings in which the artifact is intended for use. For example, admission, pre-op, etc. For example, the ActEncounterCode value set http://terminology.hl7.org/ValueSet/v3-ActEncounterCode.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-usage-context-type-venue\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-usage-context-type.html#usage-context-type-venue\">venue</a></td><td>Clinical Venue</td><td>The venue in which an artifact could be used. For example, Outpatient, Inpatient, Home, Nursing home. The code value may originate from the HL7 ServiceDeliveryLocationRoleType value set (http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType).</td></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-type",
+      "version" : "0.1.0",
+      "name" : "ActivityDefinitionUsageContextTypeVS",
+      "title" : "Usage Context Type (ActivityDefinition)",
+      "status" : "active",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
+      "contact" : [{
+        "name" : "Swiss TPH",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the Usage Context Type for an ActivityDefinition.",
+      "expansion" : {
+        "identifier" : "urn:uuid:6ce57126-0306-4d67-9b26-cdbe79a32220",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -43,25 +218,221 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type|0.1.0"
+          "valueUri" : "http://terminology.hl7.org/CodeSystem/usage-context-type|0.5.0"
         }],
         "contains" : [{
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type",
+          "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
+          "code" : "gender",
+          "display" : "Gender"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
+          "code" : "age",
+          "display" : "Age Range"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
+          "code" : "workflow",
+          "display" : "Workflow Setting"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
+          "code" : "venue",
+          "display" : "Clinical Venue"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-venue-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "activity-definition-usage-context-venue-type",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html\">ActCode v5.0.0 (CodeSystem)</a></p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-AMB\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB\">AMB</a></td><td>ambulatory</td><td>A comprehensive term for health care provided in a healthcare facility (e.g. a practitioneraTMs office, clinic setting, or hospital) on a nonresident basis. The term ambulatory usually implies that the patient has come to the location and is not assigned to a bed. Sometimes referred to as an outpatient encounter.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-IMP\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP\">IMP</a></td><td>IMP</td><td>A patient encounter where a patient is admitted by a hospital or equivalent facility, assigned to a location where patients generally stay at least overnight and provided with room, board, and continuous nursing service.</td></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-venue-type",
+      "version" : "0.1.0",
+      "name" : "ActivityDefinitionUsageContextVenueTypeVS",
+      "title" : "Usage Context for Venue Type (ActivityDefinition)",
+      "status" : "active",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
+      "contact" : [{
+        "name" : "Swiss TPH",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the Usage Context for Venue Type for an ActivityDefinition.",
+      "expansion" : {
+        "identifier" : "urn:uuid:eb194157-c240-4dd5-9bc9-e9cb55527fb5",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|5.0.0"
+        }],
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code" : "AMB",
+          "display" : "ambulatory"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code" : "IMP",
+          "display" : "IMP"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-workflow-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "activity-definition-usage-context-workflow-type",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-activity-definition-usage-context-workflow-type.html\">Usage Context for Workflow Type (ActivityDefinition) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-activity-definition-usage-context-workflow-type.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-activity-definition-usage-context-workflow-type-S\"> </a><a href=\"CodeSystem-activity-definition-usage-context-workflow-type.html#activity-definition-usage-context-workflow-type-S\">S</a></td><td>Surgery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-activity-definition-usage-context-workflow-type-C\"> </a><a href=\"CodeSystem-activity-definition-usage-context-workflow-type.html#activity-definition-usage-context-workflow-type-C\">C</a></td><td>Consultations</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-activity-definition-usage-context-workflow-type-D\"> </a><a href=\"CodeSystem-activity-definition-usage-context-workflow-type.html#activity-definition-usage-context-workflow-type-D\">D</a></td><td>Delivery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-activity-definition-usage-context-workflow-type-A\"> </a><a href=\"CodeSystem-activity-definition-usage-context-workflow-type.html#activity-definition-usage-context-workflow-type-A\">A</a></td><td>Antenatal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-activity-definition-usage-context-workflow-type-O\"> </a><a href=\"CodeSystem-activity-definition-usage-context-workflow-type.html#activity-definition-usage-context-workflow-type-O\">O</a></td><td>Other</td><td/></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-workflow-type",
+      "version" : "0.1.0",
+      "name" : "ActivityDefinitionUsageContextWorkflowTypeVS",
+      "title" : "Usage Context for Workflow Type (ActivityDefinition)",
+      "status" : "active",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
+      "contact" : [{
+        "name" : "Swiss TPH",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
+      "expansion" : {
+        "identifier" : "urn:uuid:7855555f-236f-497b-ae37-2d7f40431894",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type",
+          "code" : "S",
+          "display" : "Surgery"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type",
+          "code" : "C",
+          "display" : "Consultations"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type",
+          "code" : "D",
+          "display" : "Delivery"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type",
+          "code" : "A",
+          "display" : "Antenatal"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type",
+          "code" : "O",
+          "display" : "Other"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-confirmation-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "group-confirmation-type",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-group-confirmation-type.html\">Confirmation Types (Group) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-group-confirmation-type.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-confirmation-type-A\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-A\">A</a></td><td>Local council</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-confirmation-type-B\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-B\">B</a></td><td>Municipality</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-confirmation-type-C\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-C\">C</a></td><td>State</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-confirmation-type-D\"> </a><a href=\"CodeSystem-group-confirmation-type.html#group-confirmation-type-D\">D</a></td><td>Other</td><td/></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-confirmation-type",
+      "version" : "0.1.0",
+      "name" : "GroupConfirmationTypeVS",
+      "title" : "Confirmation Types (Group)",
+      "status" : "active",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
+      "contact" : [{
+        "name" : "Swiss TPH",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended.",
+      "expansion" : {
+        "identifier" : "urn:uuid:c55524fe-80df-4c23-9fee-8901c1dcb195",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type",
           "code" : "A",
           "display" : "Local council"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type",
           "code" : "B",
           "display" : "Municipality"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type",
           "code" : "C",
           "display" : "State"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type",
           "code" : "D",
           "display" : "Other"
         }]
@@ -69,36 +440,40 @@
     }
   },
   {
-    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-group-types",
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-types",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "group-types",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-group-types.html\">Group Types (Group) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-group-types.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-C\"> </a><a href=\"CodeSystem-group-types.html#group-types-C\">C</a></td><td>Council</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-G\"> </a><a href=\"CodeSystem-group-types.html#group-types-G\">G</a></td><td>Organization</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-H\"> </a><a href=\"CodeSystem-group-types.html#group-types-H\">H</a></td><td>Household</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-O\"> </a><a href=\"CodeSystem-group-types.html#group-types-O\">O</a></td><td>Other</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-P\"> </a><a href=\"CodeSystem-group-types.html#group-types-P\">P</a></td><td>Priests</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-S\"> </a><a href=\"CodeSystem-group-types.html#group-types-S\">S</a></td><td>Students</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-T\"> </a><a href=\"CodeSystem-group-types.html#group-types-T\">T</a></td><td>Teachers</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-group-types.html\">Group Types (Group) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-group-types.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-C\"> </a><a href=\"CodeSystem-group-types.html#group-types-C\">C</a></td><td>Council</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-G\"> </a><a href=\"CodeSystem-group-types.html#group-types-G\">G</a></td><td>Organization</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-H\"> </a><a href=\"CodeSystem-group-types.html#group-types-H\">H</a></td><td>Household</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-O\"> </a><a href=\"CodeSystem-group-types.html#group-types-O\">O</a></td><td>Other</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-P\"> </a><a href=\"CodeSystem-group-types.html#group-types-P\">P</a></td><td>Priests</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-S\"> </a><a href=\"CodeSystem-group-types.html#group-types-S\">S</a></td><td>Students</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-group-types-T\"> </a><a href=\"CodeSystem-group-types.html#group-types-T\">T</a></td><td>Teachers</td><td/></tr></table></div>"
       },
-      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-group-types",
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-types",
       "version" : "0.1.0",
       "name" : "GroupTypesVS",
       "title" : "Group Types (Group)",
       "status" : "active",
-      "date" : "2021-07-19T12:50:33+00:00",
-      "publisher" : "Swiss TPH - SCIH - openIMIS Group",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
       "contact" : [{
-        "name" : "Swiss TPH - SCIH - openIMIS Group",
+        "name" : "Swiss TPH",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.swisstph.ch/en/"
-        },
-        {
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
           "system" : "email",
-          "value" : "dragos.dobre@swisstph.ch"
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
         }]
       }],
       "description" : "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:29a3614d-ce85-436f-81a1-2dc98d2d199b",
-        "timestamp" : "2021-07-19T12:50:50+00:00",
+        "identifier" : "urn:uuid:09cc7d50-a9a6-430b-a24f-f8441b7c59d4",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -106,40 +481,40 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types|0.1.0"
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types|0.1.0"
         }],
         "contains" : [{
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types",
           "code" : "C",
           "display" : "Council"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types",
           "code" : "G",
           "display" : "Organization"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types",
           "code" : "H",
           "display" : "Household"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types",
           "code" : "O",
           "display" : "Other"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types",
           "code" : "P",
           "display" : "Priests"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types",
           "code" : "S",
           "display" : "Students"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types",
           "code" : "T",
           "display" : "Teachers"
         }]
@@ -147,36 +522,248 @@
     }
   },
   {
-    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-openimis-identifiers",
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/location-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "location-type",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 18 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li>http://terminology.hl7.org/CodeSystem/location-physical-type version 4.0.1</li><li><a href=\"CodeSystem-location-type.html\">Location Type (Location) v0.1.0 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-location-type-R\"> </a><a href=\"CodeSystem-location-type.html#location-type-R\">R</a></td><td>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type</td><td>Region</td><td>Regional location level</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-location-type-D\"> </a><a href=\"CodeSystem-location-type.html#location-type-D\">D</a></td><td>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type</td><td>District</td><td>District location level</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-location-type-W\"> </a><a href=\"CodeSystem-location-type.html#location-type-W\">W</a></td><td>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type</td><td>Municipality/Ward</td><td>Municipality/Ward location level</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-location-type-V\"> </a><a href=\"CodeSystem-location-type.html#location-type-V\">V</a></td><td>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type</td><td>City/Village</td><td>City/Village location level</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-si\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-si\">si</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Site</td><td>A collection of buildings or other locations such as a site or a campus.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-bu\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-bu\">bu</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Building</td><td>Any Building or structure. This may contain rooms, corridors, wings, etc. It might not have walls, or a roof, but is considered a defined/allocated space.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-wi\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-wi\">wi</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Wing</td><td>A Wing within a Building, this often contains levels, rooms and corridors.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-wa\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-wa\">wa</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Ward</td><td>A Ward is a section of a medical facility that may contain rooms and other types of location.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-lvl\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-lvl\">lvl</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Level</td><td>A Level in a multi-level Building/Structure.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-co\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-co\">co</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Corridor</td><td>Any corridor within a Building, that may connect rooms.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-ro\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-ro\">ro</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Room</td><td>A space that is allocated as a room, it may have walls/roof etc., but does not require these.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-bd\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-bd\">bd</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Bed</td><td>A space that is allocated for sleeping/laying on. This is not the physical bed/trolley that may be moved about, but the space it may occupy.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-ve\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-ve\">ve</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Vehicle</td><td>A means of transportation.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-ho\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-ho\">ho</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>House</td><td>A residential dwelling. Usually used to reference a location that a person/patient may reside.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-ca\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-ca\">ca</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Cabinet</td><td>A container that can store goods, equipment, medications or other items.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-rd\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-rd\">rd</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Road</td><td>A defined path to travel between 2 points that has a known name.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-area\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-area\">area</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Area</td><td>A defined physical boundary of something, such as a flood risk zone, region, postcode</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-location-physical-type-jdn\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-jdn\">jdn</a></td><td>http://terminology.hl7.org/CodeSystem/location-physical-type</td><td>Jurisdiction</td><td>A wide scope that covers a conceptual domain, such as a Nation (Country wide community or Federal Government - e.g. Ministry of Health),  Province or State (community or Government), Business (throughout the enterprise), Nation with a business scope of an agency (e.g. CDC, FDA etc.) or a Business segment (UK Pharmacy), not just an physical boundary</td></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/location-type",
+      "version" : "0.1.0",
+      "name" : "LocationTypeVS",
+      "title" : "Location Type (Location)",
+      "status" : "active",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:2415b8cc-b925-45ca-8a88-e8313006bc27",
+        "timestamp" : "2021-07-22T15:08:26.489Z",
+        "parameter" : [{
+          "name" : "expansion-source",
+          "valueString" : "ValueSet/location-type"
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type|0.1.0"
+        },
+        {
+          "name" : "expansion-source",
+          "valueString" : "ValueSet/location-physical-type"
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://terminology.hl7.org/CodeSystem/location-physical-type|4.0.1"
+        }],
+        "contains" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "Regional location level"
+          }],
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type",
+          "code" : "R",
+          "display" : "Region"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "District location level"
+          }],
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type",
+          "code" : "D",
+          "display" : "District"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "Municipality/Ward location level"
+          }],
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type",
+          "code" : "W",
+          "display" : "Municipality/Ward"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "City/Village location level"
+          }],
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type",
+          "code" : "V",
+          "display" : "City/Village"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A collection of buildings or other locations such as a site or a campus."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "si",
+          "display" : "Site"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "Any Building or structure. This may contain rooms, corridors, wings, etc. It might not have walls, or a roof, but is considered a defined/allocated space."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "bu",
+          "display" : "Building"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A Wing within a Building, this often contains levels, rooms and corridors."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "wi",
+          "display" : "Wing"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A Ward is a section of a medical facility that may contain rooms and other types of location."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "wa",
+          "display" : "Ward"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A Level in a multi-level Building/Structure."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "lvl",
+          "display" : "Level"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "Any corridor within a Building, that may connect rooms."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "co",
+          "display" : "Corridor"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A space that is allocated as a room, it may have walls/roof etc., but does not require these."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "ro",
+          "display" : "Room"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A space that is allocated for sleeping/laying on. This is not the physical bed/trolley that may be moved about, but the space it may occupy."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "bd",
+          "display" : "Bed"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A means of transportation."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "ve",
+          "display" : "Vehicle"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A residential dwelling. Usually used to reference a location that a person/patient may reside."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "ho",
+          "display" : "House"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A container that can store goods, equipment, medications or other items."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "ca",
+          "display" : "Cabinet"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A defined path to travel between 2 points that has a known name."
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "rd",
+          "display" : "Road"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A defined physical boundary of something, such as a flood risk zone, region, postcode"
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "area",
+          "display" : "Area"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+            "valueString" : "A wide scope that covers a conceptual domain, such as a Nation (Country wide community or Federal Government - e.g. Ministry of Health),  Province or State (community or Government), Business (throughout the enterprise), Nation with a business scope of an agency (e.g. CDC, FDA etc.) or a Business segment (UK Pharmacy), not just an physical boundary"
+          }],
+          "system" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code" : "jdn",
+          "display" : "Jurisdiction"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-identifiers",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "openimis-identifiers",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-openimis-identifiers.html\">openIMIS Identifiers code system v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-openimis-identifiers.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-UUID\"> </a><a href=\"CodeSystem-openimis-identifiers.html#openimis-identifiers-UUID\">UUID</a></td><td>UUID unique identifier</td><td>The UUID V4 unique identifier that is generated by the openIMIS Database</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-DBID\"> </a><a href=\"CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID\">DBID</a></td><td>DB unique identifier</td><td>The DB unique integer identifier managed by the openIMIS DB</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-Code\"> </a><a href=\"CodeSystem-openimis-identifiers.html#openimis-identifiers-Code\">Code</a></td><td>Unique code</td><td>An identifier issued by the implementer to identify an openIMIS entity</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-openimis-identifiers.html\">openIMIS Identifiers code system v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-openimis-identifiers.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-UUID\"> </a><a href=\"CodeSystem-openimis-identifiers.html#openimis-identifiers-UUID\">UUID</a></td><td>UUID unique identifier</td><td>The UUID V4 unique identifier that is generated by the openIMIS Database</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-DBID\"> </a><a href=\"CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID\">DBID</a></td><td>DB unique identifier</td><td>The DB unique integer identifier managed by the openIMIS DB</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-Code\"> </a><a href=\"CodeSystem-openimis-identifiers.html#openimis-identifiers-Code\">Code</a></td><td>Unique code</td><td>An identifier issued by the implementer to identify an openIMIS entity</td></tr></table></div>"
       },
-      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-openimis-identifiers",
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-identifiers",
       "version" : "0.1.0",
       "name" : "OpenIMISIdentifierVS",
       "title" : "openIMIS Identifiers Value Set",
       "status" : "active",
-      "date" : "2021-07-19T12:50:33+00:00",
-      "publisher" : "Swiss TPH - SCIH - openIMIS Group",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
       "contact" : [{
-        "name" : "Swiss TPH - SCIH - openIMIS Group",
+        "name" : "Swiss TPH",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.swisstph.ch/en/"
-        },
-        {
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
           "system" : "email",
-          "value" : "dragos.dobre@swisstph.ch"
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
         }]
       }],
       "description" : "Indicates the Identifier type",
       "expansion" : {
-        "identifier" : "urn:uuid:700184d6-149d-4fb1-8bcc-b147560e6a03",
-        "timestamp" : "2021-07-19T12:50:50+00:00",
+        "identifier" : "urn:uuid:3fd495fd-e8e7-48f3-b847-3fb182152a00",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -184,20 +771,20 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers|0.1.0"
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers|0.1.0"
         }],
         "contains" : [{
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
           "code" : "UUID",
           "display" : "UUID unique identifier"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
           "code" : "DBID",
           "display" : "DB unique identifier"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
           "code" : "Code",
           "display" : "Unique code"
         }]
@@ -205,36 +792,169 @@
     }
   },
   {
-    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-contact-relationship",
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-level",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "organization-hf-level",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-organization-hf-level.html\">Health Facility Level (Organization) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-organization-hf-level.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-hf-level-D\"> </a><a href=\"CodeSystem-organization-hf-level.html#organization-hf-level-D\">D</a></td><td>Dispensary</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-hf-level-C\"> </a><a href=\"CodeSystem-organization-hf-level.html#organization-hf-level-C\">C</a></td><td>Health Centre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-hf-level-H\"> </a><a href=\"CodeSystem-organization-hf-level.html#organization-hf-level-H\">H</a></td><td>Hospital</td><td/></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-level",
+      "version" : "0.1.0",
+      "name" : "OrganizationHFLevelVS",
+      "title" : "Health Facility Level (Organization)",
+      "status" : "active",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
+      "contact" : [{
+        "name" : "Swiss TPH",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended.",
+      "expansion" : {
+        "identifier" : "urn:uuid:c2d382bb-a3ec-437a-9c3c-137a270de4b9",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level",
+          "code" : "D",
+          "display" : "Dispensary"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level",
+          "code" : "C",
+          "display" : "Health Centre"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level",
+          "code" : "H",
+          "display" : "Hospital"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-legal-form",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "organization-legal-form",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-organization-legal-form.html\">Legal Forms (Organization) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-organization-legal-form.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-legal-form-C\"> </a><a href=\"CodeSystem-organization-legal-form.html#organization-legal-form-C\">C</a></td><td>Charity</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-legal-form-D\"> </a><a href=\"CodeSystem-organization-legal-form.html#organization-legal-form-D\">D</a></td><td>District organization</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-legal-form-G\"> </a><a href=\"CodeSystem-organization-legal-form.html#organization-legal-form-G\">G</a></td><td>Government</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-legal-form-P\"> </a><a href=\"CodeSystem-organization-legal-form.html#organization-legal-form-P\">P</a></td><td>Private organization</td><td/></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-legal-form",
+      "version" : "0.1.0",
+      "name" : "OrganizationLegalFormVS",
+      "title" : "Legal Forms (Organization)",
+      "status" : "active",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
+      "contact" : [{
+        "name" : "Swiss TPH",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended.",
+      "expansion" : {
+        "identifier" : "urn:uuid:c40b2a8e-6920-45f3-9fbe-0d2241f3c258",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form",
+          "code" : "C",
+          "display" : "Charity"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form",
+          "code" : "D",
+          "display" : "District organization"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form",
+          "code" : "G",
+          "display" : "Government"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form",
+          "code" : "P",
+          "display" : "Private organization"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "patient-contact-relationship",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-patient-contact-relationship.html\">Patient Contact Relationship code system v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-patient-contact-relationship.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-1\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-1\">1</a></td><td>Brother/Sister</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-2\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-2\">2</a></td><td>Father/Mother</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-3\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-3\">3</a></td><td>Uncle/Aunt</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-4\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-4\">4</a></td><td>Son/Daughter</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-5\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-5\">5</a></td><td>Grand parents</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-6\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-6\">6</a></td><td>Employee</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-7\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-7\">7</a></td><td>Others</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-8\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-8\">8</a></td><td>Spouse</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-patient-contact-relationship.html\">Patient Contact Relationship code system v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-patient-contact-relationship.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-1\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-1\">1</a></td><td>Brother/Sister</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-2\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-2\">2</a></td><td>Father/Mother</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-3\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-3\">3</a></td><td>Uncle/Aunt</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-4\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-4\">4</a></td><td>Son/Daughter</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-5\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-5\">5</a></td><td>Grand parents</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-6\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-6\">6</a></td><td>Employee</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-7\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-7\">7</a></td><td>Others</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-contact-relationship-8\"> </a><a href=\"CodeSystem-patient-contact-relationship.html#patient-contact-relationship-8\">8</a></td><td>Spouse</td><td/></tr></table></div>"
       },
-      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-contact-relationship",
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship",
       "version" : "0.1.0",
       "name" : "PatientContactRelationshipVS",
       "title" : "Contact Relationship (Patient)",
       "status" : "active",
-      "date" : "2021-07-19T12:50:33+00:00",
-      "publisher" : "Swiss TPH - SCIH - openIMIS Group",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
       "contact" : [{
-        "name" : "Swiss TPH - SCIH - openIMIS Group",
+        "name" : "Swiss TPH",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.swisstph.ch/en/"
-        },
-        {
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
           "system" : "email",
-          "value" : "dragos.dobre@swisstph.ch"
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
         }]
       }],
       "description" : "Indicates the Relationship of a Patient with the Head of the Family.",
       "expansion" : {
-        "identifier" : "urn:uuid:8ad4cf1d-51fe-4f8e-950d-67894710bba3",
-        "timestamp" : "2021-07-19T12:50:51+00:00",
+        "identifier" : "urn:uuid:480286e4-24d9-4ef0-ad58-aa27dbbca060",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -242,45 +962,45 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship|0.1.0"
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship|0.1.0"
         }],
         "contains" : [{
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship",
           "code" : "1",
           "display" : "Brother/Sister"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship",
           "code" : "2",
           "display" : "Father/Mother"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship",
           "code" : "3",
           "display" : "Uncle/Aunt"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship",
           "code" : "4",
           "display" : "Son/Daughter"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship",
           "code" : "5",
           "display" : "Grand parents"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship",
           "code" : "6",
           "display" : "Employee"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship",
           "code" : "7",
           "display" : "Others"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship",
           "code" : "8",
           "display" : "Spouse"
         }]
@@ -288,36 +1008,40 @@
     }
   },
   {
-    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-education-level",
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-education-level",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "patient-education-level",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-patient-education-level.html\">Patient Education Level Code System v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-patient-education-level.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-1\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-1\">1</a></td><td>Nursery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-2\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-2\">2</a></td><td>Primary school</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-3\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-3\">3</a></td><td>Secondary school</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-4\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-4\">4</a></td><td>University</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-5\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-5\">5</a></td><td>Postgraduate studies</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-6\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-6\">6</a></td><td>PHD</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-7\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-7\">7</a></td><td>Other</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-patient-education-level.html\">Patient Education Level Code System v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-patient-education-level.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-1\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-1\">1</a></td><td>Nursery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-2\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-2\">2</a></td><td>Primary school</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-3\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-3\">3</a></td><td>Secondary school</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-4\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-4\">4</a></td><td>University</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-5\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-5\">5</a></td><td>Postgraduate studies</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-6\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-6\">6</a></td><td>PHD</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-education-level-7\"> </a><a href=\"CodeSystem-patient-education-level.html#patient-education-level-7\">7</a></td><td>Other</td><td/></tr></table></div>"
       },
-      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-education-level",
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-education-level",
       "version" : "0.1.0",
       "name" : "PatientEducationLevelVS",
       "title" : "Education Level (Patient)",
       "status" : "active",
-      "date" : "2021-07-19T12:50:33+00:00",
-      "publisher" : "Swiss TPH - SCIH - openIMIS Group",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
       "contact" : [{
-        "name" : "Swiss TPH - SCIH - openIMIS Group",
+        "name" : "Swiss TPH",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.swisstph.ch/en/"
-        },
-        {
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
           "system" : "email",
-          "value" : "dragos.dobre@swisstph.ch"
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
         }]
       }],
       "description" : "Indicates the Education level of a Patient",
       "expansion" : {
-        "identifier" : "urn:uuid:9b8e9dcc-4857-40e4-9601-9443fe3bf1e6",
-        "timestamp" : "2021-07-19T12:50:51+00:00",
+        "identifier" : "urn:uuid:e69664dd-1e62-4331-8b1a-6e29e17f7094",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -325,40 +1049,40 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level|0.1.0"
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level|0.1.0"
         }],
         "contains" : [{
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level",
           "code" : "1",
           "display" : "Nursery"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level",
           "code" : "2",
           "display" : "Primary school"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level",
           "code" : "3",
           "display" : "Secondary school"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level",
           "code" : "4",
           "display" : "University"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level",
           "code" : "5",
           "display" : "Postgraduate studies"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level",
           "code" : "6",
           "display" : "PHD"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level",
           "code" : "7",
           "display" : "Other"
         }]
@@ -366,7 +1090,7 @@
     }
   },
   {
-    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-identification-types",
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-types",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "patient-identification-types",
@@ -374,28 +1098,32 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-patient-identification-types.html\">Identification Types (Patient) v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-patient-identification-types.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-identification-types-D\"> </a><a href=\"CodeSystem-patient-identification-types.html#patient-identification-types-D\">D</a></td><td>Driver's License</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-identification-types-N\"> </a><a href=\"CodeSystem-patient-identification-types.html#patient-identification-types-N\">N</a></td><td>National ID</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-identification-types-P\"> </a><a href=\"CodeSystem-patient-identification-types.html#patient-identification-types-P\">P</a></td><td>Passport</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-identification-types-V\"> </a><a href=\"CodeSystem-patient-identification-types.html#patient-identification-types-V\">V</a></td><td>Voter Card</td><td/></tr></table></div>"
       },
-      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-identification-types",
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-types",
       "version" : "0.1.0",
       "name" : "PatientIdentificationTypesVS",
       "title" : "Identification Types (Patient)",
       "status" : "active",
-      "date" : "2021-07-19T12:50:33+00:00",
-      "publisher" : "Swiss TPH - SCIH - openIMIS Group",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
       "contact" : [{
-        "name" : "Swiss TPH - SCIH - openIMIS Group",
+        "name" : "Swiss TPH",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.swisstph.ch/en/"
-        },
-        {
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
           "system" : "email",
-          "value" : "dragos.dobre@swisstph.ch"
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
         }]
       }],
       "description" : "Indicates the type of document the Patient used to identify himself.",
       "expansion" : {
-        "identifier" : "urn:uuid:a84bc620-06df-4820-bb82-274b0eab0cfc",
-        "timestamp" : "2021-07-19T12:50:51+00:00",
+        "identifier" : "urn:uuid:0c2584d5-6a0f-41a2-b6b2-14e791a0515d",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -429,7 +1157,7 @@
     }
   },
   {
-    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-marital-status",
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-marital-status",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "patient-marital-status",
@@ -437,28 +1165,32 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html\">MaritalStatus v2.0.0 (CodeSystem)</a></p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html\"><code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-M\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-M\">M</a></td><td>Married</td><td>A current marriage contract is active</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-S\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-S\">S</a></td><td>Single</td><td>No marriage contract has ever been entered</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-D\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-D\">D</a></td><td>Divorced</td><td>Marriage contract has been declared dissolved and inactive</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-W\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-W\">W</a></td><td>Widowed</td><td>The spouse has died</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-UNK\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-UNK\">UNK</a></td><td>unknown</td><td/></tr></table></div>"
       },
-      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-marital-status",
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-marital-status",
       "version" : "0.1.0",
       "name" : "PatientMaritalStatusVS",
       "title" : "Marital Status (Patient)",
       "status" : "active",
-      "date" : "2021-07-19T12:50:33+00:00",
-      "publisher" : "Swiss TPH - SCIH - openIMIS Group",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
       "contact" : [{
-        "name" : "Swiss TPH - SCIH - openIMIS Group",
+        "name" : "Swiss TPH",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.swisstph.ch/en/"
-        },
-        {
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
           "system" : "email",
-          "value" : "dragos.dobre@swisstph.ch"
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
         }]
       }],
       "description" : "Indicates the Marital status of a Patient",
       "expansion" : {
-        "identifier" : "urn:uuid:80928676-694a-4451-9ff6-4ee11ec1d23b",
-        "timestamp" : "2021-07-19T12:50:51+00:00",
+        "identifier" : "urn:uuid:fdc19fb3-78d3-481e-9d8f-9be5d0c4bad0",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -497,36 +1229,40 @@
     }
   },
   {
-    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-profession",
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "patient-profession",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-patient-profession.html\">Patient Profession Code System v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-patient-profession.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-1\"> </a><a href=\"CodeSystem-patient-profession.html#patient-profession-1\">1</a></td><td>Housewife</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-2\"> </a><a href=\"CodeSystem-patient-profession.html#patient-profession-2\">2</a></td><td>Employee</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-3\"> </a><a href=\"CodeSystem-patient-profession.html#patient-profession-3\">3</a></td><td>Self Employee</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-4\"> </a><a href=\"CodeSystem-patient-profession.html#patient-profession-4\">4</a></td><td>Other</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-patient-profession.html\">Patient Profession Code System v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-patient-profession.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-1\"> </a><a href=\"CodeSystem-patient-profession.html#patient-profession-1\">1</a></td><td>Housewife</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-2\"> </a><a href=\"CodeSystem-patient-profession.html#patient-profession-2\">2</a></td><td>Employee</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-3\"> </a><a href=\"CodeSystem-patient-profession.html#patient-profession-3\">3</a></td><td>Self Employee</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-patient-profession-4\"> </a><a href=\"CodeSystem-patient-profession.html#patient-profession-4\">4</a></td><td>Other</td><td/></tr></table></div>"
       },
-      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-profession",
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession",
       "version" : "0.1.0",
       "name" : "PatientProfessionVS",
       "title" : "Patient Profession Value Set",
       "status" : "active",
-      "date" : "2021-07-19T12:50:33+00:00",
-      "publisher" : "Swiss TPH - SCIH - openIMIS Group",
+      "date" : "2021-07-22T15:08:05+00:00",
+      "publisher" : "Swiss TPH",
       "contact" : [{
-        "name" : "Swiss TPH - SCIH - openIMIS Group",
+        "name" : "Swiss TPH",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.swisstph.ch/en/"
-        },
-        {
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
           "system" : "email",
-          "value" : "dragos.dobre@swisstph.ch"
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
         }]
       }],
       "description" : "Indicates the profession of a Patient",
       "expansion" : {
-        "identifier" : "urn:uuid:700b9200-7b7f-4ee8-bb40-4999312725cb",
-        "timestamp" : "2021-07-19T12:50:51+00:00",
+        "identifier" : "urn:uuid:a796b0aa-7a90-445c-9537-0f1b142fa58f",
+        "timestamp" : "2021-07-22T15:08:26+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -534,25 +1270,25 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession|0.1.0"
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession|0.1.0"
         }],
         "contains" : [{
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession",
           "code" : "1",
           "display" : "Housewife"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession",
           "code" : "2",
           "display" : "Employee"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession",
           "code" : "3",
           "display" : "Self Employee"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession",
           "code" : "4",
           "display" : "Other"
         }]

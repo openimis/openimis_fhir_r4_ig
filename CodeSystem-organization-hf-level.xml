@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="organization-hf-level"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">D<a name="organization-hf-level-D"> </a></td><td>Dispensary</td></tr><tr><td style="white-space:nowrap">C<a name="organization-hf-level-C"> </a></td><td>Health Centre</td></tr><tr><td style="white-space:nowrap">H<a name="organization-hf-level-H"> </a></td><td>Hospital</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level"/>
+  <version value="0.1.0"/>
+  <name value="OrganizationHFLevelCS"/>
+  <title value="Health Facility Level (Organization)"/>
+  <status value="active"/>
+  <date value="2021-07-22T15:08:05+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended."/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="D"/>
+    <display value="Dispensary"/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="Health Centre"/>
+  </concept>
+  <concept>
+    <code value="H"/>
+    <display value="Hospital"/>
+  </concept>
+</CodeSystem>

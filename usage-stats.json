@@ -4,21 +4,21 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference",
       "title": "Location Reference (Address)",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality",
       "title": "Municipality (Address)",
       "types": [
         "string"
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-address",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-address",
       "title": "Poverty Status (Group)",
       "types": [
         "Address",
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-confirmation",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-confirmation",
       "title": "Confirmation (Group)",
       "types": [
         "string",
@@ -99,14 +99,14 @@
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-poverty-status",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-poverty-status",
       "title": "Poverty Status (Group)",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-type",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-type",
       "title": "Group Type (Group)",
       "types": [
         "CodeableConcept",
@@ -114,14 +114,49 @@
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency",
+      "title": "Frequency (Medication)",
+      "types": [
+        "integer"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-unit-price",
+      "title": "Unit Price (Medication)",
+      "types": [
+        "Money",
+        "Money",
+        "string",
+        "Extension",
+        "decimal",
+        "code"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level",
+      "title": "Health Facility Level (Organization)",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form",
+      "title": "Legal Forms (Organization)",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-card-issued",
       "title": "Card Issued (Patient)",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-education-level",
       "title": "Education Level (Patient)",
       "types": [
         "CodeableConcept",
@@ -129,14 +164,14 @@
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-group-reference",
       "title": "Group Reference (Patient)",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-identification",
       "title": "Identification (Patient)",
       "types": [
         "string",
@@ -195,14 +230,14 @@
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-is-head",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-is-head",
       "title": "IsHead (Patient)",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-profession",
       "title": "Profession (Patient)",
       "types": [
         "CodeableConcept",
@@ -210,7 +245,7 @@
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-vulnerability-status",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-vulnerability-status",
       "title": "Vulnerability Status (Patient)",
       "types": [
         "boolean"
@@ -218,6 +253,12 @@
     }
   ],
   "profiles": {
+    "ActivityDefinition": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition",
+        "title": "openIMIS ActivityDefinition"
+      }
+    ],
     "Group": [
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group",
@@ -228,6 +269,18 @@
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization",
         "title": "openIMIS Health Facility Organization"
+      }
+    ],
+    "Location": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location",
+        "title": "openIMIS Location"
+      }
+    ],
+    "Medication": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-medication",
+        "title": "openIMIS Medication"
       }
     ],
     "Patient": [
@@ -269,6 +322,7 @@
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.differential.element.type",
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
@@ -280,46 +334,58 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference": [
       "Extension.value[x]",
       "Organization.address",
       "Patient.address"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality": [
       "Extension.value[x]",
       "Patient.address"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-address": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-address": [
       "Group"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-confirmation": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-confirmation": [
       "Group"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-poverty-status": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-poverty-status": [
       "Group"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-type": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-type": [
       "Group"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency": [
+      "Medication"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-unit-price": [
+      "Medication"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level": [
+      "Organization"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form": [
+      "Organization"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-card-issued": [
       "Patient"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-education-level": [
       "Patient"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-group-reference": [
       "Patient"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-identification": [
       "Patient"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-is-head": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-is-head": [
       "Patient"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-profession": [
       "Patient"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-vulnerability-status": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-vulnerability-status": [
       "Patient"
     ]
   }

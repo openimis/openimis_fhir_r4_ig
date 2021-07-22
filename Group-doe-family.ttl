@@ -17,32 +17,32 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Poverty Status (Group)</b>: </p><p><b>Poverty Status (Group)</b>: false</p><p><b>Group Type (Group)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types H}\">Household</span></p><blockquote><p><b>Confirmation (Group)</b></p><p><b>value</b>: Reg123456</p><p><b>value</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type B}\">Municipality</span></p></blockquote><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82</p><p><b>active</b>: true</p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>name</b>: Doe Jane</p><p><b>quantity</b>: 2</p><blockquote><p><b>member</b></p><p><b>entity</b>: <a href=\"Patient-john-doe.html\">Generated Summary: Unique code: 123456789; John Doe ; gender: male; birthDate: 1962-02-05; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p></blockquote><blockquote><p><b>member</b></p><p><b>entity</b>: <a href=\"Patient-jane-doe.html\">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Poverty Status (Group)</b>: </p><p><b>Poverty Status (Group)</b>: false</p><p><b>Group Type (Group)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types H}\">Household</span></p><blockquote><p><b>Confirmation (Group)</b></p><p><b>value</b>: Reg123456</p><p><b>value</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type B}\">Municipality</span></p></blockquote><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82</p><p><b>active</b>: true</p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>name</b>: Doe Jane</p><p><b>quantity</b>: 2</p><blockquote><p><b>member</b></p><p><b>entity</b>: <a href=\"Patient-john-doe.html\">Generated Summary: Unique code: 123456789; John Doe ; gender: male; birthDate: 1962-02-05; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p></blockquote><blockquote><p><b>member</b></p><p><b>entity</b>: <a href=\"Patient-jane-doe.html\">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p></blockquote></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-address" ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-address" ];
      fhir:Extension.valueAddress [
        fhir:Element.extension [
          fhir:index 0;
-         fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference" ];
+         fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference" ];
          fhir:Extension.valueReference [
-           fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Location/dace872d-7f56-4b79-b6ac-b62760063853>;
-           fhir:Reference.reference [ fhir:value "Location/dace872d-7f56-4b79-b6ac-b62760063853" ]
+           fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Location/Jamula-village>;
+           fhir:Reference.reference [ fhir:value "Location/Jamula-village" ]
          ]
        ]
      ]
   ], [
      fhir:index 1;
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-poverty-status" ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-poverty-status" ];
      fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
   ], [
      fhir:index 2;
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-type" ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-type" ];
      fhir:Extension.valueCodeableConcept [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types" ];
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types" ];
          fhir:Coding.code [ fhir:value "H" ];
          fhir:Coding.display [ fhir:value "Household" ]
        ]
@@ -59,20 +59,20 @@
        fhir:Extension.valueCodeableConcept [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type" ];
+           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type" ];
            fhir:Coding.code [ fhir:value "B" ];
            fhir:Coding.display [ fhir:value "Municipality" ]
          ]
        ]
      ];
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-confirmation" ]
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-confirmation" ]
   ];
   fhir:Group.identifier [
      fhir:index 0;
      fhir:Identifier.type [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers" ];
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers" ];
          fhir:Coding.code [ fhir:value "UUID" ]
        ]
      ];

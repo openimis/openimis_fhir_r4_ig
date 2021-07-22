@@ -10,16 +10,20 @@
   <name value="Example Capability Statement"/>
   <status value="draft"/>
   <date value="2020-05-07"/>
-  <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+  <publisher value="Swiss TPH"/>
   <contact>
-    <name value="Swiss TPH - SCIH - openIMIS Group"/>
+    <name value="Swiss TPH"/>
     <telecom>
       <system value="url"/>
       <value value="https://www.swisstph.ch/en/"/>
     </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
     <telecom>
       <system value="email"/>
       <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <kind value="requirements"/>

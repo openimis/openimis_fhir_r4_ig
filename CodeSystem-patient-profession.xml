@@ -3,24 +3,28 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="patient-profession"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="patient-profession-1"> </a></td><td>Housewife</td></tr><tr><td style="white-space:nowrap">2<a name="patient-profession-2"> </a></td><td>Employee</td></tr><tr><td style="white-space:nowrap">3<a name="patient-profession-3"> </a></td><td>Self Employee</td></tr><tr><td style="white-space:nowrap">4<a name="patient-profession-4"> </a></td><td>Other</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="patient-profession-1"> </a></td><td>Housewife</td></tr><tr><td style="white-space:nowrap">2<a name="patient-profession-2"> </a></td><td>Employee</td></tr><tr><td style="white-space:nowrap">3<a name="patient-profession-3"> </a></td><td>Self Employee</td></tr><tr><td style="white-space:nowrap">4<a name="patient-profession-4"> </a></td><td>Other</td></tr></table></div>
   </text>
-  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession"/>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession"/>
   <version value="0.1.0"/>
   <name value="PatientProfessionCS"/>
   <title value="Patient Profession Code System"/>
   <status value="active"/>
-  <date value="2021-07-19T12:50:33+00:00"/>
-  <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+  <date value="2021-07-22T15:08:05+00:00"/>
+  <publisher value="Swiss TPH"/>
   <contact>
-    <name value="Swiss TPH - SCIH - openIMIS Group"/>
+    <name value="Swiss TPH"/>
     <telecom>
       <system value="url"/>
       <value value="https://www.swisstph.ch/en/"/>
     </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
     <telecom>
       <system value="email"/>
       <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <description value="Indicates the profession of a Patient. Values defined by openIMIS. Can be extended."/>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="Jamu-municipality"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: R1D1M2</p><p><b>name</b>: Jamu</p><p><b>physicalType</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type W}">Municipality/Ward</span></p><p><b>partOf</b>: <a href="Location-Jimara-district.html">Generated Summary: Unique code: R1D1; name: Jimara; <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type D}">District</span></a></p></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="Code"/>
+      </coding>
+    </type>
+    <value value="R1D1M2"/>
+  </identifier>
+  <name value="Jamu"/>
+  <physicalType>
+    <coding>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type"/>
+      <code value="W"/>
+      <display value="Municipality/Ward"/>
+    </coding>
+  </physicalType>
+  <partOf>
+    <reference value="Location/Jimara-district"/>
+  </partOf>
+</Location>

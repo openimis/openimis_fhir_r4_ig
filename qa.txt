@@ -1,130 +1,163 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 33, warn = 5, info = 0
-IG Publisher Version: 1.1.76
-Generated Mon Jul 19 12:51:01 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+err = 9, warn = 10, info = 0
+IG Publisher Version: 1.1.77
+Generated Thu Jul 22 15:08:44 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
 
  Build Errors : 5 / 1 / 0
+ /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 3 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-group-confirmation-type : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-group-types : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-openimis-identifiers : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-patient-contact-relationship : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-patient-education-level : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-service-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-usage-context-age-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-group-confirmation-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-group-types : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-location-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-openimis-identifiers : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-organization-hf-level : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-organization-legal-form : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-patient-contact-relationship : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-patient-education-level : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-patient-identification-types : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-patient-profession : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-patient-profession : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Group-doe-family : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/Location-5345EF14-12AB-4E98-A07C-1E08D7105DF4 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Location-dace872d-7f56-4b79-b6ac-b62760063853 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Organization-RaptaDistrictHospital : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Patient-jane-doe : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/Patient-john-doe : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-address-location-reference : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-address-municipality : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-group-address : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-group-confirmation : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-group-poverty-status : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-group-type : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/Location-Jamu-municipality : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Location-Jamula-village : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/Location-Jimara-district : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Location-Upper-River-Region : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Medication-AspirinMedication : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-RaptaDistrictHospital : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-jane-doe : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-john-doe : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-address-location-reference : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-address-municipality : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-group-address : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-group-confirmation : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-group-poverty-status : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-group-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-medication-frequency : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-medication-unit-price : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-activitiy-definition : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-health-facility-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-location : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-medication : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-patient-card-issued : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-patient-education-level : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-patient-group-reference : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-patient-identification : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-patient-is-head : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-patient-profession : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-patient-vulnerability-status : 1 / 1 / 1
- /github/workspace/fsh-generated/resources/ValueSet-group-confirmation-type : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-group-types : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-patient-contact-relationship : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-patient-education-level : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-patient-identification-types : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-patient-marital-status : 1 / 1 / 1
- /github/workspace/fsh-generated/resources/ValueSet-patient-profession : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-organization-hf-level : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-organization-legal-form : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-card-issued : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-education-level : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-group-reference : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-identification : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-is-head : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-profession : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-vulnerability-status : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-activity-definition-service-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-age-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-gender-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-venue-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-workflow-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-group-confirmation-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-group-types : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-location-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-organization-hf-level : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-organization-legal-form : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-patient-contact-relationship : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-patient-education-level : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-patient-identification-types : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-patient-marital-status : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-patient-profession : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CapabilityStatement/ExampleCapabilityStatement.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 319, column 711: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:municipality' for "StructureDefinition-address-municipality" cannot be resolved (valid targets: 60 targets)
-ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 320, column 717: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:location' for "StructureDefinition-address-location-reference" cannot be resolved (valid targets: 60 targets)
-ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 451, column 711: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:municipality' for "StructureDefinition-address-municipality" cannot be resolved (valid targets: 60 targets)
-ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 452, column 717: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:location' for "StructureDefinition-address-location-reference" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 319, column 711: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:municipality' for "address-municipality" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 320, column 717: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:location' for "address-location-reference" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 451, column 711: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:municipality' for "address-municipality" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 452, column 717: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:location' for "address-location-reference" cannot be resolved (valid targets: 60 targets)
 ERROR: /github/workspace/output/connected_partner.html#/html/body/div/div/div/div/div/div/figure/img at Line 219, column 4: The image source 'vendor-integration-process.png' cannot be resolved
+== /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService.json ==
+WARNING: ActivityDefinition/GeneralConsultationService: ActivityDefinition.useContext[2].code: Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
+ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: ActivityDefinition.version: max allowed = 0, but found 1 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition)
+ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: ActivityDefinition.publisher: max allowed = 0, but found 1 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition)
+ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: ActivityDefinition.contact: max allowed = 0, but found 2 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition)
 == /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement.json ==
 WARNING: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement: cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement: cpb-2: 'A Capability Statement SHALL have at least one of description, software, or implementation element.' Rule 'A Capability Statement SHALL have at least one of description, software, or implementation element.' Failed
 ERROR: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement.rest[0].resource[1].searchParam[4].definition: Canonical URL 'http://hl7.org/fhir/us/saner/SearchParameter/SearchParameter-code' does not resolve
+== /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-service-type.json ==
+== /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-usage-context-age-type.json ==
+== /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type.json ==
 == /github/workspace/fsh-generated/resources/CodeSystem-group-confirmation-type.json ==
-ERROR: CodeSystem.url: Resource id/url mismatch: group-confirmation-type/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-confirmation-type
 == /github/workspace/fsh-generated/resources/CodeSystem-group-types.json ==
-ERROR: CodeSystem.url: Resource id/url mismatch: group-types/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types
+== /github/workspace/fsh-generated/resources/CodeSystem-location-type.json ==
 == /github/workspace/fsh-generated/resources/CodeSystem-openimis-identifiers.json ==
-ERROR: CodeSystem.url: Resource id/url mismatch: openimis-identifiers/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers
+== /github/workspace/fsh-generated/resources/CodeSystem-organization-hf-level.json ==
+== /github/workspace/fsh-generated/resources/CodeSystem-organization-legal-form.json ==
 == /github/workspace/fsh-generated/resources/CodeSystem-patient-contact-relationship.json ==
-ERROR: CodeSystem.url: Resource id/url mismatch: patient-contact-relationship/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship
 == /github/workspace/fsh-generated/resources/CodeSystem-patient-education-level.json ==
-ERROR: CodeSystem.url: Resource id/url mismatch: patient-education-level/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level
 == /github/workspace/fsh-generated/resources/CodeSystem-patient-identification-types.json ==
 ERROR: CodeSystem.url: Resource id/url mismatch: patient-identification-types/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types
 == /github/workspace/fsh-generated/resources/CodeSystem-patient-profession.json ==
-ERROR: CodeSystem.url: Resource id/url mismatch: patient-profession/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession
 == /github/workspace/fsh-generated/resources/Group-doe-family.json ==
 == /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== /github/workspace/fsh-generated/resources/Location-5345EF14-12AB-4E98-A07C-1E08D7105DF4.json ==
-== /github/workspace/fsh-generated/resources/Location-dace872d-7f56-4b79-b6ac-b62760063853.json ==
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[15].description: value should not start or finish with whitespace
+== /github/workspace/fsh-generated/resources/Location-Jamu-municipality.json ==
+== /github/workspace/fsh-generated/resources/Location-Jamula-village.json ==
+WARNING: Location/Jamula-village: Location.physicalType: Display Name for https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type#V should be one of 'City/Village, City/Village' instead of 'Village'
+== /github/workspace/fsh-generated/resources/Location-Jimara-district.json ==
+== /github/workspace/fsh-generated/resources/Location-Upper-River-Region.json ==
+== /github/workspace/fsh-generated/resources/Medication-AspirinMedication.json ==
+ERROR: Medication/AspirinMedication: Medication.amount: rat-1: 'Numerator and denominator SHALL both be present, or both are absent. If both are absent, there SHALL be some extension present' Rule 'Numerator and denominator SHALL both be present, or both are absent. If both are absent, there SHALL be some extension present' Failed
 == /github/workspace/fsh-generated/resources/Organization-RaptaDistrictHospital.json ==
+ERROR: Organization/RaptaDistrictHospital: Organization: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])
 == /github/workspace/fsh-generated/resources/Patient-jane-doe.json ==
-ERROR: Patient/jane-doe: Patient.extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level#University in https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level for 'https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level#University'
 == /github/workspace/fsh-generated/resources/Patient-john-doe.json ==
-ERROR: Patient/john-doe: Patient.extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level#University in https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level for 'https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level#University'
 == /github/workspace/fsh-generated/resources/StructureDefinition-address-location-reference.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: address-location-reference/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference
 == /github/workspace/fsh-generated/resources/StructureDefinition-address-municipality.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: address-municipality/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality
 == /github/workspace/fsh-generated/resources/StructureDefinition-group-address.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: group-address/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-address
 == /github/workspace/fsh-generated/resources/StructureDefinition-group-confirmation.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: group-confirmation/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-confirmation
 == /github/workspace/fsh-generated/resources/StructureDefinition-group-poverty-status.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: group-poverty-status/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-poverty-status
 == /github/workspace/fsh-generated/resources/StructureDefinition-group-type.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: group-type/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-group-type
+== /github/workspace/fsh-generated/resources/StructureDefinition-medication-frequency.json ==
+== /github/workspace/fsh-generated/resources/StructureDefinition-medication-unit-price.json ==
+== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-activitiy-definition.json ==
+WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.snapshot.element[119].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
+WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.differential.element[30].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-health-facility-organization.json ==
+== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-location.json ==
+== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-medication.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient.json ==
+== /github/workspace/fsh-generated/resources/StructureDefinition-organization-hf-level.json ==
+WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level'): The Implementation Guide contains no examples for this extension
+== /github/workspace/fsh-generated/resources/StructureDefinition-organization-legal-form.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-patient-card-issued.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: patient-card-issued/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued
 == /github/workspace/fsh-generated/resources/StructureDefinition-patient-education-level.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: patient-education-level/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level
 == /github/workspace/fsh-generated/resources/StructureDefinition-patient-group-reference.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: patient-group-reference/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference
 == /github/workspace/fsh-generated/resources/StructureDefinition-patient-identification.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: patient-identification/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification
 == /github/workspace/fsh-generated/resources/StructureDefinition-patient-is-head.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: patient-is-head/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-is-head
 == /github/workspace/fsh-generated/resources/StructureDefinition-patient-profession.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: patient-profession/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession
 == /github/workspace/fsh-generated/resources/StructureDefinition-patient-vulnerability-status.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: patient-vulnerability-status/https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-vulnerability-status
-WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-vulnerability-status'): The Implementation Guide contains no examples for this extension
+== /github/workspace/fsh-generated/resources/ValueSet-activity-definition-service-type.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-age-type.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-gender-type.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-type.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-venue-type.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-workflow-type.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-group-confirmation-type.json ==
-ERROR: ValueSet.url: Resource id/url mismatch: group-confirmation-type/https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-confirmation-type
 == /github/workspace/fsh-generated/resources/ValueSet-group-types.json ==
-ERROR: ValueSet.url: Resource id/url mismatch: group-types/https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-group-types
+== /github/workspace/fsh-generated/resources/ValueSet-location-type.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers.json ==
-ERROR: ValueSet.url: Resource id/url mismatch: openimis-identifiers/https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-openimis-identifiers
+== /github/workspace/fsh-generated/resources/ValueSet-organization-hf-level.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-organization-legal-form.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-patient-contact-relationship.json ==
-ERROR: ValueSet.url: Resource id/url mismatch: patient-contact-relationship/https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-contact-relationship
 == /github/workspace/fsh-generated/resources/ValueSet-patient-education-level.json ==
-ERROR: ValueSet.url: Resource id/url mismatch: patient-education-level/https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-education-level
 == /github/workspace/fsh-generated/resources/ValueSet-patient-identification-types.json ==
-ERROR: ValueSet.url: Resource id/url mismatch: patient-identification-types/https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-identification-types
 == /github/workspace/fsh-generated/resources/ValueSet-patient-marital-status.json ==
-ERROR: ValueSet.url: Resource id/url mismatch: patient-marital-status/https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-marital-status
 WARNING: ValueSet/patient-marital-status: ValueSet.compose[0].include[0].concept[4]: The code UNK is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
 == /github/workspace/fsh-generated/resources/ValueSet-patient-profession.json ==
-ERROR: ValueSet.url: Resource id/url mismatch: patient-profession/https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-profession

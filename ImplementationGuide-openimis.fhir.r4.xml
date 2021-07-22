@@ -11,17 +11,21 @@
   <name value="openIMISFHIRR4"/>
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-07-19T12:50:33+00:00"/>
-  <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+  <date value="2021-07-22T15:08:05+00:00"/>
+  <publisher value="Swiss TPH"/>
   <contact>
-    <name value="Swiss TPH - SCIH - openIMIS Group"/>
+    <name value="Swiss TPH"/>
     <telecom>
       <system value="url"/>
       <value value="https://www.swisstph.ch/en/"/>
     </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
     <telecom>
       <system value="email"/>
       <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <description value="This IG is about the mapping and usage of FHIR R4 to integrate openIMIS with other external systems."/>
@@ -186,6 +190,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/openimis-activitiy-definition"/>
+      </reference>
+      <name value="openIMIS ActivityDefinition"/>
+      <description value="Defines a ActivityDefinition for openIMIS which maps to a Medical Service."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/openimis-group"/>
       </reference>
       <name value="openIMIS Group"/>
@@ -208,6 +223,28 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/openimis-location"/>
+      </reference>
+      <name value="openIMIS Location"/>
+      <description value="Defines a Location for openIMIS which maps to a Location"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/openimis-medication"/>
+      </reference>
+      <name value="openIMIS Medication"/>
+      <description value="Defines a Medication for openIMIS which maps to a Medical Item."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/openimis-patient"/>
       </reference>
       <name value="openIMIS Patient"/>
@@ -222,7 +259,7 @@
         <reference value="StructureDefinition/address-location-reference"/>
       </reference>
       <name value="Location Reference (Address)"/>
-      <description value="The reference to adress location for City/Village level"/>
+      <description value="The reference to address&#39; location for City/Village level."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -233,7 +270,7 @@
         <reference value="StructureDefinition/address-municipality"/>
       </reference>
       <name value="Municipality (Address)"/>
-      <description value="The location level between District and City/Village"/>
+      <description value="The location level between District and City/Village."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -278,6 +315,50 @@
       </reference>
       <name value="Group Type (Group)"/>
       <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/medication-frequency"/>
+      </reference>
+      <name value="Frequency (Medication)"/>
+      <description value="The frequency a Medication can be prescribed."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/medication-unit-price"/>
+      </reference>
+      <name value="Unit Price (Medication)"/>
+      <description value="The unit price for a Medication."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/organization-hf-level"/>
+      </reference>
+      <name value="Health Facility Level (Organization)"/>
+      <description value="Indicates the level of the Health Facility (Organization)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/organization-legal-form"/>
+      </reference>
+      <name value="Legal Forms (Organization)"/>
+      <description value="Indicates the legal forms of the Organization. "/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -362,6 +443,72 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/activity-definition-service-type"/>
+      </reference>
+      <name value="Service Type (ActivityDefinition)"/>
+      <description value="Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/activity-definition-usage-context-age-type"/>
+      </reference>
+      <name value="Usage Context for Age Type (ActivityDefinition)"/>
+      <description value="Indicates the Usage Context for Age Type for an ActivityDefinition."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/activity-definition-usage-context-gender-type"/>
+      </reference>
+      <name value="Usage Context for Gender Type (ActivityDefinition)"/>
+      <description value="Indicates the Usage Context for Gender Type for an ActivityDefinition."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/activity-definition-usage-context-type"/>
+      </reference>
+      <name value="Usage Context Type (ActivityDefinition)"/>
+      <description value="Indicates the Usage Context Type for an ActivityDefinition."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/activity-definition-usage-context-venue-type"/>
+      </reference>
+      <name value="Usage Context for Venue Type (ActivityDefinition)"/>
+      <description value="Indicates the Usage Context for Venue Type for an ActivityDefinition."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/activity-definition-usage-context-workflow-type"/>
+      </reference>
+      <name value="Usage Context for Workflow Type (ActivityDefinition)"/>
+      <description value="Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/group-confirmation-type"/>
       </reference>
       <name value="Confirmation Types (Group)"/>
@@ -384,10 +531,43 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/location-type"/>
+      </reference>
+      <name value="Location Type (Location)"/>
+      <description value="Indicates the location type. Values defined by openIMIS. Cannot be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/openimis-identifiers"/>
       </reference>
       <name value="openIMIS Identifiers Value Set"/>
       <description value="Indicates the Identifier type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/organization-hf-level"/>
+      </reference>
+      <name value="Health Facility Level (Organization)"/>
+      <description value="Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/organization-legal-form"/>
+      </reference>
+      <name value="Legal Forms (Organization)"/>
+      <description value="Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -450,6 +630,39 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/activity-definition-service-type"/>
+      </reference>
+      <name value="Service Type (ActivityDefinition)"/>
+      <description value="Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/activity-definition-usage-context-age-type"/>
+      </reference>
+      <name value="Usage Context for Age Type (ActivityDefinition)"/>
+      <description value="Indicates the Usage Context for Gender Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/activity-definition-usage-context-workflow-type"/>
+      </reference>
+      <name value="Usage Context for Workflow Type (ActivityDefinition)"/>
+      <description value="Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/group-confirmation-type"/>
       </reference>
       <name value="Confirmation Types (Group)"/>
@@ -472,10 +685,43 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/location-type"/>
+      </reference>
+      <name value="Location Type (Location)"/>
+      <description value="Indicates the location type. Values defined by openIMIS. Cannot be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/openimis-identifiers"/>
       </reference>
       <name value="openIMIS Identifiers code system"/>
       <description value="Identifiers that are specific to openIMIS and could not be found in standard sources"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/organization-hf-level"/>
+      </reference>
+      <name value="Health Facility Level (Organization)"/>
+      <description value="Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/organization-legal-form"/>
+      </reference>
+      <name value="Legal Forms (Organization)"/>
+      <description value="Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -524,14 +770,14 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
+        <valueString value="Medication"/>
       </extension>
       <reference>
-        <reference value="Location/5345EF14-12AB-4E98-A07C-1E08D7105DF4"/>
+        <reference value="Medication/AspirinMedication"/>
       </reference>
-      <name value="Rapta-district"/>
-      <description value="Example of a District"/>
-      <exampleBoolean value="true"/>
+      <name value="AspirinMedication"/>
+      <description value="Example of openIMIS Medication"/>
+      <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-medication"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -542,6 +788,50 @@
       </reference>
       <name value="Create a Capability Statement using RuleSets"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/GeneralConsultationService"/>
+      </reference>
+      <name value="GeneralConsultationService"/>
+      <description value="Example of openIMIS ActivityDefinition"/>
+      <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/Jamu-municipality"/>
+      </reference>
+      <name value="Jamu-municipality"/>
+      <description value="Example of a municipality"/>
+      <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/Jamula-village"/>
+      </reference>
+      <name value="Jamula-village"/>
+      <description value="Example of a Village"/>
+      <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/Jimara-district"/>
+      </reference>
+      <name value="Jimara-district"/>
+      <description value="Example of a district"/>
+      <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -559,11 +849,11 @@
         <valueString value="Location"/>
       </extension>
       <reference>
-        <reference value="Location/dace872d-7f56-4b79-b6ac-b62760063853"/>
+        <reference value="Location/Upper-River-Region"/>
       </reference>
-      <name value="Jamula-village"/>
-      <description value="Example of a Village"/>
-      <exampleBoolean value="true"/>
+      <name value="Upper-River-Region"/>
+      <description value="Example of a Region"/>
+      <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

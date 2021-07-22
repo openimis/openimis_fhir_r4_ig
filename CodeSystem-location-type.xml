@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="location-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">R<a name="location-type-R"> </a></td><td>Region</td><td>Regional location level</td></tr><tr><td style="white-space:nowrap">D<a name="location-type-D"> </a></td><td>District</td><td>District location level</td></tr><tr><td style="white-space:nowrap">W<a name="location-type-W"> </a></td><td>Municipality/Ward</td><td>Municipality/Ward location level</td></tr><tr><td style="white-space:nowrap">V<a name="location-type-V"> </a></td><td>City/Village</td><td>City/Village location level</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type"/>
+  <version value="0.1.0"/>
+  <name value="LocationTypeCS"/>
+  <title value="Location Type (Location)"/>
+  <status value="active"/>
+  <date value="2021-07-22T15:08:05+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the location type. Values defined by openIMIS. Cannot be extended."/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="R"/>
+    <display value="Region"/>
+    <definition value="Regional location level"/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="District"/>
+    <definition value="District location level"/>
+  </concept>
+  <concept>
+    <code value="W"/>
+    <display value="Municipality/Ward"/>
+    <definition value="Municipality/Ward location level"/>
+  </concept>
+  <concept>
+    <code value="V"/>
+    <display value="City/Village"/>
+    <definition value="City/Village location level"/>
+  </concept>
+</CodeSystem>

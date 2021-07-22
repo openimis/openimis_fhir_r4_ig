@@ -6,12 +6,21 @@
     <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: RAHOS001, UUID unique identifier: D8A25F21-F36A-4D4D-9E58-1DB8FFBE7036</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}">Healthcare Provider</span></p><p><b>name</b>: Rapta District Hospital</p><p><b>address</b>: Ultha </p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Legal Forms (Organization)</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form D}">District organization</span></p><p><b>identifier</b>: Unique code: RAHOS001, UUID unique identifier: D8A25F21-F36A-4D4D-9E58-1DB8FFBE7036</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}">Healthcare Provider</span></p><p><b>name</b>: Rapta District Hospital</p><p><b>address</b>: Ultha </p></div>
   </text>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form"/>
+        <code value="D"/>
+        <display value="District organization"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
   <identifier>
     <type>
       <coding>
-        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers"/>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
         <code value="Code"/>
       </coding>
     </type>
@@ -20,7 +29,7 @@
   <identifier>
     <type>
       <coding>
-        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers"/>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
         <code value="UUID"/>
       </coding>
     </type>
@@ -34,9 +43,9 @@
   </type>
   <name value="Rapta District Hospital"/>
   <address>
-    <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference">
+    <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference">
       <valueReference>
-        <reference value="Location/5345EF14-12AB-4E98-A07C-1E08D7105DF4"/>
+        <reference value="Location/Jimara-district"/>
       </valueReference>
     </extension>
     <type value="physical"/>

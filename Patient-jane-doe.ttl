@@ -17,30 +17,30 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>IsHead (Patient)</b>: true</p><p><b>Education Level (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level University}\">University</span></p><p><b>Profession (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession 3}\">Self Employee</span></p><blockquote><p><b>Identification (Patient)</b></p><p><b>value</b>: NationaID2</p><p><b>value</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types N}\">National ID</span></p></blockquote><p><b>Card Issued (Patient)</b>: true</p><p><b>Group Reference (Patient)</b>: <a href=\"Group-doe-family.html\">Generated Summary: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82; active; type: person; actual; name: Doe Jane; 2</a></p><p><b>identifier</b>: Unique code: 123456788</p><p><b>name</b>: Jane Doe </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1964-05-15</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>IsHead (Patient)</b>: true</p><p><b>Education Level (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level 4}\">University</span></p><p><b>Profession (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession 3}\">Self Employee</span></p><blockquote><p><b>Identification (Patient)</b></p><p><b>value</b>: NationaID2</p><p><b>value</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types N}\">National ID</span></p></blockquote><p><b>Card Issued (Patient)</b>: true</p><p><b>Group Reference (Patient)</b>: <a href=\"Group-doe-family.html\">Generated Summary: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82; active; type: person; actual; name: Doe Jane; 2</a></p><p><b>identifier</b>: Unique code: 123456788</p><p><b>name</b>: Jane Doe </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1964-05-15</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-is-head" ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-is-head" ];
      fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
   ], [
      fhir:index 1;
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level" ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-education-level" ];
      fhir:Extension.valueCodeableConcept [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level" ];
-         fhir:Coding.code [ fhir:value "University" ];
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level" ];
+         fhir:Coding.code [ fhir:value "4" ];
          fhir:Coding.display [ fhir:value "University" ]
        ]
      ]
   ], [
      fhir:index 2;
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession" ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-profession" ];
      fhir:Extension.valueCodeableConcept [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession" ];
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession" ];
          fhir:Coding.code [ fhir:value "3" ];
          fhir:Coding.display [ fhir:value "Self Employee" ]
        ]
@@ -63,14 +63,14 @@
          ]
        ]
      ];
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification" ]
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-identification" ]
   ], [
      fhir:index 4;
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued" ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-card-issued" ];
      fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
   ], [
      fhir:index 5;
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference" ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-group-reference" ];
      fhir:Extension.valueReference [
        fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Group/doe-family>;
        fhir:Reference.reference [ fhir:value "Group/doe-family" ]
@@ -81,7 +81,7 @@
      fhir:Identifier.type [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers" ];
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers" ];
          fhir:Coding.code [ fhir:value "Code" ]
        ]
      ];
@@ -101,14 +101,14 @@
      fhir:index 0;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality" ];
+       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality" ];
        fhir:Extension.valueString [ fhir:value "Jamu" ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference" ];
+       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference" ];
        fhir:Extension.valueReference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Location/dace872d-7f56-4b79-b6ac-b62760063853>;
-         fhir:Reference.reference [ fhir:value "Location/dace872d-7f56-4b79-b6ac-b62760063853" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Location/Jamula-village>;
+         fhir:Reference.reference [ fhir:value "Location/Jamula-village" ]
        ]
      ];
      fhir:Address.use [ fhir:value "home" ];

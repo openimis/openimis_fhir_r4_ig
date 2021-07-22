@@ -8,31 +8,31 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>IsHead (Patient)</b>: true</p><p><b>Education Level (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level University}\">University</span></p><p><b>Profession (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession 3}\">Self Employee</span></p><blockquote><p><b>Identification (Patient)</b></p><p><b>value</b>: NationaID2</p><p><b>value</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types N}\">National ID</span></p></blockquote><p><b>Card Issued (Patient)</b>: true</p><p><b>Group Reference (Patient)</b>: <a href=\"Group-doe-family.html\">Generated Summary: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82; active; type: person; actual; name: Doe Jane; 2</a></p><p><b>identifier</b>: Unique code: 123456788</p><p><b>name</b>: Jane Doe </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1964-05-15</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>IsHead (Patient)</b>: true</p><p><b>Education Level (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level 4}\">University</span></p><p><b>Profession (Patient)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession 3}\">Self Employee</span></p><blockquote><p><b>Identification (Patient)</b></p><p><b>value</b>: NationaID2</p><p><b>value</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types N}\">National ID</span></p></blockquote><p><b>Card Issued (Patient)</b>: true</p><p><b>Group Reference (Patient)</b>: <a href=\"Group-doe-family.html\">Generated Summary: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82; active; type: person; actual; name: Doe Jane; 2</a></p><p><b>identifier</b>: Unique code: 123456788</p><p><b>name</b>: Jane Doe </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1964-05-15</p><p><b>address</b>: 5 Tsoka Jamula Ultha (HOME)</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></p></div>"
   },
   "extension": [
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-is-head",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-is-head",
       "valueBoolean": true
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-education-level",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-education-level",
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-education-level",
-            "code": "University",
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level",
+            "code": "4",
             "display": "University"
           }
         ]
       }
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-profession",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-profession",
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession",
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession",
             "code": "3",
             "display": "Self Employee"
           }
@@ -58,14 +58,14 @@
           }
         }
       ],
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-identification"
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-identification"
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-card-issued",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-card-issued",
       "valueBoolean": true
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-patient-group-reference",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-group-reference",
       "valueReference": {
         "reference": "Group/doe-family"
       }
@@ -76,7 +76,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers",
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
             "code": "Code"
           }
         ]
@@ -98,13 +98,13 @@
     {
       "extension": [
         {
-          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-municipality",
+          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality",
           "valueString": "Jamu"
         },
         {
-          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference",
+          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference",
           "valueReference": {
-            "reference": "Location/dace872d-7f56-4b79-b6ac-b62760063853"
+            "reference": "Location/Jamula-village"
           }
         }
       ],

@@ -7,15 +7,29 @@
     ]
   },
   "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: RAHOS001, UUID unique identifier: D8A25F21-F36A-4D4D-9E58-1DB8FFBE7036</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}\">Healthcare Provider</span></p><p><b>name</b>: Rapta District Hospital</p><p><b>address</b>: Ultha </p></div>"
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Legal Forms (Organization)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form D}\">District organization</span></p><p><b>identifier</b>: Unique code: RAHOS001, UUID unique identifier: D8A25F21-F36A-4D4D-9E58-1DB8FFBE7036</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}\">Healthcare Provider</span></p><p><b>name</b>: Rapta District Hospital</p><p><b>address</b>: Ultha </p></div>"
   },
+  "extension": [
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form",
+            "code": "D",
+            "display": "District organization"
+          }
+        ]
+      }
+    }
+  ],
   "identifier": [
     {
       "type": {
         "coding": [
           {
-            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers",
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
             "code": "Code"
           }
         ]
@@ -26,7 +40,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-openimis-identifiers",
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
             "code": "UUID"
           }
         ]
@@ -49,9 +63,9 @@
     {
       "extension": [
         {
-          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-address-location-reference",
+          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference",
           "valueReference": {
-            "reference": "Location/5345EF14-12AB-4E98-A07C-1E08D7105DF4"
+            "reference": "Location/Jimara-district"
           }
         }
       ],

@@ -1,0 +1,73 @@
+{
+  "resourceType": "Medication",
+  "id": "AspirinMedication",
+  "meta": {
+    "profile": [
+      "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-medication"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Unit Price (Medication)</b>: </p><p><b style=\"color: maroon\">Exception generating Narrative: type org.hl7.fhir.r5.model.Money not handled - should not be here</b></p></div>"
+  },
+  "extension": [
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-unit-price",
+      "valueMoney": {
+        "value": 10,
+        "currency": "EUR"
+      }
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency",
+      "valueInteger": 0
+    }
+  ],
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
+            "code": "Code"
+          }
+        ]
+      },
+      "value": "0001"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
+            "code": "UUID"
+          }
+        ]
+      },
+      "value": "71EFB78B-64EE-4A68-BE29-87DAF566EB20"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "7947003"
+      }
+    ],
+    "text": "ACETYLSALICYLIC ACID (ASPIRIN) TABS 300MG"
+  },
+  "form": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385055001",
+        "display": "Tablet"
+      }
+    ]
+  },
+  "amount": {
+    "numerator": {
+      "value": 1000
+    }
+  }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="location-type"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="CodeSystem-location-type.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-location-type.html#location-type-R">R</a></td><td>Region</td><td>Regional location level</td></tr><tr><td><a href="CodeSystem-location-type.html#location-type-D">D</a></td><td>District</td><td>District location level</td></tr><tr><td><a href="CodeSystem-location-type.html#location-type-W">W</a></td><td>Municipality/Ward</td><td>Municipality/Ward location level</td></tr><tr><td><a href="CodeSystem-location-type.html#location-type-V">V</a></td><td>City/Village</td><td>City/Village location level</td></tr></table></li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="http://hl7.org/fhir/R4/valueset-location-physical-type.html">http://hl7.org/fhir/ValueSet/location-physical-type</a></li></ul></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/location-type"/>
+  <version value="0.1.0"/>
+  <name value="LocationTypeVS"/>
+  <title value="Location Type (Location)"/>
+  <status value="active"/>
+  <date value="2021-07-22T15:08:05+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the location type. Values defined by openIMIS. Cannot be extended."/>
+  <compose>
+    <include>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type"/>
+      <concept>
+        <code value="R"/>
+        <display value="Region"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="District"/>
+      </concept>
+      <concept>
+        <code value="W"/>
+        <display value="Municipality/Ward"/>
+      </concept>
+      <concept>
+        <code value="V"/>
+        <display value="City/Village"/>
+      </concept>
+    </include>
+    <exclude>
+      <valueSet value="http://hl7.org/fhir/ValueSet/location-physical-type"/>
+    </exclude>
+  </compose>
+</ValueSet>

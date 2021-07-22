@@ -3,30 +3,34 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="group-types"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-group-types.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-group-types.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types</code></a></li></ul></div>
   </text>
-  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-group-types"/>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-types"/>
   <version value="0.1.0"/>
   <name value="GroupTypesVS"/>
   <title value="Group Types (Group)"/>
   <status value="active"/>
-  <date value="2021-07-19T12:50:33+00:00"/>
-  <publisher value="Swiss TPH - SCIH - openIMIS Group"/>
+  <date value="2021-07-22T15:08:05+00:00"/>
+  <publisher value="Swiss TPH"/>
   <contact>
-    <name value="Swiss TPH - SCIH - openIMIS Group"/>
+    <name value="Swiss TPH"/>
     <telecom>
       <system value="url"/>
       <value value="https://www.swisstph.ch/en/"/>
     </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
     <telecom>
       <system value="email"/>
       <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
   <compose>
     <include>
-      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-group-types"/>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types"/>
     </include>
   </compose>
 </ValueSet>

@@ -10,33 +10,38 @@
   fhir:Resource.id [ fhir:value "patient-profession"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-patient-profession.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-patient-profession.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession</code></a></li></ul></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-profession"];
+  fhir:ValueSet.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "PatientProfessionVS"];
   fhir:ValueSet.title [ fhir:value "Patient Profession Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-07-19T12:50:33+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "Swiss TPH - SCIH - openIMIS Group"];
+  fhir:ValueSet.date [ fhir:value "2021-07-22T15:08:05+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Swiss TPH"];
   fhir:ValueSet.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Swiss TPH - SCIH - openIMIS Group" ];
+     fhir:ContactDetail.name [ fhir:value "Swiss TPH" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
        fhir:ContactPoint.value [ fhir:value "https://www.swisstph.ch/en/" ]
-     ], [
-       fhir:index 1;
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Dragos Dobre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "dragos.dobre@swisstph.ch" ]
+       fhir:ContactPoint.value [ fhir:value "dragos.dobre@swisstph.ch" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "Indicates the profession of a Patient"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-profession" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession" ]
      ]
   ] .
 

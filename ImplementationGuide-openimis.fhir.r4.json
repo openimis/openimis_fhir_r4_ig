@@ -10,19 +10,25 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-07-19T12:50:33+00:00",
-  "publisher": "Swiss TPH - SCIH - openIMIS Group",
+  "date": "2021-07-22T15:08:05+00:00",
+  "publisher": "Swiss TPH",
   "contact": [
     {
-      "name": "Swiss TPH - SCIH - openIMIS Group",
+      "name": "Swiss TPH",
       "telecom": [
         {
           "system": "url",
           "value": "https://www.swisstph.ch/en/"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Dragos Dobre",
+      "telecom": [
         {
           "system": "email",
-          "value": "dragos.dobre@swisstph.ch"
+          "value": "dragos.dobre@swisstph.ch",
+          "use": "work"
         }
       ]
     }
@@ -292,6 +298,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/openimis-activitiy-definition"
+        },
+        "name": "openIMIS ActivityDefinition",
+        "description": "Defines a ActivityDefinition for openIMIS which maps to a Medical Service.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/openimis-group"
         },
         "name": "openIMIS Group",
@@ -320,6 +340,34 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/openimis-location"
+        },
+        "name": "openIMIS Location",
+        "description": "Defines a Location for openIMIS which maps to a Location",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-medication"
+        },
+        "name": "openIMIS Medication",
+        "description": "Defines a Medication for openIMIS which maps to a Medical Item.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/openimis-patient"
         },
         "name": "openIMIS Patient",
@@ -337,7 +385,7 @@
           "reference": "StructureDefinition/address-location-reference"
         },
         "name": "Location Reference (Address)",
-        "description": "The reference to adress location for City/Village level",
+        "description": "The reference to address' location for City/Village level.",
         "exampleBoolean": false
       },
       {
@@ -351,7 +399,7 @@
           "reference": "StructureDefinition/address-municipality"
         },
         "name": "Municipality (Address)",
-        "description": "The location level between District and City/Village",
+        "description": "The location level between District and City/Village.",
         "exampleBoolean": false
       },
       {
@@ -408,6 +456,62 @@
         },
         "name": "Group Type (Group)",
         "description": "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/medication-frequency"
+        },
+        "name": "Frequency (Medication)",
+        "description": "The frequency a Medication can be prescribed.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/medication-unit-price"
+        },
+        "name": "Unit Price (Medication)",
+        "description": "The unit price for a Medication.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/organization-hf-level"
+        },
+        "name": "Health Facility Level (Organization)",
+        "description": "Indicates the level of the Health Facility (Organization).",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/organization-legal-form"
+        },
+        "name": "Legal Forms (Organization)",
+        "description": "Indicates the legal forms of the Organization. ",
         "exampleBoolean": false
       },
       {
@@ -516,6 +620,90 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/activity-definition-service-type"
+        },
+        "name": "Service Type (ActivityDefinition)",
+        "description": "Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/activity-definition-usage-context-age-type"
+        },
+        "name": "Usage Context for Age Type (ActivityDefinition)",
+        "description": "Indicates the Usage Context for Age Type for an ActivityDefinition.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/activity-definition-usage-context-gender-type"
+        },
+        "name": "Usage Context for Gender Type (ActivityDefinition)",
+        "description": "Indicates the Usage Context for Gender Type for an ActivityDefinition.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/activity-definition-usage-context-type"
+        },
+        "name": "Usage Context Type (ActivityDefinition)",
+        "description": "Indicates the Usage Context Type for an ActivityDefinition.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/activity-definition-usage-context-venue-type"
+        },
+        "name": "Usage Context for Venue Type (ActivityDefinition)",
+        "description": "Indicates the Usage Context for Venue Type for an ActivityDefinition.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/activity-definition-usage-context-workflow-type"
+        },
+        "name": "Usage Context for Workflow Type (ActivityDefinition)",
+        "description": "Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/group-confirmation-type"
         },
         "name": "Confirmation Types (Group)",
@@ -544,10 +732,52 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/location-type"
+        },
+        "name": "Location Type (Location)",
+        "description": "Indicates the location type. Values defined by openIMIS. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/openimis-identifiers"
         },
         "name": "openIMIS Identifiers Value Set",
         "description": "Indicates the Identifier type",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/organization-hf-level"
+        },
+        "name": "Health Facility Level (Organization)",
+        "description": "Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/organization-legal-form"
+        },
+        "name": "Legal Forms (Organization)",
+        "description": "Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
       {
@@ -628,6 +858,48 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/activity-definition-service-type"
+        },
+        "name": "Service Type (ActivityDefinition)",
+        "description": "Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/activity-definition-usage-context-age-type"
+        },
+        "name": "Usage Context for Age Type (ActivityDefinition)",
+        "description": "Indicates the Usage Context for Gender Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/activity-definition-usage-context-workflow-type"
+        },
+        "name": "Usage Context for Workflow Type (ActivityDefinition)",
+        "description": "Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/group-confirmation-type"
         },
         "name": "Confirmation Types (Group)",
@@ -656,10 +928,52 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/location-type"
+        },
+        "name": "Location Type (Location)",
+        "description": "Indicates the location type. Values defined by openIMIS. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/openimis-identifiers"
         },
         "name": "openIMIS Identifiers code system",
         "description": "Identifiers that are specific to openIMIS and could not be found in standard sources",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/organization-hf-level"
+        },
+        "name": "Health Facility Level (Organization)",
+        "description": "Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/organization-legal-form"
+        },
+        "name": "Legal Forms (Organization)",
+        "description": "Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
       {
@@ -722,15 +1036,15 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Location"
+            "valueString": "Medication"
           }
         ],
         "reference": {
-          "reference": "Location/5345EF14-12AB-4E98-A07C-1E08D7105DF4"
+          "reference": "Medication/AspirinMedication"
         },
-        "name": "Rapta-district",
-        "description": "Example of a District",
-        "exampleBoolean": true
+        "name": "AspirinMedication",
+        "description": "Example of openIMIS Medication",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-medication"
       },
       {
         "extension": [
@@ -744,6 +1058,62 @@
         },
         "name": "Create a Capability Statement using RuleSets",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ActivityDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ActivityDefinition/GeneralConsultationService"
+        },
+        "name": "GeneralConsultationService",
+        "description": "Example of openIMIS ActivityDefinition",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/Jamu-municipality"
+        },
+        "name": "Jamu-municipality",
+        "description": "Example of a municipality",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/Jamula-village"
+        },
+        "name": "Jamula-village",
+        "description": "Example of a Village",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/Jimara-district"
+        },
+        "name": "Jimara-district",
+        "description": "Example of a district",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"
       },
       {
         "extension": [
@@ -767,11 +1137,11 @@
           }
         ],
         "reference": {
-          "reference": "Location/dace872d-7f56-4b79-b6ac-b62760063853"
+          "reference": "Location/Upper-River-Region"
         },
-        "name": "Jamula-village",
-        "description": "Example of a Village",
-        "exampleBoolean": true
+        "name": "Upper-River-Region",
+        "description": "Example of a Region",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"
       },
       {
         "extension": [

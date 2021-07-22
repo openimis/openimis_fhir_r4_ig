@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<Location xmlns="http://hl7.org/fhir">
-  <id value="dace872d-7f56-4b79-b6ac-b62760063853"/>
-  <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p></div>
-  </text>
-</Location>

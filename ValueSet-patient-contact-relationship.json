@@ -3,26 +3,32 @@
   "id": "patient-contact-relationship",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-patient-contact-relationship.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-patient-contact-relationship.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship</code></a></li></ul></div>"
   },
-  "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet-patient-contact-relationship",
+  "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship",
   "version": "0.1.0",
   "name": "PatientContactRelationshipVS",
   "title": "Contact Relationship (Patient)",
   "status": "active",
-  "date": "2021-07-19T12:50:33+00:00",
-  "publisher": "Swiss TPH - SCIH - openIMIS Group",
+  "date": "2021-07-22T15:08:05+00:00",
+  "publisher": "Swiss TPH",
   "contact": [
     {
-      "name": "Swiss TPH - SCIH - openIMIS Group",
+      "name": "Swiss TPH",
       "telecom": [
         {
           "system": "url",
           "value": "https://www.swisstph.ch/en/"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Dragos Dobre",
+      "telecom": [
         {
           "system": "email",
-          "value": "dragos.dobre@swisstph.ch"
+          "value": "dragos.dobre@swisstph.ch",
+          "use": "work"
         }
       ]
     }
@@ -31,7 +37,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-contact-relationship"
+        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship"
       }
     ]
   }

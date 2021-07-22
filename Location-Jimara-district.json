@@ -1,0 +1,39 @@
+{
+  "resourceType": "Location",
+  "id": "Jimara-district",
+  "meta": {
+    "profile": [
+      "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: R1D1</p><p><b>name</b>: Jimara</p><p><b>physicalType</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type D}\">District</span></p><p><b>partOf</b>: <a href=\"Location-Upper-River-Region.html\">Generated Summary: Unique code: R1; name: Upper River Region; <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type R}\">Region</span></a></p></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
+            "code": "Code"
+          }
+        ]
+      },
+      "value": "R1D1"
+    }
+  ],
+  "name": "Jimara",
+  "physicalType": {
+    "coding": [
+      {
+        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type",
+        "code": "D",
+        "display": "District"
+      }
+    ]
+  },
+  "partOf": {
+    "reference": "Location/Upper-River-Region"
+  }
+}

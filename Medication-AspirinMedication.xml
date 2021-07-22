@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Medication xmlns="http://hl7.org/fhir">
+  <id value="AspirinMedication"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-medication"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Unit Price (Medication)</b>: </p><p><b style="color: maroon">Exception generating Narrative: type org.hl7.fhir.r5.model.Money not handled - should not be here</b></p></div>
+  </text>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-unit-price">
+    <valueMoney>
+      <value value="10"/>
+      <currency value="EUR"/>
+    </valueMoney>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency">
+    <valueInteger value="0"/>
+  </extension>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="Code"/>
+      </coding>
+    </type>
+    <value value="0001"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="UUID"/>
+      </coding>
+    </type>
+    <value value="71EFB78B-64EE-4A68-BE29-87DAF566EB20"/>
+  </identifier>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="7947003"/>
+    </coding>
+    <text value="ACETYLSALICYLIC ACID (ASPIRIN) TABS 300MG"/>
+  </code>
+  <form>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="385055001"/>
+      <display value="Tablet"/>
+    </coding>
+  </form>
+  <amount>
+    <numerator>
+      <value value="1000"/>
+    </numerator>
+  </amount>
+</Medication>

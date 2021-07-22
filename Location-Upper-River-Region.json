@@ -1,0 +1,36 @@
+{
+  "resourceType": "Location",
+  "id": "Upper-River-Region",
+  "meta": {
+    "profile": [
+      "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: R1</p><p><b>name</b>: Upper River Region</p><p><b>physicalType</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type R}\">Region</span></p></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
+            "code": "Code"
+          }
+        ]
+      },
+      "value": "R1"
+    }
+  ],
+  "name": "Upper River Region",
+  "physicalType": {
+    "coding": [
+      {
+        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type",
+        "code": "R",
+        "display": "Region"
+      }
+    ]
+  }
+}

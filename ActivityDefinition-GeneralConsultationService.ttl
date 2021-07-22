@@ -1,0 +1,147 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService> a fhir:ActivityDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "GeneralConsultationService"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition";
+       fhir:index 0;
+       fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService</code></p><p><b>identifier</b>: Unique code: A1, UUID unique identifier: db2c3a6c-af07-49bd-8f6a-96aa1fc2bcf9</p><p><b>version</b>: 0.1.0</p><p><b>name</b>: A1</p><p><b>title</b>: General Consultation</p><p><b>status</b>: active</p><p><b>date</b>: 2020-01-01</p><p><b>publisher</b>: Swiss TPH</p><p><b>contact</b>: Swiss TPH: <a href=\"https://www.swisstph.ch/en/\">https://www.swisstph.ch/en/</a>, Dragos Dobre: <a href=\"mailto:dragos.dobre@swisstph.ch\">dragos.dobre@swisstph.ch</a></p><p><b>topic</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type P}\">Preventive</span></p><p><b>timing</b>: Do Once per 0 days</p></div>"
+  ];
+  fhir:ActivityDefinition.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService"];
+  fhir:ActivityDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers" ];
+         fhir:Coding.code [ fhir:value "Code" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "A1" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers" ];
+         fhir:Coding.code [ fhir:value "UUID" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "db2c3a6c-af07-49bd-8f6a-96aa1fc2bcf9" ]
+  ];
+  fhir:ActivityDefinition.version [ fhir:value "0.1.0"];
+  fhir:ActivityDefinition.name [ fhir:value "A1"];
+  fhir:ActivityDefinition.title [ fhir:value "General Consultation"];
+  fhir:ActivityDefinition.status [ fhir:value "active"];
+  fhir:ActivityDefinition.date [ fhir:value "2020-01-01"^^xsd:date];
+  fhir:ActivityDefinition.publisher [ fhir:value "Swiss TPH"];
+  fhir:ActivityDefinition.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Swiss TPH" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.swisstph.ch/en/" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Dragos Dobre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "dragos.dobre@swisstph.ch" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ActivityDefinition.useContext [
+     fhir:index 0;
+     fhir:UsageContext.code [
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/usage-context-type" ];
+       fhir:Coding.code [ fhir:value "venue" ];
+       fhir:Coding.display [ fhir:value "Clinical Venue" ]
+     ];
+     fhir:UsageContext.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActCode" ];
+         fhir:Coding.code [ fhir:value "AMB" ];
+         fhir:Coding.display [ fhir:value "ambulatory" ]
+       ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:UsageContext.code [
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/usage-context-type" ];
+       fhir:Coding.code [ fhir:value "gender" ];
+       fhir:Coding.display [ fhir:value "Gender" ]
+     ];
+     fhir:UsageContext.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://hl7.org/fhir/administrative-gender" ];
+         fhir:Coding.code [ fhir:value "male" ];
+         fhir:Coding.display [ fhir:value "Male" ]
+       ], [
+         fhir:index 1;
+         fhir:Coding.system [ fhir:value "http://hl7.org/fhir/administrative-gender" ];
+         fhir:Coding.code [ fhir:value "female" ];
+         fhir:Coding.display [ fhir:value "Female" ]
+       ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:UsageContext.code [
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/usage-context-type" ];
+       fhir:Coding.code [ fhir:value "age" ];
+       fhir:Coding.display [ fhir:value "Age" ]
+     ];
+     fhir:UsageContext.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type" ];
+         fhir:Coding.code [ fhir:value "adult" ];
+         fhir:Coding.display [ fhir:value "Adult" ]
+       ], [
+         fhir:index 1;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type" ];
+         fhir:Coding.code [ fhir:value "child" ];
+         fhir:Coding.display [ fhir:value "Child" ]
+       ]
+     ]
+  ];
+  fhir:ActivityDefinition.topic [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type" ];
+       fhir:Coding.code [ fhir:value "P" ];
+       fhir:Coding.display [ fhir:value "Preventive" ]
+     ]
+  ];
+  fhir:ActivityDefinition.timingTiming [
+     fhir:Timing.repeat [
+       fhir:Timing.repeat.frequency [ fhir:value "1"^^xsd:positiveInteger ];
+       fhir:Timing.repeat.period [ fhir:value "0"^^xsd:decimal ];
+       fhir:Timing.repeat.periodUnit [ fhir:value "d" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

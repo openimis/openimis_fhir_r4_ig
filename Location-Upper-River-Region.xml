@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="Upper-River-Region"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: R1</p><p><b>name</b>: Upper River Region</p><p><b>physicalType</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type R}">Region</span></p></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="Code"/>
+      </coding>
+    </type>
+    <value value="R1"/>
+  </identifier>
+  <name value="Upper River Region"/>
+  <physicalType>
+    <coding>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type"/>
+      <code value="R"/>
+      <display value="Region"/>
+    </coding>
+  </physicalType>
+</Location>
