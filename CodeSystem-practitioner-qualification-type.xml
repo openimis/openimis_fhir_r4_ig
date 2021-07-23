@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="practitioner-qualification-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CA<a name="practitioner-qualification-type-CA"> </a></td><td>Claim Administrator</td></tr><tr><td style="white-space:nowrap">EO<a name="practitioner-qualification-type-EO"> </a></td><td>Enrolment Officer</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type"/>
+  <version value="0.1.0"/>
+  <name value="PractitionerQualificationTypeCS"/>
+  <title value="Practitioner Qualification Type"/>
+  <status value="active"/>
+  <date value="2021-07-23T17:29:07+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the Qualification Type of a Practitioner."/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="CA"/>
+    <display value="Claim Administrator"/>
+  </concept>
+  <concept>
+    <code value="EO"/>
+    <display value="Enrolment Officer"/>
+  </concept>
+</CodeSystem>

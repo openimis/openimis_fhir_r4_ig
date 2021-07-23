@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/Practitioner/Rushila-Dani-CA> a fhir:Practitioner;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Rushila-Dani-CA"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner";
+       fhir:index 0;
+       fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: JMDP0011, UUID unique identifier: EBC45DFA-8E42-4A5F-8AB7-7EE4D797D842</p><p><b>name</b>: Dani Rushila </p><p><b>telecom</b>: <a href=\"mailto:rushila.dani@openimis.org\">rushila.dani@openimis.org</a></p><p><b>birthDate</b>: 1979-10-09</p><h3>Qualifications</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type CA}\">Claim Administrator</span></td></tr></table></div>"
+  ];
+  fhir:Practitioner.identifier [
+     fhir:index 0;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers" ];
+         fhir:Coding.code [ fhir:value "Code" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "JMDP0011" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers" ];
+         fhir:Coding.code [ fhir:value "UUID" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "EBC45DFA-8E42-4A5F-8AB7-7EE4D797D842" ]
+  ];
+  fhir:Practitioner.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Rushila" ];
+     fhir:HumanName.given [
+       fhir:value "Dani";
+       fhir:index 0
+     ]
+  ];
+  fhir:Practitioner.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "email" ];
+     fhir:ContactPoint.value [ fhir:value "rushila.dani@openimis.org" ]
+  ];
+  fhir:Practitioner.birthDate [ fhir:value "1979-10-09"^^xsd:date];
+  fhir:Practitioner.qualification [
+     fhir:index 0;
+     fhir:Practitioner.qualification.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type" ];
+         fhir:Coding.code [ fhir:value "CA" ];
+         fhir:Coding.display [ fhir:value "Claim Administrator" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/Practitioner/Rushila-Dani-CA.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

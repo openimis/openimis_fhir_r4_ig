@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="medication-item-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-item-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">D<a name="medication-item-type-D"> </a></td><td>Drug</td></tr><tr><td style="white-space:nowrap">M<a name="medication-item-type-M"> </a></td><td>Medical consumable</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-item-type"/>
+  <version value="0.1.0"/>
+  <name value="MedicationItemTypeCS"/>
+  <title value="Item Type (Medication)"/>
+  <status value="active"/>
+  <date value="2021-07-23T17:29:07+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended."/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="D"/>
+    <display value="Drug"/>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="Medical consumable"/>
+  </concept>
+</CodeSystem>

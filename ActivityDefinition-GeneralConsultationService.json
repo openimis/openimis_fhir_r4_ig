@@ -7,9 +7,18 @@
     ]
   },
   "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService</code></p><p><b>identifier</b>: Unique code: A1, UUID unique identifier: db2c3a6c-af07-49bd-8f6a-96aa1fc2bcf9</p><p><b>version</b>: 0.1.0</p><p><b>name</b>: A1</p><p><b>title</b>: General Consultation</p><p><b>status</b>: active</p><p><b>date</b>: 2020-01-01</p><p><b>publisher</b>: Swiss TPH</p><p><b>contact</b>: Swiss TPH: <a href=\"https://www.swisstph.ch/en/\">https://www.swisstph.ch/en/</a>, Dragos Dobre: <a href=\"mailto:dragos.dobre@swisstph.ch\">dragos.dobre@swisstph.ch</a></p><p><b>topic</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type P}\">Preventive</span></p><p><b>timing</b>: Do Once per 0 days</p></div>"
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Unit Price (Medication|ActivityDefinition)</b>: </p><p><b style=\"color: maroon\">Exception generating Narrative: type org.hl7.fhir.r5.model.Money not handled - should not be here</b></p></div>"
   },
+  "extension": [
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price",
+      "valueMoney": {
+        "value": 40,
+        "currency": "EUR"
+      }
+    }
+  ],
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService",
   "identifier": [
     {
@@ -109,12 +118,12 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type",
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type",
             "code": "adult",
             "display": "Adult"
           },
           {
-            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type",
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type",
             "code": "child",
             "display": "Child"
           }

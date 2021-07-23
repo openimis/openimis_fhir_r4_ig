@@ -28,18 +28,18 @@
     "name": "ActivityDefinitionServiceTypeCS"
   },
   {
-    "id": "activity-definition-usage-context-age-type",
-    "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-age-type",
-    "version": "0.1.0",
-    "name": "ActivityDefinitionUsageContextAgeTypeCS"
-  },
-  {
     "id": "activity-definition-usage-context-workflow-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type",
     "version": "0.1.0",
     "name": "ActivityDefinitionUsageContextWorkflowTypeCS"
+  },
+  {
+    "id": "diagnosis-ICD10-level1",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/diagnosis-ICD10-level1",
+    "version": "0.1.0",
+    "name": "DiagnosisICD10Level1CS"
   },
   {
     "id": "group-confirmation-type",
@@ -61,6 +61,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type",
     "version": "0.1.0",
     "name": "LocationTypeCS"
+  },
+  {
+    "id": "medication-item-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-item-type",
+    "version": "0.1.0",
+    "name": "MedicationItemTypeCS"
   },
   {
     "id": "openimis-identifiers",
@@ -103,6 +110,20 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession",
     "version": "0.1.0",
     "name": "PatientProfessionCS"
+  },
+  {
+    "id": "practitioner-qualification-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type",
+    "version": "0.1.0",
+    "name": "PractitionerQualificationTypeCS"
+  },
+  {
+    "id": "usage-context-age-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type",
+    "version": "0.1.0",
+    "name": "UsageContextAgeTypeCS"
   },
   {
     "id": "openimis.fhir.r4",
@@ -161,11 +182,18 @@
     "name": "MedicationFrequencyExtension"
   },
   {
-    "id": "medication-unit-price",
+    "id": "medication-type",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-unit-price",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type",
     "version": "0.1.0",
-    "name": "MedicationUnitPriceExtension"
+    "name": "MedicationTypeExtension"
+  },
+  {
+    "id": "medication-usage-context",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context",
+    "version": "0.1.0",
+    "name": "MedicationUsageContextExtension"
   },
   {
     "id": "openimis-activitiy-definition",
@@ -173,6 +201,27 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition",
     "version": "0.1.0",
     "name": "OpenIMISActivityDefinition"
+  },
+  {
+    "id": "openimis-claim",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim",
+    "version": "0.1.0",
+    "name": "OpenIMISClaim"
+  },
+  {
+    "id": "openimis-claim-administrator-practitioner",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner",
+    "version": "0.1.0",
+    "name": "OpenIMISClaimAdministratorPractitioner"
+  },
+  {
+    "id": "openimis-enrolment-officer-practitioner",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner",
+    "version": "0.1.0",
+    "name": "OpenIMISEnrolmentOfficerPractitioner"
   },
   {
     "id": "openimis-group",
@@ -273,25 +322,25 @@
     "name": "PatientVulnerabilityStatusExtension"
   },
   {
+    "id": "practitioner-role-substitution-reference",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/practitioner-role-substitution-reference",
+    "version": "0.1.0",
+    "name": "PractitionerRoleSubstitutionReferenceExtension"
+  },
+  {
+    "id": "unit-price",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price",
+    "version": "0.1.0",
+    "name": "UnitPriceExtension"
+  },
+  {
     "id": "activity-definition-service-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-service-type",
     "version": "0.1.0",
     "name": "ActivityDefinitionServiceTypeVS"
-  },
-  {
-    "id": "activity-definition-usage-context-age-type",
-    "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-age-type",
-    "version": "0.1.0",
-    "name": "ActivityDefinitionUsageContextAgeTypeVS"
-  },
-  {
-    "id": "activity-definition-usage-context-gender-type",
-    "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-gender-type",
-    "version": "0.1.0",
-    "name": "ActivityDefinitionUsageContextGenderTypeVS"
   },
   {
     "id": "activity-definition-usage-context-type",
@@ -315,6 +364,13 @@
     "name": "ActivityDefinitionUsageContextWorkflowTypeVS"
   },
   {
+    "id": "diagnosis-ICD10-level1",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/diagnosis-ICD10-level1",
+    "version": "0.1.0",
+    "name": "DiagnosisICD10Level1VS"
+  },
+  {
     "id": "group-confirmation-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-confirmation-type",
@@ -334,6 +390,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/location-type",
     "version": "0.1.0",
     "name": "LocationTypeVS"
+  },
+  {
+    "id": "medication-item-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/medication-item-type",
+    "version": "0.1.0",
+    "name": "MedicationItemTypeVS"
   },
   {
     "id": "openimis-identifiers",
@@ -390,5 +453,26 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession",
     "version": "0.1.0",
     "name": "PatientProfessionVS"
+  },
+  {
+    "id": "practitioner-qualification-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/practitioner-qualification-type",
+    "version": "0.1.0",
+    "name": "PractitionerQualificationTypeVS"
+  },
+  {
+    "id": "usage-context-age-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/usage-context-age-type",
+    "version": "0.1.0",
+    "name": "UsageContextAgeTypeVS"
+  },
+  {
+    "id": "usage-context-gender-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/usage-context-gender-type",
+    "version": "0.1.0",
+    "name": "UsageContextGenderTypeVS"
   }
 ]

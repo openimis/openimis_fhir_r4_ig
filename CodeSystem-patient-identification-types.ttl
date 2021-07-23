@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "PatientIdentificationTypesCS"];
   fhir:CodeSystem.title [ fhir:value "Identification Types (Patient)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-07-22T15:10:47+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-07-23T17:29:07+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;

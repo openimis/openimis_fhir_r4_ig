@@ -225,6 +225,33 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-openimis-claim.html"
+                     title="StructureDefinition/openimis-claim">openIMIS Claim</a>
+               </td>
+               <td>
+<p>Defines a Claim for openIMIS which maps to a Claim</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-openimis-claim-administrator-practitioner.html"
+                     title="StructureDefinition/openimis-claim-administrator-practitioner">openIMIS Claim Administrator Practitioner</a>
+               </td>
+               <td>
+<p>Defines a Practitioner for openIMIS which maps to a Claim Administrator.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-openimis-enrolment-officer-practitioner.html"
+                     title="StructureDefinition/openimis-enrolment-officer-practitioner">openIMIS Enrolment Officer Practitioner</a>
+               </td>
+               <td>
+<p>Defines a Practitioner for openIMIS which maps to an Enrolment Officer.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-openimis-group.html"
                      title="StructureDefinition/openimis-group">openIMIS Group</a>
                </td>
@@ -345,11 +372,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-medication-unit-price.html"
-                     title="StructureDefinition/medication-unit-price">Unit Price (Medication)</a>
+                  <a href="StructureDefinition-medication-type.html"
+                     title="StructureDefinition/medication-type">Medication Type (Medication)</a>
                </td>
                <td>
-<p>The unit price for a Medication.</p>
+<p>Indicates the Item type for the Medication.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-medication-usage-context.html"
+                     title="StructureDefinition/medication-usage-context">UsageContext (Medication)</a>
+               </td>
+               <td>
+<p>The Context a Medication can be prescribed.</p>
 </td>
             </tr>
             <tr>
@@ -433,6 +469,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Whether the Patient/Insuree has the vulnerability status.</p>
 </td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-practitioner-role-substitution-reference.html"
+                     title="StructureDefinition/practitioner-role-substitution-reference">Substitution Reference (PractitionerRole)</a>
+               </td>
+               <td>
+<p>The reference to the Enrolment Officer that will substitute the current one after the period end.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-unit-price.html"
+                     title="StructureDefinition/unit-price">Unit Price (Medication|ActivityDefinition)</a>
+               </td>
+               <td>
+<p>The unit price for a Medication or ActivityDefinition.</p>
+</td>
+            </tr>
          </tbody>
       </table>
    </p>
@@ -452,24 +506,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-activity-definition-usage-context-age-type.html"
-                     title="ValueSet/activity-definition-usage-context-age-type">Usage Context for Age Type (ActivityDefinition)</a>
-               </td>
-               <td>
-<p>Indicates the Usage Context for Age Type for an ActivityDefinition.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-activity-definition-usage-context-gender-type.html"
-                     title="ValueSet/activity-definition-usage-context-gender-type">Usage Context for Gender Type (ActivityDefinition)</a>
-               </td>
-               <td>
-<p>Indicates the Usage Context for Gender Type for an ActivityDefinition.</p>
 </td>
             </tr>
             <tr>
@@ -501,6 +537,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-diagnosis-ICD10-level1.html"
+                     title="ValueSet/diagnosis-ICD10-level1">ICD 10 Level 1 diagnosis</a>
+               </td>
+               <td>
+<p>Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-group-confirmation-type.html"
                      title="ValueSet/group-confirmation-type">Confirmation Types (Group)</a>
                </td>
@@ -522,6 +567,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Indicates the location type. Values defined by openIMIS. Cannot be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-medication-item-type.html"
+                     title="ValueSet/medication-item-type">Item Type (Medication)</a>
+               </td>
+               <td>
+<p>Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended.</p>
 </td>
             </tr>
             <tr>
@@ -596,6 +650,33 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Indicates the profession of a Patient</p>
 </td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-practitioner-qualification-type.html"
+                     title="ValueSet/practitioner-qualification-type">Practitioner Qualification Type</a>
+               </td>
+               <td>
+<p>Indicates the Qualification Type of a Practitioner.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-usage-context-age-type.html"
+                     title="ValueSet/usage-context-age-type">Usage Context for Age Type (ActivityDefinition|Medication)</a>
+               </td>
+               <td>
+<p>Indicates the Usage Context for Age Type for an ActivityDefinition or Medication.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-usage-context-gender-type.html"
+                     title="ValueSet/usage-context-gender-type">Usage Context for Gender Type (ActivityDefinition|Medication)</a>
+               </td>
+               <td>
+<p>Indicates the Usage Context for Gender Type for an ActivityDefinition or Medication.</p>
+</td>
+            </tr>
          </tbody>
       </table>
    </p>
@@ -619,20 +700,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="CodeSystem-activity-definition-usage-context-age-type.html"
-                     title="CodeSystem/activity-definition-usage-context-age-type">Usage Context for Age Type (ActivityDefinition)</a>
-               </td>
-               <td>
-<p>Indicates the Usage Context for Gender Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="CodeSystem-activity-definition-usage-context-workflow-type.html"
                      title="CodeSystem/activity-definition-usage-context-workflow-type">Usage Context for Workflow Type (ActivityDefinition)</a>
                </td>
                <td>
 <p>Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-diagnosis-ICD10-level1.html"
+                     title="CodeSystem/diagnosis-ICD10-level1">ICD 10 Level 1 diagnosis</a>
+               </td>
+               <td>
+<p>Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS.</p>
 </td>
             </tr>
             <tr>
@@ -658,6 +739,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Indicates the location type. Values defined by openIMIS. Cannot be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-medication-item-type.html"
+                     title="CodeSystem/medication-item-type">Item Type (Medication)</a>
+               </td>
+               <td>
+<p>Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended.</p>
 </td>
             </tr>
             <tr>
@@ -721,6 +811,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Indicates the profession of a Patient. Values defined by openIMIS. Can be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-practitioner-qualification-type.html"
+                     title="CodeSystem/practitioner-qualification-type">Practitioner Qualification Type</a>
+               </td>
+               <td>
+<p>Indicates the Qualification Type of a Practitioner.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-usage-context-age-type.html"
+                     title="CodeSystem/usage-context-age-type">Usage Context for Age Type (ActivityDefinition|Medication)</a>
+               </td>
+               <td>
+<p>Indicates the Usage Context for Gender Type for an ActivityDefinition or Medication. Values defined by openIMIS. Can not be extended.</p>
 </td>
             </tr>
          </tbody>
@@ -789,6 +897,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="Practitioner-Rushila-Dani-CA.html"
+                     title="Practitioner/Rushila-Dani-CA">Rushila-Dani-CA</a>
+               </td>
+               <td>
+<p>Example of openIMIS Practitioner</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="Location-Upper-River-Region.html"
                      title="Location/Upper-River-Region">Upper-River-Region</a>
                </td>
@@ -845,7 +962,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 22, 2021 15:10+0000">2021-07-22</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 23, 2021 17:29+0000">2021-07-23</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

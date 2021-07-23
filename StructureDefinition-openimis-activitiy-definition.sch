@@ -12,6 +12,8 @@
   <sch:pattern>
     <sch:title>f:ActivityDefinition</sch:title>
     <sch:rule context="f:ActivityDefinition">
+      <sch:assert test="count(f:extension[@url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price']) &gt;= 1">extension with URL = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price']) &lt;= 1">extension with URL = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:version) &lt;= 0">version: maximum cardinality of 'version' is 0</sch:assert>
       <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>
       <sch:assert test="count(f:title) &gt;= 1">title: minimum cardinality of 'title' is 1</sch:assert>
@@ -93,6 +95,8 @@
     <sch:rule context="f:ActivityDefinition/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

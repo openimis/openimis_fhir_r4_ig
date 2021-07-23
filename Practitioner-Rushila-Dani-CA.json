@@ -1,0 +1,65 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Rushila-Dani-CA",
+  "meta": {
+    "profile": [
+      "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: JMDP0011, UUID unique identifier: EBC45DFA-8E42-4A5F-8AB7-7EE4D797D842</p><p><b>name</b>: Dani Rushila </p><p><b>telecom</b>: <a href=\"mailto:rushila.dani@openimis.org\">rushila.dani@openimis.org</a></p><p><b>birthDate</b>: 1979-10-09</p><h3>Qualifications</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type CA}\">Claim Administrator</span></td></tr></table></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
+            "code": "Code"
+          }
+        ]
+      },
+      "value": "JMDP0011"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
+            "code": "UUID"
+          }
+        ]
+      },
+      "value": "EBC45DFA-8E42-4A5F-8AB7-7EE4D797D842"
+    }
+  ],
+  "name": [
+    {
+      "family": "Rushila",
+      "given": [
+        "Dani"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "rushila.dani@openimis.org"
+    }
+  ],
+  "birthDate": "1979-10-09",
+  "qualification": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type",
+            "code": "CA",
+            "display": "Claim Administrator"
+          }
+        ]
+      }
+    }
+  ]
+}

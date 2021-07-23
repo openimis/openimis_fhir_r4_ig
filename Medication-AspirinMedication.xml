@@ -6,16 +6,91 @@
     <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-medication"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Unit Price (Medication)</b>: </p><p><b style="color: maroon">Exception generating Narrative: type org.hl7.fhir.r5.model.Money not handled - should not be here</b></p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Unit Price (Medication|ActivityDefinition)</b>: </p><p><b style="color: maroon">Exception generating Narrative: type org.hl7.fhir.r5.model.Money not handled - should not be here</b></p></div>
   </text>
-  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-unit-price">
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price">
     <valueMoney>
       <value value="10"/>
       <currency value="EUR"/>
     </valueMoney>
   </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-item-type"/>
+        <code value="D"/>
+        <display value="Drug"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
   <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency">
-    <valueInteger value="0"/>
+    <valueTiming>
+      <repeat>
+        <frequency value="1"/>
+        <period value="0"/>
+        <periodUnit value="d"/>
+      </repeat>
+    </valueTiming>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context">
+    <extension url="Gender">
+      <valueUsageContext>
+        <code>
+          <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>
+          <code value="gender"/>
+          <display value="Gender"/>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="male"/>
+            <display value="Male"/>
+          </coding>
+          <coding>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="female"/>
+            <display value="Female"/>
+          </coding>
+        </valueCodeableConcept>
+      </valueUsageContext>
+    </extension>
+    <extension url="CareType">
+      <valueUsageContext>
+        <code>
+          <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>
+          <code value="venue"/>
+          <display value="Clinical Venue"/>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="AMB"/>
+            <display value="ambulatory"/>
+          </coding>
+        </valueCodeableConcept>
+      </valueUsageContext>
+    </extension>
+    <extension url="Age">
+      <valueUsageContext>
+        <code>
+          <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>
+          <code value="age"/>
+          <display value="Age"/>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type"/>
+            <code value="adult"/>
+            <display value="Adult"/>
+          </coding>
+          <coding>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type"/>
+            <code value="child"/>
+            <display value="Child"/>
+          </coding>
+        </valueCodeableConcept>
+      </valueUsageContext>
+    </extension>
   </extension>
   <identifier>
     <type>

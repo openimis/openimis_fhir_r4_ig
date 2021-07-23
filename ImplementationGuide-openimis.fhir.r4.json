@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-07-22T15:10:47+00:00",
+  "date": "2021-07-23T17:29:07+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -312,6 +312,48 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/openimis-claim"
+        },
+        "name": "openIMIS Claim",
+        "description": "Defines a Claim for openIMIS which maps to a Claim",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-claim-administrator-practitioner"
+        },
+        "name": "openIMIS Claim Administrator Practitioner",
+        "description": "Defines a Practitioner for openIMIS which maps to a Claim Administrator.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-enrolment-officer-practitioner"
+        },
+        "name": "openIMIS Enrolment Officer Practitioner",
+        "description": "Defines a Practitioner for openIMIS which maps to an Enrolment Officer.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/openimis-group"
         },
         "name": "openIMIS Group",
@@ -480,10 +522,24 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/medication-unit-price"
+          "reference": "StructureDefinition/medication-type"
         },
-        "name": "Unit Price (Medication)",
-        "description": "The unit price for a Medication.",
+        "name": "Medication Type (Medication)",
+        "description": "Indicates the Item type for the Medication.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/medication-usage-context"
+        },
+        "name": "UsageContext (Medication)",
+        "description": "The Context a Medication can be prescribed.",
         "exampleBoolean": false
       },
       {
@@ -616,6 +672,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/practitioner-role-substitution-reference"
+        },
+        "name": "Substitution Reference (PractitionerRole)",
+        "description": "The reference to the Enrolment Officer that will substitute the current one after the period end.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/unit-price"
+        },
+        "name": "Unit Price (Medication|ActivityDefinition)",
+        "description": "The unit price for a Medication or ActivityDefinition.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
@@ -624,34 +708,6 @@
         },
         "name": "Service Type (ActivityDefinition)",
         "description": "Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/activity-definition-usage-context-age-type"
-        },
-        "name": "Usage Context for Age Type (ActivityDefinition)",
-        "description": "Indicates the Usage Context for Age Type for an ActivityDefinition.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/activity-definition-usage-context-gender-type"
-        },
-        "name": "Usage Context for Gender Type (ActivityDefinition)",
-        "description": "Indicates the Usage Context for Gender Type for an ActivityDefinition.",
         "exampleBoolean": false
       },
       {
@@ -704,6 +760,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/diagnosis-ICD10-level1"
+        },
+        "name": "ICD 10 Level 1 diagnosis",
+        "description": "Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/group-confirmation-type"
         },
         "name": "Confirmation Types (Group)",
@@ -736,6 +806,20 @@
         },
         "name": "Location Type (Location)",
         "description": "Indicates the location type. Values defined by openIMIS. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/medication-item-type"
+        },
+        "name": "Item Type (Medication)",
+        "description": "Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended.",
         "exampleBoolean": false
       },
       {
@@ -854,6 +938,48 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/practitioner-qualification-type"
+        },
+        "name": "Practitioner Qualification Type",
+        "description": "Indicates the Qualification Type of a Practitioner.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/usage-context-age-type"
+        },
+        "name": "Usage Context for Age Type (ActivityDefinition|Medication)",
+        "description": "Indicates the Usage Context for Age Type for an ActivityDefinition or Medication.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/usage-context-gender-type"
+        },
+        "name": "Usage Context for Gender Type (ActivityDefinition|Medication)",
+        "description": "Indicates the Usage Context for Gender Type for an ActivityDefinition or Medication.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -872,10 +998,10 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/activity-definition-usage-context-age-type"
+          "reference": "CodeSystem/activity-definition-usage-context-workflow-type"
         },
-        "name": "Usage Context for Age Type (ActivityDefinition)",
-        "description": "Indicates the Usage Context for Gender Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
+        "name": "Usage Context for Workflow Type (ActivityDefinition)",
+        "description": "Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
         "exampleBoolean": false
       },
       {
@@ -886,10 +1012,10 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/activity-definition-usage-context-workflow-type"
+          "reference": "CodeSystem/diagnosis-ICD10-level1"
         },
-        "name": "Usage Context for Workflow Type (ActivityDefinition)",
-        "description": "Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
+        "name": "ICD 10 Level 1 diagnosis",
+        "description": "Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS.",
         "exampleBoolean": false
       },
       {
@@ -932,6 +1058,20 @@
         },
         "name": "Location Type (Location)",
         "description": "Indicates the location type. Values defined by openIMIS. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/medication-item-type"
+        },
+        "name": "Item Type (Medication)",
+        "description": "Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended.",
         "exampleBoolean": false
       },
       {
@@ -1036,6 +1176,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/practitioner-qualification-type"
+        },
+        "name": "Practitioner Qualification Type",
+        "description": "Indicates the Qualification Type of a Practitioner.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/usage-context-age-type"
+        },
+        "name": "Usage Context for Age Type (ActivityDefinition|Medication)",
+        "description": "Indicates the Usage Context for Gender Type for an ActivityDefinition or Medication. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Medication"
           }
         ],
@@ -1128,6 +1296,20 @@
         "name": "RaptaDistrictHospital",
         "description": "Example of openIMIS Health Facility",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Rushila-Dani-CA"
+        },
+        "name": "Rushila-Dani-CA",
+        "description": "Example of openIMIS Practitioner",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner"
       },
       {
         "extension": [

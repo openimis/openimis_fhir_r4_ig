@@ -18,19 +18,104 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Unit Price (Medication)</b>: </p><p><b style=\"color: maroon\">Exception generating Narrative: type org.hl7.fhir.r5.model.Money not handled - should not be here</b></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Unit Price (Medication|ActivityDefinition)</b>: </p><p><b style=\"color: maroon\">Exception generating Narrative: type org.hl7.fhir.r5.model.Money not handled - should not be here</b></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-unit-price" ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price" ];
      fhir:Extension.valueMoney [
        fhir:Money.value [ fhir:value "10"^^xsd:decimal ];
        fhir:Money.currency [ fhir:value "EUR" ]
      ]
   ], [
      fhir:index 1;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type" ];
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-item-type" ];
+         fhir:Coding.code [ fhir:value "D" ];
+         fhir:Coding.display [ fhir:value "Drug" ]
+       ]
+     ]
+  ], [
+     fhir:index 2;
      fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency" ];
-     fhir:Extension.valueInteger [ fhir:value "0"^^xsd:integer ]
+     fhir:Extension.valueTiming [
+       fhir:Timing.repeat [
+         fhir:Timing.repeat.frequency [ fhir:value "1"^^xsd:positiveInteger ];
+         fhir:Timing.repeat.period [ fhir:value "0"^^xsd:decimal ];
+         fhir:Timing.repeat.periodUnit [ fhir:value "d" ]
+       ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "Gender" ];
+       fhir:Extension.valueUsageContext [
+         fhir:UsageContext.code [
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/usage-context-type" ];
+           fhir:Coding.code [ fhir:value "gender" ];
+           fhir:Coding.display [ fhir:value "Gender" ]
+         ];
+         fhir:UsageContext.valueCodeableConcept [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://hl7.org/fhir/administrative-gender" ];
+             fhir:Coding.code [ fhir:value "male" ];
+             fhir:Coding.display [ fhir:value "Male" ]
+           ], [
+             fhir:index 1;
+             fhir:Coding.system [ fhir:value "http://hl7.org/fhir/administrative-gender" ];
+             fhir:Coding.code [ fhir:value "female" ];
+             fhir:Coding.display [ fhir:value "Female" ]
+           ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "CareType" ];
+       fhir:Extension.valueUsageContext [
+         fhir:UsageContext.code [
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/usage-context-type" ];
+           fhir:Coding.code [ fhir:value "venue" ];
+           fhir:Coding.display [ fhir:value "Clinical Venue" ]
+         ];
+         fhir:UsageContext.valueCodeableConcept [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActCode" ];
+             fhir:Coding.code [ fhir:value "AMB" ];
+             fhir:Coding.display [ fhir:value "ambulatory" ]
+           ]
+         ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "Age" ];
+       fhir:Extension.valueUsageContext [
+         fhir:UsageContext.code [
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/usage-context-type" ];
+           fhir:Coding.code [ fhir:value "age" ];
+           fhir:Coding.display [ fhir:value "Age" ]
+         ];
+         fhir:UsageContext.valueCodeableConcept [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type" ];
+             fhir:Coding.code [ fhir:value "adult" ];
+             fhir:Coding.display [ fhir:value "Adult" ]
+           ], [
+             fhir:index 1;
+             fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type" ];
+             fhir:Coding.code [ fhir:value "child" ];
+             fhir:Coding.display [ fhir:value "Child" ]
+           ]
+         ]
+       ]
+     ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context" ]
   ];
   fhir:Medication.identifier [
      fhir:index 0;

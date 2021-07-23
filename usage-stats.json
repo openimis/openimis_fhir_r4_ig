@@ -117,19 +117,130 @@
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency",
       "title": "Frequency (Medication)",
       "types": [
-        "integer"
+        "Timing",
+        "Timing",
+        "string",
+        "Extension",
+        "Extension",
+        "dateTime",
+        "Element",
+        "string",
+        "Extension",
+        "Duration",
+        "Range",
+        "Period",
+        "positiveInt",
+        "positiveInt",
+        "decimal",
+        "decimal",
+        "code",
+        "positiveInt",
+        "positiveInt",
+        "decimal",
+        "decimal",
+        "code",
+        "code",
+        "time",
+        "code",
+        "unsignedInt",
+        "CodeableConcept"
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-unit-price",
-      "title": "Unit Price (Medication)",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type",
+      "title": "Medication Type (Medication)",
       "types": [
-        "Money",
-        "Money",
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context",
+      "title": "UsageContext (Medication)",
+      "types": [
+        "UsageContext",
+        "UsageContext",
         "string",
         "Extension",
+        "Coding",
+        "CodeableConcept",
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string",
+        "UsageContext",
+        "UsageContext",
+        "string",
+        "Extension",
+        "Coding",
+        "CodeableConcept",
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string",
+        "UsageContext",
+        "UsageContext",
+        "string",
+        "Extension",
+        "Coding",
+        "CodeableConcept",
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
         "decimal",
-        "code"
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
       ]
     },
     {
@@ -250,6 +361,25 @@
       "types": [
         "boolean"
       ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/practitioner-role-substitution-reference",
+      "title": "Substitution Reference (PractitionerRole)",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price",
+      "title": "Unit Price (Medication|ActivityDefinition)",
+      "types": [
+        "Money",
+        "Money",
+        "string",
+        "Extension",
+        "decimal",
+        "code"
+      ]
     }
   ],
   "profiles": {
@@ -257,6 +387,22 @@
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition",
         "title": "openIMIS ActivityDefinition"
+      }
+    ],
+    "Claim": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim",
+        "title": "openIMIS Claim"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner",
+        "title": "openIMIS Claim Administrator Practitioner"
+      },
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner",
+        "title": "openIMIS Enrolment Officer Practitioner"
       }
     ],
     "Group": [
@@ -337,7 +483,8 @@
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference": [
       "Extension.value[x]",
       "Organization.address",
-      "Patient.address"
+      "Patient.address",
+      "Practitioner.address"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality": [
       "Extension.value[x]",
@@ -358,7 +505,10 @@
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency": [
       "Medication"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-unit-price": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type": [
+      "Medication"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context": [
       "Medication"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level": [
@@ -387,6 +537,10 @@
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-vulnerability-status": [
       "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price": [
+      "ActivityDefinition",
+      "Medication"
     ]
   }
 }

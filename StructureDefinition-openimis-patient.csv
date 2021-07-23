@@ -122,7 +122,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Patient.identifier.assigner","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
 ","Organization that issued id (may be just text)","Organization that issued/manages the identifier.","The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.","","","","","","","","",,,,,"",,,,"Identifier.assigner",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper","CX.4 / (CX.4,CX.9,CX.10)"
-"Patient.identifier","InsureeCode","","",0,1,"Y","","Y","Identifier {[]} {[]}
+"Patient.identifier","Code","","",0,1,"Y","","Y","Identifier {[]} {[]}
 ","An identifier for this patient","An identifier for this patient.","","Patients are almost always assigned specific numerical identifiers.","","","","","","","",,,,,"",,,,"Patient.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","id",".id","FiveWs.identifier","PID-3"
 "Patient.identifier.id","","","",0,1,"","","","string {[]} {[]}
@@ -185,7 +185,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Patient.identifier.assigner","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
 ","Organization that issued id (may be just text)","Organization that issued/manages the identifier.","The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.","","","","","","","","",,,,,"",,,,"Identifier.assigner",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper","CX.4 / (CX.4,CX.9,CX.10)"
-"Patient.identifier","InsureeUUID","","",0,1,"","","Y","Identifier {[]} {[]}
+"Patient.identifier","UUID","","",0,1,"","","Y","Identifier {[]} {[]}
 ","An identifier for this patient","An identifier for this patient.","","Patients are almost always assigned specific numerical identifiers.","","","","","","","",,,,,"",,,,"Patient.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","id",".id","FiveWs.identifier","PID-3"
 "Patient.identifier.id","","","",0,1,"","","","string {[]} {[]}
@@ -248,7 +248,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Patient.identifier.assigner","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
 ","Organization that issued id (may be just text)","Organization that issued/manages the identifier.","The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.","","","","","","","","",,,,,"",,,,"Identifier.assigner",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper","CX.4 / (CX.4,CX.9,CX.10)"
-"Patient.identifier","InsureeID","","",0,1,"","","Y","Identifier {[]} {[]}
+"Patient.identifier","DBID","","",0,1,"","","Y","Identifier {[]} {[]}
 ","An identifier for this patient","An identifier for this patient.","","Patients are almost always assigned specific numerical identifiers.","","","","","","","",,,,,"",,,,"Patient.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","id",".id","FiveWs.identifier","PID-3"
 "Patient.identifier.id","","","",0,1,"","","","string {[]} {[]}
@@ -331,11 +331,11 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Text representation of the full name","Specifies the entire name as it should be displayed e.g. on an application UI. This may be provided instead of or as well as the specific parts.","Can provide both a text representation and parts. Applications updating a name SHALL ensure that when both text and parts are present,  no content is included in the text that isn't found in a part.","A renderable, unencoded form.","","","","","","","",,,,,"",,,,"HumanName.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./formatted","implied by XPN.11"
 "Patient.name.family","","surname
-","",0,1,"Y","","Y","string {[]} {[]}
+","",1,1,"Y","","Y","string {[]} {[]}
 ","Family name (often called 'Surname')","The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.","Family Name may be decomposed into specific parts using extensions (de, nl, es related cultures).","","","","","","","","",,,,,"",,,,"HumanName.family",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./part[partType = FAM]","XPN.1/FN.1"
 "Patient.name.given","","first name
-middle name","",0,*,"Y","","Y","string {[]} {[]}
+middle name","",1,1,"Y","","Y","string {[]} {[]}
 ","Given names (not always 'first'). Includes middle names","Given name.","If only initials are recorded, they may be used in place of the full name parts. Initials may be separated into multiple given names but often aren't due to paractical limitations.  This element is not called ""first name"" since given names do not always come first.","","","","","","","","",,,,,"",,,,"HumanName.given",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./part[partType = GIV]","XPN.2 + XPN.3"
 "Patient.name.prefix","","","",0,*,"","","Y","string {[]} {[]}
