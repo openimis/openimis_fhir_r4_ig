@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-07-23T18:05:23+00:00",
+  "date": "2021-07-27T11:22:47+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -382,6 +382,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/openimis-insurance-plan"
+        },
+        "name": "openIMIS Insurance Plan",
+        "description": "Defines an Insurance Plan for openIMIS which maps to a Product.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/openimis-location"
         },
         "name": "openIMIS Location",
@@ -498,6 +512,20 @@
         },
         "name": "Group Type (Group)",
         "description": "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/insurance-plan-start-cycle"
+        },
+        "name": "Cycle Start (InsurancePlan)",
+        "description": "Defines the starting date for a new cycle in InsurancePlan.",
         "exampleBoolean": false
       },
       {
@@ -802,6 +830,62 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/insurance-plan-coverage-benefit-limit"
+        },
+        "name": "Coverage Benefit Limit Types (InsurancePlan)",
+        "description": "Indicates the Coverage Benefit Limit Types for an InsurancePlan. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/insurance-plan-coverage-type"
+        },
+        "name": "Coverage Type (InsurancePlan)",
+        "description": "Indicates the Coverage Type for an InsurancePlan.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/insurance-plan-general-cost-type"
+        },
+        "name": "General Cost Type (InsurancePlan)",
+        "description": "Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/insurance-plan-publication-status"
+        },
+        "name": "Publication Status (InsurancePlan)",
+        "description": "Indicates the Publication Status for an InsurancePlan.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/location-type"
         },
         "name": "Location Type (Location)",
@@ -1054,6 +1138,34 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/insurance-plan-coverage-benefit-limit"
+        },
+        "name": "Coverage Benefit Limit Types (InsurancePlan)",
+        "description": "Indicates the Coverage Benefit Limit Types for an InsurancePlan. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/insurance-plan-general-cost-type"
+        },
+        "name": "General Cost Type (InsurancePlan)",
+        "description": "Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/location-type"
         },
         "name": "Location Type (Location)",
@@ -1282,6 +1394,20 @@
         "name": "Jimara-district",
         "description": "Example of a district",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "InsurancePlan"
+          }
+        ],
+        "reference": {
+          "reference": "InsurancePlan/RX01"
+        },
+        "name": "RX01",
+        "description": "Example of openIMIS InsurancePlan",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan"
       },
       {
         "extension": [

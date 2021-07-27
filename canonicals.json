@@ -56,6 +56,20 @@
     "name": "GroupTypesCS"
   },
   {
+    "id": "insurance-plan-coverage-benefit-limit",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit",
+    "version": "0.1.0",
+    "name": "InsurancePlanCoverageBenefitLimitCS"
+  },
+  {
+    "id": "insurance-plan-general-cost-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type",
+    "version": "0.1.0",
+    "name": "InsurancePlanGeneralCostTypeCS"
+  },
+  {
     "id": "location-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type",
@@ -175,6 +189,13 @@
     "name": "GroupTypeExtension"
   },
   {
+    "id": "insurance-plan-start-cycle",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle",
+    "version": "0.1.0",
+    "name": "InsurancePlanStartCycleExtension"
+  },
+  {
     "id": "medication-frequency",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency",
@@ -236,6 +257,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization",
     "version": "0.1.0",
     "name": "OpenIMISHealthFacilityOrganization"
+  },
+  {
+    "id": "openimis-insurance-plan",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan",
+    "version": "0.1.0",
+    "name": "OpenIMISInsurancePlan"
   },
   {
     "id": "openimis-location",
@@ -383,6 +411,34 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-types",
     "version": "0.1.0",
     "name": "GroupTypesVS"
+  },
+  {
+    "id": "insurance-plan-coverage-benefit-limit",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-coverage-benefit-limit",
+    "version": "0.1.0",
+    "name": "InsurancePlanCoverageBenefitLimitVS"
+  },
+  {
+    "id": "insurance-plan-coverage-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-coverage-type",
+    "version": "0.1.0",
+    "name": "InsurancePlanCoverageTypeVS"
+  },
+  {
+    "id": "insurance-plan-general-cost-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-general-cost-type",
+    "version": "0.1.0",
+    "name": "InsurancePlanGeneralCostTypeVS"
+  },
+  {
+    "id": "insurance-plan-publication-status",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-publication-status",
+    "version": "0.1.0",
+    "name": "InsurancePlanPublicationStatusVS"
   },
   {
     "id": "location-type",

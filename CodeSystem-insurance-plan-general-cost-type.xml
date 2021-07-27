@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="insurance-plan-general-cost-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">lumpsum<a name="insurance-plan-general-cost-type-lumpsum"> </a></td><td>Lumpsum</td></tr><tr><td style="white-space:nowrap">premiumAdult<a name="insurance-plan-general-cost-type-premiumAdult"> </a></td><td>Premium Adult</td></tr><tr><td style="white-space:nowrap">premiumChild<a name="insurance-plan-general-cost-type-premiumChild"> </a></td><td>Premium Child</td></tr><tr><td style="white-space:nowrap">registrationLumpsum<a name="insurance-plan-general-cost-type-registrationLumpsum"> </a></td><td>Registration Lumpsum</td></tr><tr><td style="white-space:nowrap">registrationFee<a name="insurance-plan-general-cost-type-registrationFee"> </a></td><td>Registration Fee</td></tr><tr><td style="white-space:nowrap">generalAssemblyLumpSum<a name="insurance-plan-general-cost-type-generalAssemblyLumpSum"> </a></td><td>General Assembly Lump Sum</td></tr><tr><td style="white-space:nowrap">generalAssemblyFee<a name="insurance-plan-general-cost-type-generalAssemblyFee"> </a></td><td>General Assembly Fee</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type"/>
+  <version value="0.1.0"/>
+  <name value="InsurancePlanGeneralCostTypeCS"/>
+  <title value="General Cost Type (InsurancePlan)"/>
+  <status value="active"/>
+  <date value="2021-07-27T11:22:47+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended."/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="lumpsum"/>
+    <display value="Lumpsum"/>
+  </concept>
+  <concept>
+    <code value="premiumAdult"/>
+    <display value="Premium Adult"/>
+  </concept>
+  <concept>
+    <code value="premiumChild"/>
+    <display value="Premium Child"/>
+  </concept>
+  <concept>
+    <code value="registrationLumpsum"/>
+    <display value="Registration Lumpsum"/>
+  </concept>
+  <concept>
+    <code value="registrationFee"/>
+    <display value="Registration Fee"/>
+  </concept>
+  <concept>
+    <code value="generalAssemblyLumpSum"/>
+    <display value="General Assembly Lump Sum"/>
+  </concept>
+  <concept>
+    <code value="generalAssemblyFee"/>
+    <display value="General Assembly Fee"/>
+  </concept>
+</CodeSystem>

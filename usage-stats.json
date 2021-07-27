@@ -114,6 +114,13 @@
       ]
     },
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle",
+      "title": "Cycle Start (InsurancePlan)",
+      "types": [
+        "string"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency",
       "title": "Frequency (Medication)",
       "types": [
@@ -417,6 +424,12 @@
         "title": "openIMIS Health Facility Organization"
       }
     ],
+    "InsurancePlan": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan",
+        "title": "openIMIS Insurance Plan"
+      }
+    ],
     "Location": [
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location",
@@ -501,6 +514,9 @@
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-type": [
       "Group"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle": [
+      "InsurancePlan"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency": [
       "Medication"

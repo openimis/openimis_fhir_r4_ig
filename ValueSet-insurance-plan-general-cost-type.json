@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "insurance-plan-general-cost-type",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-insurance-plan-general-cost-type.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type</code></a></li></ul></div>"
+  },
+  "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-general-cost-type",
+  "version": "0.1.0",
+  "name": "InsurancePlanGeneralCostTypeVS",
+  "title": "General Cost Type (InsurancePlan)",
+  "status": "active",
+  "date": "2021-07-27T11:22:47+00:00",
+  "publisher": "Swiss TPH",
+  "contact": [
+    {
+      "name": "Swiss TPH",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.swisstph.ch/en/"
+        }
+      ]
+    },
+    {
+      "name": "Dragos Dobre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "dragos.dobre@swisstph.ch",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type"
+      }
+    ]
+  }
+}

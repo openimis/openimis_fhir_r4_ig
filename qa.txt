@@ -1,11 +1,11 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 11, warn = 16, info = 0
+err = 40, warn = 17, info = 2
 IG Publisher Version: 1.1.77
-Generated Fri Jul 23 18:06:29 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Tue Jul 27 11:23:36 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
 
- Build Errors : 17 / 1 / 0
+ Build Errors : 19 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-service-type : 0 / 0 / 1
@@ -13,6 +13,8 @@ Generated Fri Jul 23 18:06:29 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/CodeSystem-diagnosis-ICD10-level1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-group-confirmation-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-group-types : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-insurance-plan-coverage-benefit-limit : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-insurance-plan-general-cost-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-location-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-medication-item-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-openimis-identifiers : 0 / 0 / 1
@@ -26,6 +28,7 @@ Generated Fri Jul 23 18:06:29 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/CodeSystem-usage-context-age-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Group-doe-family : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/InsurancePlan-RX01 : 29 / 0 / 3
  /github/workspace/fsh-generated/resources/Location-Jamu-municipality : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Location-Jamula-village : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Location-Jimara-district : 0 / 0 / 1
@@ -41,6 +44,7 @@ Generated Fri Jul 23 18:06:29 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-group-confirmation : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-group-poverty-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-group-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-insurance-plan-start-cycle : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-medication-frequency : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-medication-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-medication-usage-context : 0 / 2 / 1
@@ -50,6 +54,7 @@ Generated Fri Jul 23 18:06:29 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-health-facility-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-insurance-plan : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-location : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-medication : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient : 0 / 0 / 1
@@ -71,9 +76,13 @@ Generated Fri Jul 23 18:06:29 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ValueSet-diagnosis-ICD10-level1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-group-confirmation-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-group-types : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-coverage-benefit-limit : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-coverage-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-general-cost-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-publication-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-location-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-medication-item-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-organization-hf-level : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-organization-legal-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-patient-contact-relationship : 0 / 0 / 1
@@ -103,6 +112,8 @@ ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.htm
 ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 532, column 891: The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:Age.valueUsageContext.valueCodeableConcept.coding' for "coding" cannot be resolved (valid targets: 234 targets)
 ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 543, column 833: The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:CareType.valueUsageContext.valueCodeableConcept' for "valueCodeableConcept" cannot be resolved (valid targets: 234 targets)
 ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 544, column 891: The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:CareType.valueUsageContext.valueCodeableConcept.coding' for "coding" cannot be resolved (valid targets: 234 targets)
+ERROR: /github/workspace/output/ValueSet-openimis-identifiers.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 235, column 573: The link 'CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID' for "DBID" cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, segment-post-footer, ig-status, top, openimis-identifiers-UUID, codesystem-openimis-identifiers-code-system, root, stripe, segment-footer, openimis-identifiers-Code, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: /github/workspace/output/ValueSet-openimis-identifiers.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 241, column 1078: The link 'CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID' for "DBID" cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, segment-post-footer, ig-status, top, openimis-identifiers-UUID, codesystem-openimis-identifiers-code-system, root, stripe, segment-footer, openimis-identifiers-Code, segment-navbar, segment-content, segment-breadcrumb])
 ERROR: /github/workspace/output/connected_partner.html#/html/body/div/div/div/div/div/div/figure/img at Line 219, column 4: The image source 'vendor-integration-process.png' cannot be resolved
 == /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService.json ==
 ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[ActivityDefinition])
@@ -119,6 +130,8 @@ ERROR: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement.rest[
 == /github/workspace/fsh-generated/resources/CodeSystem-diagnosis-ICD10-level1.json ==
 == /github/workspace/fsh-generated/resources/CodeSystem-group-confirmation-type.json ==
 == /github/workspace/fsh-generated/resources/CodeSystem-group-types.json ==
+== /github/workspace/fsh-generated/resources/CodeSystem-insurance-plan-coverage-benefit-limit.json ==
+== /github/workspace/fsh-generated/resources/CodeSystem-insurance-plan-general-cost-type.json ==
 == /github/workspace/fsh-generated/resources/CodeSystem-location-type.json ==
 == /github/workspace/fsh-generated/resources/CodeSystem-medication-item-type.json ==
 == /github/workspace/fsh-generated/resources/CodeSystem-openimis-identifiers.json ==
@@ -134,7 +147,39 @@ ERROR: CodeSystem.url: Resource id/url mismatch: patient-identification-types/ht
 == /github/workspace/fsh-generated/resources/Group-doe-family.json ==
 == /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[19].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[21].description: value should not start or finish with whitespace
+== /github/workspace/fsh-generated/resources/InsurancePlan-RX01.json ==
+ERROR: InsurancePlan/RX01: InsurancePlan: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:lumpsum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[1]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:lumpsum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[2]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:lumpsum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[3]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:lumpsum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:premiumAdult in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[1]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:premiumAdult in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[2]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:premiumAdult in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[3]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:premiumAdult in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:premiumChild in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[1]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:premiumChild in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[2]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:premiumChild in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[3]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:premiumChild in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:registrationLumpsum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[1]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:registrationLumpsum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[2]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:registrationLumpsum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[3]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:registrationLumpsum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:registrationFee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[1]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:registrationFee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[2]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:registrationFee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[3]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:registrationFee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:generalAssemblyLumpSum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[1]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:generalAssemblyLumpSum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[2]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:generalAssemblyLumpSum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[3]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:generalAssemblyLumpSum in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[0]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:generalAssemblyFee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[1]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:generalAssemblyFee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[2]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:generalAssemblyFee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[3]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:generalAssemblyFee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
+INFORMATION: InsurancePlan/RX01: InsurancePlan.plan[0]: InsurancePlan.plan.generalCost: Unable to check max allowed (InsurancePlan.plan.generalCost) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan)
+INFORMATION: InsurancePlan/RX01: InsurancePlan.plan[0]: InsurancePlan.plan.generalCost:lumpsum: Unable to check minimum required (InsurancePlan.plan.generalCost) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan)
 == /github/workspace/fsh-generated/resources/Location-Jamu-municipality.json ==
 == /github/workspace/fsh-generated/resources/Location-Jamula-village.json ==
 WARNING: Location/Jamula-village: Location.physicalType: Display Name for https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type#V should be one of 'City/Village, City/Village' instead of 'Village'
@@ -155,14 +200,15 @@ ERROR: Organization/RaptaDistrictHospital: Organization: The extension https://o
 == /github/workspace/fsh-generated/resources/StructureDefinition-group-confirmation.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-group-poverty-status.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-group-type.json ==
+== /github/workspace/fsh-generated/resources/StructureDefinition-insurance-plan-start-cycle.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-medication-frequency.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-medication-type.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-medication-usage-context.json ==
 WARNING: StructureDefinition/medication-usage-context: StructureDefinition.snapshot.element[26].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
 WARNING: StructureDefinition/medication-usage-context: StructureDefinition.differential.element[16].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-activitiy-definition.json ==
-WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.snapshot.element[120].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
-WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.differential.element[32].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
+WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.snapshot.element[100].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
+WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.differential.element[30].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim'): The Implementation Guide contains no examples for this profile
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner.json ==
@@ -170,6 +216,7 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner'): The Implementation Guide contains no examples for this profile
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-health-facility-organization.json ==
+== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-insurance-plan.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-location.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-medication.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient.json ==
@@ -193,9 +240,14 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == /github/workspace/fsh-generated/resources/ValueSet-diagnosis-ICD10-level1.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-group-confirmation-type.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-group-types.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-coverage-benefit-limit.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-coverage-type.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-general-cost-type.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-publication-status.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-location-type.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-medication-item-type.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers.json ==
+WARNING: ValueSet/openimis-identifiers: ValueSet.compose[0].include[0].concept[1]: The code DBID is not valid in the system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers
 == /github/workspace/fsh-generated/resources/ValueSet-organization-hf-level.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-organization-legal-form.json ==
 == /github/workspace/fsh-generated/resources/ValueSet-patient-contact-relationship.json ==

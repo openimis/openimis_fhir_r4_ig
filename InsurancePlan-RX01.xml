@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<InsurancePlan xmlns="http://hl7.org/fhir">
+  <id value="RX01"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Cycle Start (InsurancePlan)</b>: 01-03</p><p><b>Cycle Start (InsurancePlan)</b>: 01-07</p><p><b>Cycle Start (InsurancePlan)</b>: 01-10</p><p><b>identifier</b>: Unique code: RX01</p><p><b>status</b>: active</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}">Medical</span></p><p><b>name</b>: Regional fixed enrolment</p><p><b>period</b>: 2016-10-01 --&gt; 2030-01-01</p><p><b>coverageArea</b>: <a href="Location-Upper-River-Region.html">Generated Summary: Unique code: R1; name: Upper River Region; <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type R}">Region</span></a></p><blockquote><p><b>coverage</b></p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}">Medical</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}">Medical</span></p><h3>Limits</h3><table class="grid"><tr><td>-</td><td><b>Value</b></td><td><b>Code</b></td></tr><tr><td>*</td><td>12 month</td><td><span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit period}">Period</span></td></tr></table></blockquote></blockquote><blockquote><p><b>plan</b></p><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type lumpsum}">Lumpsum</span></p><p><b>groupSize</b>: 3</p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type premiumAdult}">Premium Adult</span></p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type premiumChild}">Premium Child</span></p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type registrationFee}">Registration Fee</span></p></blockquote></blockquote></div>
+  </text>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle">
+    <valueString value="01-03"/>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle">
+    <valueString value="01-07"/>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle">
+    <valueString value="01-10"/>
+  </extension>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="Code"/>
+      </coding>
+    </type>
+    <value value="RX01"/>
+  </identifier>
+  <status value="active"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/insurance-plan-type"/>
+      <code value="medical"/>
+      <display value="Medical"/>
+    </coding>
+  </type>
+  <name value="Regional fixed enrolment"/>
+  <period>
+    <start value="2016-10-01"/>
+    <end value="2030-01-01"/>
+  </period>
+  <coverageArea>
+    <reference value="Location/Upper-River-Region"/>
+  </coverageArea>
+  <coverage>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/insurance-plan-type"/>
+        <code value="medical"/>
+        <display value="Medical"/>
+      </coding>
+    </type>
+    <benefit>
+      <type>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/insurance-plan-type"/>
+          <code value="medical"/>
+          <display value="Medical"/>
+        </coding>
+      </type>
+      <limit>
+        <value>
+          <value value="12"/>
+          <unit value="month"/>
+        </value>
+        <code>
+          <coding>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit"/>
+            <code value="period"/>
+            <display value="Period"/>
+          </coding>
+        </code>
+      </limit>
+    </benefit>
+  </coverage>
+  <plan>
+    <generalCost>
+      <type>
+        <coding>
+          <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type"/>
+          <code value="lumpsum"/>
+          <display value="Lumpsum"/>
+        </coding>
+      </type>
+      <groupSize value="3"/>
+      <cost>
+        <value value="10000"/>
+        <currency value="EUR"/>
+      </cost>
+    </generalCost>
+    <generalCost>
+      <type>
+        <coding>
+          <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type"/>
+          <code value="premiumAdult"/>
+          <display value="Premium Adult"/>
+        </coding>
+      </type>
+      <cost>
+        <value value="1000"/>
+        <currency value="EUR"/>
+      </cost>
+    </generalCost>
+    <generalCost>
+      <type>
+        <coding>
+          <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type"/>
+          <code value="premiumChild"/>
+          <display value="Premium Child"/>
+        </coding>
+      </type>
+      <cost>
+        <value value="500"/>
+        <currency value="EUR"/>
+      </cost>
+    </generalCost>
+    <generalCost>
+      <type>
+        <coding>
+          <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type"/>
+          <code value="registrationFee"/>
+          <display value="Registration Fee"/>
+        </coding>
+      </type>
+      <cost>
+        <value value="3000"/>
+        <currency value="EUR"/>
+      </cost>
+    </generalCost>
+  </plan>
+</InsurancePlan>

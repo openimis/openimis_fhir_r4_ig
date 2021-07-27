@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "insurance-plan-general-cost-type"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">lumpsum<a name=\"insurance-plan-general-cost-type-lumpsum\"> </a></td><td>Lumpsum</td></tr><tr><td style=\"white-space:nowrap\">premiumAdult<a name=\"insurance-plan-general-cost-type-premiumAdult\"> </a></td><td>Premium Adult</td></tr><tr><td style=\"white-space:nowrap\">premiumChild<a name=\"insurance-plan-general-cost-type-premiumChild\"> </a></td><td>Premium Child</td></tr><tr><td style=\"white-space:nowrap\">registrationLumpsum<a name=\"insurance-plan-general-cost-type-registrationLumpsum\"> </a></td><td>Registration Lumpsum</td></tr><tr><td style=\"white-space:nowrap\">registrationFee<a name=\"insurance-plan-general-cost-type-registrationFee\"> </a></td><td>Registration Fee</td></tr><tr><td style=\"white-space:nowrap\">generalAssemblyLumpSum<a name=\"insurance-plan-general-cost-type-generalAssemblyLumpSum\"> </a></td><td>General Assembly Lump Sum</td></tr><tr><td style=\"white-space:nowrap\">generalAssemblyFee<a name=\"insurance-plan-general-cost-type-generalAssemblyFee\"> </a></td><td>General Assembly Fee</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "InsurancePlanGeneralCostTypeCS"];
+  fhir:CodeSystem.title [ fhir:value "General Cost Type (InsurancePlan)"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-07-27T11:22:47+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Swiss TPH" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.swisstph.ch/en/" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Dragos Dobre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "dragos.dobre@swisstph.ch" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended."];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "7"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "lumpsum" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Lumpsum" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "premiumAdult" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Premium Adult" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "premiumChild" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Premium Child" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "registrationLumpsum" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Registration Lumpsum" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "registrationFee" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Registration Fee" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "generalAssemblyLumpSum" ];
+     fhir:CodeSystem.concept.display [ fhir:value "General Assembly Lump Sum" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "generalAssemblyFee" ];
+     fhir:CodeSystem.concept.display [ fhir:value "General Assembly Fee" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
