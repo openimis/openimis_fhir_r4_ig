@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "InsurancePlanGeneralCostTypeCS"];
   fhir:CodeSystem.title [ fhir:value "General Cost Type (InsurancePlan)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-07-27T11:23:32+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-07-27T15:04:54+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;

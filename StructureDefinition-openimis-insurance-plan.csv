@@ -19,12 +19,44 @@ htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
 "InsurancePlan.contained","","inline resources
 anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
-"InsurancePlan.extension","","","",0,*,"","","","Extension {[]} {[]}
+"InsurancePlan.extension","","","",1,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"InsurancePlan.extension","conversion","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-conversion]]} {[]}
+","Conversion Product","Reference to the product which replaces the current product in case of renewal after the period end.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"InsurancePlan.extension","maxInstallments","","",1,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-max-installments]]} {[]}
+","Max Installments","Maximal number of instalments in which contributions for a policy may be paid.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "InsurancePlan.extension","startCycle","","",0,4,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle]]} {[]}
-","Start Cycle","Specifies the start of a new cycle for the Insurance Plan.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Start Cycle","If one or more starting dates (a day and a month) of a cycle are specified then the insurance product is considered as the insurance product with fixed enrolment dates. In this case, activation of underwritten and renewed policies is accomplished always on fixed dates during a year. Maximum four cycle dates can be specified.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"InsurancePlan.extension","administrationPeriod","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period]]} {[]}
+","Administration Period","Duration of the administration period in months. The administration period is added to the enrolment date/renewal date for determination of the policy start date. Mapped to `administrationPeriod`","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"InsurancePlan.extension","gracePeriodPayment","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period]]} {[]}
+","Grace Period Payment","Duration of the period in months, in which a policy has a grace period (not fully paid up) before it is suspended. Mandatory, although it is by default and can be left at zero. Mapped to `waitingPeriod`","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"InsurancePlan.extension","gracePeriodRenewal","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period]]} {[]}
+","Grace Period Renewal","Duration of the period in months after the starting date of a cycle (including this starting date), in which renewing of a policy will still be associated with this cycle. Mapped to `gracePeriodRenewal`","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"InsurancePlan.extension","gracePeriodEnrolment","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period]]} {[]}
+","Start Cycle","Duration of the period in months after the starting date of a cycle (including this starting date), in which underwriting of a policy will still be associated with this cycle. Mapped to `gracePeriod`","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"InsurancePlan.extension","renewalDiscount","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount]]} {[]}
+","Renewal Discount","Discount to apply for renewals","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"InsurancePlan.extension","enrolmentDiscount","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount]]} {[]}
+","Enrolment Discount","Discount to apply for enrolment","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "InsurancePlan.modifierExtension","","extensions
@@ -345,7 +377,29 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "InsurancePlan.coverage.benefit.requirement","","","",0,0,"","","","string {[]} {[]}
 ","Referral requirements","The referral requirements to have access/coverage for this benefit.","","","","","","","","","",,,,,"",,,,"InsurancePlan.coverage.benefit.requirement",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"InsurancePlan.coverage.benefit.limit","","","",1,1,"","","","BackboneElement {[]} {[]}
+"InsurancePlan.coverage.benefit.limit","","","",1,2,"","","","BackboneElement {[]} {[]}
+","Benefit limits","The specific limits on the benefit.","","","","","","","","","",,,,,"","value:code.coding.code}
+","",,"closed","InsurancePlan.coverage.benefit.limit",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"InsurancePlan.coverage.benefit.limit.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"InsurancePlan.coverage.benefit.limit.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"InsurancePlan.coverage.benefit.limit.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"InsurancePlan.coverage.benefit.limit.value","","","",0,1,"","","","Quantity {[]} {[]}
+","Maximum value allowed","The maximum amount of a service item a plan will pay for a covered benefit.  For examples. wellness visits, or eyeglasses.","May also be called “eligible expense,” “payment allowance,” or “negotiated rate.”.","","","","","","","","",,,,,"",,,,"InsurancePlan.coverage.benefit.limit.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"InsurancePlan.coverage.benefit.limit.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Benefit limit details","The specific limit on the benefit.","Use `CodeableConcept.text` element if the data is free (uncoded) text.","","","","","","","","",,"required","","https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-coverage-benefit-limit","",,,,"InsurancePlan.coverage.benefit.limit.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"InsurancePlan.coverage.benefit.limit","period","","",1,1,"","","","BackboneElement {[]} {[]}
 ","Benefit limits","The specific limits on the benefit.","","","","","","","","","",,,,,"",,,,"InsurancePlan.coverage.benefit.limit",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "InsurancePlan.coverage.benefit.limit.id","","","",0,1,"","","","string {[]} {[]}
@@ -361,10 +415,43 @@ user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
 "InsurancePlan.coverage.benefit.limit.value","","","",1,1,"","","","Quantity {[]} {[]}
-","Insurance Period (months)","Number of months the Insuree is covered.","May also be called “eligible expense,” “payment allowance,” or “negotiated rate.”.","","","","","","","","",,,,,"",,,,"InsurancePlan.coverage.benefit.limit.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Insurance Period (months)","Number of months the Insuree is covered. Mapped to `insurancePeriod`","May also be called “eligible expense,” “payment allowance,” or “negotiated rate.”.","","","","","","","","",,,,,"",,,,"InsurancePlan.coverage.benefit.limit.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"InsurancePlan.coverage.benefit.limit.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
-","Benefit limit details","The specific limit on the benefit.","Use `CodeableConcept.text` element if the data is free (uncoded) text.","","","","","","","","",,"required","","https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-coverage-benefit-limit","",,,,"InsurancePlan.coverage.benefit.limit.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"InsurancePlan.coverage.benefit.limit.code","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Benefit limit details","The specific limit on the benefit.","Use `CodeableConcept.text` element if the data is free (uncoded) text.","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
+  <coding>
+    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit""/>
+    <code value=""period""/>
+    <display value=""Period""/>
+  </coding>
+</valueCodeableConcept>","","","",,,,,"",,,,"InsurancePlan.coverage.benefit.limit.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"InsurancePlan.coverage.benefit.limit","memberCount","","",0,1,"","","","BackboneElement {[]} {[]}
+","Benefit limits","The specific limits on the benefit.","","","","","","","","","",,,,,"",,,,"InsurancePlan.coverage.benefit.limit",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"InsurancePlan.coverage.benefit.limit.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"InsurancePlan.coverage.benefit.limit.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"InsurancePlan.coverage.benefit.limit.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"InsurancePlan.coverage.benefit.limit.value","","","",1,1,"","","","Quantity {[]} {[]}
+","Member Count","Maximal number of members of a household/group for the product. Mapped to `memberCount`","May also be called “eligible expense,” “payment allowance,” or “negotiated rate.”.","","","","","","","","",,,,,"",,,,"InsurancePlan.coverage.benefit.limit.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"InsurancePlan.coverage.benefit.limit.code","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Benefit limit details","The specific limit on the benefit.","Use `CodeableConcept.text` element if the data is free (uncoded) text.","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
+  <coding>
+    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit""/>
+    <code value=""memberCount""/>
+    <display value=""Member Count""/>
+  </coding>
+</valueCodeableConcept>","","","",,,,,"",,,,"InsurancePlan.coverage.benefit.limit.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "InsurancePlan.plan","","","",1,1,"","","","BackboneElement {[]} {[]}
 ","Plan details","Details about an insurance plan.","","","","","","","","","",,,,,"",,,,"InsurancePlan.plan",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -652,7 +739,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "InsurancePlan.plan.generalCost.comment","","","",0,1,"","","","string {[]} {[]}
 ","Additional cost information","Additional information about the general costs associated with this plan.","","","","","","","","","",,,,,"",,,,"InsurancePlan.plan.generalCost.comment",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"InsurancePlan.plan.specificCost","","","",0,*,"","","","BackboneElement {[]} {[]}
+"InsurancePlan.plan.specificCost","","","",0,0,"","","","BackboneElement {[]} {[]}
 ","Specific costs","Costs associated with the coverage provided by the product.","","","","","","","","","",,,,,"",,,,"InsurancePlan.plan.specificCost",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "InsurancePlan.plan.specificCost.id","","","",0,1,"","","","string {[]} {[]}

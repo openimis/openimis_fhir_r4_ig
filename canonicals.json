@@ -189,6 +189,34 @@
     "name": "GroupTypeExtension"
   },
   {
+    "id": "insurance-plan-conversion",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-conversion",
+    "version": "0.1.0",
+    "name": "InsurancePlanConversionExtension"
+  },
+  {
+    "id": "insurance-plan-discount",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount",
+    "version": "0.1.0",
+    "name": "InsurancePlanDiscountExtension"
+  },
+  {
+    "id": "insurance-plan-max-installments",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-max-installments",
+    "version": "0.1.0",
+    "name": "InsurancePlanMaxInstallmentsExtension"
+  },
+  {
+    "id": "insurance-plan-period",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period",
+    "version": "0.1.0",
+    "name": "InsurancePlanPeriodExtension"
+  },
+  {
     "id": "insurance-plan-start-cycle",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle",

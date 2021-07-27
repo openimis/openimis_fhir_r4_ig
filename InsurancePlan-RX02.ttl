@@ -1,0 +1,247 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/InsurancePlan/RX02> a fhir:InsurancePlan;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "RX02"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan";
+       fhir:index 0;
+       fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Max Installments (InsurancePlan)</b>: 3</p><p><b>Cycle Start (InsurancePlan)</b>: 01-03</p><p><b>Cycle Start (InsurancePlan)</b>: 01-07</p><p><b>Cycle Start (InsurancePlan)</b>: 01-10</p><p><b>Period (InsurancePlan)</b>: 1 months</p><p><b>Period (InsurancePlan)</b>: 1 months</p><p><b>Period (InsurancePlan)</b>: 1 months</p><p><b>Period (InsurancePlan)</b>: 1 months</p><blockquote><p><b>Discount (InsurancePlan)</b></p><p><b>value</b>: 50</p><p><b>value</b>: 2 months</p></blockquote><blockquote><p><b>Discount (InsurancePlan)</b></p><p><b>value</b>: 80</p><p><b>value</b>: 2 months</p></blockquote><p><b>identifier</b>: Unique code: RX01</p><p><b>status</b>: active</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}\">Medical</span></p><p><b>name</b>: Regional fixed enrolment</p><p><b>period</b>: 2023-10-01 --&gt; 2030-12-31</p><p><b>coverageArea</b>: <a href=\"Location-Upper-River-Region.html\">Generated Summary: Unique code: R1; name: Upper River Region; <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type R}\">Region</span></a></p><blockquote><p><b>coverage</b></p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}\">Medical</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}\">Medical</span></p><blockquote><p><b>limit</b></p><p><b>value</b>: 12 month</p><p><b>code</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit period}\">Period</span></p></blockquote><blockquote><p><b>limit</b></p><p><b>value</b>: 10 member</p><p><b>code</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit memberCount}\">Member Count</span></p></blockquote></blockquote></blockquote><blockquote><p><b>plan</b></p><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type lumpsum}\">Lumpsum</span></p><p><b>groupSize</b>: 3</p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type premiumAdult}\">Premium Adult</span></p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type premiumChild}\">Premium Child</span></p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type registrationFee}\">Registration Fee</span></p></blockquote></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-max-installments" ];
+     fhir:Extension.valueUnsignedInt [ fhir:value "3"^^xsd:nonNegativeInteger ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle" ];
+     fhir:Extension.valueString [ fhir:value "01-03" ]
+  ], [
+     fhir:index 2;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle" ];
+     fhir:Extension.valueString [ fhir:value "01-07" ]
+  ], [
+     fhir:index 3;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle" ];
+     fhir:Extension.valueString [ fhir:value "01-10" ]
+  ], [
+     fhir:index 4;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "months" ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "months" ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "months" ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "months" ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "Percentage" ];
+       fhir:Extension.valueDecimal [ fhir:value "50"^^xsd:decimal ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "Period" ];
+       fhir:Extension.valueQuantity [
+         fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "months" ]
+       ]
+     ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount" ]
+  ], [
+     fhir:index 9;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "Percentage" ];
+       fhir:Extension.valueDecimal [ fhir:value "80"^^xsd:decimal ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "Period" ];
+       fhir:Extension.valueQuantity [
+         fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "months" ]
+       ]
+     ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount" ]
+  ];
+  fhir:InsurancePlan.identifier [
+     fhir:index 0;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers" ];
+         fhir:Coding.code [ fhir:value "Code" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "RX01" ]
+  ];
+  fhir:InsurancePlan.status [ fhir:value "active"];
+  fhir:InsurancePlan.type [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/insurance-plan-type" ];
+       fhir:Coding.code [ fhir:value "medical" ];
+       fhir:Coding.display [ fhir:value "Medical" ]
+     ]
+  ];
+  fhir:InsurancePlan.name [ fhir:value "Regional fixed enrolment"];
+  fhir:InsurancePlan.period [
+     fhir:Period.start [ fhir:value "2023-10-01"^^xsd:date ];
+     fhir:Period.end [ fhir:value "2030-12-31"^^xsd:date ]
+  ];
+  fhir:InsurancePlan.coverageArea [
+     fhir:index 0;
+     fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Location/Upper-River-Region>;
+     fhir:Reference.reference [ fhir:value "Location/Upper-River-Region" ]
+  ];
+  fhir:InsurancePlan.coverage [
+     fhir:index 0;
+     fhir:InsurancePlan.coverage.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/insurance-plan-type" ];
+         fhir:Coding.code [ fhir:value "medical" ];
+         fhir:Coding.display [ fhir:value "Medical" ]
+       ]
+     ];
+     fhir:InsurancePlan.coverage.benefit [
+       fhir:index 0;
+       fhir:InsurancePlan.coverage.benefit.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/insurance-plan-type" ];
+           fhir:Coding.code [ fhir:value "medical" ];
+           fhir:Coding.display [ fhir:value "Medical" ]
+         ]
+       ];
+       fhir:InsurancePlan.coverage.benefit.limit [
+         fhir:index 0;
+         fhir:InsurancePlan.coverage.benefit.limit.value [
+           fhir:Quantity.value [ fhir:value "12"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "month" ]
+         ];
+         fhir:InsurancePlan.coverage.benefit.limit.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit" ];
+             fhir:Coding.code [ fhir:value "period" ];
+             fhir:Coding.display [ fhir:value "Period" ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:InsurancePlan.coverage.benefit.limit.value [
+           fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "member" ]
+         ];
+         fhir:InsurancePlan.coverage.benefit.limit.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit" ];
+             fhir:Coding.code [ fhir:value "memberCount" ];
+             fhir:Coding.display [ fhir:value "Member Count" ]
+           ]
+         ]
+       ]
+     ]
+  ];
+  fhir:InsurancePlan.plan [
+     fhir:index 0;
+     fhir:InsurancePlan.plan.generalCost [
+       fhir:index 0;
+       fhir:InsurancePlan.plan.generalCost.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type" ];
+           fhir:Coding.code [ fhir:value "lumpsum" ];
+           fhir:Coding.display [ fhir:value "Lumpsum" ]
+         ]
+       ];
+       fhir:InsurancePlan.plan.generalCost.groupSize [ fhir:value "3"^^xsd:positiveInteger ];
+       fhir:InsurancePlan.plan.generalCost.cost [
+         fhir:Money.value [ fhir:value "1500"^^xsd:decimal ];
+         fhir:Money.currency [ fhir:value "EUR" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:InsurancePlan.plan.generalCost.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type" ];
+           fhir:Coding.code [ fhir:value "premiumAdult" ];
+           fhir:Coding.display [ fhir:value "Premium Adult" ]
+         ]
+       ];
+       fhir:InsurancePlan.plan.generalCost.cost [
+         fhir:Money.value [ fhir:value "150"^^xsd:decimal ];
+         fhir:Money.currency [ fhir:value "EUR" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:InsurancePlan.plan.generalCost.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type" ];
+           fhir:Coding.code [ fhir:value "premiumChild" ];
+           fhir:Coding.display [ fhir:value "Premium Child" ]
+         ]
+       ];
+       fhir:InsurancePlan.plan.generalCost.cost [
+         fhir:Money.value [ fhir:value "70"^^xsd:decimal ];
+         fhir:Money.currency [ fhir:value "EUR" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:InsurancePlan.plan.generalCost.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type" ];
+           fhir:Coding.code [ fhir:value "registrationFee" ];
+           fhir:Coding.display [ fhir:value "Registration Fee" ]
+         ]
+       ];
+       fhir:InsurancePlan.plan.generalCost.cost [
+         fhir:Money.value [ fhir:value "200"^^xsd:decimal ];
+         fhir:Money.currency [ fhir:value "EUR" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/InsurancePlan/RX02.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

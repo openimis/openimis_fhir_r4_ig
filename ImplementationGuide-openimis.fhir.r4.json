@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-07-27T11:23:32+00:00",
+  "date": "2021-07-27T15:04:54+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -512,6 +512,62 @@
         },
         "name": "Group Type (Group)",
         "description": "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/insurance-plan-conversion"
+        },
+        "name": "Conversion Product (InsurancePlan)",
+        "description": "Reference to the product which replaces the current product in case of renewal after the period end.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/insurance-plan-discount"
+        },
+        "name": "Discount (InsurancePlan)",
+        "description": "Defines the discount to be applied for enrolment and renewal in InsurancePlan.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/insurance-plan-max-installments"
+        },
+        "name": "Max Installments (InsurancePlan)",
+        "description": "Maximal number of instalments in which contributions for a policy may be paid.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/insurance-plan-period"
+        },
+        "name": "Period (InsurancePlan)",
+        "description": "Defines the number of months a certain period is valid in InsurancePlan.",
         "exampleBoolean": false
       },
       {
@@ -1197,7 +1253,7 @@
           "reference": "CodeSystem/openimis-identifiers"
         },
         "name": "openIMIS Identifiers code system",
-        "description": "Identifiers that are specific to openIMIS and could not be found in standard sources",
+        "description": "Identifiers that are specific to openIMIS and could not be found in standard sources.",
         "exampleBoolean": false
       },
       {
@@ -1406,6 +1462,20 @@
           "reference": "InsurancePlan/RX01"
         },
         "name": "RX01",
+        "description": "Example of openIMIS InsurancePlan",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "InsurancePlan"
+          }
+        ],
+        "reference": {
+          "reference": "InsurancePlan/RX02"
+        },
+        "name": "RX02",
         "description": "Example of openIMIS InsurancePlan",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan"
       },

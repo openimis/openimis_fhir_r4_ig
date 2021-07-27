@@ -8,9 +8,19 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Cycle Start (InsurancePlan)</b>: 01-03</p><p><b>Cycle Start (InsurancePlan)</b>: 01-07</p><p><b>Cycle Start (InsurancePlan)</b>: 01-10</p><p><b>identifier</b>: Unique code: RX01</p><p><b>status</b>: active</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}\">Medical</span></p><p><b>name</b>: Regional fixed enrolment</p><p><b>period</b>: 2016-10-01 --&gt; 2030-01-01</p><p><b>coverageArea</b>: <a href=\"Location-Upper-River-Region.html\">Generated Summary: Unique code: R1; name: Upper River Region; <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type R}\">Region</span></a></p><blockquote><p><b>coverage</b></p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}\">Medical</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}\">Medical</span></p><h3>Limits</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Code</b></td></tr><tr><td>*</td><td>12 month</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit period}\">Period</span></td></tr></table></blockquote></blockquote><blockquote><p><b>plan</b></p><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type lumpsum}\">Lumpsum</span></p><p><b>groupSize</b>: 3</p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type premiumAdult}\">Premium Adult</span></p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type premiumChild}\">Premium Child</span></p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type registrationFee}\">Registration Fee</span></p></blockquote></blockquote></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Max Installments (InsurancePlan)</b>: 3</p><p><b>Conversion Product (InsurancePlan)</b>: <a href=\"InsurancePlan-RX02.html\">Generated Summary: Unique code: RX01; status: active; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}\">Medical</span>; name: Regional fixed enrolment; period: 2023-10-01 --&gt; 2030-12-31</a></p><p><b>Cycle Start (InsurancePlan)</b>: 01-03</p><p><b>Cycle Start (InsurancePlan)</b>: 01-07</p><p><b>Cycle Start (InsurancePlan)</b>: 01-10</p><p><b>Period (InsurancePlan)</b>: 1 months</p><p><b>Period (InsurancePlan)</b>: 1 months</p><p><b>Period (InsurancePlan)</b>: 1 months</p><p><b>Period (InsurancePlan)</b>: 1 months</p><blockquote><p><b>Discount (InsurancePlan)</b></p><p><b>value</b>: 50</p><p><b>value</b>: 2 months</p></blockquote><blockquote><p><b>Discount (InsurancePlan)</b></p><p><b>value</b>: 80</p><p><b>value</b>: 2 months</p></blockquote><p><b>identifier</b>: Unique code: RX01</p><p><b>status</b>: active</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}\">Medical</span></p><p><b>name</b>: Regional fixed enrolment</p><p><b>period</b>: 2016-10-01 --&gt; 2022-12-31</p><p><b>coverageArea</b>: <a href=\"Location-Upper-River-Region.html\">Generated Summary: Unique code: R1; name: Upper River Region; <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type R}\">Region</span></a></p><blockquote><p><b>coverage</b></p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}\">Medical</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/insurance-plan-type medical}\">Medical</span></p><blockquote><p><b>limit</b></p><p><b>value</b>: 12 month</p><p><b>code</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit period}\">Period</span></p></blockquote><blockquote><p><b>limit</b></p><p><b>value</b>: 10 member</p><p><b>code</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit memberCount}\">Member Count</span></p></blockquote></blockquote></blockquote><blockquote><p><b>plan</b></p><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type lumpsum}\">Lumpsum</span></p><p><b>groupSize</b>: 3</p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type premiumAdult}\">Premium Adult</span></p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type premiumChild}\">Premium Child</span></p></blockquote><blockquote><p><b>generalCost</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type registrationFee}\">Registration Fee</span></p></blockquote></blockquote></div>"
   },
   "extension": [
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-max-installments",
+      "valueUnsignedInt": 3
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-conversion",
+      "valueReference": {
+        "reference": "InsurancePlan/RX02"
+      }
+    },
     {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle",
       "valueString": "01-03"
@@ -22,6 +32,66 @@
     {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle",
       "valueString": "01-10"
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "months"
+      }
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "months"
+      }
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "months"
+      }
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "months"
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "Percentage",
+          "valueDecimal": 50
+        },
+        {
+          "url": "Period",
+          "valueQuantity": {
+            "value": 2,
+            "unit": "months"
+          }
+        }
+      ],
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount"
+    },
+    {
+      "extension": [
+        {
+          "url": "Percentage",
+          "valueDecimal": 80
+        },
+        {
+          "url": "Period",
+          "valueQuantity": {
+            "value": 2,
+            "unit": "months"
+          }
+        }
+      ],
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount"
     }
   ],
   "identifier": [
@@ -52,7 +122,7 @@
   "name": "Regional fixed enrolment",
   "period": {
     "start": "2016-10-01",
-    "end": "2030-01-01"
+    "end": "2022-12-31"
   },
   "coverageArea": [
     {
@@ -96,6 +166,21 @@
                   }
                 ]
               }
+            },
+            {
+              "value": {
+                "value": 10,
+                "unit": "member"
+              },
+              "code": {
+                "coding": [
+                  {
+                    "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit",
+                    "code": "memberCount",
+                    "display": "Member Count"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -117,7 +202,7 @@
           },
           "groupSize": 3,
           "cost": {
-            "value": 10000,
+            "value": 1000,
             "currency": "EUR"
           }
         },
@@ -132,7 +217,7 @@
             ]
           },
           "cost": {
-            "value": 1000,
+            "value": 100,
             "currency": "EUR"
           }
         },
@@ -147,7 +232,7 @@
             ]
           },
           "cost": {
-            "value": 500,
+            "value": 50,
             "currency": "EUR"
           }
         },
@@ -162,7 +247,7 @@
             ]
           },
           "cost": {
-            "value": 3000,
+            "value": 300,
             "currency": "EUR"
           }
         }

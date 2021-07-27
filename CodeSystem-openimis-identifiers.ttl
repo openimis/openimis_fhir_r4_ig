@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "OpenIMISIdentifierCS"];
   fhir:CodeSystem.title [ fhir:value "openIMIS Identifiers code system"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-07-27T11:23:32+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-07-27T15:04:54+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -37,7 +37,7 @@
        fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
-  fhir:CodeSystem.description [ fhir:value "Identifiers that are specific to openIMIS and could not be found in standard sources"];
+  fhir:CodeSystem.description [ fhir:value "Identifiers that are specific to openIMIS and could not be found in standard sources."];
   fhir:CodeSystem.content [ fhir:value "complete"];
   fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [

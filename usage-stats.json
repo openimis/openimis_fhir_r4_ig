@@ -114,6 +114,103 @@
       ]
     },
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-conversion",
+      "title": "Conversion Product (InsurancePlan)",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount",
+      "title": "Discount (InsurancePlan)",
+      "types": [
+        "decimal",
+        "decimal",
+        "Quantity",
+        "Quantity",
+        "string",
+        "Extension",
+        "decimal",
+        "code",
+        "string",
+        "uri",
+        "code",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-max-installments",
+      "title": "Max Installments (InsurancePlan)",
+      "types": [
+        "unsignedInt",
+        "unsignedInt"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period",
+      "title": "Period (InsurancePlan)",
+      "types": [
+        "Quantity",
+        "Quantity",
+        "string",
+        "Extension",
+        "decimal",
+        "code",
+        "string",
+        "uri",
+        "code"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle",
       "title": "Cycle Start (InsurancePlan)",
       "types": [
@@ -514,6 +611,18 @@
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-type": [
       "Group"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-conversion": [
+      "InsurancePlan"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount": [
+      "InsurancePlan"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-max-installments": [
+      "InsurancePlan"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period": [
+      "InsurancePlan"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle": [
       "InsurancePlan"

@@ -19,7 +19,7 @@
   <name value="MedicationFrequencyExtension"/>
   <title value="Frequency (Medication)"/>
   <status value="active"/>
-  <date value="2021-07-27T11:23:32+00:00"/>
+  <date value="2021-07-27T15:04:54+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>
@@ -47,7 +47,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Medication"/>
+    <expression value="OpenIMISMedication"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>

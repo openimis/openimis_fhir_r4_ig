@@ -3,14 +3,14 @@
   "id": "insurance-plan-coverage-benefit-limit",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">period<a name=\"insurance-plan-coverage-benefit-limit-period\"> </a></td><td>Period</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">period<a name=\"insurance-plan-coverage-benefit-limit-period\"> </a></td><td>Period</td><td>Duration of the period in months, in which a policy with the product will be valid.</td></tr><tr><td style=\"white-space:nowrap\">memberCount<a name=\"insurance-plan-coverage-benefit-limit-memberCount\"> </a></td><td>Member Count</td><td>Maximal number of members of a household/group for the product.</td></tr></table></div>"
   },
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit",
   "version": "0.1.0",
   "name": "InsurancePlanCoverageBenefitLimitCS",
   "title": "Coverage Benefit Limit Types (InsurancePlan)",
   "status": "active",
-  "date": "2021-07-27T11:23:32+00:00",
+  "date": "2021-07-27T15:04:54+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -35,11 +35,17 @@
   ],
   "description": "Indicates the Coverage Benefit Limit Types for an InsurancePlan. Values defined by openIMIS. Can not be extended.",
   "content": "complete",
-  "count": 1,
+  "count": 2,
   "concept": [
     {
       "code": "period",
-      "display": "Period"
+      "display": "Period",
+      "definition": "Duration of the period in months, in which a policy with the product will be valid."
+    },
+    {
+      "code": "memberCount",
+      "display": "Member Count",
+      "definition": "Maximal number of members of a household/group for the product."
     }
   ]
 }

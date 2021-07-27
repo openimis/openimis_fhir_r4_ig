@@ -11,7 +11,7 @@
   <name value="openIMISFHIRR4"/>
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-07-27T11:23:32+00:00"/>
+  <date value="2021-07-27T15:04:54+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>
@@ -359,6 +359,50 @@
       </reference>
       <name value="Group Type (Group)"/>
       <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/insurance-plan-conversion"/>
+      </reference>
+      <name value="Conversion Product (InsurancePlan)"/>
+      <description value="Reference to the product which replaces the current product in case of renewal after the period end."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/insurance-plan-discount"/>
+      </reference>
+      <name value="Discount (InsurancePlan)"/>
+      <description value="Defines the discount to be applied for enrolment and renewal in InsurancePlan."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/insurance-plan-max-installments"/>
+      </reference>
+      <name value="Max Installments (InsurancePlan)"/>
+      <description value="Maximal number of instalments in which contributions for a policy may be paid."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/insurance-plan-period"/>
+      </reference>
+      <name value="Period (InsurancePlan)"/>
+      <description value="Defines the number of months a certain period is valid in InsurancePlan."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -897,7 +941,7 @@
         <reference value="CodeSystem/openimis-identifiers"/>
       </reference>
       <name value="openIMIS Identifiers code system"/>
-      <description value="Identifiers that are specific to openIMIS and could not be found in standard sources"/>
+      <description value="Identifiers that are specific to openIMIS and could not be found in standard sources."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1061,6 +1105,17 @@
         <reference value="InsurancePlan/RX01"/>
       </reference>
       <name value="RX01"/>
+      <description value="Example of openIMIS InsurancePlan"/>
+      <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="InsurancePlan"/>
+      </extension>
+      <reference>
+        <reference value="InsurancePlan/RX02"/>
+      </reference>
+      <name value="RX02"/>
       <description value="Example of openIMIS InsurancePlan"/>
       <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan"/>
     </resource>
