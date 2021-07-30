@@ -334,7 +334,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Practitioner.telecom.period","","","",0,1,"","","Y","Period {[]} {[]}
 ","Time period when the contact point was/is in use","Time period when the contact point was/is in use.","","","","","","","","","",,,,,"",,,,"ContactPoint.period",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A","./usablePeriod[type=""IVL<TS>""]","./StartDate and ./EndDate"
-"Practitioner.address","","","",1,1,"Y","","Y","Address {[]} {[]}
+"Practitioner.address","","","",0,1,"Y","","Y","Address {[]} {[]}
 ","Address(es) of the practitioner that are not role specific (typically home address)","Address(es) of the practitioner that are not role specific (typically home address). Work addresses are not typically entered in this property as they are usually role dependent.","The PractitionerRole does not have an address value on it, as it is expected that the location property be used for this purpose (which has an address).","The home/mailing address of the practitioner is often required for employee administration purposes, and also for some rostering services where the start point (practitioners home) can be used in calculations.","","","","","","","",,,,,"",,,,"Practitioner.address",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","ORC-24, STF-11, ROL-11, PRT-14","./addr","./Addresses"
 "Practitioner.address.id","","","",0,1,"","","","string {[]} {[]}

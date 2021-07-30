@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "MedicationFrequencyExtension"];
   fhir:StructureDefinition.title [ fhir:value "Frequency (Medication)"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-07-27T15:04:54+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-07-30T12:29:13+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

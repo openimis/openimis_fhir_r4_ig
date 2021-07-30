@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Roberts-Jeb-EO"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: E00001, UUID unique identifier: e5256c97-8b06-4c8e-96db-d8294b4619a8</p><p><b>name</b>: Jeb Roberts (OFFICIAL)</p><p><b>birthDate</b>: 1980-01-15</p><h3>Qualifications</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td><span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type EO}">Enrolment Officer</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="Code"/>
+      </coding>
+    </type>
+    <value value="E00001"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="UUID"/>
+      </coding>
+    </type>
+    <value value="e5256c97-8b06-4c8e-96db-d8294b4619a8"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="Roberts"/>
+    <given value="Jeb"/>
+  </name>
+  <birthDate value="1980-01-15"/>
+  <qualification>
+    <code>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type"/>
+        <code value="EO"/>
+        <display value="Enrolment Officer"/>
+      </coding>
+    </code>
+  </qualification>
+</Practitioner>

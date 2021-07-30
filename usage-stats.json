@@ -18,6 +18,76 @@
       ]
     },
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium",
+      "title": "Premium (Contract)",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept",
+        "CodeableConcept",
+        "CodeableConcept",
+        "Money",
+        "Money",
+        "string",
+        "Extension",
+        "decimal",
+        "code",
+        "string",
+        "date",
+        "CodeableConcept",
+        "CodeableConcept",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-address",
       "title": "Poverty Status (Group)",
       "types": [
@@ -501,12 +571,20 @@
     ],
     "Practitioner": [
       {
-        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner",
-        "title": "openIMIS Claim Administrator Practitioner"
-      },
-      {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner",
         "title": "openIMIS Enrolment Officer Practitioner"
+      }
+    ],
+    "PractitionerRole": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner-role",
+        "title": "openIMIS Enrolment Officer Practitioner Role"
+      }
+    ],
+    "Contract": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-contract",
+        "title": "openIMIS Contract"
       }
     ],
     "Group": [
@@ -600,6 +678,9 @@
       "Extension.value[x]",
       "Patient.address"
     ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium": [
+      "Contract.term.asset"
+    ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-address": [
       "Group"
     ],
@@ -662,6 +743,9 @@
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-vulnerability-status": [
       "Patient"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/practitioner-role-substitution-reference": [
+      "PractitionerRole"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price": [
       "ActivityDefinition",

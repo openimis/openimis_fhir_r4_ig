@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="contract-premium-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">C<a name="contract-premium-type-C"> </a></td><td>Cash</td></tr><tr><td style="white-space:nowrap">B<a name="contract-premium-type-B"> </a></td><td>Bank Transfer</td></tr><tr><td style="white-space:nowrap">M<a name="contract-premium-type-M"> </a></td><td>Mobile Phone</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-type"/>
+  <version value="0.1.0"/>
+  <name value="ContractPremiumTypeCS"/>
+  <title value="Premium Type (Contract)"/>
+  <status value="active"/>
+  <date value="2021-07-30T12:29:13+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the type of the premium for the Contract. Cannot be extended."/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="C"/>
+    <display value="Cash"/>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="Bank Transfer"/>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="Mobile Phone"/>
+  </concept>
+</CodeSystem>

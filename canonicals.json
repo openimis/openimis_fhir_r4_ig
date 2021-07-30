@@ -35,6 +35,41 @@
     "name": "ActivityDefinitionUsageContextWorkflowTypeCS"
   },
   {
+    "id": "contract-premium-category",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-category",
+    "version": "0.1.0",
+    "name": "ContractPremiumCategoryCS"
+  },
+  {
+    "id": "contract-premium-payer",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-payer",
+    "version": "0.1.0",
+    "name": "ContractPremiumPayerCS"
+  },
+  {
+    "id": "contract-premium-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-type",
+    "version": "0.1.0",
+    "name": "ContractPremiumTypeCS"
+  },
+  {
+    "id": "contract-resource-party-role",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-resource-party-role",
+    "version": "0.1.0",
+    "name": "ContractResourcePartyRoleCS"
+  },
+  {
+    "id": "contract-scope",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-scope",
+    "version": "0.1.0",
+    "name": "ContractScopeCS"
+  },
+  {
     "id": "diagnosis-ICD10-level1",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/diagnosis-ICD10-level1",
@@ -161,6 +196,13 @@
     "name": "AddressMunicipalityExtension"
   },
   {
+    "id": "contract-premium",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium",
+    "version": "0.1.0",
+    "name": "ContractPremiumExtension"
+  },
+  {
     "id": "group-address",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-address",
@@ -266,11 +308,32 @@
     "name": "OpenIMISClaimAdministratorPractitioner"
   },
   {
+    "id": "openimis-claim-administrator-practitioner-role",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner-role",
+    "version": "0.1.0",
+    "name": "OpenIMISClaimAdministratorPractitionerRole"
+  },
+  {
+    "id": "openimis-contract",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-contract",
+    "version": "0.1.0",
+    "name": "OpenIMISContract"
+  },
+  {
     "id": "openimis-enrolment-officer-practitioner",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner",
     "version": "0.1.0",
     "name": "OpenIMISEnrolmentOfficerPractitioner"
+  },
+  {
+    "id": "openimis-enrolment-officer-practitioner-role",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner-role",
+    "version": "0.1.0",
+    "name": "OpenIMISEnrolmentOfficerPractitionerRole"
   },
   {
     "id": "openimis-group",
@@ -418,6 +481,48 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-workflow-type",
     "version": "0.1.0",
     "name": "ActivityDefinitionUsageContextWorkflowTypeVS"
+  },
+  {
+    "id": "contract-premium-category",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-premium-category",
+    "version": "0.1.0",
+    "name": "ContractPremiumCategoryVS"
+  },
+  {
+    "id": "contract-premium-payer",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-premium-payer",
+    "version": "0.1.0",
+    "name": "ContractPremiumPayerVS"
+  },
+  {
+    "id": "contract-premium-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-premium-type",
+    "version": "0.1.0",
+    "name": "ContractPremiumTypeVS"
+  },
+  {
+    "id": "contract-resource-party-role",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-resource-party-role",
+    "version": "0.1.0",
+    "name": "ContractResourcePartyRoleVS"
+  },
+  {
+    "id": "contract-scope",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-scope",
+    "version": "0.1.0",
+    "name": "ContractScopeVS"
+  },
+  {
+    "id": "contract-status-codes",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-status-codes",
+    "version": "0.1.0",
+    "name": "ContractStatusCodesVS"
   },
   {
     "id": "diagnosis-ICD10-level1",

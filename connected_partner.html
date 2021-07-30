@@ -25,6 +25,11 @@
 
 
     <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+  <!-- Questionnaire: -->
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+
+
+
 
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- [if lt IE 9]>
@@ -127,12 +132,12 @@
       </div>    <!-- /container -->
     </div>    <!-- /segment-navbar -->
       <!-- status-bar -->
-
+    
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
           <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Becoming a Connected Partner</b></li>
-
+          
         </ul>
       </div>    <!-- /container -->
     </div>    <!-- /segment-breadcrumb -->
@@ -212,7 +217,7 @@ This specification is currently published as a Draft Standard on the ministry gi
 <p>The following diagram illustrates the process to develop an interface and integrate with a ministry HIE system:</p>
 
 <div>
-<figure class="figure"><a name="787891d8-4ae8-4277-a514-ddb5b160f87c">​</a>
+<figure class="figure"><a name="8bb01351-af65-4df6-9088-0d0cd7007c27">​</a>
   <img src="vendor-integration-process.png" alt="Vendor Integration Process" class="figure-img img-responsive img-rounded center-block"/>
 </figure>
 <p></p>
@@ -246,18 +251,20 @@ This specification is currently published as a Draft Standard on the ministry gi
       }
     });
   </script>
+  <a name="bottom"> </a>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
+
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a style="color: #81BEF7" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 27, 2021 15:04+0000">2021-07-27</span>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 30, 2021 12:29+0000">2021-07-30</span>
           <br/>
-          <span style="color: #FFFF77">
+          <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                   | <a style="color: var(--footer-hyperlink-text-color)" href="https://openimis.atlassian.net/servicedesk/customer/user/requests?page=1&amp;reporter=allstatus=open" target="_blank">Issues</a> | <a style="color: var(--footer-hyperlink-text-color)" href="https://openimis.atlassian.net/servicedesk/customer/portal/1" target="_blank">Submit issue</a>
                 
-          </span>
+          
         </p>
       </div>    <!-- /inner-wrapper -->
     </div>    <!-- /container -->
@@ -269,8 +276,8 @@ This specification is currently published as a Draft Standard on the ministry gi
   </div>    <!-- /segment-post-footer -->
   
     <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript -->
-
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
@@ -278,7 +285,7 @@ This specification is currently published as a Draft Standard on the ministry gi
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
-    <!-- feedback form - Google forms -->
+  <!-- feedback form - Google forms -->
   <!-- v0.1, 2021-01-09 -->
 
 

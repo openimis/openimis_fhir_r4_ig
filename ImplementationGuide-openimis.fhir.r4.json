@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-07-27T15:04:54+00:00",
+  "date": "2021-07-30T12:29:13+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -340,10 +340,52 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/openimis-claim-administrator-practitioner-role"
+        },
+        "name": "openIMIS Claim Administrator Practitioner Role",
+        "description": "Defines a Claim Administrator Practitioner Role for openIMIS.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-contract"
+        },
+        "name": "openIMIS Contract",
+        "description": "* Defines a Contract for openIMIS use to enrol a Family/Group. Mapped mostly to Policy and will link Group/Family and Patient/Insurees. \n* \n* Available endpoint is accepting only **POST**. ",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/openimis-enrolment-officer-practitioner"
         },
         "name": "openIMIS Enrolment Officer Practitioner",
         "description": "Defines a Practitioner for openIMIS which maps to an Enrolment Officer.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-enrolment-officer-practitioner-role"
+        },
+        "name": "openIMIS Enrolment Officer Practitioner Role",
+        "description": "Defines a Enrolment Officer Practitioner Role for openIMIS.",
         "exampleBoolean": false
       },
       {
@@ -456,6 +498,20 @@
         },
         "name": "Municipality (Address)",
         "description": "The location level between District and City/Village.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/contract-premium"
+        },
+        "name": "Premium (Contract)",
+        "description": "Indicates a premium for a Contract. This is a complex extension. ",
         "exampleBoolean": false
       },
       {
@@ -844,6 +900,90 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/contract-premium-category"
+        },
+        "name": "Premium Category (Contract)",
+        "description": "Indicates the category of the premium for the Contract. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/contract-premium-payer"
+        },
+        "name": "Premium Payer (Contract)",
+        "description": "Indicates the payer of the premium for the Contract. Can be extended in openIMIS. Need to match openIMIS database payer list.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/contract-premium-type"
+        },
+        "name": "Premium Type (Contract)",
+        "description": "Indicates the type of the premium for the Contract. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/contract-resource-party-role"
+        },
+        "name": "Resource Party Role (Contract)",
+        "description": "Indicates the participant engagement type for the Contract term.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/contract-scope"
+        },
+        "name": "Scope (Contract)",
+        "description": "Indicates the scope for the Contract. Values defined by openIMIS. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/contract-status-codes"
+        },
+        "name": "Status Codes (Contract)",
+        "description": "Indicates the status of the Contract. Values limited by openIMIS.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/diagnosis-ICD10-level1"
         },
         "name": "ICD 10 Level 1 diagnosis",
@@ -1152,6 +1292,76 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/contract-premium-category"
+        },
+        "name": "Premium Category (Contract)",
+        "description": "Indicates the category of the premium for the Contract. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/contract-premium-payer"
+        },
+        "name": "Premium Payer (Contract)",
+        "description": "Indicates the payer of the premium for the Contract. Can be extended in openIMIS. Need to match openIMIS database payer list.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/contract-premium-type"
+        },
+        "name": "Premium Type (Contract)",
+        "description": "Indicates the type of the premium for the Contract. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/contract-resource-party-role"
+        },
+        "name": "Resource Party Role (Contract)",
+        "description": "Indicates the participant engagement type for the Contract term.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/contract-scope"
+        },
+        "name": "Scope (Contract)",
+        "description": "Indicates the scope for the Contract. Values defined by openIMIS. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/diagnosis-ICD10-level1"
         },
         "name": "ICD 10 Level 1 diagnosis",
@@ -1413,6 +1623,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Contract"
+          }
+        ],
+        "reference": {
+          "reference": "Contract/InformalSectorContract"
+        },
+        "name": "InformalSectorContract",
+        "description": "* Example of a contract for the Informal Sector enrolment  ",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-contract"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Location"
           }
         ],
@@ -1501,10 +1725,24 @@
           }
         ],
         "reference": {
+          "reference": "Practitioner/Roberts-Jeb-EO"
+        },
+        "name": "Roberts-Jeb-EO",
+        "description": "Example of openIMIS Practitioner for Enrolment Officer.",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
           "reference": "Practitioner/Rushila-Dani-CA"
         },
         "name": "Rushila-Dani-CA",
-        "description": "Example of openIMIS Practitioner",
+        "description": "Example of openIMIS Practitioner for Claim Administrator.",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner"
       },
       {

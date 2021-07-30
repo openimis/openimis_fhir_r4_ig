@@ -1,0 +1,146 @@
+{
+  "resourceType": "Contract",
+  "id": "InformalSectorContract",
+  "meta": {
+    "profile": [
+      "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-contract"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: executed</p><p><b>issued</b>: 2021-07-28</p><p><b>subject</b>: <a href=\"Group-doe-family.html\">Generated Summary: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD82, Unique code: 123456788; active; type: person; actual; name: Doe Jane; 2</a></p><p><b>author</b>: <a href=\"Practitioner-Roberts-Jeb-EO.html\">Generated Summary: Unique code: E00001, UUID unique identifier: e5256c97-8b06-4c8e-96db-d8294b4619a8; Jeb Roberts (OFFICIAL); birthDate: 1980-01-15</a></p><p><b>scope</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-scope informal}\">Informal Sector</span></p><blockquote><p><b>term</b></p><blockquote><p><b>offer</b></p><h3>Parties</h3><table class=\"grid\"><tr><td>-</td><td><b>Reference</b></td><td><b>Role</b></td></tr><tr><td>*</td><td><a href=\"Patient-jane-doe.html\">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-resource-party-role beneficiary}\">Beneficiary</span></td></tr></table></blockquote><blockquote><p><b>asset</b></p><blockquote><p><b>Premium (Contract)</b></p><p><b>value</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-payer beneficiary}\">Beneficiary</span></p><p><b>value</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-category C}\">Contribution and Others</span></p><p><b>value</b>: </p></blockquote></blockquote></blockquote><p><b style=\"color: maroon\">Exception generating Narrative: type org.hl7.fhir.r5.model.Money not handled - should not be here</b></p></div>"
+  },
+  "status": "executed",
+  "issued": "2021-07-28",
+  "subject": [
+    {
+      "reference": "Group/doe-family"
+    }
+  ],
+  "author": {
+    "reference": "Practitioner/Roberts-Jeb-EO"
+  },
+  "scope": {
+    "coding": [
+      {
+        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-scope",
+        "code": "informal",
+        "display": "Informal Sector"
+      }
+    ]
+  },
+  "term": [
+    {
+      "offer": {
+        "party": [
+          {
+            "reference": [
+              {
+                "reference": "Patient/jane-doe"
+              }
+            ],
+            "role": {
+              "coding": [
+                {
+                  "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-resource-party-role",
+                  "code": "beneficiary",
+                  "display": "Beneficiary"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "asset": [
+        {
+          "extension": [
+            {
+              "extension": [
+                {
+                  "url": "payer",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-payer",
+                        "code": "beneficiary",
+                        "display": "Beneficiary"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "url": "category",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-category",
+                        "code": "C",
+                        "display": "Contribution and Others"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "url": "amount",
+                  "valueMoney": {
+                    "value": 1000,
+                    "currency": "EUR"
+                  }
+                },
+                {
+                  "url": "receipt",
+                  "valueString": "RE184"
+                },
+                {
+                  "url": "date",
+                  "valueDate": "2021-07-28"
+                },
+                {
+                  "url": "type",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-type",
+                        "code": "C",
+                        "display": "Cash"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium"
+            }
+          ],
+          "typeReference": [
+            {
+              "reference": "Patient/john-doe"
+            }
+          ],
+          "period": [
+            {
+              "start": "2021-07-01",
+              "end": "2022-06-30"
+            }
+          ],
+          "usePeriod": [
+            {
+              "start": "2021-07-28",
+              "end": "2022-06-30"
+            }
+          ],
+          "valuedItem": [
+            {
+              "entityReference": {
+                "reference": "InsurancePlan/RX01"
+              },
+              "net": {
+                "value": 1000,
+                "currency": "EUR"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
