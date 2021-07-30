@@ -595,8 +595,8 @@
     ],
     "Organization": [
       {
-        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization",
-        "title": "openIMIS Health Facility Organization"
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization",
+        "title": "openIMIS Policy Holder Organization"
       }
     ],
     "InsurancePlan": [

@@ -113,6 +113,9 @@
           ],
           "typeReference": [
             {
+              "reference": "Patient/jane-doe"
+            },
+            {
               "reference": "Patient/john-doe"
             }
           ],

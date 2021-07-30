@@ -1,9 +1,9 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 118, warn = 21, info = 7
+err = 118, warn = 22, info = 7
 IG Publisher Version: 1.1.77
-Generated Fri Jul 30 12:30:49 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Fri Jul 30 14:11:16 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
 
  Build Errors : 19 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
@@ -74,6 +74,7 @@ Generated Fri Jul 30 12:30:49 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-location : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-medication : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-policy-holder-organization : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-organization-hf-level : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-organization-legal-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-card-issued : 0 / 0 / 1
@@ -177,9 +178,9 @@ ERROR: Contract/InformalSectorContract: Contract.term[0].asset[0]: The extension
 == /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[4].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[15].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[29].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[95].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[16].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[30].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[96].description: value should not start or finish with whitespace
 == /github/workspace/fsh-generated/resources/InsurancePlan-RX01.json ==
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[5]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[6]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
@@ -345,6 +346,8 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-location.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-medication.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient.json ==
+== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-policy-holder-organization.json ==
+WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization'): The Implementation Guide contains no examples for this profile
 == /github/workspace/fsh-generated/resources/StructureDefinition-organization-hf-level.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level'): The Implementation Guide contains no examples for this extension
 == /github/workspace/fsh-generated/resources/StructureDefinition-organization-legal-form.json ==

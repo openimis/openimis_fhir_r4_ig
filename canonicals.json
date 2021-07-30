@@ -378,6 +378,13 @@
     "name": "OpenIMISPatient"
   },
   {
+    "id": "openimis-policy-holder-organization",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization",
+    "version": "0.1.0",
+    "name": "OpenIMISPolicyHolderOrganization"
+  },
+  {
     "id": "organization-hf-level",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level",

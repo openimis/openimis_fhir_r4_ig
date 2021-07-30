@@ -115,6 +115,10 @@
        ];
        fhir:Contract.term.asset.typeReference [
          fhir:index 0;
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Patient/jane-doe>;
+         fhir:Reference.reference [ fhir:value "Patient/jane-doe" ]
+       ], [
+         fhir:index 1;
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Patient/john-doe>;
          fhir:Reference.reference [ fhir:value "Patient/john-doe" ]
        ];

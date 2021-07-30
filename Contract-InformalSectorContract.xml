@@ -81,6 +81,9 @@
         </extension>
       </extension>
       <typeReference>
+        <reference value="Patient/jane-doe"/>
+      </typeReference>
+      <typeReference>
         <reference value="Patient/john-doe"/>
       </typeReference>
       <period>
