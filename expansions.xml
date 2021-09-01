@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f1b4b16c-aaf5-4616-ad0a-00094f1fdb80"/>
+  <id value="d4481632-7209-4f0f-ab25-a20937545a43"/>
   <meta>
-    <lastUpdated value="2021-07-30T14:10:36.592+00:00"/>
+    <lastUpdated value="2021-09-01T13:19:28.214+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -18,7 +18,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-activity-definition-service-type.html">Service Type (ActivityDefinition) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-activity-definition-service-type.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type</code>
               </a>
@@ -59,7 +59,7 @@
         <name value="ActivityDefinitionServiceTypeVS"/>
         <title value="Service Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -78,8 +78,8 @@
         </contact>
         <description value="Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:f9a27f1f-1bab-4cfd-91e9-792d2c30aa58"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:8d35f5db-4019-4d92-84c1-d7a584bd636c"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -115,7 +115,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="http://terminology.hl7.org/2.1.0/CodeSystem-usage-context-type.html">UsageContextType v0.5.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="http://terminology.hl7.org/2.1.0/CodeSystem-usage-context-type.html">
                 <code>http://terminology.hl7.org/CodeSystem/usage-context-type</code>
               </a>
@@ -172,7 +172,7 @@
         <name value="ActivityDefinitionUsageContextTypeVS"/>
         <title value="Usage Context Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -191,8 +191,8 @@
         </contact>
         <description value="Indicates the Usage Context Type for an ActivityDefinition."/>
         <expansion>
-          <identifier value="urn:uuid:5ac9d70a-3c5b-4608-ac30-9b903e49e7df"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:67b82250-fecf-40bc-b1b8-2ce4e4c101b2"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -238,7 +238,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html">ActCode v5.0.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html">
                 <code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code>
               </a>
@@ -279,7 +279,7 @@
         <name value="ActivityDefinitionUsageContextVenueTypeVS"/>
         <title value="Usage Context for Venue Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -298,8 +298,8 @@
         </contact>
         <description value="Indicates the Usage Context for Venue Type for an ActivityDefinition."/>
         <expansion>
-          <identifier value="urn:uuid:ad9e3d0a-c863-4a7f-86cb-8a2f3d7c09d7"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:889cacc2-70d0-4053-95d4-db4c9733173a"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -335,7 +335,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-activity-definition-usage-context-workflow-type.html">Usage Context for Workflow Type (ActivityDefinition) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-activity-definition-usage-context-workflow-type.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type</code>
               </a>
@@ -400,7 +400,7 @@
         <name value="ActivityDefinitionUsageContextWorkflowTypeVS"/>
         <title value="Usage Context for Workflow Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -419,8 +419,8 @@
         </contact>
         <description value="Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:a7cf4e05-bb4e-451c-9b40-bf6bda129a11"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:7b6bf8ee-f661-43e1-a726-0afecf977c62"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -471,7 +471,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-contract-premium-category.html">Premium Category (Contract) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-contract-premium-category.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-category</code>
               </a>
@@ -512,7 +512,7 @@
         <name value="ContractPremiumCategoryVS"/>
         <title value="Premium Category (Contract)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -531,8 +531,8 @@
         </contact>
         <description value="Indicates the category of the premium for the Contract. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:c3cf7f7a-39a9-4ac8-834f-3aebfd59ca0c"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:172073ec-ae77-4e03-9df7-e0b46c8a88b8"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -568,7 +568,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-contract-premium-payer.html">Premium Payer (Contract) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-contract-premium-payer.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-payer</code>
               </a>
@@ -601,7 +601,7 @@
         <name value="ContractPremiumPayerVS"/>
         <title value="Premium Payer (Contract)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -620,8 +620,8 @@
         </contact>
         <description value="Indicates the payer of the premium for the Contract. Can be extended in openIMIS. Need to match openIMIS database payer list."/>
         <expansion>
-          <identifier value="urn:uuid:90e9d8d1-79a0-4cc4-bd70-d6efc5b19a20"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:f37996ba-c84e-4839-bf35-cba61f07a701"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -652,7 +652,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-contract-premium-type.html">Premium Type (Contract) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-contract-premium-type.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-type</code>
               </a>
@@ -701,7 +701,7 @@
         <name value="ContractPremiumTypeVS"/>
         <title value="Premium Type (Contract)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -720,8 +720,8 @@
         </contact>
         <description value="Indicates the type of the premium for the Contract. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:f2daa133-f723-44fb-b282-b9c44e1b7d35"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:cc53fca3-7988-404b-8561-bdbdbe6070a5"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -762,7 +762,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-contract-resource-party-role.html">Resource Party Role (Contract) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-contract-resource-party-role.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-resource-party-role</code>
               </a>
@@ -795,7 +795,7 @@
         <name value="ContractResourcePartyRoleVS"/>
         <title value="Resource Party Role (Contract)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -814,8 +814,8 @@
         </contact>
         <description value="Indicates the participant engagement type for the Contract term."/>
         <expansion>
-          <identifier value="urn:uuid:3ebe4af2-8317-497a-9dd0-3cc48ba48f42"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:8d5ee9e2-08b2-4d4e-9496-760e3faafac2"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -846,7 +846,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-contract-scope.html">Scope (Contract) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-contract-scope.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-scope</code>
               </a>
@@ -887,7 +887,7 @@
         <name value="ContractScopeVS"/>
         <title value="Scope (Contract)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -906,8 +906,8 @@
         </contact>
         <description value="Indicates the scope for the Contract. Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:1ba33c01-892a-49d3-8d65-68e439f74d4c"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:825bc2da-93e5-4069-b3ab-cb40b36f89c1"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -943,7 +943,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="http://hl7.org/fhir/R4/codesystem-contract-status.html">Contract Resource Status Codes v4.0.1 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-contract-status.html">
                 <code>http://hl7.org/fhir/contract-status</code>
               </a>
@@ -984,7 +984,7 @@
         <name value="ContractStatusCodesVS"/>
         <title value="Status Codes (Contract)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1003,8 +1003,8 @@
         </contact>
         <description value="Indicates the status of the Contract. Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:7087b53a-9546-4696-bf4a-959499f04317"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:98043548-90f2-4190-af8d-f1ea2b86b492"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1040,7 +1040,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-diagnosis-ICD10-level1.html">ICD 10 Level 1 diagnosis v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-diagnosis-ICD10-level1.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/diagnosis-ICD10-level1</code>
               </a>
@@ -16345,7 +16345,7 @@
         <name value="DiagnosisICD10Level1VS"/>
         <title value="ICD 10 Level 1 diagnosis"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -16364,8 +16364,8 @@
         </contact>
         <description value="Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:e8b38528-b6f9-494a-9d6e-83a57311c61b"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:56692472-d7cc-4cb8-98e9-d65fd4fa3950"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="1910"/>
           <parameter>
             <name value="excludeNested"/>
@@ -25941,7 +25941,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-group-confirmation-type.html">Confirmation Types (Group) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-group-confirmation-type.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type</code>
               </a>
@@ -25998,7 +25998,7 @@
         <name value="GroupConfirmationTypeVS"/>
         <title value="Confirmation Types (Group)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -26017,8 +26017,8 @@
         </contact>
         <description value="Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:b3669046-8553-4840-80e1-16e7591b8b25"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:1ade9200-104e-440a-bd39-32cba3de0397"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26064,7 +26064,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-group-types.html">Group Types (Group) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-group-types.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types</code>
               </a>
@@ -26145,7 +26145,7 @@
         <name value="GroupTypesVS"/>
         <title value="Group Types (Group)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -26164,8 +26164,8 @@
         </contact>
         <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:205fa3bc-49a6-4dfd-a34f-ca08d6ddec29"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:7766cc7c-7766-488b-b259-586ca09607f9"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26226,7 +26226,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-insurance-plan-coverage-benefit-limit.html">Coverage Benefit Limit Types (InsurancePlan) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-insurance-plan-coverage-benefit-limit.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit</code>
               </a>
@@ -26267,7 +26267,7 @@
         <name value="InsurancePlanCoverageBenefitLimitVS"/>
         <title value="Coverage Benefit Limit Types (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -26286,8 +26286,8 @@
         </contact>
         <description value="Indicates the Coverage Benefit Limit Types for an InsurancePlan. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:e63e2e95-2e3f-4eeb-9154-d3eaf93d40cf"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:d8b4ee94-66ea-4ffe-84bf-9ec3e1557e9c"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26323,7 +26323,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="http://terminology.hl7.org/2.1.0/CodeSystem-insurance-plan-type.html">Insurance plan type v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="http://terminology.hl7.org/2.1.0/CodeSystem-insurance-plan-type.html">
                 <code>http://terminology.hl7.org/CodeSystem/insurance-plan-type</code>
               </a>
@@ -26355,7 +26355,7 @@
         <name value="InsurancePlanCoverageTypeVS"/>
         <title value="Coverage Type (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -26374,8 +26374,8 @@
         </contact>
         <description value="Indicates the Coverage Type for an InsurancePlan."/>
         <expansion>
-          <identifier value="urn:uuid:deea74e9-0442-474b-b53d-0e72d3ad02a3"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:702bc811-ecdd-4a71-82f9-7b4511704672"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26406,7 +26406,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-insurance-plan-general-cost-type.html">General Cost Type (InsurancePlan) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-insurance-plan-general-cost-type.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type</code>
               </a>
@@ -26487,7 +26487,7 @@
         <name value="InsurancePlanGeneralCostTypeVS"/>
         <title value="General Cost Type (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -26506,8 +26506,8 @@
         </contact>
         <description value="Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:1e7259f8-f9dc-4922-8009-6d71376e2cd0"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:1140692b-cd87-4919-b9ac-14925b745db0"/>
+          <timestamp value="2021-09-01T13:20:13+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26568,7 +26568,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="http://hl7.org/fhir/R4/codesystem-publication-status.html">PublicationStatus v4.0.1 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-publication-status.html">
                 <code>http://hl7.org/fhir/publication-status</code>
               </a>
@@ -26617,7 +26617,7 @@
         <name value="InsurancePlanPublicationStatusVS"/>
         <title value="Publication Status (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -26636,8 +26636,8 @@
         </contact>
         <description value="Indicates the Publication Status for an InsurancePlan."/>
         <expansion>
-          <identifier value="urn:uuid:ff22ee58-3bcd-4c3c-b707-cb5ef30e7c0c"/>
-          <timestamp value="2021-07-30T14:11:14+00:00"/>
+          <identifier value="urn:uuid:1c6cbeb8-ccf9-4b20-8ef1-6bdad8e22d42"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26675,23 +26675,19 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-            <p>This value set contains 18 concepts</p>
-            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion based on: </p>
-              <ul>
-                <li>http://terminology.hl7.org/CodeSystem/location-physical-type version 4.0.1</li>
-                <li>
-                  <a href="CodeSystem-location-type.html">Location Type (Location) v0.1.0 (CodeSystem)</a>
-                </li>
-              </ul>
-            </div>
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-location-type.html">Location Type (Location) v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-location-type.html">
+                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type</code>
+              </a>
+            </p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
                   <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
                 </td>
                 <td>
                   <b>Display</b>
@@ -26705,7 +26701,6 @@
                   <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-location-type-R"> </a>
                   <a href="CodeSystem-location-type.html#location-type-R">R</a>
                 </td>
-                <td>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type</td>
                 <td>Region</td>
                 <td>Regional location level</td>
               </tr>
@@ -26714,7 +26709,6 @@
                   <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-location-type-D"> </a>
                   <a href="CodeSystem-location-type.html#location-type-D">D</a>
                 </td>
-                <td>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type</td>
                 <td>District</td>
                 <td>District location level</td>
               </tr>
@@ -26723,7 +26717,6 @@
                   <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-location-type-W"> </a>
                   <a href="CodeSystem-location-type.html#location-type-W">W</a>
                 </td>
-                <td>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type</td>
                 <td>Municipality/Ward</td>
                 <td>Municipality/Ward location level</td>
               </tr>
@@ -26732,135 +26725,8 @@
                   <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-location-type-V"> </a>
                   <a href="CodeSystem-location-type.html#location-type-V">V</a>
                 </td>
-                <td>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type</td>
                 <td>City/Village</td>
                 <td>City/Village location level</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-si"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-si">si</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Site</td>
-                <td>A collection of buildings or other locations such as a site or a campus.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-bu"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-bu">bu</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Building</td>
-                <td>Any Building or structure. This may contain rooms, corridors, wings, etc. It might not have walls, or a roof, but is considered a defined/allocated space.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-wi"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-wi">wi</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Wing</td>
-                <td>A Wing within a Building, this often contains levels, rooms and corridors.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-wa"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-wa">wa</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Ward</td>
-                <td>A Ward is a section of a medical facility that may contain rooms and other types of location.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-lvl"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-lvl">lvl</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Level</td>
-                <td>A Level in a multi-level Building/Structure.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-co"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-co">co</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Corridor</td>
-                <td>Any corridor within a Building, that may connect rooms.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-ro"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-ro">ro</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Room</td>
-                <td>A space that is allocated as a room, it may have walls/roof etc., but does not require these.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-bd"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-bd">bd</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Bed</td>
-                <td>A space that is allocated for sleeping/laying on. This is not the physical bed/trolley that may be moved about, but the space it may occupy.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-ve"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-ve">ve</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Vehicle</td>
-                <td>A means of transportation.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-ho"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-ho">ho</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>House</td>
-                <td>A residential dwelling. Usually used to reference a location that a person/patient may reside.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-ca"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-ca">ca</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Cabinet</td>
-                <td>A container that can store goods, equipment, medications or other items.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-rd"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-rd">rd</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Road</td>
-                <td>A defined path to travel between 2 points that has a known name.</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-area"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-area">area</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Area</td>
-                <td>A defined physical boundary of something, such as a flood risk zone, region, postcode</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-location-physical-type-jdn"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-location-physical-type.html#location-physical-type-jdn">jdn</a>
-                </td>
-                <td>http://terminology.hl7.org/CodeSystem/location-physical-type</td>
-                <td>Jurisdiction</td>
-                <td>A wide scope that covers a conceptual domain, such as a Nation (Country wide community or Federal Government - e.g. Ministry of Health),  Province or State (community or Government), Business (throughout the enterprise), Nation with a business scope of an agency (e.g. CDC, FDA etc.) or a Business segment (UK Pharmacy), not just an physical boundary</td>
               </tr>
             </table>
           </div>
@@ -26870,10 +26736,10 @@
         <name value="LocationTypeVS"/>
         <title value="Location Type (Location)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f4287d22-800b-43f4-880b-3d5647705ce6"/>
-          <timestamp value="2021-07-30T14:11:15.065Z"/>
+          <identifier value="urn:uuid:598de4dc-fcc1-4300-846a-dbe66b5423c1"/>
+          <timestamp value="2021-09-01T13:20:14.170Z"/>
           <parameter>
             <name value="expansion-source"/>
             <valueString value="ValueSet/location-type"/>
@@ -26885,18 +26751,6 @@
           <parameter>
             <name value="version"/>
             <valueString value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type|0.1.0"/>
-          </parameter>
-          <parameter>
-            <name value="expansion-source"/>
-            <valueString value="ValueSet/location-physical-type"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueString value="http://terminology.hl7.org/CodeSystem/location-physical-type|4.0.1"/>
           </parameter>
           <contains>
             <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
@@ -26930,118 +26784,6 @@
             <code value="V"/>
             <display value="City/Village"/>
           </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A collection of buildings or other locations such as a site or a campus."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="si"/>
-            <display value="Site"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="Any Building or structure. This may contain rooms, corridors, wings, etc. It might not have walls, or a roof, but is considered a defined/allocated space."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="bu"/>
-            <display value="Building"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A Wing within a Building, this often contains levels, rooms and corridors."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="wi"/>
-            <display value="Wing"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A Ward is a section of a medical facility that may contain rooms and other types of location."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="wa"/>
-            <display value="Ward"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A Level in a multi-level Building/Structure."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="lvl"/>
-            <display value="Level"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="Any corridor within a Building, that may connect rooms."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="co"/>
-            <display value="Corridor"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A space that is allocated as a room, it may have walls/roof etc., but does not require these."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="ro"/>
-            <display value="Room"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A space that is allocated for sleeping/laying on. This is not the physical bed/trolley that may be moved about, but the space it may occupy."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="bd"/>
-            <display value="Bed"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A means of transportation."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="ve"/>
-            <display value="Vehicle"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A residential dwelling. Usually used to reference a location that a person/patient may reside."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="ho"/>
-            <display value="House"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A container that can store goods, equipment, medications or other items."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="ca"/>
-            <display value="Cabinet"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A defined path to travel between 2 points that has a known name."/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="rd"/>
-            <display value="Road"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A defined physical boundary of something, such as a flood risk zone, region, postcode"/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="area"/>
-            <display value="Area"/>
-          </contains>
-          <contains>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
-              <valueString value="A wide scope that covers a conceptual domain, such as a Nation (Country wide community or Federal Government - e.g. Ministry of Health),  Province or State (community or Government), Business (throughout the enterprise), Nation with a business scope of an agency (e.g. CDC, FDA etc.) or a Business segment (UK Pharmacy), not just an physical boundary"/>
-            </extension>
-            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-            <code value="jdn"/>
-            <display value="Jurisdiction"/>
-          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -27058,7 +26800,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-medication-item-type.html">Item Type (Medication) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-medication-item-type.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-item-type</code>
               </a>
@@ -27099,7 +26841,7 @@
         <name value="MedicationItemTypeVS"/>
         <title value="Item Type (Medication)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27118,8 +26860,8 @@
         </contact>
         <description value="Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:34b76131-10eb-4b88-9e22-21c98fbca54e"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:4ff65a58-5276-48cb-b503-a6dea77bb700"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27155,7 +26897,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-openimis-identifiers.html">openIMIS Identifiers code system v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-openimis-identifiers.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers</code>
               </a>
@@ -27204,7 +26946,7 @@
         <name value="OpenIMISIdentifierVS"/>
         <title value="openIMIS Identifiers Value Set"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27223,8 +26965,8 @@
         </contact>
         <description value="Indicates the Identifier type"/>
         <expansion>
-          <identifier value="urn:uuid:b27879f9-7eed-4828-ae3b-826e4cbf7468"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:d8b12610-844a-4a40-8a03-9d9518998f28"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27264,7 +27006,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-organization-hf-level.html">Health Facility Level (Organization) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-organization-hf-level.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level</code>
               </a>
@@ -27313,7 +27055,7 @@
         <name value="OrganizationHFLevelVS"/>
         <title value="Health Facility Level (Organization)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27332,8 +27074,8 @@
         </contact>
         <description value="Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:c25452c9-05dd-4c47-99bb-db7e5416da1e"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:32a8618e-d718-403c-a168-b931d06d9bce"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27374,7 +27116,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-organization-legal-form.html">Legal Forms (Organization) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-organization-legal-form.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form</code>
               </a>
@@ -27431,7 +27173,7 @@
         <name value="OrganizationLegalFormVS"/>
         <title value="Legal Forms (Organization)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27450,8 +27192,8 @@
         </contact>
         <description value="Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:43e38aca-f50a-46a8-9034-ae56616886d4"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:a2f488ed-358d-4f92-a91d-272554575214"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27497,7 +27239,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-patient-contact-relationship.html">Patient Contact Relationship code system v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-patient-contact-relationship.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship</code>
               </a>
@@ -27586,7 +27328,7 @@
         <name value="PatientContactRelationshipVS"/>
         <title value="Contact Relationship (Patient)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27605,8 +27347,8 @@
         </contact>
         <description value="Indicates the Relationship of a Patient with the Head of the Family."/>
         <expansion>
-          <identifier value="urn:uuid:7df88369-391d-4d20-9b90-87e1cd9c0329"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:cbacf66f-7d0a-4e8e-8e4a-bc0344627d68"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27672,7 +27414,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-patient-education-level.html">Patient Education Level Code System v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-patient-education-level.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level</code>
               </a>
@@ -27753,7 +27495,7 @@
         <name value="PatientEducationLevelVS"/>
         <title value="Education Level (Patient)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27772,8 +27514,8 @@
         </contact>
         <description value="Indicates the Education level of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:43b46afd-c1ac-4dbd-b0d4-b37c0c01adeb"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:1f889687-8cd4-4240-99cd-149bc1094468"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27834,7 +27576,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-patient-identification-types.html">Identification Types (Patient) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-patient-identification-types.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types</code>
               </a>
@@ -27891,7 +27633,7 @@
         <name value="PatientIdentificationTypesVS"/>
         <title value="Identification Types (Patient)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27910,8 +27652,8 @@
         </contact>
         <description value="Indicates the type of document the Patient used to identify himself."/>
         <expansion>
-          <identifier value="urn:uuid:d9dc90ef-7d20-4a4a-8dbd-b9e18ee112df"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:21bf9309-8643-497b-bc73-701b0d6e686d"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27957,7 +27699,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html">MaritalStatus v2.0.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html">
                 <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
               </a>
@@ -28022,7 +27764,7 @@
         <name value="PatientMaritalStatusVS"/>
         <title value="Marital Status (Patient)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28041,8 +27783,8 @@
         </contact>
         <description value="Indicates the Marital status of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:723f5d51-5154-466e-88f6-898eaa7ba37a"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:a5075705-ade0-4286-915a-aa356354a763"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28093,7 +27835,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-patient-profession.html">Patient Profession Code System v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-patient-profession.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession</code>
               </a>
@@ -28150,7 +27892,7 @@
         <name value="PatientProfessionVS"/>
         <title value="Patient Profession Value Set"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28169,8 +27911,8 @@
         </contact>
         <description value="Indicates the profession of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:b4d77e61-d056-4be8-affe-5b610a2b42b6"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:9b90bdbb-7ff6-4477-b45d-30c589d3c407"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28216,7 +27958,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-practitioner-qualification-type.html">Practitioner Qualification Type v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-practitioner-qualification-type.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type</code>
               </a>
@@ -28257,7 +27999,7 @@
         <name value="PractitionerQualificationTypeVS"/>
         <title value="Practitioner Qualification Type"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28276,8 +28018,8 @@
         </contact>
         <description value="Indicates the Qualification Type of a Practitioner."/>
         <expansion>
-          <identifier value="urn:uuid:6c6b2eb9-b617-4a56-a373-9bf588149968"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:0b115ce5-e4dd-43c9-9b21-389bedfde101"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28313,7 +28055,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-usage-context-age-type.html">Usage Context for Age Type (ActivityDefinition|Medication) v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-usage-context-age-type.html">
                 <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type</code>
               </a>
@@ -28354,7 +28096,7 @@
         <name value="UsageContextAgeTypeVS"/>
         <title value="Usage Context for Age Type (ActivityDefinition|Medication)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28373,8 +28115,8 @@
         </contact>
         <description value="Indicates the Usage Context for Age Type for an ActivityDefinition or Medication."/>
         <expansion>
-          <identifier value="urn:uuid:da614675-29fa-414f-8d31-64bebc280b31"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:2cca12b0-5487-46e9-909f-12f2f7442823"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28410,7 +28152,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">AdministrativeGender v4.0.1 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">
                 <code>http://hl7.org/fhir/administrative-gender</code>
               </a>
@@ -28451,7 +28193,7 @@
         <name value="UsageContextGenderTypeVS"/>
         <title value="Usage Context for Gender Type (ActivityDefinition|Medication)"/>
         <status value="active"/>
-        <date value="2021-07-30T14:10:36+00:00"/>
+        <date value="2021-09-01T13:19:28+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28470,8 +28212,8 @@
         </contact>
         <description value="Indicates the Usage Context for Gender Type for an ActivityDefinition or Medication."/>
         <expansion>
-          <identifier value="urn:uuid:e8f5cbad-1c20-4ed2-8577-32564d2d058a"/>
-          <timestamp value="2021-07-30T14:11:15+00:00"/>
+          <identifier value="urn:uuid:6efc1e48-b7b8-4bdf-a82a-1c62059d7f6c"/>
+          <timestamp value="2021-09-01T13:20:14+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
