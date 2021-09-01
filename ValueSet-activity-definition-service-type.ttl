@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "ActivityDefinitionServiceTypeVS"];
   fhir:ValueSet.title [ fhir:value "Service Type (ActivityDefinition)"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-09-01T13:19:28+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-09-01T13:21:06+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Swiss TPH"];
   fhir:ValueSet.contact [
      fhir:index 0;
