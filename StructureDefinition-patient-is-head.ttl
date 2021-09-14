@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "PatientIsHeadExtension"];
   fhir:StructureDefinition.title [ fhir:value "IsHead (Patient)"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-09-14T14:32:44+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-09-14T14:33:18+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
