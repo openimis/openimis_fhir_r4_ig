@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="claim-supporting-info-category"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">explanation<a name="claim-supporting-info-category-explanation"> </a></td><td>Explanation</td></tr><tr><td style="white-space:nowrap">justification<a name="claim-supporting-info-category-justification"> </a></td><td>Justification</td></tr><tr><td style="white-space:nowrap">attachment<a name="claim-supporting-info-category-attachment"> </a></td><td>Attachment</td></tr><tr><td style="white-space:nowrap">guarantee<a name="claim-supporting-info-category-guarantee"> </a></td><td>Guarantee</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category"/>
+  <version value="0.1.0"/>
+  <name value="ClaimSupportingInfoCategoryCS"/>
+  <title value="Category of the supporting info (Claim)"/>
+  <status value="active"/>
+  <date value="2021-09-14T14:32:44+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended."/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="explanation"/>
+    <display value="Explanation"/>
+  </concept>
+  <concept>
+    <code value="justification"/>
+    <display value="Justification"/>
+  </concept>
+  <concept>
+    <code value="attachment"/>
+    <display value="Attachment"/>
+  </concept>
+  <concept>
+    <code value="guarantee"/>
+    <display value="Guarantee"/>
+  </concept>
+</CodeSystem>

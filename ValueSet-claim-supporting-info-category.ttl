@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-supporting-info-category> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "claim-supporting-info-category"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-claim-supporting-info-category.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category</code></a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-supporting-info-category"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "ClaimSupportingInfoCategoryVS"];
+  fhir:ValueSet.title [ fhir:value "Category of the supporting info (Claim)"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2021-09-14T14:32:44+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Swiss TPH"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Swiss TPH" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.swisstph.ch/en/" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Dragos Dobre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "dragos.dobre@swisstph.ch" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended."];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-supporting-info-category.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

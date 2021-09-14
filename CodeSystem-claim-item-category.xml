@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="claim-item-category"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">item<a name="claim-item-category-item"> </a></td><td>Item</td></tr><tr><td style="white-space:nowrap">service<a name="claim-item-category-service"> </a></td><td>Service</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category"/>
+  <version value="0.1.0"/>
+  <name value="ClaimItemCategoryCS"/>
+  <title value="Category of the item (Claim)"/>
+  <status value="active"/>
+  <date value="2021-09-14T14:32:44+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the category for the item under a Claim. Values defined by openIMIS. Can not be extended."/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="item"/>
+    <display value="Item"/>
+  </concept>
+  <concept>
+    <code value="service"/>
+    <display value="Service"/>
+  </concept>
+</CodeSystem>

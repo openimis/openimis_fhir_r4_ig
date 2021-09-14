@@ -1,15 +1,17 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 135, warn = 22, info = 7
-IG Publisher Version: 1.1.78
-Generated Wed Sep 01 13:22:35 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+err = 120, warn = 24, info = 7
+IG Publisher Version: 1.1.80
+Generated Tue Sep 14 14:33:57 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
 
  Build Errors : 19 / 1 / 0
- /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 6 / 1 / 2
- /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 3 / 1 / 1
+ /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
+ /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-service-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-claim-item-category : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-claim-supporting-info-category : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-category : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-payer : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-type : 0 / 0 / 1
@@ -31,16 +33,16 @@ Generated Wed Sep 01 13:22:35 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/CodeSystem-patient-profession : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-practitioner-qualification-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-usage-context-age-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Contract-InformalSectorContract : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/Contract-InformalSectorContract : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Group-doe-family : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 5 / 1
- /github/workspace/fsh-generated/resources/InsurancePlan-RX01 : 56 / 0 / 4
- /github/workspace/fsh-generated/resources/InsurancePlan-RX02 : 55 / 0 / 4
+ /github/workspace/fsh-generated/resources/InsurancePlan-RX01 : 52 / 0 / 4
+ /github/workspace/fsh-generated/resources/InsurancePlan-RX02 : 51 / 0 / 4
  /github/workspace/fsh-generated/resources/Location-Jamu-municipality : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Location-Jamula-village : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Location-Jimara-district : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Location-Upper-River-Region : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Medication-AspirinMedication : 9 / 1 / 1
+ /github/workspace/fsh-generated/resources/Medication-AspirinMedication : 5 / 1 / 1
  /github/workspace/fsh-generated/resources/Organization-RaptaDistrictHospital : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-jane-doe : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-john-doe : 0 / 0 / 1
@@ -62,10 +64,12 @@ Generated Wed Sep 01 13:22:35 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-medication-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-medication-usage-context : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-activitiy-definition : 0 / 2 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner-role : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-response : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-contract : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-coverage : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner-role : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group : 0 / 0 / 1
@@ -90,6 +94,9 @@ Generated Wed Sep 01 13:22:35 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-venue-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-workflow-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-claim-item-category : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-claim-supporting-info-category : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-claim-visit-type-codes : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-contract-premium-category : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-contract-premium-payer : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-contract-premium-type : 0 / 0 / 1
@@ -135,58 +142,55 @@ ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.htm
 ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 540, column 891: The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:Age.valueUsageContext.valueCodeableConcept.coding' for "coding" cannot be resolved (valid targets: 235 targets)
 ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 551, column 833: The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:CareType.valueUsageContext.valueCodeableConcept' for "valueCodeableConcept" cannot be resolved (valid targets: 235 targets)
 ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 552, column 891: The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:CareType.valueUsageContext.valueCodeableConcept.coding' for "coding" cannot be resolved (valid targets: 235 targets)
-ERROR: /github/workspace/output/ValueSet-openimis-identifiers.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 245, column 573: The link 'CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID' for "DBID" cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, bottom, segment-post-footer, ig-status, top, openimis-identifiers-UUID, codesystem-openimis-identifiers-code-system, root, stripe, segment-footer, openimis-identifiers-Code, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /github/workspace/output/ValueSet-openimis-identifiers.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 251, column 1100: The link 'CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID' for "DBID" cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, bottom, segment-post-footer, ig-status, top, openimis-identifiers-UUID, codesystem-openimis-identifiers-code-system, root, stripe, segment-footer, openimis-identifiers-Code, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: /github/workspace/output/ValueSet-openimis-identifiers.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 247, column 573: The link 'CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID' for "DBID" cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, bottom, segment-post-footer, ig-status, top, openimis-identifiers-UUID, codesystem-openimis-identifiers-code-system, root, stripe, segment-footer, openimis-identifiers-Code, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: /github/workspace/output/ValueSet-openimis-identifiers.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 253, column 1100: The link 'CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID' for "DBID" cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, bottom, segment-post-footer, ig-status, top, openimis-identifiers-UUID, codesystem-openimis-identifiers-code-system, root, stripe, segment-footer, openimis-identifiers-Code, segment-navbar, segment-content, segment-breadcrumb])
 ERROR: /github/workspace/output/connected_partner.html#/html/body/div/div/div/div/div/div/figure/img at Line 226, column 4: The image source 'vendor-integration-process.png' cannot be resolved
-== /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService.json ==
+== fsh-generated/resources/ActivityDefinition-GeneralConsultationService.json ==
 ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[ActivityDefinition])
-ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition.extension[0].value.ofType(Money).currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
 WARNING: ActivityDefinition/GeneralConsultationService: ActivityDefinition.useContext[2].code: Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
-ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition.timing.ofType(Timing).repeat.periodUnit: The value provided ('d') is not in the value set http://hl7.org/fhir/ValueSet/units-of-time|4.0.1 (http://hl7.org/fhir/ValueSet/units-of-time), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
 ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: ActivityDefinition.version: max allowed = 0, but found 1 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition)
 ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: ActivityDefinition.publisher: max allowed = 0, but found 1 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition)
 ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: ActivityDefinition.contact: max allowed = 0, but found 2 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition)
-== /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement.json ==
+== fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement.json ==
 WARNING: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement: cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement: cpb-2: 'A Capability Statement SHALL have at least one of description, software, or implementation element.' Rule 'A Capability Statement SHALL have at least one of description, software, or implementation element.' Failed
-ERROR: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement.format[0]: The value provided ('json') is not in the value set http://hl7.org/fhir/ValueSet/mimetypes|4.0.1 (http://hl7.org/fhir/ValueSet/mimetypes), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
 ERROR: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement.rest[0].resource[1].searchParam[4].definition: Canonical URL 'http://hl7.org/fhir/us/saner/SearchParameter/SearchParameter-code' does not resolve
-== /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-service-type.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-category.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-payer.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-type.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-contract-resource-party-role.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-contract-scope.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-diagnosis-ICD10-level1.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-group-confirmation-type.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-group-types.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-insurance-plan-coverage-benefit-limit.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-insurance-plan-general-cost-type.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-location-type.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-medication-item-type.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-openimis-identifiers.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-organization-hf-level.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-organization-legal-form.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-patient-contact-relationship.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-patient-education-level.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-patient-identification-types.json ==
+== fsh-generated/resources/CodeSystem-activity-definition-service-type.json ==
+== fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type.json ==
+== fsh-generated/resources/CodeSystem-claim-item-category.json ==
+== fsh-generated/resources/CodeSystem-claim-supporting-info-category.json ==
+== fsh-generated/resources/CodeSystem-contract-premium-category.json ==
+== fsh-generated/resources/CodeSystem-contract-premium-payer.json ==
+== fsh-generated/resources/CodeSystem-contract-premium-type.json ==
+== fsh-generated/resources/CodeSystem-contract-resource-party-role.json ==
+== fsh-generated/resources/CodeSystem-contract-scope.json ==
+== fsh-generated/resources/CodeSystem-diagnosis-ICD10-level1.json ==
+== fsh-generated/resources/CodeSystem-group-confirmation-type.json ==
+== fsh-generated/resources/CodeSystem-group-types.json ==
+== fsh-generated/resources/CodeSystem-insurance-plan-coverage-benefit-limit.json ==
+== fsh-generated/resources/CodeSystem-insurance-plan-general-cost-type.json ==
+== fsh-generated/resources/CodeSystem-location-type.json ==
+== fsh-generated/resources/CodeSystem-medication-item-type.json ==
+== fsh-generated/resources/CodeSystem-openimis-identifiers.json ==
+== fsh-generated/resources/CodeSystem-organization-hf-level.json ==
+== fsh-generated/resources/CodeSystem-organization-legal-form.json ==
+== fsh-generated/resources/CodeSystem-patient-contact-relationship.json ==
+== fsh-generated/resources/CodeSystem-patient-education-level.json ==
+== fsh-generated/resources/CodeSystem-patient-identification-types.json ==
 ERROR: CodeSystem.url: Resource id/url mismatch: patient-identification-types/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types
-== /github/workspace/fsh-generated/resources/CodeSystem-patient-profession.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-practitioner-qualification-type.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-usage-context-age-type.json ==
-== /github/workspace/fsh-generated/resources/Contract-InformalSectorContract.json ==
+== fsh-generated/resources/CodeSystem-patient-profession.json ==
+== fsh-generated/resources/CodeSystem-practitioner-qualification-type.json ==
+== fsh-generated/resources/CodeSystem-usage-context-age-type.json ==
+== fsh-generated/resources/Contract-InformalSectorContract.json ==
 ERROR: Contract/InformalSectorContract: Contract.term[0].asset[0]: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium is not allowed to be used at this point (allowed = e:OpenIMISContract; this element is [[Contract.term.asset, BackboneElement.asset, BackboneElement])
-ERROR: Contract/InformalSectorContract: Contract.term[0].asset[0].extension[0].extension[2].value.ofType(Money).currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
-ERROR: Contract/InformalSectorContract: Contract.term[0].asset[0].valuedItem[0].net.currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
-== /github/workspace/fsh-generated/resources/Group-doe-family.json ==
-== /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
+== fsh-generated/resources/Group-doe-family.json ==
+== fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[4].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[16].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[30].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[96].description: value should not start or finish with whitespace
-== /github/workspace/fsh-generated/resources/InsurancePlan-RX01.json ==
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[5].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[18].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[32].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[103].description: value should not start or finish with whitespace
+== fsh-generated/resources/InsurancePlan-RX01.json ==
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[5]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[6]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[7]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
@@ -242,11 +246,7 @@ ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[2]: Slicing cannot 
 ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[3]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:generalAssemblyFee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
 INFORMATION: InsurancePlan/RX01: InsurancePlan.plan[0]: InsurancePlan.plan.generalCost: Unable to check max allowed (InsurancePlan.plan.generalCost) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan)
 INFORMATION: InsurancePlan/RX01: InsurancePlan.plan[0]: InsurancePlan.plan.generalCost:lumpsum: Unable to check minimum required (InsurancePlan.plan.generalCost) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan)
-ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[0].cost.currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
-ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[1].cost.currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
-ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[2].cost.currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
-ERROR: InsurancePlan/RX01: InsurancePlan.plan[0].generalCost[3].cost.currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
-== /github/workspace/fsh-generated/resources/InsurancePlan-RX02.json ==
+== fsh-generated/resources/InsurancePlan-RX02.json ==
 ERROR: InsurancePlan/RX02: InsurancePlan.extension[4]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX02: InsurancePlan.extension[5]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX02: InsurancePlan.extension[6]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
@@ -301,112 +301,113 @@ ERROR: InsurancePlan/RX02: InsurancePlan.plan[0].generalCost[2]: Slicing cannot 
 ERROR: InsurancePlan/RX02: InsurancePlan.plan[0].generalCost[3]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:generalAssemblyFee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
 INFORMATION: InsurancePlan/RX02: InsurancePlan.plan[0]: InsurancePlan.plan.generalCost: Unable to check max allowed (InsurancePlan.plan.generalCost) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan)
 INFORMATION: InsurancePlan/RX02: InsurancePlan.plan[0]: InsurancePlan.plan.generalCost:lumpsum: Unable to check minimum required (InsurancePlan.plan.generalCost) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan)
-ERROR: InsurancePlan/RX02: InsurancePlan.plan[0].generalCost[0].cost.currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
-ERROR: InsurancePlan/RX02: InsurancePlan.plan[0].generalCost[1].cost.currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
-ERROR: InsurancePlan/RX02: InsurancePlan.plan[0].generalCost[2].cost.currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
-ERROR: InsurancePlan/RX02: InsurancePlan.plan[0].generalCost[3].cost.currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
-== /github/workspace/fsh-generated/resources/Location-Jamu-municipality.json ==
-== /github/workspace/fsh-generated/resources/Location-Jamula-village.json ==
+== fsh-generated/resources/Location-Jamu-municipality.json ==
+== fsh-generated/resources/Location-Jamula-village.json ==
 WARNING: Location/Jamula-village: Location.physicalType: Display Name for https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type#V should be one of 'City/Village, City/Village' instead of 'Village'
-== /github/workspace/fsh-generated/resources/Location-Jimara-district.json ==
-== /github/workspace/fsh-generated/resources/Location-Upper-River-Region.json ==
-== /github/workspace/fsh-generated/resources/Medication-AspirinMedication.json ==
+== fsh-generated/resources/Location-Jimara-district.json ==
+== fsh-generated/resources/Location-Upper-River-Region.json ==
+== fsh-generated/resources/Medication-AspirinMedication.json ==
 ERROR: Medication/AspirinMedication: Medication: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[Medication])
-ERROR: Medication/AspirinMedication: Medication.extension[0].value.ofType(Money).currency: The value provided ('EUR') is not in the value set http://hl7.org/fhir/ValueSet/currencies|4.0.1 (http://hl7.org/fhir/ValueSet/currencies), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
 ERROR: Medication/AspirinMedication: Medication: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])
 ERROR: Medication/AspirinMedication: Medication: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])
-ERROR: Medication/AspirinMedication: Medication.extension[2].value.ofType(Timing).repeat.periodUnit: The value provided ('d') is not in the value set http://hl7.org/fhir/ValueSet/units-of-time|4.0.1 (http://hl7.org/fhir/ValueSet/units-of-time), and a code is required from this value set) (error message = Error performing operation 'validate-code: null' (parameters = ""))
 ERROR: Medication/AspirinMedication: Medication: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])
 WARNING: Medication/AspirinMedication: Medication.extension[3].extension[2].value.ofType(UsageContext).code: Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
-ERROR: Medication/AspirinMedication: Medication.code.coding[0]: Error performing operation 'validate-code: null' (parameters = "") for 'http://snomed.info/sct#7947003'
-ERROR: Medication/AspirinMedication: Medication.form.coding[0]: Error performing operation 'validate-code: null' (parameters = "") for 'http://snomed.info/sct#385055001'
 ERROR: Medication/AspirinMedication: Medication.amount: rat-1: 'Numerator and denominator SHALL both be present, or both are absent. If both are absent, there SHALL be some extension present' Rule 'Numerator and denominator SHALL both be present, or both are absent. If both are absent, there SHALL be some extension present' Failed
-== /github/workspace/fsh-generated/resources/Organization-RaptaDistrictHospital.json ==
+== fsh-generated/resources/Organization-RaptaDistrictHospital.json ==
 ERROR: Organization/RaptaDistrictHospital: Organization: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])
-== /github/workspace/fsh-generated/resources/Patient-jane-doe.json ==
-== /github/workspace/fsh-generated/resources/Patient-john-doe.json ==
-== /github/workspace/fsh-generated/resources/Practitioner-Roberts-Jeb-EO.json ==
-== /github/workspace/fsh-generated/resources/Practitioner-Rushila-Dani-CA.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-address-location-reference.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-address-municipality.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-contract-premium.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-group-address.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-group-confirmation.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-group-poverty-status.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-group-type.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-insurance-plan-conversion.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-insurance-plan-discount.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-insurance-plan-max-installments.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-insurance-plan-period.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-insurance-plan-start-cycle.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-medication-frequency.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-medication-type.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-medication-usage-context.json ==
+== fsh-generated/resources/Patient-jane-doe.json ==
+== fsh-generated/resources/Patient-john-doe.json ==
+== fsh-generated/resources/Practitioner-Roberts-Jeb-EO.json ==
+== fsh-generated/resources/Practitioner-Rushila-Dani-CA.json ==
+== fsh-generated/resources/StructureDefinition-address-location-reference.json ==
+== fsh-generated/resources/StructureDefinition-address-municipality.json ==
+== fsh-generated/resources/StructureDefinition-contract-premium.json ==
+== fsh-generated/resources/StructureDefinition-group-address.json ==
+== fsh-generated/resources/StructureDefinition-group-confirmation.json ==
+== fsh-generated/resources/StructureDefinition-group-poverty-status.json ==
+== fsh-generated/resources/StructureDefinition-group-type.json ==
+== fsh-generated/resources/StructureDefinition-insurance-plan-conversion.json ==
+== fsh-generated/resources/StructureDefinition-insurance-plan-discount.json ==
+== fsh-generated/resources/StructureDefinition-insurance-plan-max-installments.json ==
+== fsh-generated/resources/StructureDefinition-insurance-plan-period.json ==
+== fsh-generated/resources/StructureDefinition-insurance-plan-start-cycle.json ==
+== fsh-generated/resources/StructureDefinition-medication-frequency.json ==
+== fsh-generated/resources/StructureDefinition-medication-type.json ==
+== fsh-generated/resources/StructureDefinition-medication-usage-context.json ==
 WARNING: StructureDefinition/medication-usage-context: StructureDefinition.snapshot.element[26].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
 WARNING: StructureDefinition/medication-usage-context: StructureDefinition.differential.element[16].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-activitiy-definition.json ==
+== fsh-generated/resources/StructureDefinition-openimis-activitiy-definition.json ==
 WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.snapshot.element[100].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
 WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.differential.element[31].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim.json ==
+== fsh-generated/resources/StructureDefinition-openimis-claim.json ==
+ERROR: StructureDefinition/openimis-claim: StructureDefinition.snapshot.element[77].pattern.ofType(Reference): Unable to resolve resource 'OpenIMISPatient'
+ERROR: StructureDefinition/openimis-claim: StructureDefinition.differential.element[14].pattern.ofType(Reference): Unable to resolve resource 'OpenIMISPatient'
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim'): The Implementation Guide contains no examples for this profile
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner-role.json ==
+== fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner.json ==
+== fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner-role.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner-role'): The Implementation Guide contains no examples for this profile
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-contract.json ==
+== fsh-generated/resources/StructureDefinition-openimis-claim-response.json ==
+WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-response'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-openimis-contract.json ==
 INFORMATION: StructureDefinition/openimis-contract: StructureDefinition.snapshot.element[233].mapping[1].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner-role.json ==
+== fsh-generated/resources/StructureDefinition-openimis-coverage.json ==
+WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner.json ==
+== fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner-role.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner-role'): The Implementation Guide contains no examples for this profile
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-health-facility-organization.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-insurance-plan.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-location.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-medication.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-openimis-policy-holder-organization.json ==
+== fsh-generated/resources/StructureDefinition-openimis-group.json ==
+== fsh-generated/resources/StructureDefinition-openimis-health-facility-organization.json ==
+== fsh-generated/resources/StructureDefinition-openimis-insurance-plan.json ==
+== fsh-generated/resources/StructureDefinition-openimis-location.json ==
+== fsh-generated/resources/StructureDefinition-openimis-medication.json ==
+== fsh-generated/resources/StructureDefinition-openimis-patient.json ==
+== fsh-generated/resources/StructureDefinition-openimis-policy-holder-organization.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization'): The Implementation Guide contains no examples for this profile
-== /github/workspace/fsh-generated/resources/StructureDefinition-organization-hf-level.json ==
+== fsh-generated/resources/StructureDefinition-organization-hf-level.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level'): The Implementation Guide contains no examples for this extension
-== /github/workspace/fsh-generated/resources/StructureDefinition-organization-legal-form.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-patient-card-issued.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-patient-education-level.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-patient-group-reference.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-patient-identification.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-patient-is-head.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-patient-profession.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-patient-vulnerability-status.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-practitioner-role-substitution-reference.json ==
+== fsh-generated/resources/StructureDefinition-organization-legal-form.json ==
+== fsh-generated/resources/StructureDefinition-patient-card-issued.json ==
+== fsh-generated/resources/StructureDefinition-patient-education-level.json ==
+== fsh-generated/resources/StructureDefinition-patient-group-reference.json ==
+== fsh-generated/resources/StructureDefinition-patient-identification.json ==
+== fsh-generated/resources/StructureDefinition-patient-is-head.json ==
+== fsh-generated/resources/StructureDefinition-patient-profession.json ==
+== fsh-generated/resources/StructureDefinition-patient-vulnerability-status.json ==
+== fsh-generated/resources/StructureDefinition-practitioner-role-substitution-reference.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/practitioner-role-substitution-reference'): The Implementation Guide contains no examples for this extension
-== /github/workspace/fsh-generated/resources/StructureDefinition-unit-price.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-activity-definition-service-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-venue-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-workflow-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-contract-premium-category.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-contract-premium-payer.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-contract-premium-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-contract-resource-party-role.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-contract-scope.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-contract-status-codes.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-diagnosis-ICD10-level1.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-group-confirmation-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-group-types.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-coverage-benefit-limit.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-coverage-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-general-cost-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-publication-status.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-location-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-medication-item-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers.json ==
+== fsh-generated/resources/StructureDefinition-unit-price.json ==
+== fsh-generated/resources/ValueSet-activity-definition-service-type.json ==
+== fsh-generated/resources/ValueSet-activity-definition-usage-context-type.json ==
+== fsh-generated/resources/ValueSet-activity-definition-usage-context-venue-type.json ==
+== fsh-generated/resources/ValueSet-activity-definition-usage-context-workflow-type.json ==
+== fsh-generated/resources/ValueSet-claim-item-category.json ==
+== fsh-generated/resources/ValueSet-claim-supporting-info-category.json ==
+== fsh-generated/resources/ValueSet-claim-visit-type-codes.json ==
+== fsh-generated/resources/ValueSet-contract-premium-category.json ==
+== fsh-generated/resources/ValueSet-contract-premium-payer.json ==
+== fsh-generated/resources/ValueSet-contract-premium-type.json ==
+== fsh-generated/resources/ValueSet-contract-resource-party-role.json ==
+== fsh-generated/resources/ValueSet-contract-scope.json ==
+== fsh-generated/resources/ValueSet-contract-status-codes.json ==
+== fsh-generated/resources/ValueSet-diagnosis-ICD10-level1.json ==
+== fsh-generated/resources/ValueSet-group-confirmation-type.json ==
+== fsh-generated/resources/ValueSet-group-types.json ==
+== fsh-generated/resources/ValueSet-insurance-plan-coverage-benefit-limit.json ==
+== fsh-generated/resources/ValueSet-insurance-plan-coverage-type.json ==
+== fsh-generated/resources/ValueSet-insurance-plan-general-cost-type.json ==
+== fsh-generated/resources/ValueSet-insurance-plan-publication-status.json ==
+== fsh-generated/resources/ValueSet-location-type.json ==
+== fsh-generated/resources/ValueSet-medication-item-type.json ==
+== fsh-generated/resources/ValueSet-openimis-identifiers.json ==
 WARNING: ValueSet/openimis-identifiers: ValueSet.compose[0].include[0].concept[1]: The code DBID is not valid in the system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers
-== /github/workspace/fsh-generated/resources/ValueSet-organization-hf-level.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-organization-legal-form.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-patient-contact-relationship.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-patient-education-level.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-patient-identification-types.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-patient-marital-status.json ==
+== fsh-generated/resources/ValueSet-organization-hf-level.json ==
+== fsh-generated/resources/ValueSet-organization-legal-form.json ==
+== fsh-generated/resources/ValueSet-patient-contact-relationship.json ==
+== fsh-generated/resources/ValueSet-patient-education-level.json ==
+== fsh-generated/resources/ValueSet-patient-identification-types.json ==
+== fsh-generated/resources/ValueSet-patient-marital-status.json ==
 WARNING: ValueSet/patient-marital-status: ValueSet.compose[0].include[0].concept[4]: The code UNK is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
-== /github/workspace/fsh-generated/resources/ValueSet-patient-profession.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-practitioner-qualification-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-usage-context-age-type.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-usage-context-gender-type.json ==
+== fsh-generated/resources/ValueSet-patient-profession.json ==
+== fsh-generated/resources/ValueSet-practitioner-qualification-type.json ==
+== fsh-generated/resources/ValueSet-usage-context-age-type.json ==
+== fsh-generated/resources/ValueSet-usage-context-gender-type.json ==

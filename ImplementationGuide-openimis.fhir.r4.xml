@@ -11,7 +11,7 @@
   <name value="openIMISFHIRR4"/>
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-09-01T13:21:06+00:00"/>
+  <date value="2021-09-14T14:32:44+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>
@@ -204,7 +204,7 @@
         <reference value="StructureDefinition/openimis-claim"/>
       </reference>
       <name value="openIMIS Claim"/>
-      <description value="Defines a Claim for openIMIS which maps to a Claim"/>
+      <description value="Defines a Claim for openIMIS which maps to a Claim."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -234,10 +234,32 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/openimis-claim-response"/>
+      </reference>
+      <name value="openIMIS Claim Response"/>
+      <description value="Defines a ClaimResponse for openIMIS which maps to a Claim."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/openimis-contract"/>
       </reference>
       <name value="openIMIS Contract"/>
       <description value="Defines a Contract for openIMIS use to enrol a Family/Group. Mapped mostly to Policy and will link Group/Family and Patient/Insurees. "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/openimis-coverage"/>
+      </reference>
+      <name value="openIMIS Coverage"/>
+      <description value="Defines a Coverage for openIMIS which maps to a Policy."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -674,6 +696,39 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/claim-item-category"/>
+      </reference>
+      <name value="Category of the item (Claim)"/>
+      <description value="Indicates the category for the item under a Claim. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/claim-supporting-info-category"/>
+      </reference>
+      <name value="Category of the supporting info (Claim)"/>
+      <description value="Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/claim-visit-type-codes"/>
+      </reference>
+      <name value="Visit Type Codes (Claim)"/>
+      <description value="Indicates the visit type of the Claim. &#xA;Can be &#39;institutional&#39; for inpatient claims or &#39;professional&#39; for outpatient claims. &#xA;Values limited by openIMIS."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/contract-premium-category"/>
       </reference>
       <name value="Premium Category (Contract)"/>
@@ -975,6 +1030,28 @@
       </reference>
       <name value="Usage Context for Workflow Type (ActivityDefinition)"/>
       <description value="Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/claim-item-category"/>
+      </reference>
+      <name value="Category of the item (Claim)"/>
+      <description value="Indicates the category for the item under a Claim. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/claim-supporting-info-category"/>
+      </reference>
+      <name value="Category of the supporting info (Claim)"/>
+      <description value="Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

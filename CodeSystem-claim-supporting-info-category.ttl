@@ -1,0 +1,67 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "claim-supporting-info-category"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">explanation<a name=\"claim-supporting-info-category-explanation\"> </a></td><td>Explanation</td></tr><tr><td style=\"white-space:nowrap\">justification<a name=\"claim-supporting-info-category-justification\"> </a></td><td>Justification</td></tr><tr><td style=\"white-space:nowrap\">attachment<a name=\"claim-supporting-info-category-attachment\"> </a></td><td>Attachment</td></tr><tr><td style=\"white-space:nowrap\">guarantee<a name=\"claim-supporting-info-category-guarantee\"> </a></td><td>Guarantee</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "ClaimSupportingInfoCategoryCS"];
+  fhir:CodeSystem.title [ fhir:value "Category of the supporting info (Claim)"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-09-14T14:32:44+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Swiss TPH" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.swisstph.ch/en/" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Dragos Dobre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "dragos.dobre@swisstph.ch" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended."];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "explanation" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Explanation" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "justification" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Justification" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "attachment" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Attachment" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "guarantee" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Guarantee" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

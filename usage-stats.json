@@ -581,10 +581,22 @@
         "title": "openIMIS Enrolment Officer Practitioner Role"
       }
     ],
+    "ClaimResponse": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-response",
+        "title": "openIMIS Claim Response"
+      }
+    ],
     "Contract": [
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-contract",
         "title": "openIMIS Contract"
+      }
+    ],
+    "Coverage": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage",
+        "title": "openIMIS Coverage"
       }
     ],
     "Group": [

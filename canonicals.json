@@ -35,6 +35,20 @@
     "name": "ActivityDefinitionUsageContextWorkflowTypeCS"
   },
   {
+    "id": "claim-item-category",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category",
+    "version": "0.1.0",
+    "name": "ClaimItemCategoryCS"
+  },
+  {
+    "id": "claim-supporting-info-category",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category",
+    "version": "0.1.0",
+    "name": "ClaimSupportingInfoCategoryCS"
+  },
+  {
     "id": "contract-premium-category",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-category",
@@ -315,11 +329,25 @@
     "name": "OpenIMISClaimAdministratorPractitionerRole"
   },
   {
+    "id": "openimis-claim-response",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-response",
+    "version": "0.1.0",
+    "name": "OpenIMISClaimResponse"
+  },
+  {
     "id": "openimis-contract",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-contract",
     "version": "0.1.0",
     "name": "OpenIMISContract"
+  },
+  {
+    "id": "openimis-coverage",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage",
+    "version": "0.1.0",
+    "name": "OpenIMISCoverage"
   },
   {
     "id": "openimis-enrolment-officer-practitioner",
@@ -488,6 +516,27 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-workflow-type",
     "version": "0.1.0",
     "name": "ActivityDefinitionUsageContextWorkflowTypeVS"
+  },
+  {
+    "id": "claim-item-category",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-item-category",
+    "version": "0.1.0",
+    "name": "ClaimItemCategoryVS"
+  },
+  {
+    "id": "claim-supporting-info-category",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-supporting-info-category",
+    "version": "0.1.0",
+    "name": "ClaimSupportingInfoCategoryVS"
+  },
+  {
+    "id": "claim-visit-type-codes",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-visit-type-codes",
+    "version": "0.1.0",
+    "name": "ClaimVisitTypeCodesVS"
   },
   {
     "id": "contract-premium-category",
