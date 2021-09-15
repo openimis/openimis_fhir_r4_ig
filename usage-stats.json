@@ -18,6 +18,14 @@
       ]
     },
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/claim-item-reference",
+      "title": "Item Reference (Claim)",
+      "types": [
+        "Reference",
+        "Reference"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium",
       "title": "Premium (Contract)",
       "types": [
@@ -689,6 +697,9 @@
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality": [
       "Extension.value[x]",
       "Patient.address"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/claim-item-reference": [
+      "Claim.item"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium": [
       "Contract.term.asset"

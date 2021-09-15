@@ -210,6 +210,13 @@
     "name": "AddressMunicipalityExtension"
   },
   {
+    "id": "claim-item-reference",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/claim-item-reference",
+    "version": "0.1.0",
+    "name": "ClaimItemReferenceExtension"
+  },
+  {
     "id": "contract-premium",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium",

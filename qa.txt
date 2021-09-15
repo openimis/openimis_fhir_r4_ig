@@ -1,13 +1,14 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 120, warn = 24, info = 7
+err = 122, warn = 24, info = 7
 IG Publisher Version: 1.1.80
-Generated Tue Sep 14 14:34:40 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Wed Sep 15 10:08:16 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
 
- Build Errors : 19 / 1 / 0
+ Build Errors : 20 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/Claim-Claim001 : 3 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-service-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-claim-item-category : 0 / 0 / 1
@@ -34,8 +35,9 @@ Generated Tue Sep 14 14:34:40 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/CodeSystem-practitioner-qualification-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-usage-context-age-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Contract-InformalSectorContract : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/Coverage-JoeDoeCoverage : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Group-doe-family : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 5 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 7 / 1
  /github/workspace/fsh-generated/resources/InsurancePlan-RX01 : 52 / 0 / 4
  /github/workspace/fsh-generated/resources/InsurancePlan-RX02 : 51 / 0 / 4
  /github/workspace/fsh-generated/resources/Location-Jamu-municipality : 0 / 0 / 1
@@ -50,6 +52,7 @@ Generated Tue Sep 14 14:34:40 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/Practitioner-Rushila-Dani-CA : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-address-location-reference : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-address-municipality : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-claim-item-reference : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-contract-premium : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-group-address : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-group-confirmation : 0 / 0 / 1
@@ -64,12 +67,12 @@ Generated Tue Sep 14 14:34:40 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-medication-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-medication-usage-context : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-activitiy-definition : 0 / 2 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner-role : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-response : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-contract : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/StructureDefinition-openimis-coverage : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-coverage : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner-role : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group : 0 / 0 / 1
@@ -126,6 +129,7 @@ Generated Tue Sep 14 14:34:40 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CapabilityStatement/ExampleCapabilityStatement.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/Coverage-JoeDoeCoverage.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 216: The link 'joe-doe' for "joe-doe" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 327, column 711: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:municipality' for "address-municipality" cannot be resolved (valid targets: 61 targets)
 ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 328, column 717: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:location' for "address-location-reference" cannot be resolved (valid targets: 61 targets)
 ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 459, column 711: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:municipality' for "address-municipality" cannot be resolved (valid targets: 61 targets)
@@ -155,6 +159,10 @@ ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: Activi
 WARNING: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement: cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement: cpb-2: 'A Capability Statement SHALL have at least one of description, software, or implementation element.' Rule 'A Capability Statement SHALL have at least one of description, software, or implementation element.' Failed
 ERROR: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement.rest[0].resource[1].searchParam[4].definition: Canonical URL 'http://hl7.org/fhir/us/saner/SearchParameter/SearchParameter-code' does not resolve
+== fsh-generated/resources/Claim-Claim001.json ==
+ERROR: Claim/Claim001: Claim.supportingInfo[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice Claim.supportingInfo:explanation in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
+ERROR: Claim/Claim001: Claim.supportingInfo[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice Claim.supportingInfo:guarantee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
+ERROR: Claim/Claim001: Claim.supportingInfo[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice Claim.supportingInfo:attachment in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
 == fsh-generated/resources/CodeSystem-activity-definition-service-type.json ==
 == fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type.json ==
 == fsh-generated/resources/CodeSystem-claim-item-category.json ==
@@ -183,13 +191,17 @@ ERROR: CodeSystem.url: Resource id/url mismatch: patient-identification-types/ht
 == fsh-generated/resources/CodeSystem-usage-context-age-type.json ==
 == fsh-generated/resources/Contract-InformalSectorContract.json ==
 ERROR: Contract/InformalSectorContract: Contract.term[0].asset[0]: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium is not allowed to be used at this point (allowed = e:OpenIMISContract; this element is [[Contract.term.asset, BackboneElement.asset, BackboneElement])
+== fsh-generated/resources/Coverage-JoeDoeCoverage.json ==
+ERROR: Coverage/JoeDoeCoverage: Coverage.beneficiary: Unable to resolve resource 'joe-doe'
 == fsh-generated/resources/Group-doe-family.json ==
 == fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[5].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[18].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[32].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[103].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[19].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[33].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[102].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[105].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[109].description: value should not start or finish with whitespace
 == fsh-generated/resources/InsurancePlan-RX01.json ==
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[5]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[6]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
@@ -321,6 +333,7 @@ ERROR: Organization/RaptaDistrictHospital: Organization: The extension https://o
 == fsh-generated/resources/Practitioner-Rushila-Dani-CA.json ==
 == fsh-generated/resources/StructureDefinition-address-location-reference.json ==
 == fsh-generated/resources/StructureDefinition-address-municipality.json ==
+== fsh-generated/resources/StructureDefinition-claim-item-reference.json ==
 == fsh-generated/resources/StructureDefinition-contract-premium.json ==
 == fsh-generated/resources/StructureDefinition-group-address.json ==
 == fsh-generated/resources/StructureDefinition-group-confirmation.json ==
@@ -340,9 +353,6 @@ WARNING: StructureDefinition/medication-usage-context: StructureDefinition.diffe
 WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.snapshot.element[100].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
 WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.differential.element[31].pattern.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
 == fsh-generated/resources/StructureDefinition-openimis-claim.json ==
-ERROR: StructureDefinition/openimis-claim: StructureDefinition.snapshot.element[77].pattern.ofType(Reference): Unable to resolve resource 'OpenIMISPatient'
-ERROR: StructureDefinition/openimis-claim: StructureDefinition.differential.element[14].pattern.ofType(Reference): Unable to resolve resource 'OpenIMISPatient'
-WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner.json ==
 == fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner-role.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner-role'): The Implementation Guide contains no examples for this profile
@@ -351,7 +361,6 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/StructureDefinition-openimis-contract.json ==
 INFORMATION: StructureDefinition/openimis-contract: StructureDefinition.snapshot.element[233].mapping[1].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/StructureDefinition-openimis-coverage.json ==
-WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner.json ==
 == fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner-role.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner-role'): The Implementation Guide contains no examples for this profile

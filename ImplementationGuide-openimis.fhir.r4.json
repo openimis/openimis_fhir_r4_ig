@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-09-14T14:33:18+00:00",
+  "date": "2021-09-15T10:06:59+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -540,6 +540,20 @@
         },
         "name": "Municipality (Address)",
         "description": "The location level between District and City/Village.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/claim-item-reference"
+        },
+        "name": "Item Reference (Claim)",
+        "description": "The reference to the Medication or ActivityDefinition for an item within a Claim.",
         "exampleBoolean": false
       },
       {
@@ -1708,6 +1722,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Claim"
+          }
+        ],
+        "reference": {
+          "reference": "Claim/Claim001"
+        },
+        "name": "Claim001",
+        "description": "* Example of a Claim   ",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CapabilityStatement"
           }
         ],
@@ -1786,6 +1814,20 @@
         "name": "Jimara-district",
         "description": "Example of a district",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Coverage"
+          }
+        ],
+        "reference": {
+          "reference": "Coverage/JoeDoeCoverage"
+        },
+        "name": "JoeDoeCoverage",
+        "description": "* Example of a Coverage   ",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage"
       },
       {
         "extension": [

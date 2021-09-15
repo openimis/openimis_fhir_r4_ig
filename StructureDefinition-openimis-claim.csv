@@ -248,10 +248,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Claim.use","","","",1,1,"","","Y","code {[]} {[]}
 ","Claim Type","openIMIS only manages Claims.","","This element is required to understand the nature of the request for adjudication.","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""claim""/>","","","",,"required","The purpose of the Claim: predetermination, preauthorization, claim.","http://hl7.org/fhir/ValueSet/claim-use|4.0.1","",,,,"Claim.use",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FiveWs.class"
-"Claim.patient","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The recipient of the products and services","The party to whom the professional services and/or products have been supplied or are being considered and for whom actual or forecast reimbursement is sought.","","The patient must be supplied to the insurer so that confirmation of coverage and service history may be considered as part of the authorization and/or adjudiction.","","","","<valueReference xmlns=""http://hl7.org/fhir"">
-  <reference value=""OpenIMISPatient""/>
-</valueReference>","","","",,,,,"",,,,"Claim.patient",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Claim.patient","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient]]}
+","The recipient of the products and services","The party to whom the professional services and/or products have been supplied or are being considered and for whom actual or forecast reimbursement is sought.","","The patient must be supplied to the insurer so that confirmation of coverage and service history may be considered as part of the authorization and/or adjudiction.","","","","","","","",,,,,"",,,,"Claim.patient",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Request.subject","FiveWs.subject[x]","FiveWs.subject"
 "Claim.billablePeriod","","","",1,1,"","","Y","Period {[]} {[]}
 ","Relevant time frame for the claim","The period for which charges are being submitted.","Typically this would be today or in the past for a claim, and today or in the future for preauthorizations and predeterminations. Typically line item dates of service should fall within the billing period if one is specified.","A number jurisdictions required the submission of the billing period when submitting claims for example for hospital stays or long-term care.","","","","","","","",,,,,"",,,,"Claim.billablePeriod",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -673,14 +671,18 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Location]]}","Where the event occurred","The physical location of the accident event.","","Required for audit purposes and determination of applicable insurance liability.","","","","","","","",,,,,"",,,,"Claim.accident.location[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Claim.item","","","",1,*,"","","","BackboneElement {[]} {[]}
-","Product or service provided","A claim line. Either a simple  product or service or a 'group' of details which can each be a simple items or groups of sub-details.","","The items to be processed for adjudication.","","","","","","","",,,,,"",,,,"Claim.item",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Item Reference","Specifies the reference to the Medication or ActivityDefinition.","","The items to be processed for adjudication.","","","","","","","",,,,,"",,,,"Claim.item",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Claim.item.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Claim.item.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"Claim.item.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Claim.item.extension","itemReference","","",1,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/claim-item-reference]]} {[]}
+","Item Reference (Claim)","The reference to the Medication or ActivityDefinition for an item within a Claim.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Claim.item.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -712,6 +714,19 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 Bill CodeService Code","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Item Code","Service or Item Code.","If this is an actual service or product line, i.e. not a Group, then use code to indicate the Professional Service or Product supplied (e.g. CTP, HCPCS, USCLS, ICD10, NCPDP, DIN, RxNorm, ACHI, CCI). If a grouping item then use a group code to indicate the type of thing being grouped e.g. 'glasses' or 'compound'.","Necessary to state what was provided or done.","","","","","","","",,"example","Allowable service and product codes.","http://hl7.org/fhir/ValueSet/service-uscls","",,,,"Claim.item.productOrService",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
+"Claim.item.productOrService.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"Claim.item.productOrService.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"Claim.item.productOrService.coding","","","",0,0,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","union(., ./translation)"
+"Claim.item.productOrService.text","","","",1,1,"","","Y","string {[]} {[]}
+","Item/Service Code","Service or Item Code.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./originalText[mediaType/code=""text/plain""]/data"
 "Claim.item.modifier","","","",0,0,"","","","CodeableConcept {[]} {[]}
 ","Product or service billing modifiers","Item typification or modifiers codes to convey additional context for the product or service.","For example in Oral whether the treatment is cosmetic or associated with TMJ, or for Medical whether the treatment was outside the clinic or outside of office hours.","To support inclusion of the item for adjudication or to charge an elevated fee.","","","","","","","",,"example","Item type or modifiers codes, eg for Oral whether the treatment is cosmetic or associated with TMJ, or an appliance was lost or stolen.","http://hl7.org/fhir/ValueSet/claim-modifiers","",,,,"Claim.item.modifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
@@ -727,6 +742,29 @@ Address {[]} {[]}Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDef
 "Claim.item.quantity","","","",1,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity]]} {[]}
 ","Count of products or services","The number of repetitions of a service or product.","","Required when the product or service code does not convey the quantity provided.","","","","","","","",,,,,"",,,,"Claim.item.quantity",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
+"Claim.item.quantity.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"Claim.item.quantity.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"Claim.item.quantity.value","","","",1,1,"","","Y","decimal {[]} {[]}
+","Numerical value (with implicit precision)","The value of the measured amount. The value includes an implicit precision in the presentation of the value.","The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books).","Precision is handled implicitly in almost all cases of measurement.","","","","","","","",,,,,"",,,,"Quantity.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","PQ.value, CO.value, MO.value, IVL.high or IVL.low depending on the value"
+"Claim.item.quantity.comparator","","","",0,0,"","Y","Y","code {[]} {[]}
+","< | <= | >= | > - how to understand the value","Not allowed to be used in this context","","Need a framework for handling measures where the value is <5ug/L or >400mg/L due to the limitations of measuring methodology.","","If there is no comparator, then there is no modification of the value","","","","","",,"required","How the Quantity should be understood and represented.","http://hl7.org/fhir/ValueSet/quantity-comparator|4.0.1","",,,,"Quantity.comparator",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","IVL properties"
+"Claim.item.quantity.unit","","","",0,0,"","","Y","string {[]} {[]}
+","Unit representation","A human-readable form of the unit.","","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","","","","",,,,,"",,,,"Quantity.unit",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","PQ.unit"
+"Claim.item.quantity.system","","","",0,0,"","","Y","uri {[]} {[]}
+","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","","Need to know the system that defines the coded form of the unit.","","","","","","","",,,,,"",,,,"Quantity.system",0,1,"qty-3
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","CO.codeSystem, PQ.translation.codeSystem"
+"Claim.item.quantity.code","","","",0,0,"","","Y","code {[]} {[]}
+","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","","","","",,,,,"",,,,"Quantity.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","PQ.code, MO.currency, PQ.translation.code"
 "Claim.item.unitPrice","","","",1,1,"","","","Money {[]} {[]}
 ","Fee, charge or cost per item","If the item is not a group then this is the fee for the product or service, otherwise this is the total of the fees for the details of the group.","","The amount charged to the patient by the provider for a single unit.","","","","","","","",,,,,"",,,,"Claim.item.unitPrice",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
@@ -860,4 +898,17 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "Claim.total","","","",1,1,"","","","Money {[]} {[]}
 ","Total claim cost","The total value of the all the items in the claim.","","Used for  control total purposes.","","","","","","","",,,,,"",,,,"Claim.total",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Claim.total.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"Claim.total.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"Claim.total.value","","","",1,1,"","","Y","decimal {[]} {[]}
+","Numerical value (with implicit precision)","Numerical value (with implicit precision).","Monetary values have their own rules for handling precision (refer to standard accounting text books).","The amount of the currency. The value includes an implicit precision in the presentation of the value.","","","","","","","",,,,,"",,,,"Money.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Claim.total.currency","","","",0,1,"","","Y","code {[]} {[]}
+","ISO 4217 Currency Code","ISO 4217 Currency Code.","","A code indicating the currency, taken from ISO 4217.","","","","","","","",,"required","A code indicating the currency, taken from ISO 4217.","http://hl7.org/fhir/ValueSet/currencies|4.0.1","",,,,"Money.currency",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "

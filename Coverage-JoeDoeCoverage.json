@@ -1,0 +1,35 @@
+{
+  "resourceType": "Coverage",
+  "id": "JoeDoeCoverage",
+  "meta": {
+    "profile": [
+      "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD84</p><p><b>status</b>: active</p><p><b>beneficiary</b>: <a href=\"joe-doe\">joe-doe</a></p><p><b>payor</b>: <a href=\"Patient-jane-doe.html\">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
+            "code": "UUID"
+          }
+        ]
+      },
+      "value": "D30F70DF-D10B-43D4-BF31-5137C118AD84"
+    }
+  ],
+  "status": "active",
+  "beneficiary": {
+    "reference": "joe-doe"
+  },
+  "payor": [
+    {
+      "reference": "Patient/jane-doe"
+    }
+  ]
+}
