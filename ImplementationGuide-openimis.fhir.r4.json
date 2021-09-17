@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-09-17T10:31:57+00:00",
+  "date": "2021-09-17T16:55:55+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -400,6 +400,20 @@
         },
         "name": "openIMIS Coverage",
         "description": "Defines a Coverage for openIMIS which maps to a Policy.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-coverage-eligibility-request"
+        },
+        "name": "openIMIS CoverageEligibilityRequest",
+        "description": "Defines a CoverageEligibilityRequest for openIMIS to enquire an Insuree.",
         "exampleBoolean": false
       },
       {
@@ -1926,6 +1940,20 @@
         "name": "JoeDoeCoverage",
         "description": "* Example of a Coverage   ",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CoverageEligibilityRequest"
+          }
+        ],
+        "reference": {
+          "reference": "CoverageEligibilityRequest/JoeDoeEnquiring"
+        },
+        "name": "JoeDoeEnquiring",
+        "description": "* Example of CoverageEligibilityRequest   ",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request"
       },
       {
         "extension": [

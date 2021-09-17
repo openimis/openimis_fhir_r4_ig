@@ -613,6 +613,12 @@
         "title": "openIMIS Coverage"
       }
     ],
+    "CoverageEligibilityRequest": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request",
+        "title": "openIMIS CoverageEligibilityRequest"
+      }
+    ],
     "Group": [
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group",

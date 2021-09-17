@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CoverageEligibilityRequest/JoeDoeEnquiring> a fhir:CoverageEligibilityRequest;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "JoeDoeEnquiring"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request";
+       fhir:index 0;
+       fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>purpose</b>: benefits</p><p><b>patient</b>: <a href=\"joe-doe\">joe-doe</a></p><p><b>created</b>: 2021-09-17</p><p><b>insurer</b>: <a href=\"openIMIS\">openIMIS</a></p><h3>Items</h3><table class=\"grid\"><tr><td>-</td><td><b>Category</b></td><td><b>ProductOrService</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category service}\">Service</span></td><td><span title=\"Codes: \">A1</span></td></tr></table></div>"
+  ];
+  fhir:CoverageEligibilityRequest.status [ fhir:value "active"];
+  fhir:CoverageEligibilityRequest.purpose [
+     fhir:value "benefits";
+     fhir:index 0
+  ];
+  fhir:CoverageEligibilityRequest.patient [
+     fhir:Reference.reference [ fhir:value "joe-doe" ]
+  ];
+  fhir:CoverageEligibilityRequest.created [ fhir:value "2021-09-17"^^xsd:date];
+  fhir:CoverageEligibilityRequest.insurer [
+     fhir:Reference.reference [ fhir:value "openIMIS" ]
+  ];
+  fhir:CoverageEligibilityRequest.item [
+     fhir:index 0;
+     fhir:CoverageEligibilityRequest.item.category [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category" ];
+         fhir:Coding.code [ fhir:value "service" ];
+         fhir:Coding.display [ fhir:value "Service" ]
+       ]
+     ];
+     fhir:CoverageEligibilityRequest.item.productOrService [
+       fhir:CodeableConcept.text [ fhir:value "A1" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CoverageEligibilityRequest/JoeDoeEnquiring.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

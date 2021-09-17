@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CoverageEligibilityRequest xmlns="http://hl7.org/fhir">
+  <id value="JoeDoeEnquiring"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>purpose</b>: benefits</p><p><b>patient</b>: <a href="joe-doe">joe-doe</a></p><p><b>created</b>: 2021-09-17</p><p><b>insurer</b>: <a href="openIMIS">openIMIS</a></p><h3>Items</h3><table class="grid"><tr><td>-</td><td><b>Category</b></td><td><b>ProductOrService</b></td></tr><tr><td>*</td><td><span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category service}">Service</span></td><td><span title="Codes: ">A1</span></td></tr></table></div>
+  </text>
+  <status value="active"/>
+  <purpose value="benefits"/>
+  <patient>
+    <reference value="joe-doe"/>
+  </patient>
+  <created value="2021-09-17"/>
+  <insurer>
+    <reference value="openIMIS"/>
+  </insurer>
+  <item>
+    <category>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category"/>
+        <code value="service"/>
+        <display value="Service"/>
+      </coding>
+    </category>
+    <productOrService>
+      <text value="A1"/>
+    </productOrService>
+  </item>
+</CoverageEligibilityRequest>

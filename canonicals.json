@@ -385,6 +385,13 @@
     "name": "OpenIMISCoverage"
   },
   {
+    "id": "openimis-coverage-eligibility-request",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request",
+    "version": "0.1.0",
+    "name": "OpenIMISCoverageEligibilityRequest"
+  },
+  {
     "id": "openimis-enrolment-officer-practitioner",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner",

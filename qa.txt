@@ -1,11 +1,11 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 125, warn = 25, info = 7
+err = 129, warn = 26, info = 7
 IG Publisher Version: 1.1.80
-Generated Fri Sep 17 10:33:18 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Fri Sep 17 16:57:24 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
 
- Build Errors : 21 / 1 / 0
+ Build Errors : 23 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/Claim-Claim001 : 3 / 0 / 1
@@ -40,8 +40,9 @@ Generated Fri Sep 17 10:33:18 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/CodeSystem-usage-context-age-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Contract-InformalSectorContract : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Coverage-JoeDoeCoverage : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/CoverageEligibilityRequest-JoeDoeEnquiring : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/Group-doe-family : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 8 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 9 / 1
  /github/workspace/fsh-generated/resources/InsurancePlan-RX01 : 52 / 0 / 4
  /github/workspace/fsh-generated/resources/InsurancePlan-RX02 : 51 / 0 / 4
  /github/workspace/fsh-generated/resources/Location-Jamu-municipality : 0 / 0 / 1
@@ -78,6 +79,7 @@ Generated Fri Sep 17 10:33:18 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-communication-request : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-contract : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-coverage : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-coverage-eligibility-request : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner-role : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group : 0 / 0 / 1
@@ -138,6 +140,8 @@ Generated Fri Sep 17 10:33:18 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CapabilityStatement/ExampleCapabilityStatement.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/ClaimResponse-Claim001.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 667: The link 'openIMIS' for "openIMIS" cannot be resolved
 ERROR: /github/workspace/output/Coverage-JoeDoeCoverage.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 216: The link 'joe-doe' for "joe-doe" cannot be resolved
+ERROR: /github/workspace/output/CoverageEligibilityRequest-JoeDoeEnquiring.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 157: The link 'joe-doe' for "joe-doe" cannot be resolved
+ERROR: /github/workspace/output/CoverageEligibilityRequest-JoeDoeEnquiring.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 242: The link 'openIMIS' for "openIMIS" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 327, column 711: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:municipality' for "address-municipality" cannot be resolved (valid targets: 61 targets)
 ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 328, column 717: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:location' for "address-location-reference" cannot be resolved (valid targets: 61 targets)
 ERROR: /github/workspace/output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 459, column 711: The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:municipality' for "address-municipality" cannot be resolved (valid targets: 61 targets)
@@ -206,16 +210,20 @@ ERROR: CodeSystem.url: Resource id/url mismatch: patient-identification-types/ht
 ERROR: Contract/InformalSectorContract: Contract.term[0].asset[0]: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium is not allowed to be used at this point (allowed = e:OpenIMISContract; this element is [[Contract.term.asset, BackboneElement.asset, BackboneElement])
 == fsh-generated/resources/Coverage-JoeDoeCoverage.json ==
 ERROR: Coverage/JoeDoeCoverage: Coverage.beneficiary: Unable to resolve resource 'joe-doe'
+== fsh-generated/resources/CoverageEligibilityRequest-JoeDoeEnquiring.json ==
+ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.patient: Unable to resolve resource 'joe-doe'
+ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.insurer: Unable to resolve resource 'openIMIS'
 == fsh-generated/resources/Group-doe-family.json ==
 == fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[6].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[20].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[34].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[108].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[21].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[35].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[109].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[112].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[116].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[110].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[113].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[117].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[118].description: value should not start or finish with whitespace
 == fsh-generated/resources/InsurancePlan-RX01.json ==
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[5]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[6]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
@@ -378,6 +386,9 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/StructureDefinition-openimis-contract.json ==
 INFORMATION: StructureDefinition/openimis-contract: StructureDefinition.snapshot.element[233].mapping[1].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/StructureDefinition-openimis-coverage.json ==
+== fsh-generated/resources/StructureDefinition-openimis-coverage-eligibility-request.json ==
+ERROR: StructureDefinition/openimis-coverage-eligibility-request: StructureDefinition.snapshot.element[18].pattern.ofType(Reference): Unable to resolve resource 'openIMIS'
+ERROR: StructureDefinition/openimis-coverage-eligibility-request: StructureDefinition.differential.element[9].pattern.ofType(Reference): Unable to resolve resource 'openIMIS'
 == fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner.json ==
 == fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner-role.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner-role'): The Implementation Guide contains no examples for this profile
