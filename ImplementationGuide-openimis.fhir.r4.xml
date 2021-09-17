@@ -11,7 +11,7 @@
   <name value="openIMISFHIRR4"/>
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-09-15T10:19:11+00:00"/>
+  <date value="2021-09-17T09:55:36+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>
@@ -237,7 +237,18 @@
         <reference value="StructureDefinition/openimis-claim-response"/>
       </reference>
       <name value="openIMIS Claim Response"/>
-      <description value="Defines a ClaimResponse for openIMIS which maps to a Claim."/>
+      <description value="Defines a ClaimResponse for openIMIS which maps to a Claim. The ClaimResponse resource contains the adjudication result of a Claim."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/openimis-communication-request"/>
+      </reference>
+      <name value="openIMIS CommunicationRequest"/>
+      <description value="Defines a CommunicationRequest for openIMIS which maps to the Claim Feedback in openIMIS."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -718,6 +729,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/claim-status"/>
+      </reference>
+      <name value="Status of the claim (Claim|ClaimResponse)"/>
+      <description value="Indicates the status of the Claim. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/claim-supporting-info-category"/>
       </reference>
       <name value="Category of the supporting info (Claim)"/>
@@ -729,10 +751,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/claim-visit-type-codes"/>
+        <reference value="ValueSet/claim-visit-type"/>
       </reference>
       <name value="Visit Type Codes (Claim)"/>
-      <description value="Indicates the visit type of the Claim. &#xA;Can be &#39;institutional&#39; for inpatient claims or &#39;professional&#39; for outpatient claims. &#xA;Values limited by openIMIS."/>
+      <description value="Indicates the visit type of the Claim. &#xA;Values limited by openIMIS."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1059,10 +1081,32 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/claim-status"/>
+      </reference>
+      <name value="Status of the claim (Claim|ClaimResponse)"/>
+      <description value="Indicates the status of the Claim. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/claim-supporting-info-category"/>
       </reference>
       <name value="Category of the supporting info (Claim)"/>
       <description value="Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/claim-visit-type"/>
+      </reference>
+      <name value="Visit Type (Claim)"/>
+      <description value="Indicates the visit type of the Claim. &#xA;Values limited by openIMIS."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

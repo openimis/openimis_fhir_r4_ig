@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-09-15T10:19:11+00:00",
+  "date": "2021-09-17T09:55:36+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -357,7 +357,21 @@
           "reference": "StructureDefinition/openimis-claim-response"
         },
         "name": "openIMIS Claim Response",
-        "description": "Defines a ClaimResponse for openIMIS which maps to a Claim.",
+        "description": "Defines a ClaimResponse for openIMIS which maps to a Claim. The ClaimResponse resource contains the adjudication result of a Claim.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-communication-request"
+        },
+        "name": "openIMIS CommunicationRequest",
+        "description": "Defines a CommunicationRequest for openIMIS which maps to the Claim Feedback in openIMIS.",
         "exampleBoolean": false
       },
       {
@@ -970,6 +984,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/claim-status"
+        },
+        "name": "Status of the claim (Claim|ClaimResponse)",
+        "description": "Indicates the status of the Claim. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/claim-supporting-info-category"
         },
         "name": "Category of the supporting info (Claim)",
@@ -984,10 +1012,10 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/claim-visit-type-codes"
+          "reference": "ValueSet/claim-visit-type"
         },
         "name": "Visit Type Codes (Claim)",
-        "description": "Indicates the visit type of the Claim. \nCan be 'institutional' for inpatient claims or 'professional' for outpatient claims. \nValues limited by openIMIS.",
+        "description": "Indicates the visit type of the Claim. \nValues limited by openIMIS.",
         "exampleBoolean": false
       },
       {
@@ -1404,10 +1432,38 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/claim-status"
+        },
+        "name": "Status of the claim (Claim|ClaimResponse)",
+        "description": "Indicates the status of the Claim. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/claim-supporting-info-category"
         },
         "name": "Category of the supporting info (Claim)",
         "description": "Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/claim-visit-type"
+        },
+        "name": "Visit Type (Claim)",
+        "description": "Indicates the visit type of the Claim. \nValues limited by openIMIS.",
         "exampleBoolean": false
       },
       {

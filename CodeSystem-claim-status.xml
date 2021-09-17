@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="claim-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="claim-status-1"> </a></td><td>Rejected</td></tr><tr><td style="white-space:nowrap">2<a name="claim-status-2"> </a></td><td>Entered</td></tr><tr><td style="white-space:nowrap">4<a name="claim-status-4"> </a></td><td>Checked</td></tr><tr><td style="white-space:nowrap">8<a name="claim-status-8"> </a></td><td>Processed</td></tr><tr><td style="white-space:nowrap">16<a name="claim-status-16"> </a></td><td>Valuated</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status"/>
+  <version value="0.1.0"/>
+  <name value="ClaimStatusCS"/>
+  <title value="Status of the claim (Claim|ClaimResponse)"/>
+  <status value="active"/>
+  <date value="2021-09-17T09:55:36+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the status of the Claim. Values defined by openIMIS. Can not be extended."/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="1"/>
+    <display value="Rejected"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Entered"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Checked"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Processed"/>
+  </concept>
+  <concept>
+    <code value="16"/>
+    <display value="Valuated"/>
+  </concept>
+</CodeSystem>

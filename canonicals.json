@@ -42,11 +42,25 @@
     "name": "ClaimItemCategoryCS"
   },
   {
+    "id": "claim-status",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status",
+    "version": "0.1.0",
+    "name": "ClaimStatusCS"
+  },
+  {
     "id": "claim-supporting-info-category",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category",
     "version": "0.1.0",
     "name": "ClaimSupportingInfoCategoryCS"
+  },
+  {
+    "id": "claim-visit-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-visit-type",
+    "version": "0.1.0",
+    "name": "ClaimVisitTypeCS"
   },
   {
     "id": "contract-premium-category",
@@ -343,6 +357,13 @@
     "name": "OpenIMISClaimResponse"
   },
   {
+    "id": "openimis-communication-request",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request",
+    "version": "0.1.0",
+    "name": "OpenIMISCommunicationRequest"
+  },
+  {
     "id": "openimis-contract",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-contract",
@@ -532,6 +553,13 @@
     "name": "ClaimItemCategoryVS"
   },
   {
+    "id": "claim-status",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-status",
+    "version": "0.1.0",
+    "name": "ClaimStatusVS"
+  },
+  {
     "id": "claim-supporting-info-category",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-supporting-info-category",
@@ -539,11 +567,11 @@
     "name": "ClaimSupportingInfoCategoryVS"
   },
   {
-    "id": "claim-visit-type-codes",
+    "id": "claim-visit-type",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-visit-type-codes",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-visit-type",
     "version": "0.1.0",
-    "name": "ClaimVisitTypeCodesVS"
+    "name": "ClaimVisitTypeVS"
   },
   {
     "id": "contract-premium-category",

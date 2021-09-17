@@ -1,18 +1,20 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 122, warn = 24, info = 7
+err = 125, warn = 25, info = 7
 IG Publisher Version: 1.1.80
-Generated Wed Sep 15 10:20:45 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Fri Sep 17 09:57:06 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
 
  Build Errors : 20 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
- /github/workspace/fsh-generated/resources/Claim-Claim001 : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/Claim-Claim001 : 4 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-service-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-claim-item-category : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-claim-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-claim-supporting-info-category : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-claim-visit-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-category : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-payer : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-type : 0 / 0 / 1
@@ -70,7 +72,8 @@ Generated Wed Sep 15 10:20:45 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner-role : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-response : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-response : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-communication-request : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-contract : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-coverage : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner : 0 / 0 / 1
@@ -98,8 +101,9 @@ Generated Wed Sep 15 10:20:45 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-venue-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-workflow-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-claim-item-category : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-claim-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-claim-supporting-info-category : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-claim-visit-type-codes : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-claim-visit-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-contract-premium-category : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-contract-premium-payer : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-contract-premium-type : 0 / 0 / 1
@@ -163,10 +167,13 @@ ERROR: CapabilityStatement/ExampleCapabilityStatement: CapabilityStatement.rest[
 ERROR: Claim/Claim001: Claim.supportingInfo[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice Claim.supportingInfo:explanation in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
 ERROR: Claim/Claim001: Claim.supportingInfo[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice Claim.supportingInfo:guarantee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
 ERROR: Claim/Claim001: Claim.supportingInfo[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice Claim.supportingInfo:attachment in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
+ERROR: Claim/Claim001: Claim.type.coding[0]: The Coding provided (http://terminology.hl7.org/CodeSystem/claim-type#professional) is not in the value set https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-visit-type, and a code is required from this value set.  (error message = Not in value set https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-visit-type)
 == fsh-generated/resources/CodeSystem-activity-definition-service-type.json ==
 == fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type.json ==
 == fsh-generated/resources/CodeSystem-claim-item-category.json ==
+== fsh-generated/resources/CodeSystem-claim-status.json ==
 == fsh-generated/resources/CodeSystem-claim-supporting-info-category.json ==
+== fsh-generated/resources/CodeSystem-claim-visit-type.json ==
 == fsh-generated/resources/CodeSystem-contract-premium-category.json ==
 == fsh-generated/resources/CodeSystem-contract-premium-payer.json ==
 == fsh-generated/resources/CodeSystem-contract-premium-type.json ==
@@ -196,12 +203,12 @@ ERROR: Coverage/JoeDoeCoverage: Coverage.beneficiary: Unable to resolve resource
 == fsh-generated/resources/Group-doe-family.json ==
 == fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[5].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[19].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[33].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[102].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[105].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[6].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[20].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[34].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[106].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[109].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[113].description: value should not start or finish with whitespace
 == fsh-generated/resources/InsurancePlan-RX01.json ==
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[5]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[6]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
@@ -357,7 +364,11 @@ WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.
 == fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner-role.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner-role'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-openimis-claim-response.json ==
+ERROR: StructureDefinition/openimis-claim-response: StructureDefinition.snapshot.element[79].pattern.ofType(Reference): Unable to resolve resource 'openIMIS'
+ERROR: StructureDefinition/openimis-claim-response: StructureDefinition.differential.element[16].pattern.ofType(Reference): Unable to resolve resource 'openIMIS'
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-response'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-openimis-communication-request.json ==
+WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-openimis-contract.json ==
 INFORMATION: StructureDefinition/openimis-contract: StructureDefinition.snapshot.element[233].mapping[1].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/StructureDefinition-openimis-coverage.json ==
@@ -390,8 +401,9 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/ValueSet-activity-definition-usage-context-venue-type.json ==
 == fsh-generated/resources/ValueSet-activity-definition-usage-context-workflow-type.json ==
 == fsh-generated/resources/ValueSet-claim-item-category.json ==
+== fsh-generated/resources/ValueSet-claim-status.json ==
 == fsh-generated/resources/ValueSet-claim-supporting-info-category.json ==
-== fsh-generated/resources/ValueSet-claim-visit-type-codes.json ==
+== fsh-generated/resources/ValueSet-claim-visit-type.json ==
 == fsh-generated/resources/ValueSet-contract-premium-category.json ==
 == fsh-generated/resources/ValueSet-contract-premium-payer.json ==
 == fsh-generated/resources/ValueSet-contract-premium-type.json ==

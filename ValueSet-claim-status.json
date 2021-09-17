@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "claim-status",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-claim-status.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status</code></a></li></ul></div>"
+  },
+  "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-status",
+  "version": "0.1.0",
+  "name": "ClaimStatusVS",
+  "title": "Status of the claim (Claim|ClaimResponse)",
+  "status": "active",
+  "date": "2021-09-17T09:55:36+00:00",
+  "publisher": "Swiss TPH",
+  "contact": [
+    {
+      "name": "Swiss TPH",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.swisstph.ch/en/"
+        }
+      ]
+    },
+    {
+      "name": "Dragos Dobre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "dragos.dobre@swisstph.ch",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Indicates the status of the Claim. Values defined by openIMIS. Can not be extended.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status"
+      }
+    ]
+  }
+}

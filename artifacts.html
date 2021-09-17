@@ -263,7 +263,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/openimis-claim-response">openIMIS Claim Response</a>
                </td>
                <td>
-<p>Defines a ClaimResponse for openIMIS which maps to a Claim.</p>
+<p>Defines a ClaimResponse for openIMIS which maps to a Claim. The ClaimResponse resource contains the adjudication result of a Claim.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-openimis-communication-request.html"
+                     title="StructureDefinition/openimis-communication-request">openIMIS CommunicationRequest</a>
+               </td>
+               <td>
+<p>Defines a CommunicationRequest for openIMIS which maps to the Claim Feedback in openIMIS.</p>
 </td>
             </tr>
             <tr>
@@ -679,6 +688,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-claim-status.html" title="ValueSet/claim-status">Status of the claim (Claim|ClaimResponse)</a>
+               </td>
+               <td>
+<p>Indicates the status of the Claim. Values defined by openIMIS. Can not be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-claim-supporting-info-category.html"
                      title="ValueSet/claim-supporting-info-category">Category of the supporting info (Claim)</a>
                </td>
@@ -688,12 +705,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-claim-visit-type-codes.html"
-                     title="ValueSet/claim-visit-type-codes">Visit Type Codes (Claim)</a>
+                  <a href="ValueSet-claim-visit-type.html" title="ValueSet/claim-visit-type">Visit Type Codes (Claim)</a>
                </td>
                <td>
 <p>Indicates the visit type of the Claim. 
-Can be ‘institutional’ for inpatient claims or ‘professional’ for outpatient claims. 
 Values limited by openIMIS.</p>
 </td>
             </tr>
@@ -969,11 +984,29 @@ Values limited by openIMIS.</p>
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="CodeSystem-claim-status.html" title="CodeSystem/claim-status">Status of the claim (Claim|ClaimResponse)</a>
+               </td>
+               <td>
+<p>Indicates the status of the Claim. Values defined by openIMIS. Can not be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="CodeSystem-claim-supporting-info-category.html"
                      title="CodeSystem/claim-supporting-info-category">Category of the supporting info (Claim)</a>
                </td>
                <td>
 <p>Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-claim-visit-type.html"
+                     title="CodeSystem/claim-visit-type">Visit Type (Claim)</a>
+               </td>
+               <td>
+<p>Indicates the visit type of the Claim. 
+Values limited by openIMIS.</p>
 </td>
             </tr>
             <tr>
@@ -1351,7 +1384,7 @@ Values limited by openIMIS.</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 15, 2021 10:19+0000">2021-09-15</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 17, 2021 09:55+0000">2021-09-17</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

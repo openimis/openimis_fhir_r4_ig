@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "OrganizationLegalFormCS"];
   fhir:CodeSystem.title [ fhir:value "Legal Forms (Organization)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-09-15T10:19:11+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-09-17T09:55:36+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;

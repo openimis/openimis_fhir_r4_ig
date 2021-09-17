@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="claim-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-claim-status.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status</code></a></li></ul></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-status"/>
+  <version value="0.1.0"/>
+  <name value="ClaimStatusVS"/>
+  <title value="Status of the claim (Claim|ClaimResponse)"/>
+  <status value="active"/>
+  <date value="2021-09-17T09:55:36+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the status of the Claim. Values defined by openIMIS. Can not be extended."/>
+  <compose>
+    <include>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status"/>
+    </include>
+  </compose>
+</ValueSet>

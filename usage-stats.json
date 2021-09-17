@@ -595,6 +595,12 @@
         "title": "openIMIS Claim Response"
       }
     ],
+    "CommunicationRequest": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request",
+        "title": "openIMIS CommunicationRequest"
+      }
+    ],
     "Contract": [
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-contract",
@@ -699,7 +705,8 @@
       "Patient.address"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/claim-item-reference": [
-      "Claim.item"
+      "Claim.item",
+      "ClaimResponse.item"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium": [
       "Contract.term.asset"
