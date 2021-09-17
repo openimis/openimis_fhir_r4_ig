@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "InsurancePlanMaxInstallmentsExtension"];
   fhir:StructureDefinition.title [ fhir:value "Max Installments (InsurancePlan)"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-09-17T16:55:55+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-09-17T16:56:25+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
