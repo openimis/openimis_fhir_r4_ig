@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="claim-rejection-reasons"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-rejection-reasons defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">-1<a name="claim-rejection-reasons--1"> </a></td><td>REJECTED BY MEDICAL OFFICER</td></tr><tr><td style="white-space:nowrap">0<a name="claim-rejection-reasons-0"> </a></td><td>ACCEPTED</td></tr><tr><td style="white-space:nowrap">1<a name="claim-rejection-reasons-1"> </a></td><td>INVALID ITEM OR SERVICE</td></tr><tr><td style="white-space:nowrap">2<a name="claim-rejection-reasons-2"> </a></td><td>NOT IN PRICE LIST</td></tr><tr><td style="white-space:nowrap">3<a name="claim-rejection-reasons-3"> </a></td><td>NO PRODUCT FOUND</td></tr><tr><td style="white-space:nowrap">4<a name="claim-rejection-reasons-4"> </a></td><td>CATEGORY LIMITATION</td></tr><tr><td style="white-space:nowrap">5<a name="claim-rejection-reasons-5"> </a></td><td>FREQUENCY FAILURE</td></tr><tr><td style="white-space:nowrap">6<a name="claim-rejection-reasons-6"> </a></td><td>DUPLICATED</td></tr><tr><td style="white-space:nowrap">7<a name="claim-rejection-reasons-7"> </a></td><td>FAMILY</td></tr><tr><td style="white-space:nowrap">8<a name="claim-rejection-reasons-8"> </a></td><td>DIAGNOSIS NOT IN LIST</td></tr><tr><td style="white-space:nowrap">9<a name="claim-rejection-reasons-9"> </a></td><td>TARGET DATE</td></tr><tr><td style="white-space:nowrap">10<a name="claim-rejection-reasons-10"> </a></td><td>CARE TYPE</td></tr><tr><td style="white-space:nowrap">11<a name="claim-rejection-reasons-11"> </a></td><td>MAX HOSPITAL ADMISSIONS</td></tr><tr><td style="white-space:nowrap">12<a name="claim-rejection-reasons-12"> </a></td><td>MAX VISITS</td></tr><tr><td style="white-space:nowrap">13<a name="claim-rejection-reasons-13"> </a></td><td>MAX CONSULTATIONS</td></tr><tr><td style="white-space:nowrap">14<a name="claim-rejection-reasons-14"> </a></td><td>MAX SURGERIES</td></tr><tr><td style="white-space:nowrap">15<a name="claim-rejection-reasons-15"> </a></td><td>MAX DELIVERIES</td></tr><tr><td style="white-space:nowrap">16<a name="claim-rejection-reasons-16"> </a></td><td>QTY OVER LIMIT</td></tr><tr><td style="white-space:nowrap">17<a name="claim-rejection-reasons-17"> </a></td><td>WAITING PERIOD FAIL</td></tr><tr><td style="white-space:nowrap">19<a name="claim-rejection-reasons-19"> </a></td><td>MAX ANTENATAL</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-rejection-reasons"/>
+  <version value="0.1.0"/>
+  <name value="ClaimRejectionReasonsCS"/>
+  <title value="Visit Type (Claim)"/>
+  <status value="active"/>
+  <date value="2021-09-17T10:31:02+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the rejection reason of an item from a Claim. &#xA;Values limited by openIMIS."/>
+  <content value="complete"/>
+  <count value="20"/>
+  <concept>
+    <code value="-1"/>
+    <display value="REJECTED BY MEDICAL OFFICER"/>
+  </concept>
+  <concept>
+    <code value="0"/>
+    <display value="ACCEPTED"/>
+  </concept>
+  <concept>
+    <code value="1"/>
+    <display value="INVALID ITEM OR SERVICE"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="NOT IN PRICE LIST"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="NO PRODUCT FOUND"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="CATEGORY LIMITATION"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="FREQUENCY FAILURE"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="DUPLICATED"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="FAMILY"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="DIAGNOSIS NOT IN LIST"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="TARGET DATE"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="CARE TYPE"/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="MAX HOSPITAL ADMISSIONS"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="MAX VISITS"/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="MAX CONSULTATIONS"/>
+  </concept>
+  <concept>
+    <code value="14"/>
+    <display value="MAX SURGERIES"/>
+  </concept>
+  <concept>
+    <code value="15"/>
+    <display value="MAX DELIVERIES"/>
+  </concept>
+  <concept>
+    <code value="16"/>
+    <display value="QTY OVER LIMIT"/>
+  </concept>
+  <concept>
+    <code value="17"/>
+    <display value="WAITING PERIOD FAIL"/>
+  </concept>
+  <concept>
+    <code value="19"/>
+    <display value="MAX ANTENATAL"/>
+  </concept>
+</CodeSystem>

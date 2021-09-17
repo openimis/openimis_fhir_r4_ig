@@ -28,7 +28,6 @@
       <sch:assert test="count(f:fundsReserve) &lt;= 0">fundsReserve: maximum cardinality of 'fundsReserve' is 0</sch:assert>
       <sch:assert test="count(f:formCode) &lt;= 0">formCode: maximum cardinality of 'formCode' is 0</sch:assert>
       <sch:assert test="count(f:form) &lt;= 0">form: maximum cardinality of 'form' is 0</sch:assert>
-      <sch:assert test="count(f:processNote) &gt;= 1">processNote: minimum cardinality of 'processNote' is 1</sch:assert>
       <sch:assert test="count(f:processNote) &lt;= 1">processNote: maximum cardinality of 'processNote' is 1</sch:assert>
       <sch:assert test="count(f:communicationRequest) &lt;= 1">communicationRequest: maximum cardinality of 'communicationRequest' is 1</sch:assert>
       <sch:assert test="count(f:insurance) &lt;= 0">insurance: maximum cardinality of 'insurance' is 0</sch:assert>
@@ -449,6 +448,7 @@
   <sch:pattern>
     <sch:title>f:ClaimResponse/f:item/f:adjudication</sch:title>
     <sch:rule context="f:ClaimResponse/f:item/f:adjudication">
+      <sch:assert test="count(f:reason) &gt;= 1">reason: minimum cardinality of 'reason' is 1</sch:assert>
       <sch:assert test="count(f:amount) &gt;= 1">amount: minimum cardinality of 'amount' is 1</sch:assert>
       <sch:assert test="count(f:value) &gt;= 1">value: minimum cardinality of 'value' is 1</sch:assert>
     </sch:rule>
@@ -485,7 +485,6 @@
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:coding) &gt;= 1">coding: minimum cardinality of 'coding' is 1</sch:assert>
       <sch:assert test="count(f:coding) &lt;= 1">coding: maximum cardinality of 'coding' is 1</sch:assert>
-      <sch:assert test="count(f:text) &gt;= 1">text: minimum cardinality of 'text' is 1</sch:assert>
       <sch:assert test="count(f:text) &lt;= 1">text: maximum cardinality of 'text' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "OpenIMISEnrolmentOfficerPractitioner"];
   fhir:StructureDefinition.title [ fhir:value "openIMIS Enrolment Officer Practitioner"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-09-17T09:56:14+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-09-17T10:31:02+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

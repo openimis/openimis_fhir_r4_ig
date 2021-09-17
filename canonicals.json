@@ -42,6 +42,13 @@
     "name": "ClaimItemCategoryCS"
   },
   {
+    "id": "claim-rejection-reasons",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-rejection-reasons",
+    "version": "0.1.0",
+    "name": "ClaimRejectionReasonsCS"
+  },
+  {
     "id": "claim-status",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status",
@@ -551,6 +558,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-item-category",
     "version": "0.1.0",
     "name": "ClaimItemCategoryVS"
+  },
+  {
+    "id": "claim-rejection-reasons",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-rejection-reasons",
+    "version": "0.1.0",
+    "name": "ClaimRejectionReasonsVS"
   },
   {
     "id": "claim-status",

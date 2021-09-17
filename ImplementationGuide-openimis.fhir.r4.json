@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-09-17T09:56:14+00:00",
+  "date": "2021-09-17T10:31:02+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -984,6 +984,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/claim-rejection-reasons"
+        },
+        "name": "Visit Type (Claim)",
+        "description": "Indicates the rejection reason of an item from a Claim. \nValues limited by openIMIS.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/claim-status"
         },
         "name": "Status of the claim (Claim|ClaimResponse)",
@@ -1432,6 +1446,20 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/claim-rejection-reasons"
+        },
+        "name": "Visit Type (Claim)",
+        "description": "Indicates the rejection reason of an item from a Claim. \nValues limited by openIMIS.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/claim-status"
         },
         "name": "Status of the claim (Claim|ClaimResponse)",
@@ -1787,6 +1815,20 @@
         "name": "Claim001",
         "description": "* Example of a Claim   ",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ClaimResponse"
+          }
+        ],
+        "reference": {
+          "reference": "ClaimResponse/Claim001"
+        },
+        "name": "ClaimResponse001",
+        "description": "* Example of a Claim   ",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-response"
       },
       {
         "extension": [

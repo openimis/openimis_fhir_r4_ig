@@ -323,7 +323,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "ClaimResponse.item.adjudication.category","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Type of adjudication information","A code to indicate the information type of this adjudication record. Information types may include the value submitted, maximum values or percentages allowed or payable under the plan, amounts that: the patient is responsible for in aggregate or pertaining to this item; amounts paid by other coverages; and, the benefit payable for this item.","For example codes indicating: Co-Pay, deductible, eligible, benefit, tax, etc.","Needed to enable understanding of the context of the other information in the adjudication.","","","","","","","",,"required","","https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-status","",,,,"ClaimResponse.item.adjudication.category",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"ClaimResponse.item.adjudication.reason","","","",0,1,"","","","CodeableConcept {[]} {[]}
+"ClaimResponse.item.adjudication.reason","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Explanation of adjudication outcome","A code supporting the understanding of the adjudication result and explaining variance from expected amount.","For example may indicate that the funds for this benefit type have been exhausted.","To support understanding of variance from adjudication expectations.","","","","","","","",,"example","The adjudication reason codes.","http://hl7.org/fhir/ValueSet/adjudication-reason","",,,,"ClaimResponse.item.adjudication.reason",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "ClaimResponse.item.adjudication.reason.id","","","",0,1,"","","","string {[]} {[]}
@@ -334,9 +334,9 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "ClaimResponse.item.adjudication.reason.coding","","","",1,1,"","","Y","Coding {[]} {[]}
-","Code defined by a terminology system","Rejection reason.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Code defined by a terminology system","Rejection reason.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,"required","","https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-rejection-reasons","",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","union(., ./translation)"
-"ClaimResponse.item.adjudication.reason.text","","","",1,1,"","","Y","string {[]} {[]}
+"ClaimResponse.item.adjudication.reason.text","","","",0,1,"","","Y","string {[]} {[]}
 ","Plain text representation of the concept","Human justification for the decision on Item level.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./originalText[mediaType/code=""text/plain""]/data"
 "ClaimResponse.item.adjudication.amount","","","",1,1,"","","","Money {[]} {[]}
@@ -623,7 +623,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "ClaimResponse.form","","","",0,0,"","","","Attachment {[]} {[]}
 ","Printed reference or actual form","The actual form, by reference or inclusion, for printing the content or an EOB.","Needed to permit insurers to include the actual form.","Needed to include the specific form used for producing output for this response.","","","","","","","",,,,,"",,,,"ClaimResponse.form",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"ClaimResponse.processNote","","","",1,1,"","","","BackboneElement {[]} {[]}
+"ClaimResponse.processNote","","","",0,1,"","","","BackboneElement {[]} {[]}
 ","Note concerning adjudication","A note that describes or explains adjudication results in a human readable form.","","Provides the insurer specific textual explanations associated with the processing.","","","","","","","",,,,,"",,,,"ClaimResponse.processNote",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "ClaimResponse.processNote.id","","","",0,1,"","","","string {[]} {[]}
