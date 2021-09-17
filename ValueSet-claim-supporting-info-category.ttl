@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "ClaimSupportingInfoCategoryVS"];
   fhir:ValueSet.title [ fhir:value "Category of the supporting info (Claim)"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-09-17T09:55:36+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-09-17T09:56:14+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Swiss TPH"];
   fhir:ValueSet.contact [
      fhir:index 0;
