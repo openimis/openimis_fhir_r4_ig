@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-09-17T16:56:25+00:00",
+  "date": "2021-09-22T12:13:02+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -1000,7 +1000,7 @@
         "reference": {
           "reference": "ValueSet/claim-rejection-reasons"
         },
-        "name": "Visit Type (Claim)",
+        "name": "Rejection reasons (Claim)",
         "description": "Indicates the rejection reason of an item from a Claim. \nValues limited by openIMIS.",
         "exampleBoolean": false
       },
@@ -1462,7 +1462,7 @@
         "reference": {
           "reference": "CodeSystem/claim-rejection-reasons"
         },
-        "name": "Visit Type (Claim)",
+        "name": "Rejection Reasons (Claim)",
         "description": "Indicates the rejection reason of an item from a Claim. \nValues limited by openIMIS.",
         "exampleBoolean": false
       },

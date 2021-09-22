@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "PatientProfessionCS"];
   fhir:CodeSystem.title [ fhir:value "Patient Profession Code System"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-09-17T16:56:25+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-09-22T12:13:02+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;

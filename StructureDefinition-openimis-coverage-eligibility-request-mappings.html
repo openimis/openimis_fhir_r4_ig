@@ -247,6 +247,10 @@
  <tr><td>&nbsp;&nbsp;&nbsp;created</td><td>Request.authoredOn</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;insurer</td><td>Request.performer</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;item</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;item (item)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;provider</td><td>Request.requester</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;item (service)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;provider</td><td>Request.requester</td> </tr>
 </table>
 <a name="w5"> </a><h3>Mappings for FiveWs Pattern Mapping (http://hl7.org/fhir/fivews)</h3><table class="grid">
  <tr><td colspan="3"><b>OpenIMISCoverageEligibilityRequest</b></td></tr>
@@ -257,6 +261,10 @@
  <tr><td>&nbsp;&nbsp;&nbsp;created</td><td>FiveWs.recorded</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;insurer</td><td>FiveWs.who</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;item</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;item (item)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;provider</td><td>FiveWs.source</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;item (service)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;provider</td><td>FiveWs.source</td> </tr>
 </table>
 <a name="v2"> </a><h3>Mappings for HL7 v2 Mapping (<a href="http://hl7.org/comparison-v2.html">http://hl7.org/v2</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>OpenIMISCoverageEligibilityRequest</b></td></tr>
@@ -264,6 +272,10 @@
  <tr><td>&nbsp;&nbsp;&nbsp;item</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;productOrService</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text</td><td>C*E.9. But note many systems use C*E.2 for this</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;item (item)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diagnosis</td><td>Request.reasonReference</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;item (service)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diagnosis</td><td>Request.reasonReference</td> </tr>
 </table>
 <a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>OpenIMISCoverageEligibilityRequest</b></td></tr>
@@ -280,6 +292,22 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text</td><td>./originalText[mediaType/code=&quot;text/plain&quot;]/data</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;item (item)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diagnosis</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;item (service)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diagnosis</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
 </table>
 
 
@@ -334,7 +362,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 17, 2021 16:56+0000">2021-09-17</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 22, 2021 12:13+0000">2021-09-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

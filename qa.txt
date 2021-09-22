@@ -1,11 +1,11 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 129, warn = 26, info = 7
+err = 131, warn = 25, info = 7
 IG Publisher Version: 1.1.80
-Generated Fri Sep 17 16:58:05 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Wed Sep 22 12:14:21 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
 
- Build Errors : 23 / 1 / 0
+ Build Errors : 21 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/Claim-Claim001 : 3 / 0 / 1
@@ -40,7 +40,7 @@ Generated Fri Sep 17 16:58:05 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/CodeSystem-usage-context-age-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Contract-InformalSectorContract : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Coverage-JoeDoeCoverage : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/CoverageEligibilityRequest-JoeDoeEnquiring : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/CoverageEligibilityRequest-JoeDoeEnquiring : 4 / 0 / 1
  /github/workspace/fsh-generated/resources/Group-doe-family : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 9 / 1
  /github/workspace/fsh-generated/resources/InsurancePlan-RX01 : 52 / 0 / 4
@@ -124,7 +124,7 @@ Generated Fri Sep 17 16:58:05 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-publication-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-location-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-medication-item-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-organization-hf-level : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-organization-legal-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-patient-contact-relationship : 0 / 0 / 1
@@ -158,8 +158,6 @@ ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.htm
 ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 540, column 891: The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:Age.valueUsageContext.valueCodeableConcept.coding' for "coding" cannot be resolved (valid targets: 235 targets)
 ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 551, column 833: The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:CareType.valueUsageContext.valueCodeableConcept' for "valueCodeableConcept" cannot be resolved (valid targets: 235 targets)
 ERROR: /github/workspace/output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 552, column 891: The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:CareType.valueUsageContext.valueCodeableConcept.coding' for "coding" cannot be resolved (valid targets: 235 targets)
-ERROR: /github/workspace/output/ValueSet-openimis-identifiers.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 247, column 573: The link 'CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID' for "DBID" cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, bottom, segment-post-footer, ig-status, top, openimis-identifiers-UUID, codesystem-openimis-identifiers-code-system, root, stripe, segment-footer, openimis-identifiers-Code, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /github/workspace/output/ValueSet-openimis-identifiers.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 253, column 1100: The link 'CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID' for "DBID" cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, bottom, segment-post-footer, ig-status, top, openimis-identifiers-UUID, codesystem-openimis-identifiers-code-system, root, stripe, segment-footer, openimis-identifiers-Code, segment-navbar, segment-content, segment-breadcrumb])
 ERROR: /github/workspace/output/connected_partner.html#/html/body/div/div/div/div/div/div/figure/img at Line 226, column 4: The image source 'vendor-integration-process.png' cannot be resolved
 == fsh-generated/resources/ActivityDefinition-GeneralConsultationService.json ==
 ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[ActivityDefinition])
@@ -211,6 +209,8 @@ ERROR: Contract/InformalSectorContract: Contract.term[0].asset[0]: The extension
 == fsh-generated/resources/Coverage-JoeDoeCoverage.json ==
 ERROR: Coverage/JoeDoeCoverage: Coverage.beneficiary: Unable to resolve resource 'joe-doe'
 == fsh-generated/resources/CoverageEligibilityRequest-JoeDoeEnquiring.json ==
+ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.item[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice CoverageEligibilityRequest.item:item in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
+ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.item[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice CoverageEligibilityRequest.item:service in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
 ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.patient: Unable to resolve resource 'joe-doe'
 ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.insurer: Unable to resolve resource 'openIMIS'
 == fsh-generated/resources/Group-doe-family.json ==
@@ -438,7 +438,6 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/ValueSet-location-type.json ==
 == fsh-generated/resources/ValueSet-medication-item-type.json ==
 == fsh-generated/resources/ValueSet-openimis-identifiers.json ==
-WARNING: ValueSet/openimis-identifiers: ValueSet.compose[0].include[0].concept[1]: The code DBID is not valid in the system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers
 == fsh-generated/resources/ValueSet-organization-hf-level.json ==
 == fsh-generated/resources/ValueSet-organization-legal-form.json ==
 == fsh-generated/resources/ValueSet-patient-contact-relationship.json ==

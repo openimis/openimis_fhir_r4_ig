@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="bd3033e4-1d20-4654-a0a9-e15ff8e7fbc7"/>
+  <id value="94eb0bf4-00ad-4dd3-996b-acbf965c6e6a"/>
   <meta>
-    <lastUpdated value="2021-09-17T16:56:25.144+00:00"/>
+    <lastUpdated value="2021-09-22T12:13:02.281+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -59,7 +59,7 @@
         <name value="ActivityDefinitionServiceTypeVS"/>
         <title value="Service Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -78,8 +78,8 @@
         </contact>
         <description value="Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:c5e9a044-aed0-4fe0-8eb2-67faa809dca4"/>
-          <timestamp value="2021-09-17T16:57:13+00:00"/>
+          <identifier value="urn:uuid:8a2c8109-bdad-4620-8042-126d333add67"/>
+          <timestamp value="2021-09-22T12:13:40+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -172,7 +172,7 @@
         <name value="ActivityDefinitionUsageContextTypeVS"/>
         <title value="Usage Context Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -191,8 +191,8 @@
         </contact>
         <description value="Indicates the Usage Context Type for an ActivityDefinition."/>
         <expansion>
-          <identifier value="urn:uuid:656bed88-06ba-45d7-91d6-76f1bd5847fb"/>
-          <timestamp value="2021-09-17T16:57:13+00:00"/>
+          <identifier value="urn:uuid:93062c12-ee73-4a47-bef4-e32db3500c73"/>
+          <timestamp value="2021-09-22T12:13:40+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -279,7 +279,7 @@
         <name value="ActivityDefinitionUsageContextVenueTypeVS"/>
         <title value="Usage Context for Venue Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -298,8 +298,8 @@
         </contact>
         <description value="Indicates the Usage Context for Venue Type for an ActivityDefinition."/>
         <expansion>
-          <identifier value="urn:uuid:74cc552e-83b5-4a80-8263-8962a03e5be4"/>
-          <timestamp value="2021-09-17T16:57:13+00:00"/>
+          <identifier value="urn:uuid:0a64ff4a-c581-4eb9-9cfb-889cecc43f0f"/>
+          <timestamp value="2021-09-22T12:13:40+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -400,7 +400,7 @@
         <name value="ActivityDefinitionUsageContextWorkflowTypeVS"/>
         <title value="Usage Context for Workflow Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -419,8 +419,8 @@
         </contact>
         <description value="Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:7410ddfd-d86f-490e-92a0-0743aee87afb"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:8477288b-de87-4572-9fcd-638975fd14d5"/>
+          <timestamp value="2021-09-22T12:13:40+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -512,7 +512,7 @@
         <name value="ClaimItemCategoryVS"/>
         <title value="Category of the item (Claim)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -531,8 +531,8 @@
         </contact>
         <description value="Indicates the category for the item under a Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:09daa370-deb8-4f6c-af55-2b92b32a8af1"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:c92d03c8-a363-4343-98fa-12aa0da90d2a"/>
+          <timestamp value="2021-09-22T12:13:40+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -566,7 +566,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 20 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-claim-rejection-reasons.html">Visit Type (Claim) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-claim-rejection-reasons.html">Rejection Reasons (Claim) v0.1.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-claim-rejection-reasons.html">
@@ -751,9 +751,9 @@
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-rejection-reasons"/>
         <version value="0.1.0"/>
         <name value="ClaimRejectionReasonsVS"/>
-        <title value="Visit Type (Claim)"/>
+        <title value="Rejection reasons (Claim)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -772,8 +772,8 @@
         </contact>
         <description value="Indicates the rejection reason of an item from a Claim. &#xA;Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:79a028f8-4c51-49f6-9620-dc793663149c"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:8f704dba-d5c9-4b6c-a67f-c5e1fef301ad"/>
+          <timestamp value="2021-09-22T12:13:40+00:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -964,7 +964,7 @@
         <name value="ClaimStatusVS"/>
         <title value="Status of the claim (Claim|ClaimResponse)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -983,8 +983,8 @@
         </contact>
         <description value="Indicates the status of the Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:2cc7947e-36e3-4c8c-9078-84d6aebf8a1b"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:c3788b36-da4f-4a1d-b01f-daccf19bdc61"/>
+          <timestamp value="2021-09-22T12:13:40+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1092,7 +1092,7 @@
         <name value="ClaimSupportingInfoCategoryVS"/>
         <title value="Category of the supporting info (Claim)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1111,8 +1111,8 @@
         </contact>
         <description value="Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:7d74de2f-246b-40eb-91f1-f9e62d74f1ee"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:38f5f733-f7bc-440d-925e-80df46865dbc"/>
+          <timestamp value="2021-09-22T12:13:40+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1207,7 +1207,7 @@
         <name value="ClaimVisitTypeVS"/>
         <title value="Visit Type Codes (Claim)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1226,8 +1226,8 @@
         </contact>
         <description value="Indicates the visit type of the Claim. &#xA;Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:1d609576-1008-4915-beda-a175fe3eb28b"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:024d6c23-2ba9-428f-818f-bac84d7a3dd4"/>
+          <timestamp value="2021-09-22T12:13:40+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1309,7 +1309,7 @@
         <name value="ContractPremiumCategoryVS"/>
         <title value="Premium Category (Contract)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1328,8 +1328,8 @@
         </contact>
         <description value="Indicates the category of the premium for the Contract. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:478a500b-39ba-486c-9c69-680fe621c298"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:49385977-dcd7-4b33-8612-f16c5ac4c0ed"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1398,7 +1398,7 @@
         <name value="ContractPremiumPayerVS"/>
         <title value="Premium Payer (Contract)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1417,8 +1417,8 @@
         </contact>
         <description value="Indicates the payer of the premium for the Contract. Can be extended in openIMIS. Need to match openIMIS database payer list."/>
         <expansion>
-          <identifier value="urn:uuid:447aaa9d-4292-41c2-b1dc-2c4e1f92d638"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:60cd2c42-72f0-44b3-861b-b4776753eded"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1498,7 +1498,7 @@
         <name value="ContractPremiumTypeVS"/>
         <title value="Premium Type (Contract)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1517,8 +1517,8 @@
         </contact>
         <description value="Indicates the type of the premium for the Contract. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:a43903be-62b5-47c5-a126-bb626e13dde6"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:adfbac73-8a3a-41e6-8deb-122e7928dfb7"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1592,7 +1592,7 @@
         <name value="ContractResourcePartyRoleVS"/>
         <title value="Resource Party Role (Contract)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1611,8 +1611,8 @@
         </contact>
         <description value="Indicates the participant engagement type for the Contract term."/>
         <expansion>
-          <identifier value="urn:uuid:35d55d70-21a5-4f38-a744-1e877e3e46cb"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:9a7cd519-cf31-4fe8-8127-86222f2490f3"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1684,7 +1684,7 @@
         <name value="ContractScopeVS"/>
         <title value="Scope (Contract)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1703,8 +1703,8 @@
         </contact>
         <description value="Indicates the scope for the Contract. Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:365202c7-51a8-49bd-bd0b-d07ec5b93a3e"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:9ddfaed8-005a-4ea8-b6b6-c079bbb0eee3"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1781,7 +1781,7 @@
         <name value="ContractStatusCodesVS"/>
         <title value="Status Codes (Contract)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1800,8 +1800,8 @@
         </contact>
         <description value="Indicates the status of the Contract. Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:bb0f6a41-0aec-434a-94c5-eaaceaddf937"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:bf157bc8-66ef-4ba0-b56b-361186a97b8f"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -17142,7 +17142,7 @@
         <name value="DiagnosisICD10Level1VS"/>
         <title value="ICD 10 Level 1 diagnosis"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -17161,8 +17161,8 @@
         </contact>
         <description value="Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:93cbd741-865f-4fb1-8bb5-5bbc4fd5e946"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:57416146-80c2-4ec4-b6e4-f1db69a05dee"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="1910"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26795,7 +26795,7 @@
         <name value="GroupConfirmationTypeVS"/>
         <title value="Confirmation Types (Group)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -26814,8 +26814,8 @@
         </contact>
         <description value="Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:9727a5c5-bab3-466c-b427-1183e2353d4a"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:6fee7c9a-a2f4-4a5e-aa5e-f00e85768196"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26942,7 +26942,7 @@
         <name value="GroupTypesVS"/>
         <title value="Group Types (Group)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -26961,8 +26961,8 @@
         </contact>
         <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:e914f9ef-a1fc-4b0d-b668-bcd89a46158a"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:8e3f7b5c-ad7f-4921-9cd8-622ea434b45f"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27064,7 +27064,7 @@
         <name value="InsurancePlanCoverageBenefitLimitVS"/>
         <title value="Coverage Benefit Limit Types (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27083,8 +27083,8 @@
         </contact>
         <description value="Indicates the Coverage Benefit Limit Types for an InsurancePlan. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:af2852db-a24c-4746-8714-78214af65b26"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:399dea0d-14aa-45dc-be02-98d1725c927f"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27152,7 +27152,7 @@
         <name value="InsurancePlanCoverageTypeVS"/>
         <title value="Coverage Type (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27171,8 +27171,8 @@
         </contact>
         <description value="Indicates the Coverage Type for an InsurancePlan."/>
         <expansion>
-          <identifier value="urn:uuid:d6401cd5-1974-4b37-92a2-02da4ff73df8"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:e34d6878-bcad-4d96-9de4-36e7ec9b2225"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27284,7 +27284,7 @@
         <name value="InsurancePlanGeneralCostTypeVS"/>
         <title value="General Cost Type (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27303,8 +27303,8 @@
         </contact>
         <description value="Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:e917993a-7c9f-4d34-ae7d-72dd1f8551b0"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:9d8e1cad-cabf-41a2-b071-57ac614eeadc"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27414,7 +27414,7 @@
         <name value="InsurancePlanPublicationStatusVS"/>
         <title value="Publication Status (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27433,8 +27433,8 @@
         </contact>
         <description value="Indicates the Publication Status for an InsurancePlan."/>
         <expansion>
-          <identifier value="urn:uuid:eee603f0-5b07-46bd-8985-5b875ebaa40f"/>
-          <timestamp value="2021-09-17T16:57:14+00:00"/>
+          <identifier value="urn:uuid:41cb2d5c-c8ba-484c-92da-3edb704b8f62"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27533,10 +27533,10 @@
         <name value="LocationTypeVS"/>
         <title value="Location Type (Location)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:396dd1fd-4676-415c-9a43-906bae3bfa2d"/>
-          <timestamp value="2021-09-17T16:57:13.272Z"/>
+          <identifier value="urn:uuid:0a70e086-13ef-4387-b21e-76ddfd7228cc"/>
+          <timestamp value="2021-09-22T12:13:41.655Z"/>
           <parameter>
             <name value="expansion-source"/>
             <valueString value="ValueSet/location-type"/>
@@ -27638,7 +27638,7 @@
         <name value="MedicationItemTypeVS"/>
         <title value="Item Type (Medication)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27657,8 +27657,8 @@
         </contact>
         <description value="Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:32484bc5-d2c7-45e5-bcf8-88a149994f04"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
+          <identifier value="urn:uuid:cf9e9117-969f-4d46-a465-cd7b05ac1fe2"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27690,7 +27690,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
+            <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-openimis-identifiers.html">openIMIS Identifiers code system v0.1.0 (CodeSystem)</a>
             </p>
@@ -27721,14 +27721,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-DBID"> </a>
-                  <a href="CodeSystem-openimis-identifiers.html#openimis-identifiers-DBID">DBID</a>
-                </td>
-                <td/>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-openimis-identifiers-Code"> </a>
                   <a href="CodeSystem-openimis-identifiers.html#openimis-identifiers-Code">Code</a>
                 </td>
@@ -27743,7 +27735,7 @@
         <name value="OpenIMISIdentifierVS"/>
         <title value="openIMIS Identifiers Value Set"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27762,9 +27754,9 @@
         </contact>
         <description value="Indicates the Identifier type"/>
         <expansion>
-          <identifier value="urn:uuid:fb0cc6ef-4bc4-4e20-b7a1-f3e791a9fada"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
-          <total value="3"/>
+          <identifier value="urn:uuid:fa608ea2-c107-45de-ab93-fda561b076aa"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
+          <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -27777,10 +27769,6 @@
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
             <code value="UUID"/>
             <display value="UUID unique identifier"/>
-          </contains>
-          <contains>
-            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
-            <code value="DBID"/>
           </contains>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
@@ -27852,7 +27840,7 @@
         <name value="OrganizationHFLevelVS"/>
         <title value="Health Facility Level (Organization)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27871,8 +27859,8 @@
         </contact>
         <description value="Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:9f632936-2abb-47c2-8459-3f9b784c92e0"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
+          <identifier value="urn:uuid:6ec0cc56-6ad1-47f0-a4b2-b0332e83cb31"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27970,7 +27958,7 @@
         <name value="OrganizationLegalFormVS"/>
         <title value="Legal Forms (Organization)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27989,8 +27977,8 @@
         </contact>
         <description value="Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:0f8622b1-7ed0-4e6a-bff0-3e6926acb57a"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
+          <identifier value="urn:uuid:74af48c9-eee6-4603-a614-4bab150149b8"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28125,7 +28113,7 @@
         <name value="PatientContactRelationshipVS"/>
         <title value="Contact Relationship (Patient)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28144,8 +28132,8 @@
         </contact>
         <description value="Indicates the Relationship of a Patient with the Head of the Family."/>
         <expansion>
-          <identifier value="urn:uuid:52f84491-3391-4964-a707-c0b4d743266c"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
+          <identifier value="urn:uuid:1d6bdc68-fa57-4bee-b3e4-15cd3423d106"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28292,7 +28280,7 @@
         <name value="PatientEducationLevelVS"/>
         <title value="Education Level (Patient)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28311,8 +28299,8 @@
         </contact>
         <description value="Indicates the Education level of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:c0b6f65c-9357-47b5-ab10-ff781b0f7536"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
+          <identifier value="urn:uuid:c541d2b6-2613-4348-aa52-ae1e52ef73f9"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28430,7 +28418,7 @@
         <name value="PatientIdentificationTypesVS"/>
         <title value="Identification Types (Patient)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28449,8 +28437,8 @@
         </contact>
         <description value="Indicates the type of document the Patient used to identify himself."/>
         <expansion>
-          <identifier value="urn:uuid:f68ae7e1-afd4-4073-a9cc-979d2aff3fcb"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
+          <identifier value="urn:uuid:1e0e2d91-1a2d-441f-8a70-527f3eb56f55"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28561,7 +28549,7 @@
         <name value="PatientMaritalStatusVS"/>
         <title value="Marital Status (Patient)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28580,8 +28568,8 @@
         </contact>
         <description value="Indicates the Marital status of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:0c17c68e-c7f3-43f6-b936-d691dd5bf5bb"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
+          <identifier value="urn:uuid:09db24af-5719-4e43-9025-ab55d6e628a9"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28689,7 +28677,7 @@
         <name value="PatientProfessionVS"/>
         <title value="Patient Profession Value Set"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28708,8 +28696,8 @@
         </contact>
         <description value="Indicates the profession of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:ac5e3bc2-6225-4732-b0f8-345060648858"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
+          <identifier value="urn:uuid:02a2816b-2eb6-4508-836e-7f7eda446231"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28796,7 +28784,7 @@
         <name value="PractitionerQualificationTypeVS"/>
         <title value="Practitioner Qualification Type"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28815,8 +28803,8 @@
         </contact>
         <description value="Indicates the Qualification Type of a Practitioner."/>
         <expansion>
-          <identifier value="urn:uuid:38fac6ae-8bdf-4344-9324-b6678407aaf3"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
+          <identifier value="urn:uuid:ff13e98f-1d6b-406b-98bb-91968ce8d9e4"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28893,7 +28881,7 @@
         <name value="UsageContextAgeTypeVS"/>
         <title value="Usage Context for Age Type (ActivityDefinition|Medication)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28912,8 +28900,8 @@
         </contact>
         <description value="Indicates the Usage Context for Age Type for an ActivityDefinition or Medication."/>
         <expansion>
-          <identifier value="urn:uuid:4c82de01-0f21-4255-8efd-2d76e46c368a"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
+          <identifier value="urn:uuid:d39cb219-e076-47c6-9385-0767ae442568"/>
+          <timestamp value="2021-09-22T12:13:41+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28990,7 +28978,7 @@
         <name value="UsageContextGenderTypeVS"/>
         <title value="Usage Context for Gender Type (ActivityDefinition|Medication)"/>
         <status value="active"/>
-        <date value="2021-09-17T16:56:25+00:00"/>
+        <date value="2021-09-22T12:13:02+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -29009,8 +28997,8 @@
         </contact>
         <description value="Indicates the Usage Context for Gender Type for an ActivityDefinition or Medication."/>
         <expansion>
-          <identifier value="urn:uuid:cfa157f6-70f9-47b4-8a51-04c207e6fd7f"/>
-          <timestamp value="2021-09-17T16:57:15+00:00"/>
+          <identifier value="urn:uuid:8a3ff84b-f924-4d24-bf13-164a45d764d3"/>
+          <timestamp value="2021-09-22T12:13:42+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
