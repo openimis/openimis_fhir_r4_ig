@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "PatientMaritalStatusVS"];
   fhir:ValueSet.title [ fhir:value "Marital Status (Patient)"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-09-28T15:53:34+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-09-28T15:56:03+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Swiss TPH"];
   fhir:ValueSet.contact [
      fhir:index 0;
