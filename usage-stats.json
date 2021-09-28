@@ -96,6 +96,20 @@
       ]
     },
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date",
+      "title": "Date (Coverage)",
+      "types": [
+        "date"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-policy-status",
+      "title": "Policy Status (Coverage)",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-address",
       "title": "Poverty Status (Group)",
       "types": [
@@ -716,6 +730,9 @@
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium": [
       "Contract.term.asset"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date": [
+      "Coverage"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-address": [
       "Group"

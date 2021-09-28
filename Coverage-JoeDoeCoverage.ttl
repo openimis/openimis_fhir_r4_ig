@@ -16,8 +16,17 @@
      ]
   ];
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD84</p><p><b>status</b>: active</p><p><b>beneficiary</b>: <a href=\"joe-doe\">joe-doe</a></p><p><b>payor</b>: <a href=\"Patient-jane-doe.html\">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p></div>"
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Date (Coverage)</b>: 2021-01-28</p><p><b>Date (Coverage)</b>: 2021-01-28</p><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD84</p><p><b>status</b>: active</p><p><b>policyHolder</b>: <a href=\"Patient-jane-doe.html\">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p><p><b>beneficiary</b>: <a href=\"joe-doe\">joe-doe</a></p><p><b>period</b>: 2021-07-01 --&gt; 2022-06-30</p><p><b>payor</b>: <a href=\"Patient-jane-doe.html\">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p><h3>Classes</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Value</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/coverage-class plan}\">Plan</span></td><td>RX01</td><td>Regional fixed enrolment</td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date" ];
+     fhir:Extension.valueDate [ fhir:value "2021-01-28"^^xsd:date ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date" ];
+     fhir:Extension.valueDate [ fhir:value "2021-01-28"^^xsd:date ]
   ];
   fhir:Coverage.identifier [
      fhir:index 0;
@@ -31,13 +40,34 @@
      fhir:Identifier.value [ fhir:value "D30F70DF-D10B-43D4-BF31-5137C118AD84" ]
   ];
   fhir:Coverage.status [ fhir:value "active"];
+  fhir:Coverage.policyHolder [
+     fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Patient/jane-doe>;
+     fhir:Reference.reference [ fhir:value "Patient/jane-doe" ]
+  ];
   fhir:Coverage.beneficiary [
      fhir:Reference.reference [ fhir:value "joe-doe" ]
+  ];
+  fhir:Coverage.period [
+     fhir:Period.start [ fhir:value "2021-07-01"^^xsd:date ];
+     fhir:Period.end [ fhir:value "2022-06-30"^^xsd:date ]
   ];
   fhir:Coverage.payor [
      fhir:index 0;
      fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Patient/jane-doe>;
      fhir:Reference.reference [ fhir:value "Patient/jane-doe" ]
+  ];
+  fhir:Coverage.class [
+     fhir:index 0;
+     fhir:Coverage.class.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/coverage-class" ];
+         fhir:Coding.code [ fhir:value "plan" ];
+         fhir:Coding.display [ fhir:value "Plan" ]
+       ]
+     ];
+     fhir:Coverage.class.value [ fhir:value "RX01" ];
+     fhir:Coverage.class.name [ fhir:value "Regional fixed enrolment" ]
   ] .
 
 # - ontology header ------------------------------------------------------------

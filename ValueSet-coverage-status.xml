@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="coverage-status"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-fm-status.html"><code>http://hl7.org/fhir/fm-status</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-fm-status.html#fm-status-active">active</a></td><td>Active</td><td>The instance is currently in-force.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-fm-status.html#fm-status-cancelled">cancelled</a></td><td>Cancelled</td><td>The instance is withdrawn, rescinded or reversed.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-fm-status.html#fm-status-draft">draft</a></td><td>Draft</td><td>A new instance the contents of which is not complete.</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-status"/>
+  <version value="0.1.0"/>
+  <name value="CoverageStatusVS"/>
+  <title value="Usage Context Type (ActivityDefinition)"/>
+  <status value="active"/>
+  <date value="2021-09-28T15:53:34+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the Usage Context Type for an ActivityDefinition."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/fm-status"/>
+      <concept>
+        <code value="active"/>
+        <display value="Active"/>
+      </concept>
+      <concept>
+        <code value="cancelled"/>
+        <display value="Cancelled"/>
+      </concept>
+      <concept>
+        <code value="draft"/>
+        <display value="Draft"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

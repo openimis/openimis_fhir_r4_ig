@@ -17,7 +17,18 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>purpose</b>: benefits</p><p><b>patient</b>: <a href=\"joe-doe\">joe-doe</a></p><p><b>created</b>: 2021-09-17</p><p><b>insurer</b>: <a href=\"openIMIS\">openIMIS</a></p><h3>Items</h3><table class=\"grid\"><tr><td>-</td><td><b>Category</b></td><td><b>ProductOrService</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category service}\">Service</span></td><td><span title=\"Codes: \">A1</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-9578-5137C118AD84</p><p><b>status</b>: active</p><p><b>purpose</b>: benefits</p><p><b>patient</b>: <a href=\"joe-doe\">joe-doe</a></p><p><b>created</b>: 2021-09-17</p><p><b>insurer</b>: <a href=\"openIMIS\">openIMIS</a></p><h3>Items</h3><table class=\"grid\"><tr><td>-</td><td><b>Category</b></td><td><b>ProductOrService</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category service}\">Service</span></td><td><span title=\"Codes: \">A1</span></td></tr></table></div>"
+  ];
+  fhir:CoverageEligibilityRequest.identifier [
+     fhir:index 0;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers" ];
+         fhir:Coding.code [ fhir:value "UUID" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "D30F70DF-D10B-43D4-9578-5137C118AD84" ]
   ];
   fhir:CoverageEligibilityRequest.status [ fhir:value "active"];
   fhir:CoverageEligibilityRequest.purpose [

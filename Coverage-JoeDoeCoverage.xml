@@ -6,8 +6,14 @@
     <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD84</p><p><b>status</b>: active</p><p><b>beneficiary</b>: <a href="joe-doe">joe-doe</a></p><p><b>payor</b>: <a href="Patient-jane-doe.html">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></a></p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Date (Coverage)</b>: 2021-01-28</p><p><b>Date (Coverage)</b>: 2021-01-28</p><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD84</p><p><b>status</b>: active</p><p><b>policyHolder</b>: <a href="Patient-jane-doe.html">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></a></p><p><b>beneficiary</b>: <a href="joe-doe">joe-doe</a></p><p><b>period</b>: 2021-07-01 --&gt; 2022-06-30</p><p><b>payor</b>: <a href="Patient-jane-doe.html">Generated Summary: Unique code: 123456788; Jane Doe ; gender: female; birthDate: 1964-05-15; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></a></p><h3>Classes</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Value</b></td><td><b>Name</b></td></tr><tr><td>*</td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/coverage-class plan}">Plan</span></td><td>RX01</td><td>Regional fixed enrolment</td></tr></table></div>
   </text>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date">
+    <valueDate value="2021-01-28"/>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date">
+    <valueDate value="2021-01-28"/>
+  </extension>
   <identifier>
     <type>
       <coding>
@@ -18,10 +24,28 @@
     <value value="D30F70DF-D10B-43D4-BF31-5137C118AD84"/>
   </identifier>
   <status value="active"/>
+  <policyHolder>
+    <reference value="Patient/jane-doe"/>
+  </policyHolder>
   <beneficiary>
     <reference value="joe-doe"/>
   </beneficiary>
+  <period>
+    <start value="2021-07-01"/>
+    <end value="2022-06-30"/>
+  </period>
   <payor>
     <reference value="Patient/jane-doe"/>
   </payor>
+  <class>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/coverage-class"/>
+        <code value="plan"/>
+        <display value="Plan"/>
+      </coding>
+    </type>
+    <value value="RX01"/>
+    <name value="Regional fixed enrolment"/>
+  </class>
 </Coverage>

@@ -245,6 +245,20 @@
     "name": "ContractPremiumExtension"
   },
   {
+    "id": "coverage-date",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date",
+    "version": "0.1.0",
+    "name": "CoverageDateExtension"
+  },
+  {
+    "id": "coverage-policy-status",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-policy-status",
+    "version": "0.1.0",
+    "name": "CoveragPolicyStatusExtension"
+  },
+  {
     "id": "group-address",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-address",
@@ -635,6 +649,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-status-codes",
     "version": "0.1.0",
     "name": "ContractStatusCodesVS"
+  },
+  {
+    "id": "coverage-status",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-status",
+    "version": "0.1.0",
+    "name": "CoverageStatusVS"
   },
   {
     "id": "diagnosis-ICD10-level1",

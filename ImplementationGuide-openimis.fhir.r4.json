@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-09-22T12:13:26+00:00",
+  "date": "2021-09-28T15:53:34+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -606,6 +606,34 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/coverage-policy-status"
+        },
+        "name": "Policy Status (Coverage)",
+        "description": "Indicates the policy status for a Coverage.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/coverage-date"
+        },
+        "name": "Date (Coverage)",
+        "description": "Indicates a date for a Coverage. ",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/group-address"
         },
         "name": "Poverty Status (Group)",
@@ -1128,6 +1156,20 @@
         },
         "name": "Status Codes (Contract)",
         "description": "Indicates the status of the Contract. Values limited by openIMIS.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/coverage-status"
+        },
+        "name": "Usage Context Type (ActivityDefinition)",
+        "description": "Indicates the Usage Context Type for an ActivityDefinition.",
         "exampleBoolean": false
       },
       {
