@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "PatientEducationLevelCS"];
   fhir:CodeSystem.title [ fhir:value "Patient Education Level Code System"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-09-29T08:15:04+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-09-29T08:31:05+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;
