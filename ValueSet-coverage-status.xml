@@ -8,9 +8,9 @@
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-status"/>
   <version value="0.1.0"/>
   <name value="CoverageStatusVS"/>
-  <title value="Usage Context Type (ActivityDefinition)"/>
+  <title value="Coverage Status (Coverage)"/>
   <status value="active"/>
-  <date value="2021-09-29T08:31:05+00:00"/>
+  <date value="2021-10-04T14:35:02+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>
@@ -27,7 +27,7 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="Indicates the Usage Context Type for an ActivityDefinition."/>
+  <description value="Indicates the status of a Coverage (Policy)."/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/fm-status"/>

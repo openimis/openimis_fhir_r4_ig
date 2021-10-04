@@ -15,9 +15,9 @@
   fhir:ValueSet.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-status"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "CoverageStatusVS"];
-  fhir:ValueSet.title [ fhir:value "Usage Context Type (ActivityDefinition)"];
+  fhir:ValueSet.title [ fhir:value "Coverage Status (Coverage)"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-09-29T08:31:05+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-10-04T14:35:02+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Swiss TPH"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -37,7 +37,7 @@
        fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
-  fhir:ValueSet.description [ fhir:value "Indicates the Usage Context Type for an ActivityDefinition."];
+  fhir:ValueSet.description [ fhir:value "Indicates the status of a Coverage (Policy)."];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;

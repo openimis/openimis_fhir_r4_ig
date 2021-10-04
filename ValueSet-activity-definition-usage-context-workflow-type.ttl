@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "ActivityDefinitionUsageContextWorkflowTypeVS"];
   fhir:ValueSet.title [ fhir:value "Usage Context for Workflow Type (ActivityDefinition)"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-09-29T08:31:05+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-10-04T14:35:02+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Swiss TPH"];
   fhir:ValueSet.contact [
      fhir:index 0;

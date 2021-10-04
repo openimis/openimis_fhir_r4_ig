@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "ContractPremiumPayerCS"];
   fhir:CodeSystem.title [ fhir:value "Premium Payer (Contract)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-09-29T08:31:05+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-10-04T14:35:02+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;

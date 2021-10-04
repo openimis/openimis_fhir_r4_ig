@@ -8,9 +8,9 @@
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-status",
   "version": "0.1.0",
   "name": "CoverageStatusVS",
-  "title": "Usage Context Type (ActivityDefinition)",
+  "title": "Coverage Status (Coverage)",
   "status": "active",
-  "date": "2021-09-29T08:31:05+00:00",
+  "date": "2021-10-04T14:35:02+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -33,7 +33,7 @@
       ]
     }
   ],
-  "description": "Indicates the Usage Context Type for an ActivityDefinition.",
+  "description": "Indicates the status of a Coverage (Policy).",
   "compose": {
     "include": [
       {

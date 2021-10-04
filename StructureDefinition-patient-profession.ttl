@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "PatientProfessionExtension"];
   fhir:StructureDefinition.title [ fhir:value "Profession (Patient)"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-09-29T08:31:05+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-10-04T14:35:02+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

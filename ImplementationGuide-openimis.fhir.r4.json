@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-09-29T08:31:05+00:00",
+  "date": "2021-10-04T14:35:02+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -1168,8 +1168,8 @@
         "reference": {
           "reference": "ValueSet/coverage-status"
         },
-        "name": "Usage Context Type (ActivityDefinition)",
-        "description": "Indicates the Usage Context Type for an ActivityDefinition.",
+        "name": "Coverage Status (Coverage)",
+        "description": "Indicates the status of a Coverage (Policy).",
         "exampleBoolean": false
       },
       {

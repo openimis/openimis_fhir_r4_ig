@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "openIMISFHIRR4"];
   fhir:ImplementationGuide.title [ fhir:value "openIMIS FHIR R4 Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-09-29T08:31:05+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-10-04T14:35:02+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Swiss TPH"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1153,8 +1153,8 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-status>;
          fhir:Reference.reference [ fhir:value "ValueSet/coverage-status" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Usage Context Type (ActivityDefinition)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Usage Context Type for an ActivityDefinition." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Coverage Status (Coverage)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the status of a Coverage (Policy)." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 63;
