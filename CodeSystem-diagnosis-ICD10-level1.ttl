@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "DiagnosisICD10Level1CS"];
   fhir:CodeSystem.title [ fhir:value "ICD 10 Level 1 diagnosis"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-10-04T14:35:02+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-10-04T15:11:02+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;
