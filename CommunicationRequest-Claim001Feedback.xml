@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CommunicationRequest xmlns="http://hl7.org/fhir">
+  <id value="Claim001Feedback"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD83</p><p><b>status</b>: active</p><p><b>statusReason</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status 4}">Selected</span></p><p><b>subject</b>: <a href="Patient-john-doe.html">Generated Summary: Unique code: 123456789; John Doe ; gender: male; birthDate: 1962-02-05; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></a></p><p><b>about</b>: <a href="Claim-Claim001.html">Generated Summary: Unique code: Code001; status: active; <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-visit-type O}">Other</span>; use: claim; billablePeriod: 2021-09-15 --&gt; 2021-09-15; created: 2021-09-16; <span title="Codes: {http://terminology.hl7.org/CodeSystem/processpriority normal}">Normal</span></a></p><blockquote><p><b>payload</b></p><p><b>content</b>: Care Rendered? (yes|no)</p></blockquote><blockquote><p><b>payload</b></p><p><b>content</b>: PaymentAsked? (yes|no)</p></blockquote><blockquote><p><b>payload</b></p><p><b>content</b>: DrugPrescribed? (yes|no)</p></blockquote><blockquote><p><b>payload</b></p><p><b>content</b>: DrugReceived? (yes|no)</p></blockquote><blockquote><p><b>payload</b></p><p><b>content</b>: Asessment? (0|1|2|3|4|5)</p></blockquote><p><b>recipient</b>: <a href="Practitioner-Roberts-Jeb-EO.html">Generated Summary: Unique code: E00001, UUID unique identifier: e5256c97-8b06-4c8e-96db-d8294b4619a8; Jeb Roberts (OFFICIAL); birthDate: 1980-01-15</a></p></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="UUID"/>
+      </coding>
+    </type>
+    <value value="D30F70DF-D10B-43D4-BF31-5137C118AD83"/>
+  </identifier>
+  <status value="active"/>
+  <statusReason>
+    <coding>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status"/>
+      <code value="4"/>
+      <display value="Selected"/>
+    </coding>
+  </statusReason>
+  <subject>
+    <reference value="Patient/john-doe"/>
+  </subject>
+  <about>
+    <reference value="Claim/Claim001"/>
+  </about>
+  <payload>
+    <contentString value="Care Rendered? (yes|no)"/>
+  </payload>
+  <payload>
+    <contentString value="PaymentAsked? (yes|no)"/>
+  </payload>
+  <payload>
+    <contentString value="DrugPrescribed? (yes|no)"/>
+  </payload>
+  <payload>
+    <contentString value="DrugReceived? (yes|no)"/>
+  </payload>
+  <payload>
+    <contentString value="Asessment? (0|1|2|3|4|5)"/>
+  </payload>
+  <recipient>
+    <reference value="Practitioner/Roberts-Jeb-EO"/>
+  </recipient>
+</CommunicationRequest>

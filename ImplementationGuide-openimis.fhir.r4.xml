@@ -11,7 +11,7 @@
   <name value="openIMISFHIRR4"/>
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-10-04T15:11:02+00:00"/>
+  <date value="2021-10-04T15:40:49+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>
@@ -806,6 +806,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/communication-request-status"/>
+      </reference>
+      <name value="Claim Feedback Status (CommunicationRequest)"/>
+      <description value="Indicates the status of a feedback (Claim)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/contract-premium-category"/>
       </reference>
       <name value="Premium Category (Contract)"/>
@@ -887,6 +898,17 @@
       </reference>
       <name value="ICD 10 Level 1 diagnosis"/>
       <description value="Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/feedback-status"/>
+      </reference>
+      <name value="Feedback Status (CommunicationRequest)"/>
+      <description value="Indicates the Feedback Status for a CommunicationRequest. Partial list defined by openIMIS. Can not be extended."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1246,6 +1268,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/feedback-status"/>
+      </reference>
+      <name value="Feedback Status (CommunicationRequest)"/>
+      <description value="Indicates the Feedback Status for a CommunicationRequest. Partial list defined by openIMIS. Can not be extended."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/group-confirmation-type"/>
       </reference>
       <name value="Confirmation Types (Group)"/>
@@ -1438,6 +1471,17 @@
       <name value="ClaimResponse001"/>
       <description value="* Example of a Claim   "/>
       <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-response"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CommunicationRequest"/>
+      </extension>
+      <reference>
+        <reference value="CommunicationRequest/Claim001Feedback"/>
+      </reference>
+      <name value="Claim001Feedback"/>
+      <description value="* Example of a Claim   "/>
+      <exampleCanonical value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

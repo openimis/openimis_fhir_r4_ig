@@ -112,6 +112,13 @@
     "name": "DiagnosisICD10Level1CS"
   },
   {
+    "id": "feedback-status",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status",
+    "version": "0.1.0",
+    "name": "FeedbackStatusCS"
+  },
+  {
     "id": "group-confirmation-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type",
@@ -609,6 +616,13 @@
     "name": "ClaimVisitTypeVS"
   },
   {
+    "id": "communication-request-status",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/communication-request-status",
+    "version": "0.1.0",
+    "name": "CommunicationRequestStatusVS"
+  },
+  {
     "id": "contract-premium-category",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-premium-category",
@@ -663,6 +677,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/diagnosis-ICD10-level1",
     "version": "0.1.0",
     "name": "DiagnosisICD10Level1VS"
+  },
+  {
+    "id": "feedback-status",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/feedback-status",
+    "version": "0.1.0",
+    "name": "FeedbackStatusVS"
   },
   {
     "id": "group-confirmation-type",

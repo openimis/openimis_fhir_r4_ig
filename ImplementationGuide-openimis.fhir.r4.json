@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-10-04T15:11:02+00:00",
+  "date": "2021-10-04T15:40:49+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -1082,6 +1082,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/communication-request-status"
+        },
+        "name": "Claim Feedback Status (CommunicationRequest)",
+        "description": "Indicates the status of a feedback (Claim).",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/contract-premium-category"
         },
         "name": "Premium Category (Contract)",
@@ -1184,6 +1198,20 @@
         },
         "name": "ICD 10 Level 1 diagnosis",
         "description": "Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/feedback-status"
+        },
+        "name": "Feedback Status (CommunicationRequest)",
+        "description": "Indicates the Feedback Status for a CommunicationRequest. Partial list defined by openIMIS. Can not be extended.",
         "exampleBoolean": false
       },
       {
@@ -1642,6 +1670,20 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/feedback-status"
+        },
+        "name": "Feedback Status (CommunicationRequest)",
+        "description": "Indicates the Feedback Status for a CommunicationRequest. Partial list defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/group-confirmation-type"
         },
         "name": "Confirmation Types (Group)",
@@ -1885,6 +1927,20 @@
         "name": "ClaimResponse001",
         "description": "* Example of a Claim   ",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-response"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CommunicationRequest"
+          }
+        ],
+        "reference": {
+          "reference": "CommunicationRequest/Claim001Feedback"
+        },
+        "name": "Claim001Feedback",
+        "description": "* Example of a Claim   ",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request"
       },
       {
         "extension": [

@@ -1,9 +1,9 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 136, warn = 27, info = 7
+err = 176, warn = 27, info = 12
 IG Publisher Version: 1.1.81
-Generated Mon Oct 04 15:12:27 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Mon Oct 04 15:42:15 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
  Build Errors : 21 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
@@ -22,6 +22,7 @@ Generated Mon Oct 04 15:12:27 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/CodeSystem-contract-resource-party-role : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-contract-scope : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-diagnosis-ICD10-level1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-feedback-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-group-confirmation-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-group-types : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-insurance-plan-coverage-benefit-limit : 0 / 0 / 1
@@ -37,11 +38,12 @@ Generated Mon Oct 04 15:12:27 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/CodeSystem-patient-profession : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-practitioner-qualification-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-usage-context-age-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CommunicationRequest-Claim001Feedback : 25 / 0 / 6
  /github/workspace/fsh-generated/resources/Contract-InformalSectorContract : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Coverage-JoeDoeCoverage : 6 / 0 / 1
  /github/workspace/fsh-generated/resources/CoverageEligibilityRequest-JoeDoeEnquiring : 4 / 0 / 1
  /github/workspace/fsh-generated/resources/Group-doe-family : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 10 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 11 / 1
  /github/workspace/fsh-generated/resources/InsurancePlan-RX01 : 52 / 0 / 4
  /github/workspace/fsh-generated/resources/InsurancePlan-RX02 : 51 / 0 / 4
  /github/workspace/fsh-generated/resources/Location-Jamu-municipality : 0 / 0 / 1
@@ -77,7 +79,7 @@ Generated Mon Oct 04 15:12:27 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner-role : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-claim-response : 2 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-openimis-communication-request : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-communication-request : 15 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-contract : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-coverage : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-coverage-eligibility-request : 2 / 0 / 1
@@ -110,6 +112,7 @@ Generated Mon Oct 04 15:12:27 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ValueSet-claim-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-claim-supporting-info-category : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-claim-visit-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-communication-request-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-contract-premium-category : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-contract-premium-payer : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-contract-premium-type : 0 / 0 / 1
@@ -118,6 +121,7 @@ Generated Mon Oct 04 15:12:27 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ValueSet-contract-status-codes : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-coverage-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-diagnosis-ICD10-level1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-feedback-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-group-confirmation-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-group-types : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-coverage-benefit-limit : 0 / 0 / 1
@@ -190,6 +194,7 @@ ERROR: ClaimResponse/Claim001: ClaimResponse.insurer: Unable to resolve resource
 == fsh-generated/resources/CodeSystem-contract-resource-party-role.json ==
 == fsh-generated/resources/CodeSystem-contract-scope.json ==
 == fsh-generated/resources/CodeSystem-diagnosis-ICD10-level1.json ==
+== fsh-generated/resources/CodeSystem-feedback-status.json ==
 == fsh-generated/resources/CodeSystem-group-confirmation-type.json ==
 == fsh-generated/resources/CodeSystem-group-types.json ==
 == fsh-generated/resources/CodeSystem-insurance-plan-coverage-benefit-limit.json ==
@@ -206,6 +211,37 @@ ERROR: CodeSystem.url: Resource id/url mismatch: patient-identification-types/ht
 == fsh-generated/resources/CodeSystem-patient-profession.json ==
 == fsh-generated/resources/CodeSystem-practitioner-qualification-type.json ==
 == fsh-generated/resources/CodeSystem-usage-context-age-type.json ==
+== fsh-generated/resources/CommunicationRequest-Claim001Feedback.json ==
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:CareRendered, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:CareRendered, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[2]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:CareRendered, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[3]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:CareRendered, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[4]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:CareRendered, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:PaymentAsked, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:PaymentAsked, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[2]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:PaymentAsked, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[3]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:PaymentAsked, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[4]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:PaymentAsked, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:DrugPrescribed, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:DrugPrescribed, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[2]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:DrugPrescribed, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[3]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:DrugPrescribed, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[4]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:DrugPrescribed, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:DrugReceived, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:DrugReceived, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[2]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:DrugReceived, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[3]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:DrugReceived, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[4]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:DrugReceived, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:Asessment, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:Asessment, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[2]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:Asessment, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[3]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:Asessment, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+ERROR: CommunicationRequest/Claim001Feedback: CommunicationRequest.payload[4]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: contentString in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request on element CommunicationRequest.payload:Asessment, looking in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request (@char 1)
+INFORMATION: CommunicationRequest/Claim001Feedback: CommunicationRequest: CommunicationRequest.payload:CareRendered: Unable to check minimum required (CommunicationRequest.payload) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request)
+INFORMATION: CommunicationRequest/Claim001Feedback: CommunicationRequest: CommunicationRequest.payload:PaymentAsked: Unable to check minimum required (CommunicationRequest.payload) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request)
+INFORMATION: CommunicationRequest/Claim001Feedback: CommunicationRequest: CommunicationRequest.payload:DrugPrescribed: Unable to check minimum required (CommunicationRequest.payload) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request)
+INFORMATION: CommunicationRequest/Claim001Feedback: CommunicationRequest: CommunicationRequest.payload:DrugReceived: Unable to check minimum required (CommunicationRequest.payload) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request)
+INFORMATION: CommunicationRequest/Claim001Feedback: CommunicationRequest: CommunicationRequest.payload:Asessment: Unable to check minimum required (CommunicationRequest.payload) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request)
 == fsh-generated/resources/Contract-InformalSectorContract.json ==
 ERROR: Contract/InformalSectorContract: Contract.term[0].asset[0]: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium is not allowed to be used at this point (allowed = e:OpenIMISContract; this element is [[Contract.term.asset, BackboneElement.asset, BackboneElement])
 == fsh-generated/resources/Coverage-JoeDoeCoverage.json ==
@@ -227,11 +263,12 @@ WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.re
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[21].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[23].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[37].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[112].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[113].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[115].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[116].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[117].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[120].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[121].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[124].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[125].description: value should not start or finish with whitespace
 == fsh-generated/resources/InsurancePlan-RX01.json ==
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[5]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[6]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
@@ -393,7 +430,21 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 ERROR: StructureDefinition/openimis-claim-response: StructureDefinition.snapshot.element[79].pattern.ofType(Reference): Unable to resolve resource 'openIMIS'
 ERROR: StructureDefinition/openimis-claim-response: StructureDefinition.differential.element[16].pattern.ofType(Reference): Unable to resolve resource 'openIMIS'
 == fsh-generated/resources/StructureDefinition-openimis-communication-request.json ==
-WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request'): The Implementation Guide contains no examples for this profile
+ERROR: CommunicationRequest.payload.content[x]: The fixed value has type 'string' which is not valid (valid types: [string, Reference, Attachment])
+ERROR: CommunicationRequest.payload.content[x]: The fixed value has type 'string' which is not valid (valid types: [string, Reference, Attachment])
+ERROR: CommunicationRequest.payload.content[x]: The fixed value has type 'string' which is not valid (valid types: [string, Reference, Attachment])
+ERROR: CommunicationRequest.payload.content[x]: The fixed value has type 'string' which is not valid (valid types: [string, Reference, Attachment])
+ERROR: CommunicationRequest.payload.content[x]: The fixed value has type 'string' which is not valid (valid types: [string, Reference, Attachment])
+ERROR: StructureDefinition/openimis-communication-request: StructureDefinition.snapshot.element[70]: eld-7: 'Pattern may only be specified if there is one type' Rule 'Pattern may only be specified if there is one type' Failed
+ERROR: StructureDefinition/openimis-communication-request: StructureDefinition.snapshot.element[75]: eld-7: 'Pattern may only be specified if there is one type' Rule 'Pattern may only be specified if there is one type' Failed
+ERROR: StructureDefinition/openimis-communication-request: StructureDefinition.snapshot.element[80]: eld-7: 'Pattern may only be specified if there is one type' Rule 'Pattern may only be specified if there is one type' Failed
+ERROR: StructureDefinition/openimis-communication-request: StructureDefinition.snapshot.element[85]: eld-7: 'Pattern may only be specified if there is one type' Rule 'Pattern may only be specified if there is one type' Failed
+ERROR: StructureDefinition/openimis-communication-request: StructureDefinition.snapshot.element[90]: eld-7: 'Pattern may only be specified if there is one type' Rule 'Pattern may only be specified if there is one type' Failed
+ERROR: StructureDefinition/openimis-communication-request: StructureDefinition: The fixed value has type 'string' which is not valid (valid types: [string, Reference, Attachment])
+ERROR: StructureDefinition/openimis-communication-request: StructureDefinition: The fixed value has type 'string' which is not valid (valid types: [string, Reference, Attachment])
+ERROR: StructureDefinition/openimis-communication-request: StructureDefinition: The fixed value has type 'string' which is not valid (valid types: [string, Reference, Attachment])
+ERROR: StructureDefinition/openimis-communication-request: StructureDefinition: The fixed value has type 'string' which is not valid (valid types: [string, Reference, Attachment])
+ERROR: StructureDefinition/openimis-communication-request: StructureDefinition: The fixed value has type 'string' which is not valid (valid types: [string, Reference, Attachment])
 == fsh-generated/resources/StructureDefinition-openimis-contract.json ==
 INFORMATION: StructureDefinition/openimis-contract: StructureDefinition.snapshot.element[233].mapping[1].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/StructureDefinition-openimis-coverage.json ==
@@ -433,6 +484,7 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/ValueSet-claim-status.json ==
 == fsh-generated/resources/ValueSet-claim-supporting-info-category.json ==
 == fsh-generated/resources/ValueSet-claim-visit-type.json ==
+== fsh-generated/resources/ValueSet-communication-request-status.json ==
 == fsh-generated/resources/ValueSet-contract-premium-category.json ==
 == fsh-generated/resources/ValueSet-contract-premium-payer.json ==
 == fsh-generated/resources/ValueSet-contract-premium-type.json ==
@@ -441,6 +493,7 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/ValueSet-contract-status-codes.json ==
 == fsh-generated/resources/ValueSet-coverage-status.json ==
 == fsh-generated/resources/ValueSet-diagnosis-ICD10-level1.json ==
+== fsh-generated/resources/ValueSet-feedback-status.json ==
 == fsh-generated/resources/ValueSet-group-confirmation-type.json ==
 == fsh-generated/resources/ValueSet-group-types.json ==
 == fsh-generated/resources/ValueSet-insurance-plan-coverage-benefit-limit.json ==
