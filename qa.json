@@ -3,10 +3,10 @@
   "name": "openIMISFHIRR4",
   "package-id": "openimis.fhir.r4",
   "ig-ver": "0.1.0",
-  "date": "Mon, 04 Oct, 2021 15:42:19 +0000",
-  "errs": 176,
+  "date": "Tue, 05 Oct, 2021 10:19:44 +0000",
+  "errs": 171,
   "warnings": 27,
-  "hints": 12,
+  "hints": 17,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
 }

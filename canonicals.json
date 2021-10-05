@@ -112,6 +112,13 @@
     "name": "DiagnosisICD10Level1CS"
   },
   {
+    "id": "feedback-payload",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload",
+    "version": "0.1.0",
+    "name": "FeedbackPayloadCS"
+  },
+  {
     "id": "feedback-status",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status",
@@ -243,6 +250,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/claim-item-reference",
     "version": "0.1.0",
     "name": "ClaimItemReferenceExtension"
+  },
+  {
+    "id": "communication-payload-type",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type",
+    "version": "0.1.0",
+    "name": "CommunicationPayloadTypeExtension"
   },
   {
     "id": "contract-premium",
@@ -383,6 +397,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-response",
     "version": "0.1.0",
     "name": "OpenIMISClaimResponse"
+  },
+  {
+    "id": "openimis-communication",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication",
+    "version": "0.1.0",
+    "name": "OpenIMISCommunication"
   },
   {
     "id": "openimis-communication-request",
@@ -677,6 +698,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/diagnosis-ICD10-level1",
     "version": "0.1.0",
     "name": "DiagnosisICD10Level1VS"
+  },
+  {
+    "id": "feedback-payload",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/feedback-payload",
+    "version": "0.1.0",
+    "name": "FeedbackPayloadVS"
   },
   {
     "id": "feedback-status",

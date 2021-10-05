@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>OPENIMIS.FHIR.R4\Claim001Feedback - TTL Representation - FHIR v4.0.1</title>
+    <title>OPENIMIS.FHIR.R4\Claim001CommunicationRequest - TTL Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -52,8 +52,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.119"}
-    h3,h4,h5,h6{--heading-prefix:"8.119"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.124"}
+    h3,h4,h5,h6{--heading-prefix:"8.124"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -143,7 +143,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Claim001Feedback</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Claim001CommunicationRequest</b></li>
           
         </ul>
       </div>  <!-- /container -->
@@ -167,20 +167,20 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="CommunicationRequest-Claim001Feedback.html">Narrative Content</a>
+    <a href="CommunicationRequest-Claim001CommunicationRequest.html">Narrative Content</a>
   </li>
 
 
   
     <li>
-      <a href="CommunicationRequest-Claim001Feedback.xml.html">XML</a>
+      <a href="CommunicationRequest-Claim001CommunicationRequest.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="CommunicationRequest-Claim001Feedback.json.html">JSON</a>
+      <a href="CommunicationRequest-Claim001CommunicationRequest.json.html">JSON</a>
     </li>
   
 
@@ -199,9 +199,9 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Claim001Feedback - TTL Representation</h2>
+<h2 id="root">: Claim001CommunicationRequest - TTL Representation</h2>
 
-<p><a href="CommunicationRequest-Claim001Feedback.ttl" no-download="true">Raw ttl</a> | <a href="CommunicationRequest-Claim001Feedback.ttl" download>Download</a></p>
+<p><a href="CommunicationRequest-Claim001CommunicationRequest.ttl" no-download="true">Raw ttl</a> | <a href="CommunicationRequest-Claim001CommunicationRequest.ttl" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -218,7 +218,7 @@
 
  a fhir:CommunicationRequest;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
-  <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Claim001Feedback&quot;];
+  <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Claim001CommunicationRequest&quot;];
   <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.meta">fhir:Resource.meta</a> [
      <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
        <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request&quot;;
@@ -226,17 +226,8 @@
        <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request&gt;     ]
   ];
   <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.text">fhir:DomainResource.text</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
-     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD83&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;statusReason&lt;/b&gt;: &lt;span title=\&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status 4}\&quot;&gt;Selected&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-john-doe.html\&quot;&gt;Generated Summary: Unique code: 123456789; John Doe ; gender: male; birthDate: 1962-02-05; &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\&quot;&gt;Married&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;about&lt;/b&gt;: &lt;a href=\&quot;Claim-Claim001.html\&quot;&gt;Generated Summary: Unique code: Code001; status: active; &lt;span title=\&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-visit-type O}\&quot;&gt;Other&lt;/span&gt;; use: claim; billablePeriod: 2021-09-15 --&amp;gt; 2021-09-15; created: 2021-09-16; &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/processpriority normal}\&quot;&gt;Normal&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: Care Rendered? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: PaymentAsked? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: DrugPrescribed? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: DrugReceived? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: Asessment? (0|1|2|3|4|5)&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;recipient&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Roberts-Jeb-EO.html\&quot;&gt;Generated Summary: Unique code: E00001, UUID unique identifier: e5256c97-8b06-4c8e-96db-d8294b4619a8; Jeb Roberts (OFFICIAL); birthDate: 1980-01-15&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;
-  ];
-  <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.identifier">fhir:CommunicationRequest.identifier</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">fhir:Identifier.type</a> [
-       <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-         <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers&quot; ];
-         <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;UUID&quot; ]       ]     ];
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;D30F70DF-D10B-43D4-BF31-5137C118AD83&quot; ]
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;extensions&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;statusReason&lt;/b&gt;: &lt;span title=\&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status 4}\&quot;&gt;Selected&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-john-doe.html\&quot;&gt;Generated Summary: Unique code: 123456789; John Doe ; gender: male; birthDate: 1962-02-05; &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\&quot;&gt;Married&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;about&lt;/b&gt;: &lt;a href=\&quot;Claim-Claim001.html\&quot;&gt;Generated Summary: Unique code: Code001; status: active; &lt;span title=\&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-visit-type O}\&quot;&gt;Other&lt;/span&gt;; use: claim; billablePeriod: 2021-09-15 --&amp;gt; 2021-09-15; created: 2021-09-16; &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/processpriority normal}\&quot;&gt;Normal&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Payload Type (CommunicationRequest | Communication)&lt;/b&gt;: &lt;span title=\&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload CareRendered}\&quot;&gt;Care Rendered? (yes|no)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: Care Rendered? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Payload Type (CommunicationRequest | Communication)&lt;/b&gt;: &lt;span title=\&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload PaymentAsked}\&quot;&gt;Payment Asked? (yes|no)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: Payment Asked? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Payload Type (CommunicationRequest | Communication)&lt;/b&gt;: &lt;span title=\&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload DrugPrescribed}\&quot;&gt;Drug Prescribed? (yes|no)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: Drug Prescribed? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Payload Type (CommunicationRequest | Communication)&lt;/b&gt;: &lt;span title=\&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload DrugReceived}\&quot;&gt;Drug Received? (yes|no)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: Drug Received? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Payload Type (CommunicationRequest | Communication)&lt;/b&gt;: &lt;span title=\&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload Asessment}\&quot;&gt;Asessment? (0|1|2|3|4|5)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: Asessment? (0|1|2|3|4|5)&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;recipient&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Roberts-Jeb-EO.html\&quot;&gt;Generated Summary: Unique code: E00001, UUID unique identifier: e5256c97-8b06-4c8e-96db-d8294b4619a8; Jeb Roberts (OFFICIAL); birthDate: 1980-01-15&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;
   ];
   <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.status">fhir:CommunicationRequest.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot;];
   <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.statusReason">fhir:CommunicationRequest.statusReason</a> [
@@ -255,18 +246,58 @@
   ];
   <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload">fhir:CommunicationRequest.payload</a> [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.extension">fhir:Element.extension</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type&quot; ];
+       <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:Extension.valueCodeableConcept</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload&quot; ];
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;CareRendered&quot; ]         ]       ]     ];
      <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">fhir:CommunicationRequest.payload.contentString</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Care Rendered? (yes|no)&quot; ]
   ], [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
-     <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">fhir:CommunicationRequest.payload.contentString</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PaymentAsked? (yes|no)&quot; ]
+     <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.extension">fhir:Element.extension</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type&quot; ];
+       <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:Extension.valueCodeableConcept</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload&quot; ];
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PaymentAsked&quot; ]         ]       ]     ];
+     <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">fhir:CommunicationRequest.payload.contentString</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Payment Asked? (yes|no)&quot; ]
   ], [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
-     <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">fhir:CommunicationRequest.payload.contentString</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;DrugPrescribed? (yes|no)&quot; ]
+     <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.extension">fhir:Element.extension</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type&quot; ];
+       <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:Extension.valueCodeableConcept</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload&quot; ];
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;DrugPrescribed&quot; ]         ]       ]     ];
+     <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">fhir:CommunicationRequest.payload.contentString</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Drug Prescribed? (yes|no)&quot; ]
   ], [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
-     <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">fhir:CommunicationRequest.payload.contentString</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;DrugReceived? (yes|no)&quot; ]
+     <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.extension">fhir:Element.extension</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type&quot; ];
+       <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:Extension.valueCodeableConcept</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload&quot; ];
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;DrugReceived&quot; ]         ]       ]     ];
+     <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">fhir:CommunicationRequest.payload.contentString</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Drug Received? (yes|no)&quot; ]
   ], [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
+     <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.extension">fhir:Element.extension</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type&quot; ];
+       <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:Extension.valueCodeableConcept</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload&quot; ];
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;Asessment&quot; ]         ]       ]     ];
      <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">fhir:CommunicationRequest.payload.contentString</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Asessment? (0|1|2|3|4|5)&quot; ]
   ];
   <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.recipient">fhir:CommunicationRequest.recipient</a> [
@@ -310,7 +341,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 4, 2021 15:42+0000">2021-10-04</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 5, 2021 10:19+0000">2021-10-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

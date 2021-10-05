@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>OPENIMIS.FHIR.R4\Claim001Feedback - JSON Representation - FHIR v4.0.1</title>
+    <title>OPENIMIS.FHIR.R4\Feedback Payload (CommunicationRequest | Communication) - TTL Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -52,8 +52,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.119"}
-    h3,h4,h5,h6{--heading-prefix:"8.119"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.69"}
+    h3,h4,h5,h6{--heading-prefix:"8.69"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -143,7 +143,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Claim001Feedback</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Feedback Payload (CommunicationRequest | Communication)</b></li>
           
         </ul>
       </div>  <!-- /container -->
@@ -155,7 +155,7 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 8" class="col-12">
+<div style="counter-reset: section 9" class="col-12">
 <!--ReleaseHeader--><p id="publish-box">openIMIS FHIR R4 Implementation Guide - Local Development build (v0.1.0). See the <a href="https://openimis.github.io/openimis_fhir_r4_ig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
@@ -167,27 +167,27 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="CommunicationRequest-Claim001Feedback.html">Narrative Content</a>
+    <a href="ValueSet-feedback-payload.html">Narrative Content</a>
   </li>
 
 
   
     <li>
-      <a href="CommunicationRequest-Claim001Feedback.xml.html">XML</a>
+      <a href="ValueSet-feedback-payload.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-feedback-payload.json.html">JSON</a>
     </li>
   
 
 
   
     <li class="active">
-      <a href="#">JSON</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="CommunicationRequest-Claim001Feedback.ttl.html">TTL</a>
+      <a href="#">TTL</a>
     </li>
   
 
@@ -199,82 +199,67 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Claim001Feedback - JSON Representation</h2>
+<h2 id="root">: Feedback Payload (CommunicationRequest | Communication) - TTL Representation</h2>
 
-<p><a href="CommunicationRequest-Claim001Feedback.json" no-download="true">Raw json</a> | <a href="CommunicationRequest-Claim001Feedback.json" download>Download</a></p>
+<p><a href="ValueSet-feedback-payload.ttl" no-download="true">Raw ttl</a> | <a href="ValueSet-feedback-payload.ttl" download>Download</a></p>
 
   <!-- insert intro if present -->
   
 
 
 
-  <pre class="json"><code class="language-json">
-{
-  "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest">resourceType</a>" : "CommunicationRequest",
-  "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.id">id</a>" : "Claim001Feedback",
-  "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.meta">meta</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-      "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request"
-    ]
-  },
-  "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD83&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;statusReason&lt;/b&gt;: &lt;span title=\&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status 4}\&quot;&gt;Selected&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-john-doe.html\&quot;&gt;Generated Summary: Unique code: 123456789; John Doe ; gender: male; birthDate: 1962-02-05; &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\&quot;&gt;Married&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;about&lt;/b&gt;: &lt;a href=\&quot;Claim-Claim001.html\&quot;&gt;Generated Summary: Unique code: Code001; status: active; &lt;span title=\&quot;Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-visit-type O}\&quot;&gt;Other&lt;/span&gt;; use: claim; billablePeriod: 2021-09-15 --&amp;gt; 2021-09-15; created: 2021-09-16; &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/processpriority normal}\&quot;&gt;Normal&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: Care Rendered? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: PaymentAsked? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: DrugPrescribed? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: DrugReceived? (yes|no)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;payload&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;content&lt;/b&gt;: Asessment? (0|1|2|3|4|5)&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;recipient&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Roberts-Jeb-EO.html\&quot;&gt;Generated Summary: Unique code: E00001, UUID unique identifier: e5256c97-8b06-4c8e-96db-d8294b4619a8; Jeb Roberts (OFFICIAL); birthDate: 1980-01-15&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-  },
-  "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.identifier">identifier</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">type</a>" : {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "UUID"
-          }
-        ]
-      },
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "D30F70DF-D10B-43D4-BF31-5137C118AD83"
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.statusReason">statusReason</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-      {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "4",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Selected"
-      }
-    ]
-  },
-  "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.subject">subject</a>" : {
-    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/john-doe"
-  },
-  "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.about">about</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Claim/Claim001"
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload">payload</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">contentString</a>" : "Care Rendered? (yes|no)"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">contentString</a>" : "PaymentAsked? (yes|no)"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">contentString</a>" : "DrugPrescribed? (yes|no)"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">contentString</a>" : "DrugReceived? (yes|no)"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.payload.content[x]">contentString</a>" : "Asessment? (0|1|2|3|4|5)"
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.recipient">recipient</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/Roberts-Jeb-EO"
-    }
-  ]
-}</code></pre>
+  <pre class="rdf"><code class="language-turtle">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:ValueSet;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;feedback-payload&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-feedback-payload.html\&quot;&gt;&lt;code&gt;https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:ValueSet.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/feedback-payload&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:ValueSet.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;0.1.0&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:ValueSet.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;FeedbackPayloadVS&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:ValueSet.title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Feedback Payload (CommunicationRequest | Communication)&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:ValueSet.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:ValueSet.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2021-10-05T10:19:44+00:00&quot;^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:ValueSet.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Swiss TPH&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:ValueSet.contact</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:ContactDetail.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Swiss TPH&quot; ];
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;url&quot; ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;https://www.swisstph.ch/en/&quot; ]     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:ContactDetail.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Dragos Dobre&quot; ];
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;email&quot; ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;dragos.dobre@swisstph.ch&quot; ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">fhir:ContactPoint.use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;work&quot; ]     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:ValueSet.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;Indicates the Feedback Payload code for a CommunicationRequest and Communication. List defined by openIMIS. Can not be extended.&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:ValueSet.compose</a> [
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:ValueSet.compose.include</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:ValueSet.compose.include.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload&quot; ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</code></pre>
+
 
 
   <!-- insert notes if present -->
@@ -304,7 +289,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 4, 2021 15:42+0000">2021-10-04</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 5, 2021 10:19+0000">2021-10-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

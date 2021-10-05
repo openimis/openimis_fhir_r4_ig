@@ -26,6 +26,14 @@
       ]
     },
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type",
+      "title": "Payload Type (CommunicationRequest | Communication)",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium",
       "title": "Premium (Contract)",
       "types": [
@@ -609,6 +617,12 @@
         "title": "openIMIS Claim Response"
       }
     ],
+    "Communication": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication",
+        "title": "openIMIS Communication"
+      }
+    ],
     "CommunicationRequest": [
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request",
@@ -727,6 +741,10 @@
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/claim-item-reference": [
       "Claim.item",
       "ClaimResponse.item"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type": [
+      "Communication.payload",
+      "CommunicationRequest.payload"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium": [
       "Contract.term.asset"

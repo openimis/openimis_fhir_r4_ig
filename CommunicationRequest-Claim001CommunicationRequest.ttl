@@ -1,0 +1,123 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CommunicationRequest/Claim001CommunicationRequest> a fhir:CommunicationRequest;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Claim001CommunicationRequest"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request";
+       fhir:index 0;
+       fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>statusReason</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status 4}\">Selected</span></p><p><b>subject</b>: <a href=\"Patient-john-doe.html\">Generated Summary: Unique code: 123456789; John Doe ; gender: male; birthDate: 1962-02-05; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></a></p><p><b>about</b>: <a href=\"Claim-Claim001.html\">Generated Summary: Unique code: Code001; status: active; <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-visit-type O}\">Other</span>; use: claim; billablePeriod: 2021-09-15 --&gt; 2021-09-15; created: 2021-09-16; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/processpriority normal}\">Normal</span></a></p><blockquote><p><b>payload</b></p><p><b>Payload Type (CommunicationRequest | Communication)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload CareRendered}\">Care Rendered? (yes|no)</span></p><p><b>content</b>: Care Rendered? (yes|no)</p></blockquote><blockquote><p><b>payload</b></p><p><b>Payload Type (CommunicationRequest | Communication)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload PaymentAsked}\">Payment Asked? (yes|no)</span></p><p><b>content</b>: Payment Asked? (yes|no)</p></blockquote><blockquote><p><b>payload</b></p><p><b>Payload Type (CommunicationRequest | Communication)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload DrugPrescribed}\">Drug Prescribed? (yes|no)</span></p><p><b>content</b>: Drug Prescribed? (yes|no)</p></blockquote><blockquote><p><b>payload</b></p><p><b>Payload Type (CommunicationRequest | Communication)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload DrugReceived}\">Drug Received? (yes|no)</span></p><p><b>content</b>: Drug Received? (yes|no)</p></blockquote><blockquote><p><b>payload</b></p><p><b>Payload Type (CommunicationRequest | Communication)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload Asessment}\">Asessment? (0|1|2|3|4|5)</span></p><p><b>content</b>: Asessment? (0|1|2|3|4|5)</p></blockquote><p><b>recipient</b>: <a href=\"Practitioner-Roberts-Jeb-EO.html\">Generated Summary: Unique code: E00001, UUID unique identifier: e5256c97-8b06-4c8e-96db-d8294b4619a8; Jeb Roberts (OFFICIAL); birthDate: 1980-01-15</a></p></div>"
+  ];
+  fhir:CommunicationRequest.status [ fhir:value "active"];
+  fhir:CommunicationRequest.statusReason [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status" ];
+       fhir:Coding.code [ fhir:value "4" ];
+       fhir:Coding.display [ fhir:value "Selected" ]
+     ]
+  ];
+  fhir:CommunicationRequest.subject [
+     fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Patient/john-doe>;
+     fhir:Reference.reference [ fhir:value "Patient/john-doe" ]
+  ];
+  fhir:CommunicationRequest.about [
+     fhir:index 0;
+     fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Claim/Claim001>;
+     fhir:Reference.reference [ fhir:value "Claim/Claim001" ]
+  ];
+  fhir:CommunicationRequest.payload [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type" ];
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload" ];
+           fhir:Coding.code [ fhir:value "CareRendered" ]
+         ]
+       ]
+     ];
+     fhir:CommunicationRequest.payload.contentString [ fhir:value "Care Rendered? (yes|no)" ]
+  ], [
+     fhir:index 1;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type" ];
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload" ];
+           fhir:Coding.code [ fhir:value "PaymentAsked" ]
+         ]
+       ]
+     ];
+     fhir:CommunicationRequest.payload.contentString [ fhir:value "Payment Asked? (yes|no)" ]
+  ], [
+     fhir:index 2;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type" ];
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload" ];
+           fhir:Coding.code [ fhir:value "DrugPrescribed" ]
+         ]
+       ]
+     ];
+     fhir:CommunicationRequest.payload.contentString [ fhir:value "Drug Prescribed? (yes|no)" ]
+  ], [
+     fhir:index 3;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type" ];
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload" ];
+           fhir:Coding.code [ fhir:value "DrugReceived" ]
+         ]
+       ]
+     ];
+     fhir:CommunicationRequest.payload.contentString [ fhir:value "Drug Received? (yes|no)" ]
+  ], [
+     fhir:index 4;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type" ];
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload" ];
+           fhir:Coding.code [ fhir:value "Asessment" ]
+         ]
+       ]
+     ];
+     fhir:CommunicationRequest.payload.contentString [ fhir:value "Asessment? (0|1|2|3|4|5)" ]
+  ];
+  fhir:CommunicationRequest.recipient [
+     fhir:index 0;
+     fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Practitioner/Roberts-Jeb-EO>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Roberts-Jeb-EO" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CommunicationRequest/Claim001CommunicationRequest.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

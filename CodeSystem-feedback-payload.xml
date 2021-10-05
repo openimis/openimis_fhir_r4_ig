@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="feedback-payload"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CareRendered<a name="feedback-payload-CareRendered"> </a></td><td>Care Rendered? (yes|no)</td></tr><tr><td style="white-space:nowrap">PaymentAsked<a name="feedback-payload-PaymentAsked"> </a></td><td>Payment Asked? (yes|no)</td></tr><tr><td style="white-space:nowrap">DrugPrescribed<a name="feedback-payload-DrugPrescribed"> </a></td><td>Drug Prescribed? (yes|no)</td></tr><tr><td style="white-space:nowrap">DrugReceived<a name="feedback-payload-DrugReceived"> </a></td><td>Drug Received? (yes|no)</td></tr><tr><td style="white-space:nowrap">Asessment<a name="feedback-payload-Asessment"> </a></td><td>Asessment? (0|1|2|3|4|5)</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload"/>
+  <version value="0.1.0"/>
+  <name value="FeedbackPayloadCS"/>
+  <title value="Feedback Payload (CommunicationRequest | Communication)"/>
+  <status value="active"/>
+  <date value="2021-10-05T10:19:44+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the Feedback Payload code for a CommunicationRequest and Communication. List defined by openIMIS. Can not be extended."/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="CareRendered"/>
+    <display value="Care Rendered? (yes|no)"/>
+  </concept>
+  <concept>
+    <code value="PaymentAsked"/>
+    <display value="Payment Asked? (yes|no)"/>
+  </concept>
+  <concept>
+    <code value="DrugPrescribed"/>
+    <display value="Drug Prescribed? (yes|no)"/>
+  </concept>
+  <concept>
+    <code value="DrugReceived"/>
+    <display value="Drug Received? (yes|no)"/>
+  </concept>
+  <concept>
+    <code value="Asessment"/>
+    <display value="Asessment? (0|1|2|3|4|5)"/>
+  </concept>
+</CodeSystem>

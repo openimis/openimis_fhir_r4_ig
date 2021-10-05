@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-10-04T15:42:19+00:00",
+  "date": "2021-10-05T10:19:44+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -368,6 +368,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/openimis-communication"
+        },
+        "name": "openIMIS Communication",
+        "description": "Defines a Communication for openIMIS which maps to the Feedback in openIMIS.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/openimis-communication-request"
         },
         "name": "openIMIS CommunicationRequest",
@@ -582,6 +596,20 @@
         },
         "name": "Item Reference (Claim)",
         "description": "The reference to the Medication or ActivityDefinition for an item within a Claim.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/communication-payload-type"
+        },
+        "name": "Payload Type (CommunicationRequest | Communication)",
+        "description": "Indicates the payload type for a Communication.",
         "exampleBoolean": false
       },
       {
@@ -1208,6 +1236,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/feedback-payload"
+        },
+        "name": "Feedback Payload (CommunicationRequest | Communication)",
+        "description": "Indicates the Feedback Payload code for a CommunicationRequest and Communication. List defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/feedback-status"
         },
         "name": "Feedback Status (CommunicationRequest)",
@@ -1670,6 +1712,20 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/feedback-payload"
+        },
+        "name": "Feedback Payload (CommunicationRequest | Communication)",
+        "description": "Indicates the Feedback Payload code for a CommunicationRequest and Communication. List defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/feedback-status"
         },
         "name": "Feedback Status (CommunicationRequest)",
@@ -1932,14 +1988,28 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Communication"
+          }
+        ],
+        "reference": {
+          "reference": "Communication/Claim001Communication"
+        },
+        "name": "Claim001Communication",
+        "description": "* Example of a Communication (Feedback)  ",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CommunicationRequest"
           }
         ],
         "reference": {
-          "reference": "CommunicationRequest/Claim001Feedback"
+          "reference": "CommunicationRequest/Claim001CommunicationRequest"
         },
-        "name": "Claim001Feedback",
-        "description": "* Example of a Claim   ",
+        "name": "Claim001CommunicationRequest",
+        "description": "* Example of a CommunicationRequest",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request"
       },
       {
