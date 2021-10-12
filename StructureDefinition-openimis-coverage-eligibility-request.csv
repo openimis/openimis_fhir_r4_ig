@@ -162,7 +162,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "CoverageEligibilityRequest.priority","","","",0,0,"","","","CodeableConcept {[]} {[]}
 ","Desired processing priority","When the requestor expects the processor to complete processing.","","Needed to advise the prossesor on the urgency of the request.","","","","","","","",,"example","The timeliness with which processing is required: STAT, normal, Deferred.","http://hl7.org/fhir/ValueSet/process-priority","",,,,"CoverageEligibilityRequest.priority",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Request.priority","FiveWs.class"
-"CoverageEligibilityRequest.purpose","","","",1,*,"","","Y","code {[]} {[]}
+"CoverageEligibilityRequest.purpose","","","",1,1,"","","Y","code {[]} {[]}
 ","auth-requirements | benefits | discovery | validation","Code to specify whether requesting: prior authorization requirements for some service categories or billing codes; benefits for coverages specified or discovered; discovery and return of coverages for the patient; and/or validation that the specified coverage is in-force at the date/period specified or 'now' if not specified.","","To indicate the processing actions requested.","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""benefits""/>","","","",,"required","A code specifying the types of information being requested.","http://hl7.org/fhir/ValueSet/eligibilityrequest-purpose|4.0.1","",,,,"CoverageEligibilityRequest.purpose",1,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FiveWs.class"
 "CoverageEligibilityRequest.patient","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient]]}
@@ -256,7 +256,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Applicable exception or supporting information","Exceptions, special conditions and supporting information applicable for this service or product line.","","Needed to support or inform the consideration for eligibility.","","","","","","","",,,,,"",,,,"CoverageEligibilityRequest.item.supportingInfoSequence",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "CoverageEligibilityRequest.item.category","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","Category","Items category as medical item or service.","Examples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage.","Needed to convey the category of service or product for which eligibility is sought.","","","","","","","",,"required","","https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-item-category","",,,,"CoverageEligibilityRequest.item.category",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Category","Items category as medical item or service.","Examples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage.","Needed to convey the category of service or product for which eligibility is sought.","","","","","","","",,"required","","https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category","",,,,"CoverageEligibilityRequest.item.category",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "CoverageEligibilityRequest.item.productOrService","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Item Code","Service or Item Code.","Code to indicate the Professional Service or Product supplied (e.g. CTP, HCPCS, USCLS, ICD10, NCPDP, DIN, RxNorm, ACHI, CCI).","Needed to convey the actual service or product for which eligibility is sought.","","","","","","","",,"example","Allowable service and product codes.","http://hl7.org/fhir/ValueSet/service-uscls","",,,,"CoverageEligibilityRequest.item.productOrService",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -331,7 +331,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "CoverageEligibilityRequest.item.category","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Coverage eligibility for item","Coverage eligibility for item.","Examples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage.","Needed to convey the category of service or product for which eligibility is sought.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category""/>
+    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category""/>
     <code value=""item""/>
     <display value=""Item""/>
   </coding>
@@ -397,7 +397,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "CoverageEligibilityRequest.item.category","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Coverage eligibility for service","Coverage eligibility for service.","Examples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage.","Needed to convey the category of service or product for which eligibility is sought.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category""/>
+    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category""/>
     <code value=""service""/>
     <display value=""Service""/>
   </coding>

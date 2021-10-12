@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="952491d5-7993-44a5-b9c9-248cd2b2459a"/>
+  <id value="36c6549b-365d-45b6-ae64-bc5bb7e63bc1"/>
   <meta>
-    <lastUpdated value="2021-10-05T10:19:44.504+00:00"/>
+    <lastUpdated value="2021-10-12T16:14:04.512+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -59,7 +59,7 @@
         <name value="ActivityDefinitionServiceTypeVS"/>
         <title value="Service Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -78,8 +78,8 @@
         </contact>
         <description value="Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:fca5c075-369b-45dc-ad8a-5b04a7d256f6"/>
-          <timestamp value="2021-10-05T10:20:32+00:00"/>
+          <identifier value="urn:uuid:171232d7-429e-46c8-9cf0-1e85c1680002"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -172,7 +172,7 @@
         <name value="ActivityDefinitionUsageContextTypeVS"/>
         <title value="Usage Context Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -191,8 +191,8 @@
         </contact>
         <description value="Indicates the Usage Context Type for an ActivityDefinition."/>
         <expansion>
-          <identifier value="urn:uuid:958f3dcb-7a22-4150-8bd3-435c4b60a2a3"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:b106aa45-2027-4f76-856a-8ca50135b52f"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -279,7 +279,7 @@
         <name value="ActivityDefinitionUsageContextVenueTypeVS"/>
         <title value="Usage Context for Venue Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -298,8 +298,8 @@
         </contact>
         <description value="Indicates the Usage Context for Venue Type for an ActivityDefinition."/>
         <expansion>
-          <identifier value="urn:uuid:cd16791d-916b-418e-ab7b-0ea4ac539771"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:21228c25-d5eb-4e9c-aca0-f8e847091abb"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -400,7 +400,7 @@
         <name value="ActivityDefinitionUsageContextWorkflowTypeVS"/>
         <title value="Usage Context for Workflow Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -419,8 +419,8 @@
         </contact>
         <description value="Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:c734ed02-6940-462e-ac12-adf3e694f243"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:faee9500-81d8-4982-a833-1d7c36cf5bd7"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -512,7 +512,7 @@
         <name value="ClaimItemCategoryVS"/>
         <title value="Category of the item (Claim)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -531,8 +531,8 @@
         </contact>
         <description value="Indicates the category for the item under a Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:e1743678-4092-4886-ab56-f72f9c526682"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:60794ce4-ca84-4898-8b78-80213f7007fc"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -753,7 +753,7 @@
         <name value="ClaimRejectionReasonsVS"/>
         <title value="Rejection reasons (Claim)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -772,8 +772,8 @@
         </contact>
         <description value="Indicates the rejection reason of an item from a Claim. &#xA;Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:f8df3a4d-ce64-444e-a79c-098f7cddd15e"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:24e33b0f-7d6b-43e6-9b89-1561d25c071e"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -964,7 +964,7 @@
         <name value="ClaimStatusVS"/>
         <title value="Status of the claim (Claim|ClaimResponse)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -983,8 +983,8 @@
         </contact>
         <description value="Indicates the status of the Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:e5cb1f76-c2ee-4c32-922f-52124dd7e340"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:ffe100da-3d6f-4008-8357-0569970dd1a4"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1092,7 +1092,7 @@
         <name value="ClaimSupportingInfoCategoryVS"/>
         <title value="Category of the supporting info (Claim)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1111,8 +1111,8 @@
         </contact>
         <description value="Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:7f30cf78-9df4-422e-ac68-003708f56f58"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:7e201885-7902-4c9a-a62f-50c96baed447"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1207,7 +1207,7 @@
         <name value="ClaimVisitTypeVS"/>
         <title value="Visit Type Codes (Claim)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1226,8 +1226,8 @@
         </contact>
         <description value="Indicates the visit type of the Claim. &#xA;Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:66e24dc7-6014-4740-9ed7-4ebd8304872d"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:622126c8-c688-46ea-bb08-edbde061759d"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1317,7 +1317,7 @@
         <name value="CommunicationRequestStatusVS"/>
         <title value="Claim Feedback Status (CommunicationRequest)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1336,8 +1336,8 @@
         </contact>
         <description value="Indicates the status of a feedback (Claim)."/>
         <expansion>
-          <identifier value="urn:uuid:3816ee03-f2ca-4c78-af98-4d7a4043b74f"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:c3f6117d-dadc-4447-96e3-4f37179b27f6"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1419,7 +1419,7 @@
         <name value="ContractPremiumCategoryVS"/>
         <title value="Premium Category (Contract)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1438,8 +1438,8 @@
         </contact>
         <description value="Indicates the category of the premium for the Contract. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:54759cfa-7375-4965-bb0a-028e73908a17"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:f166c23d-2b6e-49b2-979a-dc976063fab6"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1508,7 +1508,7 @@
         <name value="ContractPremiumPayerVS"/>
         <title value="Premium Payer (Contract)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1527,8 +1527,8 @@
         </contact>
         <description value="Indicates the payer of the premium for the Contract. Can be extended in openIMIS. Need to match openIMIS database payer list."/>
         <expansion>
-          <identifier value="urn:uuid:13a98cd8-3b04-49cc-843e-5d0ec65f424b"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:0addf16f-e966-4ffd-ba8d-c341633e4fdf"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1608,7 +1608,7 @@
         <name value="ContractPremiumTypeVS"/>
         <title value="Premium Type (Contract)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1627,8 +1627,8 @@
         </contact>
         <description value="Indicates the type of the premium for the Contract. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:42befb8c-d3eb-449f-98a9-9284835b3571"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:b0e67869-bccf-454c-86ef-579b2a269b16"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1702,7 +1702,7 @@
         <name value="ContractResourcePartyRoleVS"/>
         <title value="Resource Party Role (Contract)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1721,8 +1721,8 @@
         </contact>
         <description value="Indicates the participant engagement type for the Contract term."/>
         <expansion>
-          <identifier value="urn:uuid:3d9d7368-7406-42e3-ad85-cb84e209a7e6"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:7ff701c1-56dc-4c83-8aee-8e8a0b061cbe"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1794,7 +1794,7 @@
         <name value="ContractScopeVS"/>
         <title value="Scope (Contract)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1813,8 +1813,8 @@
         </contact>
         <description value="Indicates the scope for the Contract. Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:2c1d5d35-1e2c-4449-beb8-152c94dda2dd"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:d46508b7-3cd6-494e-ac7d-a6c9662a1a48"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1891,7 +1891,7 @@
         <name value="ContractStatusCodesVS"/>
         <title value="Status Codes (Contract)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -1910,8 +1910,8 @@
         </contact>
         <description value="Indicates the status of the Contract. Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:4b7d306a-f9a5-477b-9d85-693251ad4488"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:4db43eae-0f42-4d92-847e-ae59ec236948"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1930,6 +1930,647 @@
             <system value="http://hl7.org/fhir/contract-status"/>
             <code value="executed"/>
             <display value="Executed"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-amount-left"/>
+    <resource>
+      <ValueSet>
+        <id value="coverage-item-benefit-type-amount-left"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 9 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-coverage-item-benefit-type.html">Type of benefit (Coverage) v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-coverage-item-benefit-type.html">
+                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-consultation-amount"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-consultation_amount">consultation_amount</a>
+                </td>
+                <td>consultation_amount</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-surgery-amount"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-surgery_amount">surgery_amount</a>
+                </td>
+                <td>surgery_amount</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-delivery-amount"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-delivery_amount">delivery_amount</a>
+                </td>
+                <td>delivery_amount</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-hospitalization-amount"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-hospitalization_amount">hospitalization_amount</a>
+                </td>
+                <td>hospitalization_amount</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-antenatal-amount"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-antenatal_amount">antenatal_amount</a>
+                </td>
+                <td>antenatal_amount</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-hospital-deduction"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-hospital_deduction">hospital_deduction</a>
+                </td>
+                <td>hospital_deduction</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-non-hospital-deduction"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-non_hospital_deduction">non_hospital_deduction</a>
+                </td>
+                <td>non_hospital_deduction</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-hospital-ceiling"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-hospital_ceiling">hospital_ceiling</a>
+                </td>
+                <td>hospital_ceiling</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-non-hospital-ceiling"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-non_hospital_ceiling">non_hospital_ceiling</a>
+                </td>
+                <td>non_hospital_ceiling</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-amount-left"/>
+        <version value="0.1.0"/>
+        <name value="CoverageItemBenefitTypeAmountLeftVS"/>
+        <title value="Type of benefit as amount left (Coverage)"/>
+        <status value="active"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
+        <publisher value="Swiss TPH"/>
+        <contact>
+          <name value="Swiss TPH"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.swisstph.ch/en/"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Dragos Dobre"/>
+          <telecom>
+            <system value="email"/>
+            <value value="dragos.dobre@swisstph.ch"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended."/>
+        <expansion>
+          <identifier value="urn:uuid:8596cc86-dab8-4d25-b819-a945a8f8616c"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
+          <total value="9"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="consultation_amount"/>
+            <display value="consultation_amount"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="surgery_amount"/>
+            <display value="surgery_amount"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="delivery_amount"/>
+            <display value="delivery_amount"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="hospitalization_amount"/>
+            <display value="hospitalization_amount"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="antenatal_amount"/>
+            <display value="antenatal_amount"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="hospital_deduction"/>
+            <display value="hospital_deduction"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="non_hospital_deduction"/>
+            <display value="non_hospital_deduction"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="hospital_ceiling"/>
+            <display value="hospital_ceiling"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="non_hospital_ceiling"/>
+            <display value="non_hospital_ceiling"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type"/>
+    <resource>
+      <ValueSet>
+        <id value="coverage-item-benefit-type"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-coverage-item-benefit-type.html">Type of benefit (Coverage) v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-coverage-item-benefit-type.html">
+                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-item-left"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-item_left">item_left</a>
+                </td>
+                <td>Items left</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-min-date-item"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-min_date_item">min_date_item</a>
+                </td>
+                <td>Mininum date</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type"/>
+        <version value="0.1.0"/>
+        <name value="CoverageItemBenefitTypeItemServiceVS"/>
+        <title value="Type of benefit (Coverage)"/>
+        <status value="active"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
+        <publisher value="Swiss TPH"/>
+        <contact>
+          <name value="Swiss TPH"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.swisstph.ch/en/"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Dragos Dobre"/>
+          <telecom>
+            <system value="email"/>
+            <value value="dragos.dobre@swisstph.ch"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended."/>
+        <expansion>
+          <identifier value="urn:uuid:4d30c6f5-7d66-4ca1-b3ca-11c1c0ae24d9"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="item_left"/>
+            <display value="Items left"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="min_date_item"/>
+            <display value="Mininum date"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-total-left"/>
+    <resource>
+      <ValueSet>
+        <id value="coverage-item-benefit-type-total-left"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-coverage-item-benefit-type.html">Type of benefit (Coverage) v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-coverage-item-benefit-type.html">
+                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-admissions-left"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-admissions_left">admissions_left</a>
+                </td>
+                <td>total_admissions</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-visits-left"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-visits_left">visits_left</a>
+                </td>
+                <td>total_visits</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-consultations-left"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-consultations_left">consultations_left</a>
+                </td>
+                <td>total_consultations</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-surgeries-left"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-surgeries_left">surgeries_left</a>
+                </td>
+                <td>total_surgeries</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-deliveries-left"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-deliveries_left">deliveries_left</a>
+                </td>
+                <td>total_deliveries</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-benefit-type-antenatal-left"> </a>
+                  <a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-antenatal_left">antenatal_left</a>
+                </td>
+                <td>total_antenatal</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-total-left"/>
+        <version value="0.1.0"/>
+        <name value="CoverageItemBenefitTypeTotalLeftVS"/>
+        <title value="Type of benefit as total left (Coverage)"/>
+        <status value="active"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
+        <publisher value="Swiss TPH"/>
+        <contact>
+          <name value="Swiss TPH"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.swisstph.ch/en/"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Dragos Dobre"/>
+          <telecom>
+            <system value="email"/>
+            <value value="dragos.dobre@swisstph.ch"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended."/>
+        <expansion>
+          <identifier value="urn:uuid:1bb31e3d-c29f-4698-84f6-3b9bc3f705c8"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="admissions_left"/>
+            <display value="total_admissions"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="visits_left"/>
+            <display value="total_visits"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="consultations_left"/>
+            <display value="total_consultations"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="surgeries_left"/>
+            <display value="total_surgeries"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="deliveries_left"/>
+            <display value="total_deliveries"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+            <code value="antenatal_left"/>
+            <display value="total_antenatal"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category-item-service"/>
+    <resource>
+      <ValueSet>
+        <id value="coverage-item-category-item-service"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-coverage-item-category.html">Category of the item (Coverage) v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-coverage-item-category.html">
+                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-category-item"> </a>
+                  <a href="CodeSystem-coverage-item-category.html#coverage-item-category-item">item</a>
+                </td>
+                <td>Item</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-category-service"> </a>
+                  <a href="CodeSystem-coverage-item-category.html#coverage-item-category-service">service</a>
+                </td>
+                <td>Service</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category-item-service"/>
+        <version value="0.1.0"/>
+        <name value="CoverageItemCategoryItemServiceVS"/>
+        <title value="Partial categories of the item (Coverage)"/>
+        <status value="active"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
+        <publisher value="Swiss TPH"/>
+        <contact>
+          <name value="Swiss TPH"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.swisstph.ch/en/"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Dragos Dobre"/>
+          <telecom>
+            <system value="email"/>
+            <value value="dragos.dobre@swisstph.ch"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the category for the item, only for medical items and services, under a Coverage. Values defined by openIMIS. Can not be extended."/>
+        <expansion>
+          <identifier value="urn:uuid:3803f5f7-a10a-4ea5-8bbe-0966ab86aa21"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category"/>
+            <code value="item"/>
+            <display value="Item"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category"/>
+            <code value="service"/>
+            <display value="Service"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category"/>
+    <resource>
+      <ValueSet>
+        <id value="coverage-item-category"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-coverage-item-category.html">Category of the item (Coverage) v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-coverage-item-category.html">
+                <code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-category-item"> </a>
+                  <a href="CodeSystem-coverage-item-category.html#coverage-item-category-item">item</a>
+                </td>
+                <td>Item</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-category-service"> </a>
+                  <a href="CodeSystem-coverage-item-category.html#coverage-item-category-service">service</a>
+                </td>
+                <td>Service</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-coverage-item-category-benefit"> </a>
+                  <a href="CodeSystem-coverage-item-category.html#coverage-item-category-benefit">benefit</a>
+                </td>
+                <td>Benefit Package</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category"/>
+        <version value="0.1.0"/>
+        <name value="CoverageItemCategoryVS"/>
+        <title value="Category of the item (Coverage)"/>
+        <status value="active"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
+        <publisher value="Swiss TPH"/>
+        <contact>
+          <name value="Swiss TPH"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.swisstph.ch/en/"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Dragos Dobre"/>
+          <telecom>
+            <system value="email"/>
+            <value value="dragos.dobre@swisstph.ch"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="Indicates the category for the item under a Coverage. Values defined by openIMIS. Can not be extended."/>
+        <expansion>
+          <identifier value="urn:uuid:9dbeb4a2-c673-4a76-a57c-401b3bbcf4ab"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category"/>
+            <code value="item"/>
+            <display value="Item"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category"/>
+            <code value="service"/>
+            <display value="Service"/>
+          </contains>
+          <contains>
+            <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category"/>
+            <code value="benefit"/>
+            <display value="Benefit Package"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1996,7 +2637,7 @@
         <name value="CoverageStatusVS"/>
         <title value="Coverage Status (Coverage)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -2015,8 +2656,8 @@
         </contact>
         <description value="Indicates the status of a Coverage (Policy)."/>
         <expansion>
-          <identifier value="urn:uuid:bfb2e3b3-cfc2-4c38-8bdd-17346b0b928b"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:5ed24312-1328-48a2-b3dd-940d21369fe4"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -17362,7 +18003,7 @@
         <name value="DiagnosisICD10Level1VS"/>
         <title value="ICD 10 Level 1 diagnosis"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -17381,8 +18022,8 @@
         </contact>
         <description value="Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:e19b06ae-96d6-4168-90d6-ea60504de384"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:6b6b8fae-e366-43f2-84d6-dcddff29ca7c"/>
+          <timestamp value="2021-10-12T16:14:47+00:00"/>
           <total value="1910"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27023,7 +27664,7 @@
         <name value="FeedbackPayloadVS"/>
         <title value="Feedback Payload (CommunicationRequest | Communication)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27042,8 +27683,8 @@
         </contact>
         <description value="Indicates the Feedback Payload code for a CommunicationRequest and Communication. List defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:d0b62491-f161-4229-b31b-daf8e1e64d47"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:9c944565-8706-44b2-b95f-73eb4c2850f2"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27143,7 +27784,7 @@
         <name value="FeedbackStatusVS"/>
         <title value="Feedback Status (CommunicationRequest)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27162,8 +27803,8 @@
         </contact>
         <description value="Indicates the Feedback Status for a CommunicationRequest. Partial list defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:805f2ba7-e222-459c-9267-baddf6e0f994"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:3e610f1c-a7cb-4aa1-bdd9-274eebfd1b8a"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27261,7 +27902,7 @@
         <name value="GroupConfirmationTypeVS"/>
         <title value="Confirmation Types (Group)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27280,8 +27921,8 @@
         </contact>
         <description value="Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:b128ed3e-4c43-488c-9aa7-be55824153c8"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:ada7990a-d5f6-4151-8344-665c3d6bc6af"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27408,7 +28049,7 @@
         <name value="GroupTypesVS"/>
         <title value="Group Types (Group)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27427,8 +28068,8 @@
         </contact>
         <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:6b8ce3d1-4009-4693-8a67-2b61931739b6"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:bdd253b7-00f6-4aa3-8324-b19532d327a9"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27530,7 +28171,7 @@
         <name value="InsurancePlanCoverageBenefitLimitVS"/>
         <title value="Coverage Benefit Limit Types (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27549,8 +28190,8 @@
         </contact>
         <description value="Indicates the Coverage Benefit Limit Types for an InsurancePlan. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:c2d01b00-2b0f-48fb-83ed-f727a620027b"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:6631a9fe-dbe9-4381-a859-1882fab4a19f"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27618,7 +28259,7 @@
         <name value="InsurancePlanCoverageTypeVS"/>
         <title value="Coverage Type (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27637,8 +28278,8 @@
         </contact>
         <description value="Indicates the Coverage Type for an InsurancePlan."/>
         <expansion>
-          <identifier value="urn:uuid:31046d02-549f-497c-9d03-62e4f4df7abe"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:80156dcd-207d-4e12-96a3-e0903d9e24d7"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27750,7 +28391,7 @@
         <name value="InsurancePlanGeneralCostTypeVS"/>
         <title value="General Cost Type (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27769,8 +28410,8 @@
         </contact>
         <description value="Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:15d418e6-d20d-4c2f-bb99-b4940daf3f95"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:a4625643-fb0b-4587-a34a-56f66246699c"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27880,7 +28521,7 @@
         <name value="InsurancePlanPublicationStatusVS"/>
         <title value="Publication Status (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -27899,8 +28540,8 @@
         </contact>
         <description value="Indicates the Publication Status for an InsurancePlan."/>
         <expansion>
-          <identifier value="urn:uuid:407703cf-df97-4caa-af61-3d67243f6c9c"/>
-          <timestamp value="2021-10-05T10:20:33+00:00"/>
+          <identifier value="urn:uuid:780b194b-9920-4235-ab2c-08e8f0bae04d"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27999,10 +28640,10 @@
         <name value="LocationTypeVS"/>
         <title value="Location Type (Location)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1a2a0bee-a3dc-4387-8646-00c506605f17"/>
-          <timestamp value="2021-10-05T10:20:35.618Z"/>
+          <identifier value="urn:uuid:a5596e77-5b39-44c5-aec8-bea159f52a3d"/>
+          <timestamp value="2021-10-12T16:14:50.933Z"/>
           <parameter>
             <name value="expansion-source"/>
             <valueString value="ValueSet/location-type"/>
@@ -28104,7 +28745,7 @@
         <name value="MedicationItemTypeVS"/>
         <title value="Item Type (Medication)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28123,8 +28764,8 @@
         </contact>
         <description value="Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:5a363e8f-09da-4651-a28c-bccab0a82c5b"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:8428da34-cb2e-4c91-addf-6c3a71cff891"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28201,7 +28842,7 @@
         <name value="OpenIMISIdentifierVS"/>
         <title value="openIMIS Identifiers Value Set"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28220,8 +28861,8 @@
         </contact>
         <description value="Indicates the Identifier type"/>
         <expansion>
-          <identifier value="urn:uuid:457cc8c7-5b23-42bf-b2b8-17ba7ebd8db2"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:8f0f8460-2137-4400-b1b6-5267f52fe492"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28306,7 +28947,7 @@
         <name value="OrganizationHFLevelVS"/>
         <title value="Health Facility Level (Organization)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28325,8 +28966,8 @@
         </contact>
         <description value="Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:c8cfdea4-bf33-450c-be47-a6840079dbc5"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:94e2d3af-6435-47c4-8a51-e52471cfa830"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28424,7 +29065,7 @@
         <name value="OrganizationLegalFormVS"/>
         <title value="Legal Forms (Organization)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28443,8 +29084,8 @@
         </contact>
         <description value="Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:53bae4ce-d41b-46aa-94f8-251b51ca7233"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:048c5192-3874-4b1e-82eb-696e36a0690c"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28579,7 +29220,7 @@
         <name value="PatientContactRelationshipVS"/>
         <title value="Contact Relationship (Patient)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28598,8 +29239,8 @@
         </contact>
         <description value="Indicates the Relationship of a Patient with the Head of the Family."/>
         <expansion>
-          <identifier value="urn:uuid:ad48b24f-d06d-4c07-90f7-a3a5bd9741c7"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:c458f7b5-4315-4c13-a4da-6aafbff242ad"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28746,7 +29387,7 @@
         <name value="PatientEducationLevelVS"/>
         <title value="Education Level (Patient)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28765,8 +29406,8 @@
         </contact>
         <description value="Indicates the Education level of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:04d294e9-0cbe-427b-b8a1-65f77532372e"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:97756026-86e8-4e99-b12e-d59bf1038a38"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28884,7 +29525,7 @@
         <name value="PatientIdentificationTypesVS"/>
         <title value="Identification Types (Patient)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -28903,8 +29544,8 @@
         </contact>
         <description value="Indicates the type of document the Patient used to identify himself."/>
         <expansion>
-          <identifier value="urn:uuid:8bf7644c-40f4-4b4f-a997-6132861f70f4"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:73e1c486-e5f4-46e1-900b-7543dc4b2403"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -29015,7 +29656,7 @@
         <name value="PatientMaritalStatusVS"/>
         <title value="Marital Status (Patient)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -29034,8 +29675,8 @@
         </contact>
         <description value="Indicates the Marital status of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:b4bf052a-cf0b-4a93-85d2-26077514ca0d"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:ef971c9e-ceca-4fb2-ae21-6695b59dcf29"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -29143,7 +29784,7 @@
         <name value="PatientProfessionVS"/>
         <title value="Patient Profession Value Set"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -29162,8 +29803,8 @@
         </contact>
         <description value="Indicates the profession of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:b13fb6b9-2744-4761-89da-dd16798cf0a8"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:7cf286d1-a65b-4d45-9a1e-d8950491d46e"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -29250,7 +29891,7 @@
         <name value="PractitionerQualificationTypeVS"/>
         <title value="Practitioner Qualification Type"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -29269,8 +29910,8 @@
         </contact>
         <description value="Indicates the Qualification Type of a Practitioner."/>
         <expansion>
-          <identifier value="urn:uuid:2ecb02ac-e5f4-41cf-91fe-6e34f438d98b"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:da0f3bbf-070e-4de3-93ed-2296a183b7f6"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -29347,7 +29988,7 @@
         <name value="UsageContextAgeTypeVS"/>
         <title value="Usage Context for Age Type (ActivityDefinition|Medication)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -29366,8 +30007,8 @@
         </contact>
         <description value="Indicates the Usage Context for Age Type for an ActivityDefinition or Medication."/>
         <expansion>
-          <identifier value="urn:uuid:13d9c6a7-794c-46e7-85d8-f64530d7809e"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:5ac85048-2775-4a9f-8f6b-264589108d76"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -29444,7 +30085,7 @@
         <name value="UsageContextGenderTypeVS"/>
         <title value="Usage Context for Gender Type (ActivityDefinition|Medication)"/>
         <status value="active"/>
-        <date value="2021-10-05T10:19:44+00:00"/>
+        <date value="2021-10-12T16:14:04+00:00"/>
         <publisher value="Swiss TPH"/>
         <contact>
           <name value="Swiss TPH"/>
@@ -29463,8 +30104,8 @@
         </contact>
         <description value="Indicates the Usage Context for Gender Type for an ActivityDefinition or Medication."/>
         <expansion>
-          <identifier value="urn:uuid:5214ec11-4380-4200-8080-e1f91123b2bc"/>
-          <timestamp value="2021-10-05T10:20:34+00:00"/>
+          <identifier value="urn:uuid:27f65421-c84e-4001-8ccf-211ea153ab19"/>
+          <timestamp value="2021-10-12T16:14:48+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>

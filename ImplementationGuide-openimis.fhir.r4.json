@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-10-05T10:19:44+00:00",
+  "date": "2021-10-12T16:14:04+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -385,7 +385,7 @@
           "reference": "StructureDefinition/openimis-communication-request"
         },
         "name": "openIMIS CommunicationRequest",
-        "description": "Defines a CommunicationRequest for openIMIS which maps to the Claim Feedback in openIMIS.",
+        "description": "Defines a CommunicationRequest for openIMIS which maps to the Claim request for feedback in openIMIS.",
         "exampleBoolean": false
       },
       {
@@ -428,6 +428,20 @@
         },
         "name": "openIMIS CoverageEligibilityRequest",
         "description": "Defines a CoverageEligibilityRequest for openIMIS to enquire an Insuree.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-coverage-eligibility-response"
+        },
+        "name": "openIMIS CoverageEligibilityResponse",
+        "description": "Defines a CoverageEligibilityResponse for openIMIS to get the enquire information for an Insuree.",
         "exampleBoolean": false
       },
       {
@@ -1208,6 +1222,76 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/coverage-item-benefit-type-amount-left"
+        },
+        "name": "Type of benefit as amount left (Coverage)",
+        "description": "Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/coverage-item-benefit-type"
+        },
+        "name": "Type of benefit (Coverage)",
+        "description": "Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/coverage-item-benefit-type-total-left"
+        },
+        "name": "Type of benefit as total left (Coverage)",
+        "description": "Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/coverage-item-category-item-service"
+        },
+        "name": "Partial categories of the item (Coverage)",
+        "description": "Indicates the category for the item, only for medical items and services, under a Coverage. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/coverage-item-category"
+        },
+        "name": "Category of the item (Coverage)",
+        "description": "Indicates the category for the item under a Coverage. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/coverage-status"
         },
         "name": "Coverage Status (Coverage)",
@@ -1688,6 +1772,34 @@
         },
         "name": "Scope (Contract)",
         "description": "Indicates the scope for the Contract. Values defined by openIMIS. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/coverage-item-benefit-type"
+        },
+        "name": "Type of benefit (Coverage)",
+        "description": "Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/coverage-item-category"
+        },
+        "name": "Category of the item (Coverage)",
+        "description": "Indicates the category for the item under a Coverage. Values defined by openIMIS. Can not be extended.",
         "exampleBoolean": false
       },
       {

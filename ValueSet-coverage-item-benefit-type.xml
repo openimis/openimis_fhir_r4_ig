@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="coverage-item-benefit-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="CodeSystem-coverage-item-benefit-type.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-item_left">item_left</a></td><td>Items left</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-min_date_item">min_date_item</a></td><td>Mininum date</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type"/>
+  <version value="0.1.0"/>
+  <name value="CoverageItemBenefitTypeItemServiceVS"/>
+  <title value="Type of benefit (Coverage)"/>
+  <status value="active"/>
+  <date value="2021-10-12T16:14:04+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended."/>
+  <compose>
+    <include>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+      <concept>
+        <code value="item_left"/>
+        <display value="Items left"/>
+      </concept>
+      <concept>
+        <code value="min_date_item"/>
+        <display value="Mininum date"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

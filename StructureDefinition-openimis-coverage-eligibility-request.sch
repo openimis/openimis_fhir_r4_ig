@@ -13,6 +13,7 @@
     <sch:title>f:CoverageEligibilityRequest</sch:title>
     <sch:rule context="f:CoverageEligibilityRequest">
       <sch:assert test="count(f:priority) &lt;= 0">priority: maximum cardinality of 'priority' is 0</sch:assert>
+      <sch:assert test="count(f:purpose) &lt;= 1">purpose: maximum cardinality of 'purpose' is 1</sch:assert>
       <sch:assert test="count(f:serviced[x]) &lt;= 0">serviced[x]: maximum cardinality of 'serviced[x]' is 0</sch:assert>
       <sch:assert test="count(f:enterer) &lt;= 0">enterer: maximum cardinality of 'enterer' is 0</sch:assert>
       <sch:assert test="count(f:provider) &lt;= 0">provider: maximum cardinality of 'provider' is 0</sch:assert>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="coverage-item-benefit-type-amount-left"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="CodeSystem-coverage-item-benefit-type.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-consultation_amount">consultation_amount</a></td><td>consultation_amount</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-surgery_amount">surgery_amount</a></td><td>surgery_amount</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-delivery_amount">delivery_amount</a></td><td>delivery_amount</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-hospitalization_amount">hospitalization_amount</a></td><td>hospitalization_amount</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-antenatal_amount">antenatal_amount</a></td><td>antenatal_amount</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-hospital_deduction">hospital_deduction</a></td><td>hospital_deduction</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-non_hospital_deduction">non_hospital_deduction</a></td><td>non_hospital_deduction</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-hospital_ceiling">hospital_ceiling</a></td><td>hospital_ceiling</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-non_hospital_ceiling">non_hospital_ceiling</a></td><td>non_hospital_ceiling</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-amount-left"/>
+  <version value="0.1.0"/>
+  <name value="CoverageItemBenefitTypeAmountLeftVS"/>
+  <title value="Type of benefit as amount left (Coverage)"/>
+  <status value="active"/>
+  <date value="2021-10-12T16:14:04+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended."/>
+  <compose>
+    <include>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
+      <concept>
+        <code value="consultation_amount"/>
+        <display value="consultation_amount"/>
+      </concept>
+      <concept>
+        <code value="surgery_amount"/>
+        <display value="surgery_amount"/>
+      </concept>
+      <concept>
+        <code value="delivery_amount"/>
+        <display value="delivery_amount"/>
+      </concept>
+      <concept>
+        <code value="hospitalization_amount"/>
+        <display value="hospitalization_amount"/>
+      </concept>
+      <concept>
+        <code value="antenatal_amount"/>
+        <display value="antenatal_amount"/>
+      </concept>
+      <concept>
+        <code value="hospital_deduction"/>
+        <display value="hospital_deduction"/>
+      </concept>
+      <concept>
+        <code value="non_hospital_deduction"/>
+        <display value="non_hospital_deduction"/>
+      </concept>
+      <concept>
+        <code value="hospital_ceiling"/>
+        <display value="hospital_ceiling"/>
+      </concept>
+      <concept>
+        <code value="non_hospital_ceiling"/>
+        <display value="non_hospital_ceiling"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

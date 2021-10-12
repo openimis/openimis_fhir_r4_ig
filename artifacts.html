@@ -281,7 +281,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/openimis-communication-request">openIMIS CommunicationRequest</a>
                </td>
                <td>
-<p>Defines a CommunicationRequest for openIMIS which maps to the Claim Feedback in openIMIS.</p>
+<p>Defines a CommunicationRequest for openIMIS which maps to the Claim request for feedback in openIMIS.</p>
 </td>
             </tr>
             <tr>
@@ -309,6 +309,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Defines a CoverageEligibilityRequest for openIMIS to enquire an Insuree.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-openimis-coverage-eligibility-response.html"
+                     title="StructureDefinition/openimis-coverage-eligibility-response">openIMIS CoverageEligibilityResponse</a>
+               </td>
+               <td>
+<p>Defines a CoverageEligibilityResponse for openIMIS to get the enquire information for an Insuree.</p>
 </td>
             </tr>
             <tr>
@@ -831,6 +840,51 @@ Values limited by openIMIS.</p>
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-coverage-item-benefit-type-amount-left.html"
+                     title="ValueSet/coverage-item-benefit-type-amount-left">Type of benefit as amount left (Coverage)</a>
+               </td>
+               <td>
+<p>Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-coverage-item-benefit-type.html"
+                     title="ValueSet/coverage-item-benefit-type">Type of benefit (Coverage)</a>
+               </td>
+               <td>
+<p>Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-coverage-item-benefit-type-total-left.html"
+                     title="ValueSet/coverage-item-benefit-type-total-left">Type of benefit as total left (Coverage)</a>
+               </td>
+               <td>
+<p>Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-coverage-item-category-item-service.html"
+                     title="ValueSet/coverage-item-category-item-service">Partial categories of the item (Coverage)</a>
+               </td>
+               <td>
+<p>Indicates the category for the item, only for medical items and services, under a Coverage. Values defined by openIMIS. Can not be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-coverage-item-category.html"
+                     title="ValueSet/coverage-item-category">Category of the item (Coverage)</a>
+               </td>
+               <td>
+<p>Indicates the category for the item under a Coverage. Values defined by openIMIS. Can not be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-coverage-status.html" title="ValueSet/coverage-status">Coverage Status (Coverage)</a>
                </td>
                <td>
@@ -1149,6 +1203,24 @@ Values limited by openIMIS.</p>
                </td>
                <td>
 <p>Indicates the scope for the Contract. Values defined by openIMIS. Cannot be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-coverage-item-benefit-type.html"
+                     title="CodeSystem/coverage-item-benefit-type">Type of benefit (Coverage)</a>
+               </td>
+               <td>
+<p>Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-coverage-item-category.html"
+                     title="CodeSystem/coverage-item-category">Category of the item (Coverage)</a>
+               </td>
+               <td>
+<p>Indicates the category for the item under a Coverage. Values defined by openIMIS. Can not be extended.</p>
 </td>
             </tr>
             <tr>
@@ -1543,7 +1615,7 @@ Values limited by openIMIS.</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 5, 2021 10:19+0000">2021-10-05</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 12, 2021 16:14+0000">2021-10-12</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -105,6 +105,20 @@
     "name": "ContractScopeCS"
   },
   {
+    "id": "coverage-item-benefit-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type",
+    "version": "0.1.0",
+    "name": "CoverageItemBenefitTypeCS"
+  },
+  {
+    "id": "coverage-item-category",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category",
+    "version": "0.1.0",
+    "name": "CoverageItemCategoryCS"
+  },
+  {
     "id": "diagnosis-ICD10-level1",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/diagnosis-ICD10-level1",
@@ -434,6 +448,13 @@
     "name": "OpenIMISCoverageEligibilityRequest"
   },
   {
+    "id": "openimis-coverage-eligibility-response",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-response",
+    "version": "0.1.0",
+    "name": "OpenIMISCoverageEligibilityResponse"
+  },
+  {
     "id": "openimis-enrolment-officer-practitioner",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner",
@@ -684,6 +705,41 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-status-codes",
     "version": "0.1.0",
     "name": "ContractStatusCodesVS"
+  },
+  {
+    "id": "coverage-item-benefit-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type",
+    "version": "0.1.0",
+    "name": "CoverageItemBenefitTypeItemServiceVS"
+  },
+  {
+    "id": "coverage-item-benefit-type-amount-left",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-amount-left",
+    "version": "0.1.0",
+    "name": "CoverageItemBenefitTypeAmountLeftVS"
+  },
+  {
+    "id": "coverage-item-benefit-type-total-left",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-total-left",
+    "version": "0.1.0",
+    "name": "CoverageItemBenefitTypeTotalLeftVS"
+  },
+  {
+    "id": "coverage-item-category",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category",
+    "version": "0.1.0",
+    "name": "CoverageItemCategoryVS"
+  },
+  {
+    "id": "coverage-item-category-item-service",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category-item-service",
+    "version": "0.1.0",
+    "name": "CoverageItemCategoryItemServiceVS"
   },
   {
     "id": "coverage-status",

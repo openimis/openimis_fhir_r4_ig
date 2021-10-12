@@ -647,6 +647,12 @@
         "title": "openIMIS CoverageEligibilityRequest"
       }
     ],
+    "CoverageEligibilityResponse": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-response",
+        "title": "openIMIS CoverageEligibilityResponse"
+      }
+    ],
     "Group": [
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group",
@@ -708,6 +714,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
       "StructureDefinition.snapshot.element"
