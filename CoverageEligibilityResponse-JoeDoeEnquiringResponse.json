@@ -1,0 +1,188 @@
+{
+  "resourceType": "CoverageEligibilityResponse",
+  "id": "JoeDoeEnquiringResponse",
+  "meta": {
+    "profile": [
+      "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-response"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: UUID unique identifier: D30F70DF-D10B-43D4-9578-5137C118AD84</p><p><b>status</b>: active</p><p><b>purpose</b>: benefits</p><p><b>patient</b>: <a href=\"joe-doe\">joe-doe</a></p><p><b>created</b>: 2021-09-17</p><p><b>request</b>: <a href=\"CoverageEligibilityRequest-JoeDoeEnquiring.html\">Generated Summary: UUID unique identifier: D30F70DF-D10B-43D4-9578-5137C118AD84; status: active; purpose: benefits; created: 2021-09-17</a></p><p><b>outcome</b>: complete</p><p><b>insurer</b>: <a href=\"openIMIS\">openIMIS</a></p><blockquote><p><b>insurance</b></p><p><b>coverage</b>: <a href=\"Coverage-JoeDoeCoverage.html\">Generated Summary: UUID unique identifier: D30F70DF-D10B-43D4-BF31-5137C118AD84; status: active; period: 2021-07-01 --&gt; 2022-06-30</a></p><p><b>benefitPeriod</b>: 2021-07-01 --&gt; 2022-06-30</p><blockquote><p><b>item</b></p><p><b>category</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category benefit}\">Benefit Package</span></p><p><b>name</b>: RX01</p><p><b>description</b>: Regional fixed enrolment</p><blockquote><p><b>benefit</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type admissions_left}\">total_admissions</span></p><p><b>allowed</b>: 2</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type consultations_left}\">total_consultations</span></p><p><b>allowed</b>: 4</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type surgeries_left}\">total_surgeries</span></p><p><b>allowed</b>: 1</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type deliveries_left}\">total_deliveries</span></p><p><b>allowed</b>: 1</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type hospitalization_amount}\">hospitalization_amount</span></p><p><b>allowed</b>: </p></blockquote></blockquote></blockquote><p><b style=\"color: maroon\">Exception generating Narrative: type org.hl7.fhir.r5.model.Money not handled - should not be here</b></p></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
+            "code": "UUID"
+          }
+        ]
+      },
+      "value": "D30F70DF-D10B-43D4-9578-5137C118AD84"
+    }
+  ],
+  "status": "active",
+  "purpose": [
+    "benefits"
+  ],
+  "patient": {
+    "reference": "joe-doe"
+  },
+  "created": "2021-09-17",
+  "request": {
+    "reference": "CoverageEligibilityRequest/JoeDoeEnquiring"
+  },
+  "outcome": "complete",
+  "insurer": {
+    "reference": "openIMIS"
+  },
+  "insurance": [
+    {
+      "coverage": {
+        "reference": "Coverage/JoeDoeCoverage"
+      },
+      "benefitPeriod": {
+        "start": "2021-07-01",
+        "end": "2022-06-30"
+      },
+      "item": [
+        {
+          "category": {
+            "coding": [
+              {
+                "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category",
+                "code": "benefit",
+                "display": "Benefit Package"
+              }
+            ]
+          },
+          "name": "RX01",
+          "description": "Regional fixed enrolment",
+          "benefit": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type",
+                    "code": "admissions_left",
+                    "display": "total_admissions"
+                  }
+                ]
+              },
+              "allowedUnsignedInt": 2
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type",
+                    "code": "consultations_left",
+                    "display": "total_consultations"
+                  }
+                ]
+              },
+              "allowedUnsignedInt": 4
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type",
+                    "code": "surgeries_left",
+                    "display": "total_surgeries"
+                  }
+                ]
+              },
+              "allowedUnsignedInt": 1
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type",
+                    "code": "deliveries_left",
+                    "display": "total_deliveries"
+                  }
+                ]
+              },
+              "allowedUnsignedInt": 1
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type",
+                    "code": "hospitalization_amount",
+                    "display": "hospitalization_amount"
+                  }
+                ]
+              },
+              "allowedMoney": {
+                "value": 25000
+              }
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type",
+                    "code": "consultation_amount",
+                    "display": "consultation_amount"
+                  }
+                ]
+              },
+              "allowedMoney": {
+                "value": 15000
+              }
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type",
+                    "code": "surgery_amount",
+                    "display": "surgery_amount"
+                  }
+                ]
+              },
+              "allowedMoney": {
+                "value": 70000
+              }
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type",
+                    "code": "delivery_amount",
+                    "display": "delivery_amount"
+                  }
+                ]
+              },
+              "allowedMoney": {
+                "value": 15000
+              }
+            }
+          ]
+        },
+        {
+          "category": {
+            "coding": [
+              {
+                "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category",
+                "code": "service",
+                "display": "Service"
+              }
+            ]
+          },
+          "productOrService": {
+            "text": "A1"
+          },
+          "excluded": false
+        }
+      ]
+    }
+  ]
+}

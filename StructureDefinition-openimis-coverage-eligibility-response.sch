@@ -381,8 +381,6 @@
     <sch:rule context="f:CoverageEligibilityResponse/f:insurance/f:item">
       <sch:assert test="count(f:modifier) &lt;= 0">modifier: maximum cardinality of 'modifier' is 0</sch:assert>
       <sch:assert test="count(f:provider) &lt;= 0">provider: maximum cardinality of 'provider' is 0</sch:assert>
-      <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>
-      <sch:assert test="count(f:description) &gt;= 1">description: minimum cardinality of 'description' is 1</sch:assert>
       <sch:assert test="count(f:network) &lt;= 0">network: maximum cardinality of 'network' is 0</sch:assert>
       <sch:assert test="count(f:unit) &lt;= 0">unit: maximum cardinality of 'unit' is 0</sch:assert>
       <sch:assert test="count(f:term) &lt;= 0">term: maximum cardinality of 'term' is 0</sch:assert>
@@ -391,6 +389,8 @@
       <sch:assert test="count(f:authorizationUrl) &lt;= 0">authorizationUrl: maximum cardinality of 'authorizationUrl' is 0</sch:assert>
       <sch:assert test="count(f:productOrService) &lt;= 0">productOrService: maximum cardinality of 'productOrService' is 0</sch:assert>
       <sch:assert test="count(f:excluded) &lt;= 0">excluded: maximum cardinality of 'excluded' is 0</sch:assert>
+      <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>
+      <sch:assert test="count(f:description) &gt;= 1">description: minimum cardinality of 'description' is 1</sch:assert>
       <sch:assert test="count(f:productOrService) &gt;= 1">productOrService: minimum cardinality of 'productOrService' is 1</sch:assert>
       <sch:assert test="count(f:excluded) &gt;= 1">excluded: minimum cardinality of 'excluded' is 1</sch:assert>
       <sch:assert test="count(f:productOrService) &gt;= 1">productOrService: minimum cardinality of 'productOrService' is 1</sch:assert>
