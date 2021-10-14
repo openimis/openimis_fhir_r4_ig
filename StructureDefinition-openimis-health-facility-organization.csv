@@ -23,7 +23,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Organization.extension","legalForm","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form]]} {[]}
+"Organization.extension","legalForm","","",0,1,"","","","Extension {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form]]} {[]}
 ","Legal Form","Specifies the Organization's Legal Forms.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

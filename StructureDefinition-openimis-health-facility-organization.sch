@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Organization</sch:title>
     <sch:rule context="f:Organization">
-      <sch:assert test="count(f:extension[@url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form']) &lt;= 1">extension with URL = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form']) &lt;= 1">extension with URL = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level']) &lt;= 1">extension with URL = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:active) &lt;= 0">active: maximum cardinality of 'active' is 0</sch:assert>
       <sch:assert test="count(f:type) &gt;= 1">type: minimum cardinality of 'type' is 1</sch:assert>

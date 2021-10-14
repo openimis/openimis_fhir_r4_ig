@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="organization-ph-activity"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="organization-ph-activity-1"> </a></td><td>Retail</td></tr><tr><td style="white-space:nowrap">2<a name="organization-ph-activity-2"> </a></td><td>Industry</td></tr><tr><td style="white-space:nowrap">3<a name="organization-ph-activity-3"> </a></td><td>Building</td></tr><tr><td style="white-space:nowrap">4<a name="organization-ph-activity-4"> </a></td><td>Sailing</td></tr><tr><td style="white-space:nowrap">5<a name="organization-ph-activity-5"> </a></td><td>Services</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity"/>
+  <version value="0.1.0"/>
+  <name value="OrganizationPHActivityCS"/>
+  <title value="Activity (Organization)"/>
+  <status value="active"/>
+  <date value="2021-10-14T17:10:41+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the activity of the PolicyHolder Organization. Values defined by openIMIS. Can be extended."/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="1"/>
+    <display value="Retail"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Industry"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Building"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Sailing"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Services"/>
+  </concept>
+</CodeSystem>

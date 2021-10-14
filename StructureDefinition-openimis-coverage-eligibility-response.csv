@@ -757,7 +757,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
   <coding>
     <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category""/>
     <code value=""item_left""/>
-    <display value=""Service left""/>
+    <display value=""Items left""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Deductable, visits, co-pay, etc.","http://hl7.org/fhir/ValueSet/benefit-type","",,,,"CoverageEligibilityResponse.insurance.item.benefit.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="organization-ph-activity"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-organization-ph-activity.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity</code></a></li></ul></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-ph-activity"/>
+  <version value="0.1.0"/>
+  <name value="OrganizationPHActivityVS"/>
+  <title value="Activity (Organization)"/>
+  <status value="active"/>
+  <date value="2021-10-14T17:10:41+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the activity of the PolicyHolder Organization. Values defined by openIMIS. Can be extended."/>
+  <compose>
+    <include>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity"/>
+    </include>
+  </compose>
+</ValueSet>

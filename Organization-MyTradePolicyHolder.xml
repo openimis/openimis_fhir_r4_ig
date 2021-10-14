@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="MyTradePolicyHolder"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Legal Forms (Organization)</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form 1}">Personal Company</span></p><p><b>Activity (Organization)</b>: <span title="Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity 2}">Industry</span></p><p><b>identifier</b>: Unique code: 1234, UUID unique identifier: 4c87928a-cf9c-4f4b-aeeb-61041c84547f</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type bus}">Non-Healthcare Business or Corporation</span></p><p><b>name</b>: My Trade</p><p><b>telecom</b>: <a href="mailto:contact@mytrade.org">contact@mytrade.org</a>, ph: 0102030405, fax: 0102030450</p><p><b>address</b>: 54 Pasay Jamula Ultha </p><h3>Contacts</h3><table class="grid"><tr><td>-</td><td><b>Name</b></td></tr><tr><td>*</td><td>John Doe</td></tr></table></div>
+  </text>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form"/>
+        <code value="1"/>
+        <display value="Personal Company"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity"/>
+        <code value="2"/>
+        <display value="Industry"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="Code"/>
+      </coding>
+    </type>
+    <value value="1234"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
+        <code value="UUID"/>
+      </coding>
+    </type>
+    <value value="4c87928a-cf9c-4f4b-aeeb-61041c84547f"/>
+  </identifier>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+      <code value="bus"/>
+    </coding>
+  </type>
+  <name value="My Trade"/>
+  <telecom>
+    <system value="email"/>
+    <value value="contact@mytrade.org"/>
+  </telecom>
+  <telecom>
+    <system value="phone"/>
+    <value value="0102030405"/>
+  </telecom>
+  <telecom>
+    <system value="fax"/>
+    <value value="0102030450"/>
+  </telecom>
+  <address>
+    <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality">
+      <valueString value="Jamu"/>
+    </extension>
+    <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference">
+      <valueReference>
+        <reference value="Location/Jamula-village"/>
+      </valueReference>
+    </extension>
+    <line value="54 Pasay"/>
+    <city value="Jamula"/>
+    <district value="Rapta"/>
+    <state value="Ultha"/>
+  </address>
+  <contact>
+    <name>
+      <text value="John Doe"/>
+    </name>
+  </contact>
+</Organization>

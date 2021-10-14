@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-10-13T13:46:56+00:00",
+  "date": "2021-10-14T17:10:41+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -844,6 +844,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/organization-hf-legal-form"
+        },
+        "name": "Legal Forms (Organization)",
+        "description": "Indicates the legal forms of the Health Facility Organization. ",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/organization-hf-level"
         },
         "name": "Health Facility Level (Organization)",
@@ -858,10 +872,24 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/organization-legal-form"
+          "reference": "StructureDefinition/organization-ph-activity"
+        },
+        "name": "Activity (Organization)",
+        "description": "Indicates the activity of the PolicyHolder Organization. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/organization-ph-legal-form"
         },
         "name": "Legal Forms (Organization)",
-        "description": "Indicates the legal forms of the Organization. ",
+        "description": "Indicates the legal forms of the PolicyHolder Organization. ",
         "exampleBoolean": false
       },
       {
@@ -1474,6 +1502,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/organization-hf-legal-form"
+        },
+        "name": "Legal Forms (Organization)",
+        "description": "Indicates the legal forms of the Health Facility Organization. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/organization-hf-level"
         },
         "name": "Health Facility Level (Organization)",
@@ -1488,10 +1530,24 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/organization-legal-form"
+          "reference": "ValueSet/organization-ph-activity"
+        },
+        "name": "Activity (Organization)",
+        "description": "Indicates the activity of the PolicyHolder Organization. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/organization-ph-legal-form"
         },
         "name": "Legal Forms (Organization)",
-        "description": "Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended.",
+        "description": "Indicates the legal forms of the PolicyHolder Organization. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
       {
@@ -1950,6 +2006,20 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/organization-hf-legal-form"
+        },
+        "name": "Legal Forms (Organization)",
+        "description": "Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/organization-hf-level"
         },
         "name": "Health Facility Level (Organization)",
@@ -1964,10 +2034,24 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/organization-legal-form"
+          "reference": "CodeSystem/organization-ph-activity"
+        },
+        "name": "Activity (Organization)",
+        "description": "Indicates the activity of the PolicyHolder Organization. Values defined by openIMIS. Can be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/organization-ph-legal-form"
         },
         "name": "Legal Forms (Organization)",
-        "description": "Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended.",
+        "description": "Indicates the legal forms of the PolicyHolder Organization. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
       {
@@ -2248,6 +2332,20 @@
         "name": "JoeDoeEnquiringResponse",
         "description": "* Example of CoverageEligibilityResponse   ",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-response"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/MyTradePolicyHolder"
+        },
+        "name": "MyTradePolicyHolder",
+        "description": "Example of openIMIS PolicyHolder",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization"
       },
       {
         "extension": [

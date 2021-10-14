@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "ae93f1ee-fd97-423d-93f9-a948937a10e1",
+  "id" : "4a64ca93-0711-42b3-8ba6-840c3b2d303a",
   "meta" : {
-    "lastUpdated" : "2021-10-13T13:46:56.793+00:00"
+    "lastUpdated" : "2021-10-14T17:10:41.866+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "ActivityDefinitionServiceTypeVS",
       "title" : "Service Type (ActivityDefinition)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -38,8 +38,8 @@
       }],
       "description" : "Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:c4f93b98-aa26-4e3f-a82a-93bf95d3441c",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:00dbbd29-8559-41a9-901e-838b93527ede",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -76,7 +76,7 @@
       "name" : "ActivityDefinitionUsageContextTypeVS",
       "title" : "Usage Context Type (ActivityDefinition)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -95,8 +95,8 @@
       }],
       "description" : "Indicates the Usage Context Type for an ActivityDefinition.",
       "expansion" : {
-        "identifier" : "urn:uuid:9ed7372f-2dc9-4d72-9b92-6a364a7d9fc7",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:6186fe25-8ee9-48be-943a-9fd264b02bc6",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -143,7 +143,7 @@
       "name" : "ActivityDefinitionUsageContextVenueTypeVS",
       "title" : "Usage Context for Venue Type (ActivityDefinition)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -162,8 +162,8 @@
       }],
       "description" : "Indicates the Usage Context for Venue Type for an ActivityDefinition.",
       "expansion" : {
-        "identifier" : "urn:uuid:e1b83cf9-452d-433c-8bb2-a48c63aee879",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:3123e1fd-06ec-498f-8230-a11e8947f86a",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -200,7 +200,7 @@
       "name" : "ActivityDefinitionUsageContextWorkflowTypeVS",
       "title" : "Usage Context for Workflow Type (ActivityDefinition)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -219,8 +219,8 @@
       }],
       "description" : "Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:55715cf9-a537-4b5c-9774-51e4cc5e2a5a",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:70520764-abe3-4830-9d24-2c3ae2087d2a",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -272,7 +272,7 @@
       "name" : "ClaimItemCategoryVS",
       "title" : "Category of the item (Claim)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -291,8 +291,8 @@
       }],
       "description" : "Indicates the category for the item under a Claim. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:a28daccf-9070-42fb-9fb9-70e0c1a0ceee",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:f0f1d723-e107-4d2a-8b39-02ea70edea13",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -329,7 +329,7 @@
       "name" : "ClaimRejectionReasonsVS",
       "title" : "Rejection reasons (Claim)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -348,8 +348,8 @@
       }],
       "description" : "Indicates the rejection reason of an item from a Claim. \nValues limited by openIMIS.",
       "expansion" : {
-        "identifier" : "urn:uuid:d8ef44f6-ab08-42b9-b0f1-05452e5c9dec",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:33cbdce4-1eaf-4e84-82a8-1f1ac77612e4",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 20,
         "parameter" : [{
           "name" : "excludeNested",
@@ -476,7 +476,7 @@
       "name" : "ClaimStatusVS",
       "title" : "Status of the claim (Claim|ClaimResponse)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -495,8 +495,8 @@
       }],
       "description" : "Indicates the status of the Claim. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:1500ec4e-d9fe-43c4-ae86-735fd45d6f30",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:c3ac0906-37a6-4fa9-8346-37f32fadf378",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -548,7 +548,7 @@
       "name" : "ClaimSupportingInfoCategoryVS",
       "title" : "Category of the supporting info (Claim)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -567,8 +567,8 @@
       }],
       "description" : "Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:0e88bdf8-7490-46a3-858e-8361985dc57e",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:4f0d8fcc-5d3e-4e5d-8b8b-fcd44a0efe51",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -615,7 +615,7 @@
       "name" : "ClaimVisitTypeVS",
       "title" : "Visit Type Codes (Claim)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -634,8 +634,8 @@
       }],
       "description" : "Indicates the visit type of the Claim. \nValues limited by openIMIS.",
       "expansion" : {
-        "identifier" : "urn:uuid:2c6ee4b7-cdca-4a74-8273-8c1dba6f34b4",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:2f5ae45f-6ea9-4c4a-a53f-881f5b34fd82",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -677,7 +677,7 @@
       "name" : "CommunicationRequestStatusVS",
       "title" : "Claim Feedback Status (CommunicationRequest)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -696,8 +696,8 @@
       }],
       "description" : "Indicates the status of a feedback (Claim).",
       "expansion" : {
-        "identifier" : "urn:uuid:51944399-5ad9-48d2-b56d-1da93a34380b",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:56145918-f5fe-4522-af5f-a721b612a9f4",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -739,7 +739,7 @@
       "name" : "ContractPremiumCategoryVS",
       "title" : "Premium Category (Contract)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -758,8 +758,8 @@
       }],
       "description" : "Indicates the category of the premium for the Contract. Cannot be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:1be62174-fee8-4608-88e8-8ac172574254",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:ec7a12e9-132e-4e25-bbe1-eb09e24a1934",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -796,7 +796,7 @@
       "name" : "ContractPremiumPayerVS",
       "title" : "Premium Payer (Contract)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -815,8 +815,8 @@
       }],
       "description" : "Indicates the payer of the premium for the Contract. Can be extended in openIMIS. Need to match openIMIS database payer list.",
       "expansion" : {
-        "identifier" : "urn:uuid:88ce669d-0c99-47a8-8580-839b6b2480e1",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:21b8b333-a4b7-4e04-a2d3-b1187c8997d2",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -848,7 +848,7 @@
       "name" : "ContractPremiumTypeVS",
       "title" : "Premium Type (Contract)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -867,8 +867,8 @@
       }],
       "description" : "Indicates the type of the premium for the Contract. Cannot be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:79a021a5-4e6f-4aa1-9a22-163b3e476080",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:8b6b8282-bc74-4493-b53f-eb912ea6d36d",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -910,7 +910,7 @@
       "name" : "ContractResourcePartyRoleVS",
       "title" : "Resource Party Role (Contract)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -929,8 +929,8 @@
       }],
       "description" : "Indicates the participant engagement type for the Contract term.",
       "expansion" : {
-        "identifier" : "urn:uuid:56cbaa1e-f4dd-471f-8f28-44e1b0df67d0",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:f8008951-1b69-4d4c-ba27-e61be5916051",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -962,7 +962,7 @@
       "name" : "ContractScopeVS",
       "title" : "Scope (Contract)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -981,8 +981,8 @@
       }],
       "description" : "Indicates the scope for the Contract. Values defined by openIMIS. Cannot be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:108855de-157f-480d-b4c1-70408c22e006",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:bd670998-30bf-4dfd-83fd-42d818929082",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1019,7 +1019,7 @@
       "name" : "ContractStatusCodesVS",
       "title" : "Status Codes (Contract)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -1038,8 +1038,8 @@
       }],
       "description" : "Indicates the status of the Contract. Values limited by openIMIS.",
       "expansion" : {
-        "identifier" : "urn:uuid:6ff75217-c130-47a3-be42-ab7c031cb98c",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:9b7e853d-2101-42ab-9c06-1aff3e4f513a",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1076,7 +1076,7 @@
       "name" : "CoverageItemBenefitTypeAmountLeftVS",
       "title" : "Type of benefit as amount left (Coverage)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -1095,8 +1095,8 @@
       }],
       "description" : "Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:babb1bcf-5ab4-480a-b545-3748df0b91c4",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:8791861b-ea0c-4116-8c73-853c73cc83f4",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1168,7 +1168,7 @@
       "name" : "CoverageItemBenefitTypeItemServiceVS",
       "title" : "Type of benefit (Coverage)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -1187,8 +1187,8 @@
       }],
       "description" : "Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:59c30435-4680-43e2-875b-59eb3b2cb399",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:7aae9eb2-40d0-4a4c-bec2-cc36891cafe9",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1225,7 +1225,7 @@
       "name" : "CoverageItemBenefitTypeTotalLeftVS",
       "title" : "Type of benefit as total left (Coverage)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -1244,8 +1244,8 @@
       }],
       "description" : "Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:ec658087-171a-485c-8a3f-feef2db6cc89",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:99ff38b0-47c3-45e0-9778-bede97739289",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1302,7 +1302,7 @@
       "name" : "CoverageItemCategoryItemServiceVS",
       "title" : "Partial categories of the item (Coverage)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -1321,8 +1321,8 @@
       }],
       "description" : "Indicates the category for the item, only for medical items and services, under a Coverage. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:6e3cea5d-4da7-4098-817f-add9ca88e5b0",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:fb77bd38-6d29-47b9-bc36-c2eb55ce2c6f",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1359,7 +1359,7 @@
       "name" : "CoverageItemCategoryVS",
       "title" : "Category of the item (Coverage)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -1378,8 +1378,8 @@
       }],
       "description" : "Indicates the category for the item under a Coverage. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:540cc4e2-9d25-440e-ad8d-4f000ecae56b",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:b88c2928-418f-4ed0-96af-c2080ed57fba",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1421,7 +1421,7 @@
       "name" : "CoverageStatusVS",
       "title" : "Coverage Status (Coverage)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -1440,8 +1440,8 @@
       }],
       "description" : "Indicates the status of a Coverage (Policy).",
       "expansion" : {
-        "identifier" : "urn:uuid:b1ba6b39-ccf4-4628-b8d0-68ec0083cb8f",
-        "timestamp" : "2021-10-13T13:47:44+00:00",
+        "identifier" : "urn:uuid:c5052df7-7d1c-4ee7-b34e-2edccbb81900",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1483,7 +1483,7 @@
       "name" : "DiagnosisICD10Level1VS",
       "title" : "ICD 10 Level 1 diagnosis",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -1502,8 +1502,8 @@
       }],
       "description" : "Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS.",
       "expansion" : {
-        "identifier" : "urn:uuid:10103166-08bb-4e9b-a066-14f96d46ab95",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:d3d8b41e-cc19-47b3-a9f5-47ffb3112475",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 1910,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11080,7 +11080,7 @@
       "name" : "FeedbackPayloadVS",
       "title" : "Feedback Payload (CommunicationRequest | Communication)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11099,8 +11099,8 @@
       }],
       "description" : "Indicates the Feedback Payload code for a CommunicationRequest and Communication. List defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:ab20e403-e90f-4b8c-8eaf-d474b2db5d26",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:18728e23-c81c-4e39-901e-9334012d760b",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11152,7 +11152,7 @@
       "name" : "FeedbackStatusVS",
       "title" : "Feedback Status (CommunicationRequest)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11171,8 +11171,8 @@
       }],
       "description" : "Indicates the Feedback Status for a CommunicationRequest. Partial list defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:8d69546d-5cb0-4ed6-a602-c9402bb0b41f",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:722ed114-1835-4c0d-98fd-5a771fd8feb8",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11214,7 +11214,7 @@
       "name" : "GroupConfirmationTypeVS",
       "title" : "Confirmation Types (Group)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11233,8 +11233,8 @@
       }],
       "description" : "Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:d928d321-fccc-4b40-aebb-566ffae5549f",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:fe21ec5b-eda3-424d-8740-dbdf449dc53a",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11281,7 +11281,7 @@
       "name" : "GroupTypesVS",
       "title" : "Group Types (Group)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11300,8 +11300,8 @@
       }],
       "description" : "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:9ad180dc-b3f3-4927-b215-076f8a10d4ef",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:7bf3d70c-c434-40c2-9b63-19a9adf3027a",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11363,7 +11363,7 @@
       "name" : "InsurancePlanCoverageBenefitLimitVS",
       "title" : "Coverage Benefit Limit Types (InsurancePlan)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11382,8 +11382,8 @@
       }],
       "description" : "Indicates the Coverage Benefit Limit Types for an InsurancePlan. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:6735d41d-5559-4f0f-8c77-de1b38f4a517",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:692160ef-93aa-4589-8943-de0982558349",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11420,7 +11420,7 @@
       "name" : "InsurancePlanCoverageTypeVS",
       "title" : "Coverage Type (InsurancePlan)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11439,8 +11439,8 @@
       }],
       "description" : "Indicates the Coverage Type for an InsurancePlan.",
       "expansion" : {
-        "identifier" : "urn:uuid:fbdddb19-bc64-46c5-9cfe-b4afdfd58540",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:ca2f108e-fef5-44ae-b781-ef443f98f1ae",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11472,7 +11472,7 @@
       "name" : "InsurancePlanGeneralCostTypeVS",
       "title" : "General Cost Type (InsurancePlan)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11491,8 +11491,8 @@
       }],
       "description" : "Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:d4746d2c-24ec-470f-82a4-9bfe72089246",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:ad3259a0-0ebd-4de2-8fff-a0853a2440e9",
+        "timestamp" : "2021-10-14T17:11:37+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11554,7 +11554,7 @@
       "name" : "InsurancePlanPublicationStatusVS",
       "title" : "Publication Status (InsurancePlan)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11573,8 +11573,8 @@
       }],
       "description" : "Indicates the Publication Status for an InsurancePlan.",
       "expansion" : {
-        "identifier" : "urn:uuid:cc93b9b5-5dbf-4716-a434-0a160150445e",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:a0e027c2-4f43-4f4f-8060-f7bffbb80ee0",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11617,10 +11617,10 @@
       "name" : "LocationTypeVS",
       "title" : "Location Type (Location)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8bab19c1-7292-456d-b50c-1435b28d45c5",
-        "timestamp" : "2021-10-13T13:47:48.269Z",
+        "identifier" : "urn:uuid:356cd4cd-0a6e-4f41-a6a4-c49d472addb9",
+        "timestamp" : "2021-10-14T17:11:38.508Z",
         "parameter" : [{
           "name" : "expansion-source",
           "valueString" : "ValueSet/location-type"
@@ -11686,7 +11686,7 @@
       "name" : "MedicationItemTypeVS",
       "title" : "Item Type (Medication)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11705,8 +11705,8 @@
       }],
       "description" : "Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:76b916e4-6e8c-4782-9042-d7da5bd11f34",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:530a1298-e2fe-44f5-9a3d-31702db373d6",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11743,7 +11743,7 @@
       "name" : "OpenIMISIdentifierVS",
       "title" : "openIMIS Identifiers Value Set",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11762,8 +11762,8 @@
       }],
       "description" : "Indicates the Identifier type",
       "expansion" : {
-        "identifier" : "urn:uuid:32cdafa5-ed8d-4c2c-8313-78fb82de0479",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:37bd7533-f0e3-4ee0-ac39-a5f13b30a1f9",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11787,6 +11787,73 @@
     }
   },
   {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-legal-form",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "organization-hf-legal-form",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-organization-hf-legal-form.html\">Legal Forms (Organization) v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-organization-hf-legal-form.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-hf-legal-form-C\"> </a><a href=\"CodeSystem-organization-hf-legal-form.html#organization-hf-legal-form-C\">C</a></td><td>Charity</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-hf-legal-form-D\"> </a><a href=\"CodeSystem-organization-hf-legal-form.html#organization-hf-legal-form-D\">D</a></td><td>District organization</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-hf-legal-form-G\"> </a><a href=\"CodeSystem-organization-hf-legal-form.html#organization-hf-legal-form-G\">G</a></td><td>Government</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-hf-legal-form-P\"> </a><a href=\"CodeSystem-organization-hf-legal-form.html#organization-hf-legal-form-P\">P</a></td><td>Private organization</td><td/></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-legal-form",
+      "version" : "0.1.0",
+      "name" : "OrganizationHFLegalFormVS",
+      "title" : "Legal Forms (Organization)",
+      "status" : "active",
+      "date" : "2021-10-14T17:10:41+00:00",
+      "publisher" : "Swiss TPH",
+      "contact" : [{
+        "name" : "Swiss TPH",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the legal forms of the Health Facility Organization. Values defined by openIMIS. Can be extended.",
+      "expansion" : {
+        "identifier" : "urn:uuid:c5f965e9-90b5-412f-86ef-6f3566ddbc87",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form",
+          "code" : "C",
+          "display" : "Charity"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form",
+          "code" : "D",
+          "display" : "District organization"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form",
+          "code" : "G",
+          "display" : "Government"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form",
+          "code" : "P",
+          "display" : "Private organization"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-level",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -11800,7 +11867,7 @@
       "name" : "OrganizationHFLevelVS",
       "title" : "Health Facility Level (Organization)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11819,8 +11886,8 @@
       }],
       "description" : "Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:4efef195-29ad-4880-96d3-f6cd27d06cc7",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:7b4c9d2a-7488-4ad3-be10-515fec922339",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11849,20 +11916,20 @@
     }
   },
   {
-    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-legal-form",
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-ph-activity",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "organization-legal-form",
+      "id" : "organization-ph-activity",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-organization-legal-form.html\">Legal Forms (Organization) v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-organization-legal-form.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-legal-form-C\"> </a><a href=\"CodeSystem-organization-legal-form.html#organization-legal-form-C\">C</a></td><td>Charity</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-legal-form-D\"> </a><a href=\"CodeSystem-organization-legal-form.html#organization-legal-form-D\">D</a></td><td>District organization</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-legal-form-G\"> </a><a href=\"CodeSystem-organization-legal-form.html#organization-legal-form-G\">G</a></td><td>Government</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-legal-form-P\"> </a><a href=\"CodeSystem-organization-legal-form.html#organization-legal-form-P\">P</a></td><td>Private organization</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-organization-ph-activity.html\">Activity (Organization) v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-organization-ph-activity.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-ph-activity-1\"> </a><a href=\"CodeSystem-organization-ph-activity.html#organization-ph-activity-1\">1</a></td><td>Retail</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-ph-activity-2\"> </a><a href=\"CodeSystem-organization-ph-activity.html#organization-ph-activity-2\">2</a></td><td>Industry</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-ph-activity-3\"> </a><a href=\"CodeSystem-organization-ph-activity.html#organization-ph-activity-3\">3</a></td><td>Building</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-ph-activity-4\"> </a><a href=\"CodeSystem-organization-ph-activity.html#organization-ph-activity-4\">4</a></td><td>Sailing</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-ph-activity-5\"> </a><a href=\"CodeSystem-organization-ph-activity.html#organization-ph-activity-5\">5</a></td><td>Services</td><td/></tr></table></div>"
       },
-      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-legal-form",
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-ph-activity",
       "version" : "0.1.0",
-      "name" : "OrganizationLegalFormVS",
-      "title" : "Legal Forms (Organization)",
+      "name" : "OrganizationPHActivityVS",
+      "title" : "Activity (Organization)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11879,38 +11946,115 @@
           "use" : "work"
         }]
       }],
-      "description" : "Indicates the legal forms of the Organization. Values defined by openIMIS. Can be extended.",
+      "description" : "Indicates the activity of the PolicyHolder Organization. Values defined by openIMIS. Can be extended.",
       "expansion" : {
-        "identifier" : "urn:uuid:aabff129-9206-4cb9-9bba-c31ed1a2e8b7",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
-        "total" : 4,
+        "identifier" : "urn:uuid:944c4973-e840-48dc-87d6-97479fa03969",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
+        "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
         },
         {
           "name" : "version",
-          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form|0.1.0"
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity|0.1.0"
         }],
         "contains" : [{
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form",
-          "code" : "C",
-          "display" : "Charity"
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity",
+          "code" : "1",
+          "display" : "Retail"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form",
-          "code" : "D",
-          "display" : "District organization"
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity",
+          "code" : "2",
+          "display" : "Industry"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form",
-          "code" : "G",
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity",
+          "code" : "3",
+          "display" : "Building"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity",
+          "code" : "4",
+          "display" : "Sailing"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity",
+          "code" : "5",
+          "display" : "Services"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-ph-legal-form",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "organization-ph-legal-form",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-organization-ph-legal-form.html\">Legal Forms (Organization) v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-organization-ph-legal-form.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-ph-legal-form-1\"> </a><a href=\"CodeSystem-organization-ph-legal-form.html#organization-ph-legal-form-1\">1</a></td><td>Personal Company</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-ph-legal-form-2\"> </a><a href=\"CodeSystem-organization-ph-legal-form.html#organization-ph-legal-form-2\">2</a></td><td>Limited Risk Company</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-ph-legal-form-3\"> </a><a href=\"CodeSystem-organization-ph-legal-form.html#organization-ph-legal-form-3\">3</a></td><td>Association</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-ph-legal-form-4\"> </a><a href=\"CodeSystem-organization-ph-legal-form.html#organization-ph-legal-form-4\">4</a></td><td>Government</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openimis.github.io-openimis-fhir-r4-ig-CodeSystem-organization-ph-legal-form-5\"> </a><a href=\"CodeSystem-organization-ph-legal-form.html#organization-ph-legal-form-5\">5</a></td><td>Union</td><td/></tr></table></div>"
+      },
+      "url" : "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-ph-legal-form",
+      "version" : "0.1.0",
+      "name" : "OrganizationPHLegalFormVS",
+      "title" : "Legal Forms (Organization)",
+      "status" : "active",
+      "date" : "2021-10-14T17:10:41+00:00",
+      "publisher" : "Swiss TPH",
+      "contact" : [{
+        "name" : "Swiss TPH",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.swisstph.ch/en/"
+        }]
+      },
+      {
+        "name" : "Dragos Dobre",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "dragos.dobre@swisstph.ch",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Indicates the legal forms of the PolicyHolder Organization. Values defined by openIMIS. Can be extended.",
+      "expansion" : {
+        "identifier" : "urn:uuid:cbe5627a-7a16-4c09-a523-0489edfd1e6a",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form",
+          "code" : "1",
+          "display" : "Personal Company"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form",
+          "code" : "2",
+          "display" : "Limited Risk Company"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form",
+          "code" : "3",
+          "display" : "Association"
+        },
+        {
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form",
+          "code" : "4",
           "display" : "Government"
         },
         {
-          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form",
-          "code" : "P",
-          "display" : "Private organization"
+          "system" : "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form",
+          "code" : "5",
+          "display" : "Union"
         }]
       }
     }
@@ -11929,7 +12073,7 @@
       "name" : "PatientContactRelationshipVS",
       "title" : "Contact Relationship (Patient)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -11948,8 +12092,8 @@
       }],
       "description" : "Indicates the Relationship of a Patient with the Head of the Family.",
       "expansion" : {
-        "identifier" : "urn:uuid:feec9d53-0a6d-4694-b2ef-3a8b035b26b5",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:326fcd44-6367-4fe4-9138-9729862fdb13",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -12016,7 +12160,7 @@
       "name" : "PatientEducationLevelVS",
       "title" : "Education Level (Patient)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -12035,8 +12179,8 @@
       }],
       "description" : "Indicates the Education level of a Patient",
       "expansion" : {
-        "identifier" : "urn:uuid:f9a4cc4e-9088-424a-8cd5-8cc65c4cbfa5",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:cef2f87f-953f-491e-853b-e2ceffb2eaec",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -12098,7 +12242,7 @@
       "name" : "PatientIdentificationTypesVS",
       "title" : "Identification Types (Patient)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -12117,8 +12261,8 @@
       }],
       "description" : "Indicates the type of document the Patient used to identify himself.",
       "expansion" : {
-        "identifier" : "urn:uuid:58d8f35e-fe74-46f5-bd51-ab04d8037819",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:84cb4826-72aa-4c77-a965-62a723fb346e",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -12165,7 +12309,7 @@
       "name" : "PatientMaritalStatusVS",
       "title" : "Marital Status (Patient)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -12184,8 +12328,8 @@
       }],
       "description" : "Indicates the Marital status of a Patient",
       "expansion" : {
-        "identifier" : "urn:uuid:2664d0b3-8697-4f07-8f22-391aa33d9c74",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:f9ab68b1-447b-4d35-941f-74f21ef5ea69",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -12237,7 +12381,7 @@
       "name" : "PatientProfessionVS",
       "title" : "Patient Profession Value Set",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -12256,8 +12400,8 @@
       }],
       "description" : "Indicates the profession of a Patient",
       "expansion" : {
-        "identifier" : "urn:uuid:0128767f-2dce-41be-ac2a-d12fd0915001",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:9c5375d2-ca5c-4b6e-a99a-00d18f65526d",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -12304,7 +12448,7 @@
       "name" : "PractitionerQualificationTypeVS",
       "title" : "Practitioner Qualification Type",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -12323,8 +12467,8 @@
       }],
       "description" : "Indicates the Qualification Type of a Practitioner.",
       "expansion" : {
-        "identifier" : "urn:uuid:d56e8877-33e0-4407-b1e4-d9e4dcb8170b",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:5ab792f0-0a4b-46e5-bb4f-63468a4fe11c",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -12361,7 +12505,7 @@
       "name" : "UsageContextAgeTypeVS",
       "title" : "Usage Context for Age Type (ActivityDefinition|Medication)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -12380,8 +12524,8 @@
       }],
       "description" : "Indicates the Usage Context for Age Type for an ActivityDefinition or Medication.",
       "expansion" : {
-        "identifier" : "urn:uuid:3da87709-84fb-4ea3-8941-59061ef20e3e",
-        "timestamp" : "2021-10-13T13:47:45+00:00",
+        "identifier" : "urn:uuid:9c5906b0-7e99-4352-8e38-99fe37b43bbd",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -12418,7 +12562,7 @@
       "name" : "UsageContextGenderTypeVS",
       "title" : "Usage Context for Gender Type (ActivityDefinition|Medication)",
       "status" : "active",
-      "date" : "2021-10-13T13:46:56+00:00",
+      "date" : "2021-10-14T17:10:41+00:00",
       "publisher" : "Swiss TPH",
       "contact" : [{
         "name" : "Swiss TPH",
@@ -12437,8 +12581,8 @@
       }],
       "description" : "Indicates the Usage Context for Gender Type for an ActivityDefinition or Medication.",
       "expansion" : {
-        "identifier" : "urn:uuid:d07d2d90-475e-4001-b851-c6556bb09266",
-        "timestamp" : "2021-10-13T13:47:46+00:00",
+        "identifier" : "urn:uuid:78e91796-31fe-4621-9168-000671055e6f",
+        "timestamp" : "2021-10-14T17:11:38+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",

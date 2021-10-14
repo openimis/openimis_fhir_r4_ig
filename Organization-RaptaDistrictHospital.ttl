@@ -17,15 +17,15 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Legal Forms (Organization)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form D}\">District organization</span></p><p><b>identifier</b>: Unique code: RAHOS001, UUID unique identifier: D8A25F21-F36A-4D4D-9E58-1DB8FFBE7036</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}\">Healthcare Provider</span></p><p><b>name</b>: Rapta District Hospital</p><p><b>address</b>: Ultha </p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Legal Forms (Organization)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form D}\">District organization</span></p><p><b>identifier</b>: Unique code: RAHOS001, UUID unique identifier: D8A25F21-F36A-4D4D-9E58-1DB8FFBE7036</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}\">Healthcare Provider</span></p><p><b>name</b>: Rapta District Hospital</p><p><b>address</b>: Ultha </p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
-     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form" ];
+     fhir:Extension.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form" ];
      fhir:Extension.valueCodeableConcept [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form" ];
+         fhir:Coding.system [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form" ];
          fhir:Coding.code [ fhir:value "D" ];
          fhir:Coding.display [ fhir:value "District organization" ]
        ]

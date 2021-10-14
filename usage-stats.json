@@ -448,6 +448,14 @@
       ]
     },
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form",
+      "title": "Legal Forms (Organization)",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level",
       "title": "Health Facility Level (Organization)",
       "types": [
@@ -456,7 +464,15 @@
       ]
     },
     {
-      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form",
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity",
+      "title": "Activity (Organization)",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form",
       "title": "Legal Forms (Organization)",
       "types": [
         "CodeableConcept",
@@ -745,6 +761,7 @@
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality": [
       "Extension.value[x]",
+      "Organization.address",
       "Patient.address"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/claim-item-reference": [
@@ -797,10 +814,16 @@
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context": [
       "Medication"
     ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form": [
+      "Organization"
+    ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level": [
       "Organization"
     ],
-    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form": [
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity": [
+      "Organization"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form": [
       "Organization"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-card-issued": [

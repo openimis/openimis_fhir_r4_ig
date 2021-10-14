@@ -1,9 +1,9 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 191, warn = 28, info = 18
+err = 193, warn = 28, info = 18
 IG Publisher Version: 1.1.82
-Generated Wed Oct 13 13:48:34 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Thu Oct 14 17:12:35 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
  Build Errors : 27 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
@@ -33,8 +33,10 @@ Generated Wed Oct 13 13:48:34 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/CodeSystem-location-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-medication-item-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-openimis-identifiers : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-organization-hf-legal-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-organization-hf-level : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-organization-legal-form : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-organization-ph-activity : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-organization-ph-legal-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-patient-contact-relationship : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-patient-education-level : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-patient-identification-types : 1 / 0 / 1
@@ -48,7 +50,7 @@ Generated Wed Oct 13 13:48:34 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/CoverageEligibilityRequest-JoeDoeEnquiring : 5 / 0 / 1
  /github/workspace/fsh-generated/resources/CoverageEligibilityResponse-JoeDoeEnquiringResponse : 9 / 0 / 2
  /github/workspace/fsh-generated/resources/Group-doe-family : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 12 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 13 / 1
  /github/workspace/fsh-generated/resources/InsurancePlan-RX01 : 52 / 0 / 4
  /github/workspace/fsh-generated/resources/InsurancePlan-RX02 : 51 / 0 / 4
  /github/workspace/fsh-generated/resources/Location-Jamu-municipality : 0 / 0 / 1
@@ -56,6 +58,7 @@ Generated Wed Oct 13 13:48:34 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/Location-Jimara-district : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Location-Upper-River-Region : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Medication-AspirinMedication : 5 / 1 / 1
+ /github/workspace/fsh-generated/resources/Organization-MyTradePolicyHolder : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/Organization-RaptaDistrictHospital : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-jane-doe : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-john-doe : 0 / 0 / 1
@@ -99,9 +102,11 @@ Generated Wed Oct 13 13:48:34 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-location : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-medication : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-openimis-policy-holder-organization : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-policy-holder-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-organization-hf-legal-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-organization-hf-level : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-organization-legal-form : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-organization-ph-activity : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-organization-ph-legal-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-card-issued : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-education-level : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-group-reference : 0 / 0 / 1
@@ -145,8 +150,10 @@ Generated Wed Oct 13 13:48:34 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ValueSet-location-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-medication-item-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-organization-hf-legal-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-organization-hf-level : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-organization-legal-form : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-organization-ph-activity : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-organization-ph-legal-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-patient-contact-relationship : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-patient-education-level : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-patient-identification-types : 0 / 0 / 1
@@ -225,8 +232,10 @@ ERROR: ClaimResponse/Claim001: ClaimResponse.insurer: Unable to resolve resource
 == fsh-generated/resources/CodeSystem-location-type.json ==
 == fsh-generated/resources/CodeSystem-medication-item-type.json ==
 == fsh-generated/resources/CodeSystem-openimis-identifiers.json ==
+== fsh-generated/resources/CodeSystem-organization-hf-legal-form.json ==
 == fsh-generated/resources/CodeSystem-organization-hf-level.json ==
-== fsh-generated/resources/CodeSystem-organization-legal-form.json ==
+== fsh-generated/resources/CodeSystem-organization-ph-activity.json ==
+== fsh-generated/resources/CodeSystem-organization-ph-legal-form.json ==
 == fsh-generated/resources/CodeSystem-patient-contact-relationship.json ==
 == fsh-generated/resources/CodeSystem-patient-education-level.json ==
 == fsh-generated/resources/CodeSystem-patient-identification-types.json ==
@@ -298,14 +307,15 @@ WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name 
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[7].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[24].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[26].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[40].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[127].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[128].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[129].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[39].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[42].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[133].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[137].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[138].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[134].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[135].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[139].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[143].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[144].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[145].description: value should not start or finish with whitespace
 == fsh-generated/resources/InsurancePlan-RX01.json ==
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[5]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[6]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
@@ -429,8 +439,11 @@ ERROR: Medication/AspirinMedication: Medication: The extension https://openimis.
 ERROR: Medication/AspirinMedication: Medication: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])
 WARNING: Medication/AspirinMedication: Medication.extension[3].extension[2].value.ofType(UsageContext).code: Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
 ERROR: Medication/AspirinMedication: Medication.amount: rat-1: 'Numerator and denominator SHALL both be present, or both are absent. If both are absent, there SHALL be some extension present' Rule 'Numerator and denominator SHALL both be present, or both are absent. If both are absent, there SHALL be some extension present' Failed
+== fsh-generated/resources/Organization-MyTradePolicyHolder.json ==
+ERROR: Organization/MyTradePolicyHolder: Organization: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])
+ERROR: Organization/MyTradePolicyHolder: Organization: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])
 == fsh-generated/resources/Organization-RaptaDistrictHospital.json ==
-ERROR: Organization/RaptaDistrictHospital: Organization: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])
+ERROR: Organization/RaptaDistrictHospital: Organization: The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])
 == fsh-generated/resources/Patient-jane-doe.json ==
 == fsh-generated/resources/Patient-john-doe.json ==
 == fsh-generated/resources/Practitioner-Roberts-Jeb-EO.json ==
@@ -511,10 +524,11 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/StructureDefinition-openimis-medication.json ==
 == fsh-generated/resources/StructureDefinition-openimis-patient.json ==
 == fsh-generated/resources/StructureDefinition-openimis-policy-holder-organization.json ==
-WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-organization-hf-legal-form.json ==
 == fsh-generated/resources/StructureDefinition-organization-hf-level.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-organization-legal-form.json ==
+== fsh-generated/resources/StructureDefinition-organization-ph-activity.json ==
+== fsh-generated/resources/StructureDefinition-organization-ph-legal-form.json ==
 == fsh-generated/resources/StructureDefinition-patient-card-issued.json ==
 == fsh-generated/resources/StructureDefinition-patient-education-level.json ==
 == fsh-generated/resources/StructureDefinition-patient-group-reference.json ==
@@ -559,8 +573,10 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/ValueSet-location-type.json ==
 == fsh-generated/resources/ValueSet-medication-item-type.json ==
 == fsh-generated/resources/ValueSet-openimis-identifiers.json ==
+== fsh-generated/resources/ValueSet-organization-hf-legal-form.json ==
 == fsh-generated/resources/ValueSet-organization-hf-level.json ==
-== fsh-generated/resources/ValueSet-organization-legal-form.json ==
+== fsh-generated/resources/ValueSet-organization-ph-activity.json ==
+== fsh-generated/resources/ValueSet-organization-ph-legal-form.json ==
 == fsh-generated/resources/ValueSet-patient-contact-relationship.json ==
 == fsh-generated/resources/ValueSet-patient-education-level.json ==
 == fsh-generated/resources/ValueSet-patient-identification-types.json ==

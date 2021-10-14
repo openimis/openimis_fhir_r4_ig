@@ -1,0 +1,117 @@
+{
+  "resourceType": "Organization",
+  "id": "MyTradePolicyHolder",
+  "meta": {
+    "profile": [
+      "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Legal Forms (Organization)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form 1}\">Personal Company</span></p><p><b>Activity (Organization)</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity 2}\">Industry</span></p><p><b>identifier</b>: Unique code: 1234, UUID unique identifier: 4c87928a-cf9c-4f4b-aeeb-61041c84547f</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/organization-type bus}\">Non-Healthcare Business or Corporation</span></p><p><b>name</b>: My Trade</p><p><b>telecom</b>: <a href=\"mailto:contact@mytrade.org\">contact@mytrade.org</a>, ph: 0102030405, fax: 0102030450</p><p><b>address</b>: 54 Pasay Jamula Ultha </p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td></tr><tr><td>*</td><td>John Doe</td></tr></table></div>"
+  },
+  "extension": [
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form",
+            "code": "1",
+            "display": "Personal Company"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity",
+            "code": "2",
+            "display": "Industry"
+          }
+        ]
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
+            "code": "Code"
+          }
+        ]
+      },
+      "value": "1234"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
+            "code": "UUID"
+          }
+        ]
+      },
+      "value": "4c87928a-cf9c-4f4b-aeeb-61041c84547f"
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "bus"
+        }
+      ]
+    }
+  ],
+  "name": "My Trade",
+  "telecom": [
+    {
+      "system": "email",
+      "value": "contact@mytrade.org"
+    },
+    {
+      "system": "phone",
+      "value": "0102030405"
+    },
+    {
+      "system": "fax",
+      "value": "0102030450"
+    }
+  ],
+  "address": [
+    {
+      "extension": [
+        {
+          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality",
+          "valueString": "Jamu"
+        },
+        {
+          "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference",
+          "valueReference": {
+            "reference": "Location/Jamula-village"
+          }
+        }
+      ],
+      "line": [
+        "54 Pasay"
+      ],
+      "city": "Jamula",
+      "district": "Rapta",
+      "state": "Ultha"
+    }
+  ],
+  "contact": [
+    {
+      "name": {
+        "text": "John Doe"
+      }
+    }
+  ]
+}

@@ -189,6 +189,13 @@
     "name": "OpenIMISIdentifierCS"
   },
   {
+    "id": "organization-hf-legal-form",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form",
+    "version": "0.1.0",
+    "name": "OrganizationHFLegalFormCS"
+  },
+  {
     "id": "organization-hf-level",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level",
@@ -196,11 +203,18 @@
     "name": "OrganizationHFLevelCS"
   },
   {
-    "id": "organization-legal-form",
+    "id": "organization-ph-activity",
     "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-legal-form",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity",
     "version": "0.1.0",
-    "name": "OrganizationLegalFormCS"
+    "name": "OrganizationPHActivityCS"
+  },
+  {
+    "id": "organization-ph-legal-form",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form",
+    "version": "0.1.0",
+    "name": "OrganizationPHLegalFormCS"
   },
   {
     "id": "patient-contact-relationship",
@@ -518,6 +532,13 @@
     "name": "OpenIMISPolicyHolderOrganization"
   },
   {
+    "id": "organization-hf-legal-form",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form",
+    "version": "0.1.0",
+    "name": "OrganizationHFLegalFormExtension"
+  },
+  {
     "id": "organization-hf-level",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level",
@@ -525,11 +546,18 @@
     "name": "OrganizationHFLevelExtension"
   },
   {
-    "id": "organization-legal-form",
+    "id": "organization-ph-activity",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-legal-form",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity",
     "version": "0.1.0",
-    "name": "OrganizationLegalFormExtension"
+    "name": "OrganizationPHActivityExtension"
+  },
+  {
+    "id": "organization-ph-legal-form",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form",
+    "version": "0.1.0",
+    "name": "OrganizationPHLegalFormExtension"
   },
   {
     "id": "patient-card-issued",
@@ -833,6 +861,13 @@
     "name": "OpenIMISIdentifierVS"
   },
   {
+    "id": "organization-hf-legal-form",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-legal-form",
+    "version": "0.1.0",
+    "name": "OrganizationHFLegalFormVS"
+  },
+  {
     "id": "organization-hf-level",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-level",
@@ -840,11 +875,18 @@
     "name": "OrganizationHFLevelVS"
   },
   {
-    "id": "organization-legal-form",
+    "id": "organization-ph-activity",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-legal-form",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-ph-activity",
     "version": "0.1.0",
-    "name": "OrganizationLegalFormVS"
+    "name": "OrganizationPHActivityVS"
+  },
+  {
+    "id": "organization-ph-legal-form",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-ph-legal-form",
+    "version": "0.1.0",
+    "name": "OrganizationPHLegalFormVS"
   },
   {
     "id": "patient-contact-relationship",
