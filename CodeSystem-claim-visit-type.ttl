@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "ClaimVisitTypeCS"];
   fhir:CodeSystem.title [ fhir:value "Visit Type (Claim)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-10-18T09:02:35+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-10-18T10:54:05+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;
