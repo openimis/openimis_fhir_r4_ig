@@ -362,15 +362,15 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","C*E.9. But note many systems use C*E.2 for this","./originalText[mediaType/code=""text/plain""]/data"
 "Invoice.lineItem.priceComponent.factor","","","",1,1,"","","","decimal {[]} {[]}
 ","Factor used for calculating this component","* quantity only for the base
-      * rate for tax 
-      * discount for discount
-      * 1 for deduction","There is no reason to carry the price in the instance of a ChargeItem unless circumstances require a manual override. The list prices or are usually defined in a back catalogue of the billing codes  (see ChargeItem.definition). Derived profiles may require a ChargeItem.overrideReason to be provided if either factor or price are manually overridden.","","","","","","","","",,,,,"",,,,"Invoice.lineItem.priceComponent.factor",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+* rate for tax 
+* discount for discount
+* 1 for deduction","There is no reason to carry the price in the instance of a ChargeItem unless circumstances require a manual override. The list prices or are usually defined in a back catalogue of the billing codes  (see ChargeItem.definition). Derived profiles may require a ChargeItem.overrideReason to be provided if either factor or price are manually overridden.","","","","","","","","",,,,,"",,,,"Invoice.lineItem.priceComponent.factor",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FT1.22"
 "Invoice.lineItem.priceComponent.amount","","","",1,1,"","","","Money {[]} {[]}
 ","Monetary amount associated with this component","* unit_price*quantity only for the base
-      * (unit_price*quantity*(1-discount)-deduction)*rate for tax
-      * -1*unit_price*quantity*discount for discount
-      * -1*deduction for deduction","There is no reason to carry the price in the instance of a ChargeItem unless circumstances require a manual override. The list prices or are usually defined in a back catalogue of the billing codes  (see ChargeItem.definition). Derived profiles may require a ChargeItem.overrideReason to be provided if either factor or price are manually overridden.","","","","","","","","",,,,,"",,,,"Invoice.lineItem.priceComponent.amount",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+* (unit_price*quantity*(1-discount)-deduction)*rate for tax
+* -1*unit_price*quantity*discount for discount
+* -1*deduction for deduction","There is no reason to carry the price in the instance of a ChargeItem unless circumstances require a manual override. The list prices or are usually defined in a back catalogue of the billing codes  (see ChargeItem.definition). Derived profiles may require a ChargeItem.overrideReason to be provided if either factor or price are manually overridden.","","","","","","","","",,,,,"",,,,"Invoice.lineItem.priceComponent.amount",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FT1.22"
 "Invoice.lineItem.priceComponent.amount.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
