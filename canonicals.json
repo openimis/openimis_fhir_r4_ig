@@ -168,6 +168,20 @@
     "name": "InsurancePlanGeneralCostTypeCS"
   },
   {
+    "id": "invoice-charge-item",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-charge-item",
+    "version": "0.1.0",
+    "name": "InvoiceChargeItemCS"
+  },
+  {
+    "id": "invoice-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type",
+    "version": "0.1.0",
+    "name": "InvoiceTypeCS"
+  },
+  {
     "id": "location-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type",
@@ -504,6 +518,13 @@
     "name": "OpenIMISInsurancePlan"
   },
   {
+    "id": "openimis-invoice",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice",
+    "version": "0.1.0",
+    "name": "OpenIMISInvoice"
+  },
+  {
     "id": "openimis-location",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location",
@@ -838,6 +859,27 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-publication-status",
     "version": "0.1.0",
     "name": "InsurancePlanPublicationStatusVS"
+  },
+  {
+    "id": "invoice-charge-item",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-charge-item",
+    "version": "0.1.0",
+    "name": "InvoiceChargeItemVS"
+  },
+  {
+    "id": "invoice-price-component-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-price-component-type",
+    "version": "0.1.0",
+    "name": "InvoicePriceComponentTypeVS"
+  },
+  {
+    "id": "invoice-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-type",
+    "version": "0.1.0",
+    "name": "InvoiceTypeVS"
   },
   {
     "id": "location-type",

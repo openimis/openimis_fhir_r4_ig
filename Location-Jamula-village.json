@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: R1D1M2V1</p><p><b>name</b>: Jamula</p><p><b>physicalType</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type V}\">Village</span></p><p><b>partOf</b>: <a href=\"Location-Jamu-municipality.html\">Generated Summary: Unique code: R1D1M2; name: Jamu; <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type W}\">Municipality/Ward</span></a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Jamula-village\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-openimis-location.html\">openIMIS Location</a></p></div><p><b>identifier</b>: Unique code: R1D1M2V1</p><p><b>name</b>: Jamula</p><p><b>physicalType</b>: Village <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-location-type.html\">Location Type (Location)</a>#V)</span></p><p><b>partOf</b>: <a href=\"Location-Jamu-municipality.html\">Location/Jamu-municipality</a> \"Jamu\"</p></div>"
   },
   "identifier": [
     {

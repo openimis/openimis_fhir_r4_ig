@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "invoice-type",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-invoice-type.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type</code></a></li></ul></div>"
+  },
+  "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-type",
+  "version": "0.1.0",
+  "name": "InvoiceTypeVS",
+  "title": "Type (Invoice)",
+  "status": "active",
+  "date": "2021-11-12T15:53:21+00:00",
+  "publisher": "Swiss TPH",
+  "contact": [
+    {
+      "name": "Swiss TPH",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.swisstph.ch/en/"
+        }
+      ]
+    },
+    {
+      "name": "Dragos Dobre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "dragos.dobre@swisstph.ch",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Indicates the Type for an Invoice. Values defined by openIMIS. Can not be extended.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type"
+      }
+    ]
+  }
+}

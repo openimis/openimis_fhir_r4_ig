@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: R1D1</p><p><b>name</b>: Jimara</p><p><b>physicalType</b>: <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type D}\">District</span></p><p><b>partOf</b>: <a href=\"Location-Upper-River-Region.html\">Generated Summary: Unique code: R1; name: Upper River Region; <span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type R}\">Region</span></a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Jimara-district\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-openimis-location.html\">openIMIS Location</a></p></div><p><b>identifier</b>: Unique code: R1D1</p><p><b>name</b>: Jimara</p><p><b>physicalType</b>: District <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-location-type.html\">Location Type (Location)</a>#D)</span></p><p><b>partOf</b>: <a href=\"Location-Upper-River-Region.html\">Location/Upper-River-Region</a> \"Upper River Region\"</p></div>"
   ];
   fhir:Location.identifier [
      fhir:index 0;

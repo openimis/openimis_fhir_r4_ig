@@ -687,6 +687,12 @@
         "title": "openIMIS Insurance Plan"
       }
     ],
+    "Invoice": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice",
+        "title": "openIMIS Invoice"
+      }
+    ],
     "Location": [
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location",

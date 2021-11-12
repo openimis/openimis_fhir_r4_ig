@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Unique code: E00001, UUID unique identifier: e5256c97-8b06-4c8e-96db-d8294b4619a8</p><p><b>name</b>: Jeb Roberts (OFFICIAL)</p><p><b>birthDate</b>: 1980-01-15</p><h3>Qualifications</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type EO}\">Enrolment Officer</span></td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Roberts-Jeb-EO\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-openimis-enrolment-officer-practitioner.html\">openIMIS Enrolment Officer Practitioner</a></p></div><p><b>identifier</b>: Unique code: E00001, UUID unique identifier: e5256c97-8b06-4c8e-96db-d8294b4619a8</p><p><b>name</b>: Jeb Roberts (OFFICIAL)</p><p><b>birthDate</b>: 1980-01-15</p><h3>Qualifications</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Enrolment Officer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-practitioner-qualification-type.html\">Practitioner Qualification Type</a>#EO)</span></td></tr></table></div>"
   },
   "identifier": [
     {

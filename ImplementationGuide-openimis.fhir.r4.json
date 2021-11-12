@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-10-18T10:54:05+00:00",
+  "date": "2021-11-12T15:53:21+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -512,6 +512,20 @@
         },
         "name": "openIMIS Insurance Plan",
         "description": "Defines an Insurance Plan for openIMIS which maps to a Product.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-invoice"
+        },
+        "name": "openIMIS Invoice",
+        "description": "Defines an Invoice for openIMIS.",
         "exampleBoolean": false
       },
       {
@@ -1460,6 +1474,48 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/invoice-charge-item"
+        },
+        "name": "ChargeItem (Invoice)",
+        "description": "Indicates the ChargeItem for a lineItem from an Invoice. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/invoice-price-component-type"
+        },
+        "name": "PriceComponent Type (Invoice)",
+        "description": "Indicates the Type for a PriceComponent from an Invoice.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/invoice-type"
+        },
+        "name": "Type (Invoice)",
+        "description": "Indicates the Type for an Invoice. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/location-type"
         },
         "name": "Location Type (Location)",
@@ -1954,6 +2010,34 @@
         },
         "name": "General Cost Type (InsurancePlan)",
         "description": "Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/invoice-charge-item"
+        },
+        "name": "ChargeItem (Invoice)",
+        "description": "Indicates the ChargeItem for a lineItem from an Invoice. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/invoice-type"
+        },
+        "name": "Type (Invoice)",
+        "description": "Indicates the Type for an Invoice. Values defined by openIMIS. Can not be extended.",
         "exampleBoolean": false
       },
       {

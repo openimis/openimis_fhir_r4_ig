@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 26, errors = 193, warn = 28, info = 18 -->
+<!-- broken links = 10, errors = 193, warn = 29, info = 18 -->
 <head>
   <title>openIMISFHIRR4 : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,9 +36,9 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for openIMISFHIRR4</h1>
- <p>Generated Mon Oct 18 10:55:50 UTC 2021, FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = <a href="https://openimis.github.io/openimis_fhir_r4_ig">https://openimis.github.io/openimis_fhir_r4_ig</a> (<a href="https://openimis.github.io/openimis_fhir_r4_ig/history.html">history</a>)). See <a href="/github/workspace/output/qa.html">Full QA Report</a></p>
+ <p>Generated Fri Nov 12 15:56:03 UTC 2021, FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = <a href="https://openimis.github.io/openimis_fhir_r4_ig">https://openimis.github.io/openimis_fhir_r4_ig</a> (<a href="https://openimis.github.io/openimis_fhir_r4_ig/history.html">history</a>)). See <a href="/github/workspace/output/qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.82</span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.85</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = openimis.fhir.r4, Canonical = https://openimis.github.io/openimis_fhir_r4_ig</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Version Check:</td><td>0.1.0: <span stlye="color: marron; font-weight: bold">no package-list.json - the guide is not ready for publishing</span></td></tr>
@@ -49,15 +49,15 @@
  <tr><td>Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
  <br/><br/>The copyrightYear parameter ('2021+') in the IG resource is good</td></tr>
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://openimis.github.io/openimis_fhir_r4_ig (Problem #1 with package-list.json at https://openimis.github.io/openimis_fhir_r4_ig: https://openimis.github.io/openimis_fhir_r4_ig/package-list.json)</td></tr>
- <tr><td>Summary:</td><td> broken links = 26, errors = 193, warn = 28, info = 18</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://openimis.github.io/openimis_fhir_r4_ig (Problem #1 with package-list.json at https://openimis.github.io/openimis_fhir_r4_ig: https://openimis.github.io/openimis_fhir_r4_ig/package-list.json?nocache=1636732400036)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 10, errors = 193, warn = 29, info = 18</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>27</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>11</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_fsh-generated_resources_ActivityDefinition-GeneralConsultationService"><b>/github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService</b></a></td><td><b>4</b></td><td><b>1</b></td><td><b>0</b></td>
@@ -141,6 +141,9 @@
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-openimis-enrolment-officer-practitioner-role"><b>/github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner-role</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-openimis-invoice"><b>/github/workspace/fsh-generated/resources/StructureDefinition-openimis-invoice</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-organization-hf-level"><b>/github/workspace/fsh-generated/resources/StructureDefinition-organization-hf-level</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
@@ -159,70 +162,22 @@
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource CapabilityStatement/ExampleCapabilityStatement.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="ClaimResponse-Claim001.html#l356">output/ClaimResponse-Claim001.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 667</a></b></td><td><b>error</b></td><td><b>The link 'openIMIS' for &quot;openIMIS&quot; cannot be resolved</b></td>
+     <td><b><a href="ClaimResponse-Claim001.html#l365">output/ClaimResponse-Claim001.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 924</a></b></td><td><b>error</b></td><td><b>The link 'openIMIS' for &quot;openIMIS&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="Coverage-JoeDoeCoverage.html#l350">output/Coverage-JoeDoeCoverage.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 549</a></b></td><td><b>error</b></td><td><b>The link 'joe-doe' for &quot;joe-doe&quot; cannot be resolved</b></td>
+     <td><b><a href="Coverage-JoeDoeCoverage.html#l356">output/Coverage-JoeDoeCoverage.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 742</a></b></td><td><b>error</b></td><td><b>The link 'joe-doe' for &quot;joe-doe&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="CoverageEligibilityRequest-JoeDoeEnquiring.html#l338">output/CoverageEligibilityRequest-JoeDoeEnquiring.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 243</a></b></td><td><b>error</b></td><td><b>The link 'joe-doe' for &quot;joe-doe&quot; cannot be resolved</b></td>
+     <td><b><a href="CoverageEligibilityRequest-JoeDoeEnquiring.html#l345">output/CoverageEligibilityRequest-JoeDoeEnquiring.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 629</a></b></td><td><b>error</b></td><td><b>The link 'joe-doe' for &quot;joe-doe&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="CoverageEligibilityRequest-JoeDoeEnquiring.html#l348">output/CoverageEligibilityRequest-JoeDoeEnquiring.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 328</a></b></td><td><b>error</b></td><td><b>The link 'openIMIS' for &quot;openIMIS&quot; cannot be resolved</b></td>
+     <td><b><a href="CoverageEligibilityRequest-JoeDoeEnquiring.html#l355">output/CoverageEligibilityRequest-JoeDoeEnquiring.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 714</a></b></td><td><b>error</b></td><td><b>The link 'openIMIS' for &quot;openIMIS&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#l338">output/CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 243</a></b></td><td><b>error</b></td><td><b>The link 'joe-doe' for &quot;joe-doe&quot; cannot be resolved</b></td>
+     <td><b><a href="CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#l345">output/CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 639</a></b></td><td><b>error</b></td><td><b>The link 'joe-doe' for &quot;joe-doe&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#l358">output/CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 579</a></b></td><td><b>error</b></td><td><b>The link 'openIMIS' for &quot;openIMIS&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-group-address.html#l684">output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 327, column 711</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:municipality' for &quot;address-municipality&quot; cannot be resolved (valid targets: 61 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-group-address.html#l712">output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 328, column 717</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:location' for &quot;address-location-reference&quot; cannot be resolved (valid targets: 61 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-group-address.html#l1741">output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 459, column 711</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:municipality' for &quot;address-municipality&quot; cannot be resolved (valid targets: 61 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-group-address.html#l1769">output/StructureDefinition-group-address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 460, column 717</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-group-address-definitions.html#Extension.valueAddress.extension:location' for &quot;address-location-reference&quot; cannot be resolved (valid targets: 61 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l830">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 326, column 833</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:Gender.valueUsageContext.valueCodeableConcept' for &quot;valueCodeableConcept&quot; cannot be resolved (valid targets: 235 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l852">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 327, column 891</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:Gender.valueUsageContext.valueCodeableConcept.coding' for &quot;coding&quot; cannot be resolved (valid targets: 235 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l1145">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 338, column 833</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:Age.valueUsageContext.valueCodeableConcept' for &quot;valueCodeableConcept&quot; cannot be resolved (valid targets: 235 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l1167">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 339, column 891</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:Age.valueUsageContext.valueCodeableConcept.coding' for &quot;coding&quot; cannot be resolved (valid targets: 235 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l1460">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 350, column 833</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:CareType.valueUsageContext.valueCodeableConcept' for &quot;valueCodeableConcept&quot; cannot be resolved (valid targets: 235 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l1482">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 351, column 891</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:CareType.valueUsageContext.valueCodeableConcept.coding' for &quot;coding&quot; cannot be resolved (valid targets: 235 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l3847">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 527, column 833</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:Gender.valueUsageContext.valueCodeableConcept' for &quot;valueCodeableConcept&quot; cannot be resolved (valid targets: 235 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l3869">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 528, column 891</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:Gender.valueUsageContext.valueCodeableConcept.coding' for &quot;coding&quot; cannot be resolved (valid targets: 235 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l4162">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 539, column 833</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:Age.valueUsageContext.valueCodeableConcept' for &quot;valueCodeableConcept&quot; cannot be resolved (valid targets: 235 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l4184">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 540, column 891</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:Age.valueUsageContext.valueCodeableConcept.coding' for &quot;coding&quot; cannot be resolved (valid targets: 235 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l4477">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 551, column 833</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:CareType.valueUsageContext.valueCodeableConcept' for &quot;valueCodeableConcept&quot; cannot be resolved (valid targets: 235 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-medication-usage-context.html#l4499">output/StructureDefinition-medication-usage-context.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 552, column 891</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-medication-usage-context-definitions.html#Extension.extension:CareType.valueUsageContext.valueCodeableConcept.coding' for &quot;coding&quot; cannot be resolved (valid targets: 235 targets)</b></td>
+     <td><b><a href="CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#l365">output/CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 882</a></b></td><td><b>error</b></td><td><b>The link 'openIMIS' for &quot;openIMIS&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-openimis-coverage-eligibility-response.html#l23633">output/StructureDefinition-openimis-coverage-eligibility-response.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 1813, column 239</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-coverage-item-category.html#coverage-item-category-min_date_item' for &quot;min_date_item&quot; cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, bottom, segment-post-footer, coverage-item-category-service, ig-status, codesystem-category-of-the-item-coverage, coverage-item-category-item, top, root, stripe, segment-footer, segment-navbar, coverage-item-category-benefit, segment-content, segment-breadcrumb])</b></td>
@@ -250,7 +205,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>ActivityDefinition</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[ActivityDefinition])</b></td>
+     <td><b>ActivityDefinition</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[ActivityDefinition])</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>ActivityDefinition.useContext[2].code</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'</b></td>
@@ -369,19 +324,19 @@
      <td><b>Communication (l1/c2)</b></td><td><b>information</b></td><td title="Validation_VAL_Profile_NoCheckMin"><b>Communication.payload:Asessment: Unable to check minimum required (Communication.payload) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Communication.payload[0] (l11/c6)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
+     <td><b>Communication.payload[0] (l11/c6)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Communication.payload[1] (l27/c6)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
+     <td><b>Communication.payload[1] (l27/c6)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Communication.payload[2] (l43/c6)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
+     <td><b>Communication.payload[2] (l43/c6)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Communication.payload[3] (l59/c6)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
+     <td><b>Communication.payload[3] (l59/c6)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Communication.payload[4] (l75/c6)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
+     <td><b>Communication.payload[4] (l75/c6)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
    </tr>
 </table>
 <hr/>
@@ -424,19 +379,19 @@
      <td><b>CommunicationRequest (l1/c2)</b></td><td><b>information</b></td><td title="Validation_VAL_Profile_NoCheckMin"><b>CommunicationRequest.payload:Asessment: Unable to check minimum required (CommunicationRequest.payload) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CommunicationRequest.payload[0] (l10/c6)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
+     <td><b>CommunicationRequest.payload[0] (l10/c6)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CommunicationRequest.payload[1] (l26/c6)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
+     <td><b>CommunicationRequest.payload[1] (l26/c6)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CommunicationRequest.payload[2] (l42/c6)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
+     <td><b>CommunicationRequest.payload[2] (l42/c6)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CommunicationRequest.payload[3] (l58/c6)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
+     <td><b>CommunicationRequest.payload[3] (l58/c6)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CommunicationRequest.payload[4] (l74/c6)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
+     <td><b>CommunicationRequest.payload[4] (l74/c6)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
    </tr>
 </table>
 <hr/>
@@ -449,7 +404,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Contract.term[0].asset[0] (l32/c10)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium is not allowed to be used at this point (allowed = e:OpenIMISContract; this element is [[Contract.term.asset, BackboneElement.asset, BackboneElement])</b></td>
+     <td><b>Contract.term[0].asset[0] (l32/c10)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium is not allowed to be used at this point (allowed = e:OpenIMISContract; this element is [[Contract.term.asset, BackboneElement.asset, BackboneElement])</b></td>
    </tr>
 </table>
 <hr/>
@@ -474,7 +429,7 @@
      <td><b>Coverage (l1/c2)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Minimum"><b>Coverage.extension:effectiveDate: minimum required = 1, but only found 0 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Coverage (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date is not allowed to be used at this point (allowed = e:OpenIMISCoverage; this element is [[Coverage])</b></td>
+     <td><b>Coverage (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date is not allowed to be used at this point (allowed = e:OpenIMISCoverage; this element is [[Coverage])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Coverage.beneficiary (l53/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'joe-doe'</b></td>
@@ -560,37 +515,37 @@
      <td><b>ImplementationGuide.definition.resource[7].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ImplementationGuide.definition.resource[24].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+     <td><b>ImplementationGuide.definition.resource[25].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ImplementationGuide.definition.resource[26].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+     <td><b>ImplementationGuide.definition.resource[27].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ImplementationGuide.definition.resource[39].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+     <td><b>ImplementationGuide.definition.resource[40].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ImplementationGuide.definition.resource[42].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ImplementationGuide.definition.resource[133].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ImplementationGuide.definition.resource[134].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ImplementationGuide.definition.resource[135].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+     <td><b>ImplementationGuide.definition.resource[43].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>ImplementationGuide.definition.resource[139].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ImplementationGuide.definition.resource[143].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+     <td><b>ImplementationGuide.definition.resource[140].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ImplementationGuide.definition.resource[144].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+     <td><b>ImplementationGuide.definition.resource[141].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>ImplementationGuide.definition.resource[145].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide.definition.resource[149].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide.definition.resource[150].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide.definition.resource[151].description</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
    </tr>
 </table>
 <hr/>
@@ -651,16 +606,16 @@
      <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Maximum"><b>InsurancePlan.extension:renewalDiscount: max allowed = 1, but found 2 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-conversion is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-conversion is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>InsurancePlan.coverage[0].benefit[0].limit[0] (l98/c14)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match discriminator ([code.coding.code]) for slice InsurancePlan.coverage.benefit.limit:period in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [code.coding.code] does not have fixed value, binding or existence assertions</b></td>
@@ -826,13 +781,13 @@
      <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Maximum"><b>InsurancePlan.extension:renewalDiscount: max allowed = 1, but found 2 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><b>InsurancePlan (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>InsurancePlan.coverage[0].benefit[0].limit[0] (l92/c14)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match discriminator ([code.coding.code]) for slice InsurancePlan.coverage.benefit.limit:period in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [code.coding.code] does not have fixed value, binding or existence assertions</b></td>
@@ -963,16 +918,16 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Medication (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[Medication])</b></td>
+     <td><b>Medication (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[Medication])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Medication (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
+     <td><b>Medication (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Medication (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
+     <td><b>Medication (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Medication (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
+     <td><b>Medication (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Medication.extension[3].extension[2].value.ofType(UsageContext).code (l87/c29)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'</b></td>
@@ -991,10 +946,10 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Organization (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])</b></td>
+     <td><b>Organization (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Organization (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])</b></td>
+     <td><b>Organization (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])</b></td>
    </tr>
 </table>
 <hr/>
@@ -1007,7 +962,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Organization (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXT_Context_Wrong"><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])</b></td>
+     <td><b>Organization (l1/c2)</b></td><td><b>error</b></td><td title="Extension_EXTM_Context_Wrong"><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])</b></td>
    </tr>
 </table>
 <hr/>
@@ -1209,9 +1164,22 @@
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_StructureDefinition-organization-hf-level"> </a>
-<h2><a href="StructureDefinition-organization-hf-level.html">fsh-generated/resources/StructureDefinition-organization-hf-level.json</a> <span id="svi28" class="toggle" onclick="toggle('vi28')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi28')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-openimis-invoice"> </a>
+<h2><a href="StructureDefinition-openimis-invoice.html">fsh-generated/resources/StructureDefinition-openimis-invoice.json</a> <span id="svi28" class="toggle" onclick="toggle('vi28')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi28')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi28"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-organization-hf-level"> </a>
+<h2><a href="StructureDefinition-organization-hf-level.html">fsh-generated/resources/StructureDefinition-organization-hf-level.json</a> <span id="svi29" class="toggle" onclick="toggle('vi29')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi29')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi29"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1223,8 +1191,8 @@
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_StructureDefinition-practitioner-role-substitution-reference"> </a>
-<h2><a href="StructureDefinition-practitioner-role-substitution-reference.html">fsh-generated/resources/StructureDefinition-practitioner-role-substitution-reference.json</a> <span id="svi29" class="toggle" onclick="toggle('vi29')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi29')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi29"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-practitioner-role-substitution-reference.html">fsh-generated/resources/StructureDefinition-practitioner-role-substitution-reference.json</a> <span id="svi30" class="toggle" onclick="toggle('vi30')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi30')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi30"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1236,8 +1204,8 @@
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_ValueSet-patient-marital-status"> </a>
-<h2><a href="ValueSet-patient-marital-status.html">fsh-generated/resources/ValueSet-patient-marital-status.json</a> <span id="svi30" class="toggle" onclick="toggle('vi30')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi30')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi30"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-patient-marital-status.html">fsh-generated/resources/ValueSet-patient-marital-status.json</a> <span id="svi31" class="toggle" onclick="toggle('vi31')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi31')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi31"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1263,89 +1231,89 @@
 <p>No suppressed messsages</p><a name="sorted"> </a>
 <p><b>Errors sorted by type</b></p>
 <hr/>
-<a name="Extension_EXT_Context_Wrong"> </a>
-<h2>Extension_EXT_Context_Wrong</h2>
+<a name="Extension_EXTM_Context_Wrong"> </a>
+<h2>Extension_EXTM_Context_Wrong</h2>
  <table class="grid">
    <tr style="background-color: #ffeeee">
-     <td><a href="ActivityDefinition-GeneralConsultationService.html">fsh-generated/resources/ActivityDefinition-GeneralConsultationService.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[ActivityDefinition])</b></td>
+     <td><a href="ActivityDefinition-GeneralConsultationService.html">fsh-generated/resources/ActivityDefinition-GeneralConsultationService.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[ActivityDefinition])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Communication-Claim001Communication.html">fsh-generated/resources/Communication-Claim001Communication.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
+     <td><a href="Communication-Claim001Communication.html">fsh-generated/resources/Communication-Claim001Communication.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Communication-Claim001Communication.html">fsh-generated/resources/Communication-Claim001Communication.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
+     <td><a href="Communication-Claim001Communication.html">fsh-generated/resources/Communication-Claim001Communication.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Communication-Claim001Communication.html">fsh-generated/resources/Communication-Claim001Communication.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
+     <td><a href="Communication-Claim001Communication.html">fsh-generated/resources/Communication-Claim001Communication.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Communication-Claim001Communication.html">fsh-generated/resources/Communication-Claim001Communication.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
+     <td><a href="Communication-Claim001Communication.html">fsh-generated/resources/Communication-Claim001Communication.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Communication-Claim001Communication.html">fsh-generated/resources/Communication-Claim001Communication.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
+     <td><a href="Communication-Claim001Communication.html">fsh-generated/resources/Communication-Claim001Communication.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[Communication.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="CommunicationRequest-Claim001CommunicationRequest.html">fsh-generated/resources/CommunicationRequest-Claim001CommunicationRequest.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
+     <td><a href="CommunicationRequest-Claim001CommunicationRequest.html">fsh-generated/resources/CommunicationRequest-Claim001CommunicationRequest.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="CommunicationRequest-Claim001CommunicationRequest.html">fsh-generated/resources/CommunicationRequest-Claim001CommunicationRequest.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
+     <td><a href="CommunicationRequest-Claim001CommunicationRequest.html">fsh-generated/resources/CommunicationRequest-Claim001CommunicationRequest.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="CommunicationRequest-Claim001CommunicationRequest.html">fsh-generated/resources/CommunicationRequest-Claim001CommunicationRequest.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
+     <td><a href="CommunicationRequest-Claim001CommunicationRequest.html">fsh-generated/resources/CommunicationRequest-Claim001CommunicationRequest.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="CommunicationRequest-Claim001CommunicationRequest.html">fsh-generated/resources/CommunicationRequest-Claim001CommunicationRequest.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
+     <td><a href="CommunicationRequest-Claim001CommunicationRequest.html">fsh-generated/resources/CommunicationRequest-Claim001CommunicationRequest.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="CommunicationRequest-Claim001CommunicationRequest.html">fsh-generated/resources/CommunicationRequest-Claim001CommunicationRequest.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
+     <td><a href="CommunicationRequest-Claim001CommunicationRequest.html">fsh-generated/resources/CommunicationRequest-Claim001CommunicationRequest.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type is not allowed to be used at this point (allowed = e:OpenIMISCommunication, e:OpenIMISCommunicationRequest; this element is [[CommunicationRequest.payload, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Contract-InformalSectorContract.html">fsh-generated/resources/Contract-InformalSectorContract.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium is not allowed to be used at this point (allowed = e:OpenIMISContract; this element is [[Contract.term.asset, BackboneElement.asset, BackboneElement])</b></td>
+     <td><a href="Contract-InformalSectorContract.html">fsh-generated/resources/Contract-InformalSectorContract.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium is not allowed to be used at this point (allowed = e:OpenIMISContract; this element is [[Contract.term.asset, BackboneElement.asset, BackboneElement])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Coverage-JoeDoeCoverage.html">fsh-generated/resources/Coverage-JoeDoeCoverage.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date is not allowed to be used at this point (allowed = e:OpenIMISCoverage; this element is [[Coverage])</b></td>
+     <td><a href="Coverage-JoeDoeCoverage.html">fsh-generated/resources/Coverage-JoeDoeCoverage.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date is not allowed to be used at this point (allowed = e:OpenIMISCoverage; this element is [[Coverage])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="InsurancePlan-RX01.html">fsh-generated/resources/InsurancePlan-RX01.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-conversion is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><a href="InsurancePlan-RX01.html">fsh-generated/resources/InsurancePlan-RX01.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-conversion is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="InsurancePlan-RX01.html">fsh-generated/resources/InsurancePlan-RX01.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><a href="InsurancePlan-RX01.html">fsh-generated/resources/InsurancePlan-RX01.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="InsurancePlan-RX01.html">fsh-generated/resources/InsurancePlan-RX01.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><a href="InsurancePlan-RX01.html">fsh-generated/resources/InsurancePlan-RX01.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="InsurancePlan-RX01.html">fsh-generated/resources/InsurancePlan-RX01.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><a href="InsurancePlan-RX01.html">fsh-generated/resources/InsurancePlan-RX01.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="InsurancePlan-RX02.html">fsh-generated/resources/InsurancePlan-RX02.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><a href="InsurancePlan-RX02.html">fsh-generated/resources/InsurancePlan-RX02.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="InsurancePlan-RX02.html">fsh-generated/resources/InsurancePlan-RX02.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><a href="InsurancePlan-RX02.html">fsh-generated/resources/InsurancePlan-RX02.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="InsurancePlan-RX02.html">fsh-generated/resources/InsurancePlan-RX02.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
+     <td><a href="InsurancePlan-RX02.html">fsh-generated/resources/InsurancePlan-RX02.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount is not allowed to be used at this point (allowed = e:OpenIMISInsurancePlan; this element is [[InsurancePlan])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Medication-AspirinMedication.html">fsh-generated/resources/Medication-AspirinMedication.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[Medication])</b></td>
+     <td><a href="Medication-AspirinMedication.html">fsh-generated/resources/Medication-AspirinMedication.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition; this element is [[Medication])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Medication-AspirinMedication.html">fsh-generated/resources/Medication-AspirinMedication.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
+     <td><a href="Medication-AspirinMedication.html">fsh-generated/resources/Medication-AspirinMedication.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Medication-AspirinMedication.html">fsh-generated/resources/Medication-AspirinMedication.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
+     <td><a href="Medication-AspirinMedication.html">fsh-generated/resources/Medication-AspirinMedication.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Medication-AspirinMedication.html">fsh-generated/resources/Medication-AspirinMedication.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
+     <td><a href="Medication-AspirinMedication.html">fsh-generated/resources/Medication-AspirinMedication.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context is not allowed to be used at this point (allowed = e:OpenIMISMedication; this element is [[Medication])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Organization-MyTradePolicyHolder.html">fsh-generated/resources/Organization-MyTradePolicyHolder.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])</b></td>
+     <td><a href="Organization-MyTradePolicyHolder.html">fsh-generated/resources/Organization-MyTradePolicyHolder.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Organization-MyTradePolicyHolder.html">fsh-generated/resources/Organization-MyTradePolicyHolder.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])</b></td>
+     <td><a href="Organization-MyTradePolicyHolder.html">fsh-generated/resources/Organization-MyTradePolicyHolder.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Organization-RaptaDistrictHospital.html">fsh-generated/resources/Organization-RaptaDistrictHospital.json</a></td><td><b>The extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])</b></td>
+     <td><a href="Organization-RaptaDistrictHospital.html">fsh-generated/resources/Organization-RaptaDistrictHospital.json</a></td><td><b>The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])</b></td>
    </tr>
 </table>
 <hr/>

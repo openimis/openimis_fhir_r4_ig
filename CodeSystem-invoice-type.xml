@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="invoice-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">contribution<a name="invoice-type-contribution"> </a></td><td>Contribution</td></tr><tr><td style="white-space:nowrap">contract<a name="invoice-type-contract"> </a></td><td>Contract</td></tr><tr><td style="white-space:nowrap">funding<a name="invoice-type-funding"> </a></td><td>Funding</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type"/>
+  <version value="0.1.0"/>
+  <name value="InvoiceTypeCS"/>
+  <title value="Type (Invoice)"/>
+  <status value="active"/>
+  <date value="2021-11-12T15:53:21+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the Type for an Invoice. Values defined by openIMIS. Can not be extended."/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="contribution"/>
+    <display value="Contribution"/>
+  </concept>
+  <concept>
+    <code value="contract"/>
+    <display value="Contract"/>
+  </concept>
+  <concept>
+    <code value="funding"/>
+    <display value="Funding"/>
+  </concept>
+</CodeSystem>
