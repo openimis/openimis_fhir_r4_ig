@@ -566,7 +566,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "CoverageEligibilityResponse.insurance.item.benefit.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Benefit classification","Classification of benefit being provided.","For example: deductible, visits, benefit amount.","Needed to convey the nature of the benefit.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category""/>
+    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type""/>
     <code value=""min_date_item""/>
     <display value=""Mininum date""/>
   </coding>
@@ -596,7 +596,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "CoverageEligibilityResponse.insurance.item.benefit.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Benefit classification","Classification of benefit being provided.","For example: deductible, visits, benefit amount.","Needed to convey the nature of the benefit.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category""/>
+    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type""/>
     <code value=""item_left""/>
     <display value=""Items left""/>
   </coding>
@@ -725,7 +725,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "CoverageEligibilityResponse.insurance.item.benefit.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Benefit classification","Classification of benefit being provided.","For example: deductible, visits, benefit amount.","Needed to convey the nature of the benefit.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category""/>
+    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type""/>
     <code value=""min_date_item""/>
     <display value=""Mininum date""/>
   </coding>
@@ -755,7 +755,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "CoverageEligibilityResponse.insurance.item.benefit.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Benefit classification","Classification of benefit being provided.","For example: deductible, visits, benefit amount.","Needed to convey the nature of the benefit.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category""/>
+    <system value=""https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type""/>
     <code value=""item_left""/>
     <display value=""Items left""/>
   </coding>

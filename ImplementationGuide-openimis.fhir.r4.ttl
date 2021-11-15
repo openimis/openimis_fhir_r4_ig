@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "openIMISFHIRR4"];
   fhir:ImplementationGuide.title [ fhir:value "openIMIS FHIR R4 Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-11-12T16:20:31+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-11-15T18:47:56+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Swiss TPH"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;

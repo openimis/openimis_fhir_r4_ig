@@ -16,7 +16,7 @@
   <name value="UnitPriceExtension"/>
   <title value="Unit Price (Medication|ActivityDefinition)"/>
   <status value="active"/>
-  <date value="2021-11-12T16:20:31+00:00"/>
+  <date value="2021-11-15T18:47:56+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>
@@ -49,6 +49,10 @@
   <context>
     <type value="element"/>
     <expression value="OpenIMISActivityDefinition"/>
+  </context>
+  <context>
+    <type value="element"/>
+    <expression value="OpenIMISInvoice"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>

@@ -433,6 +433,8 @@
   <sch:pattern>
     <sch:title>f:Invoice/f:lineItem/f:priceComponent</sch:title>
     <sch:rule context="f:Invoice/f:lineItem/f:priceComponent">
+      <sch:assert test="count(f:extension[@url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price']) &gt;= 1">extension with URL = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price']) &lt;= 1">extension with URL = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:factor) &gt;= 1">factor: minimum cardinality of 'factor' is 1</sch:assert>
       <sch:assert test="count(f:amount) &gt;= 1">amount: minimum cardinality of 'amount' is 1</sch:assert>
     </sch:rule>
@@ -448,6 +450,8 @@
     <sch:rule context="f:Invoice/f:lineItem/f:priceComponent/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
