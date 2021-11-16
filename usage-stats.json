@@ -689,7 +689,11 @@
     ],
     "Invoice": [
       {
-        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice",
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice-bill",
+        "title": "openIMIS Bill"
+      },
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice-invoice",
         "title": "openIMIS Invoice"
       }
     ],

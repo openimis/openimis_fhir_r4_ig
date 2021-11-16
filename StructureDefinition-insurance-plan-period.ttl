@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "InsurancePlanPeriodExtension"];
   fhir:StructureDefinition.title [ fhir:value "Period (InsurancePlan)"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-11-15T18:48:44+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-11-16T09:50:19+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

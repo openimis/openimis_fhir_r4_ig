@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-11-15T18:48:44+00:00",
+  "date": "2021-11-16T09:50:19+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -312,6 +312,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/openimis-invoice-bill"
+        },
+        "name": "openIMIS Bill",
+        "description": "Defines an Bill for openIMIS.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/openimis-claim"
         },
         "name": "openIMIS Claim",
@@ -522,7 +536,7 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/openimis-invoice"
+          "reference": "StructureDefinition/openimis-invoice-invoice"
         },
         "name": "openIMIS Invoice",
         "description": "Defines an Invoice for openIMIS.",
@@ -1086,6 +1100,34 @@
         },
         "name": "Usage Context for Workflow Type (ActivityDefinition)",
         "description": "Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/bill-charge-item"
+        },
+        "name": "ChargeItem (Bill Invoice)",
+        "description": "Indicates the ChargeItem for a lineItem from a Bill. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/bill-type"
+        },
+        "name": "Type (Bill Invoice)",
+        "description": "Indicates the Type for Bill. Values defined by openIMIS. Can not be extended.",
         "exampleBoolean": false
       },
       {
@@ -1744,6 +1786,34 @@
         },
         "name": "Usage Context for Workflow Type (ActivityDefinition)",
         "description": "Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/bill-charge-item"
+        },
+        "name": "ChargeItem (Bill Invoice)",
+        "description": "Indicates the ChargeItem for a lineItem from a Bill. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/bill-type"
+        },
+        "name": "Type (Bill Invoice)",
+        "description": "Indicates the Type for Bill. Values defined by openIMIS. Can not be extended.",
         "exampleBoolean": false
       },
       {

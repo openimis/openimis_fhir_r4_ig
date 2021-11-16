@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "bill-type"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">fee-for-service<a name=\"bill-type-fee-for-service\"> </a></td><td>Fee for service</td><td>How much the insurance need to pay the HF for the fee for service health financing.</td></tr><tr><td style=\"white-space:nowrap\">commission<a name=\"bill-type-commission\"> </a></td><td>Commission</td><td>How much the insurance need to pay the commission to EO.</td></tr><tr><td style=\"white-space:nowrap\">capitation<a name=\"bill-type-capitation\"> </a></td><td>Capitation</td><td>How much the insurance need to pay the HF for the capitation financing.</td></tr><tr><td style=\"white-space:nowrap\">fees<a name=\"bill-type-fees\"> </a></td><td>Fees</td><td>How much the insurance need to pay the payment platform for the fee for payment service.</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "BillTypeCS"];
+  fhir:CodeSystem.title [ fhir:value "Type (Bill Invoice)"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-11-16T09:50:19+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Swiss TPH" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.swisstph.ch/en/" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Dragos Dobre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "dragos.dobre@swisstph.ch" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Indicates the Type for Bill. Values defined by openIMIS. Can not be extended."];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "fee-for-service" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Fee for service" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How much the insurance need to pay the HF for the fee for service health financing." ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "commission" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Commission" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How much the insurance need to pay the commission to EO." ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "capitation" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Capitation" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How much the insurance need to pay the HF for the capitation financing." ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "fees" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Fees" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How much the insurance need to pay the payment platform for the fee for payment service." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

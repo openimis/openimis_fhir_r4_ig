@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "CoverageItemCategoryVS"];
   fhir:ValueSet.title [ fhir:value "Category of the item (Coverage)"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-11-15T18:48:44+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-11-16T09:50:19+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Swiss TPH"];
   fhir:ValueSet.contact [
      fhir:index 0;

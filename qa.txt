@@ -1,9 +1,9 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 185, warn = 29, info = 18
+err = 185, warn = 30, info = 18
 IG Publisher Version: 1.1.86
-Generated Mon Nov 15 18:51:11 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Tue Nov 16 09:52:50 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
  Build Errors : 7 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
@@ -11,6 +11,8 @@ Generated Mon Nov 15 18:51:11 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ClaimResponse-Claim001 : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-service-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-bill-charge-item : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-bill-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-claim-item-category : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-claim-rejection-reasons : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-claim-status : 0 / 0 / 1
@@ -101,7 +103,8 @@ Generated Mon Nov 15 18:51:11 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-health-facility-organization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-insurance-plan : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-openimis-invoice : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-invoice-bill : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-invoice-invoice : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-location : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-medication : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient : 0 / 0 / 1
@@ -123,6 +126,8 @@ Generated Mon Nov 15 18:51:11 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-venue-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-activity-definition-usage-context-workflow-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-bill-charge-item : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-bill-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-claim-item-category : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-claim-rejection-reasons : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-claim-status : 0 / 0 / 1
@@ -196,6 +201,8 @@ ERROR: Claim/Claim001: Claim.supportingInfo[0]: Slicing cannot be evaluated: Cou
 ERROR: ClaimResponse/Claim001: ClaimResponse.insurer: Unable to resolve resource 'openIMIS'
 == fsh-generated/resources/CodeSystem-activity-definition-service-type.json ==
 == fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type.json ==
+== fsh-generated/resources/CodeSystem-bill-charge-item.json ==
+== fsh-generated/resources/CodeSystem-bill-type.json ==
 == fsh-generated/resources/CodeSystem-claim-item-category.json ==
 == fsh-generated/resources/CodeSystem-claim-rejection-reasons.json ==
 == fsh-generated/resources/CodeSystem-claim-status.json ==
@@ -292,18 +299,18 @@ ERROR: CoverageEligibilityResponse/JoeDoeEnquiringResponse: CoverageEligibilityR
 == fsh-generated/resources/Group-doe-family.json ==
 == fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[7].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[25].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[27].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[40].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[43].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[139].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[140].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[141].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[8].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[26].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[28].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[41].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[44].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[144].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[145].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[149].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[146].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[150].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[151].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[154].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[155].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[156].description: value should not start or finish with whitespace
 == fsh-generated/resources/InsurancePlan-RX01.json ==
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[5]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[6]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
@@ -500,8 +507,10 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/StructureDefinition-openimis-group.json ==
 == fsh-generated/resources/StructureDefinition-openimis-health-facility-organization.json ==
 == fsh-generated/resources/StructureDefinition-openimis-insurance-plan.json ==
-== fsh-generated/resources/StructureDefinition-openimis-invoice.json ==
-WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-openimis-invoice-bill.json ==
+WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice-bill'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-openimis-invoice-invoice.json ==
+WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice-invoice'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-openimis-location.json ==
 == fsh-generated/resources/StructureDefinition-openimis-medication.json ==
 == fsh-generated/resources/StructureDefinition-openimis-patient.json ==
@@ -525,6 +534,8 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/ValueSet-activity-definition-usage-context-type.json ==
 == fsh-generated/resources/ValueSet-activity-definition-usage-context-venue-type.json ==
 == fsh-generated/resources/ValueSet-activity-definition-usage-context-workflow-type.json ==
+== fsh-generated/resources/ValueSet-bill-charge-item.json ==
+== fsh-generated/resources/ValueSet-bill-type.json ==
 == fsh-generated/resources/ValueSet-claim-item-category.json ==
 == fsh-generated/resources/ValueSet-claim-rejection-reasons.json ==
 == fsh-generated/resources/ValueSet-claim-status.json ==

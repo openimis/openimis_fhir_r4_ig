@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="bill-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">fee-for-service<a name="bill-type-fee-for-service"> </a></td><td>Fee for service</td><td>How much the insurance need to pay the HF for the fee for service health financing.</td></tr><tr><td style="white-space:nowrap">commission<a name="bill-type-commission"> </a></td><td>Commission</td><td>How much the insurance need to pay the commission to EO.</td></tr><tr><td style="white-space:nowrap">capitation<a name="bill-type-capitation"> </a></td><td>Capitation</td><td>How much the insurance need to pay the HF for the capitation financing.</td></tr><tr><td style="white-space:nowrap">fees<a name="bill-type-fees"> </a></td><td>Fees</td><td>How much the insurance need to pay the payment platform for the fee for payment service.</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type"/>
+  <version value="0.1.0"/>
+  <name value="BillTypeCS"/>
+  <title value="Type (Bill Invoice)"/>
+  <status value="active"/>
+  <date value="2021-11-16T09:50:19+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the Type for Bill. Values defined by openIMIS. Can not be extended."/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="fee-for-service"/>
+    <display value="Fee for service"/>
+    <definition value="How much the insurance need to pay the HF for the fee for service health financing."/>
+  </concept>
+  <concept>
+    <code value="commission"/>
+    <display value="Commission"/>
+    <definition value="How much the insurance need to pay the commission to EO."/>
+  </concept>
+  <concept>
+    <code value="capitation"/>
+    <display value="Capitation"/>
+    <definition value="How much the insurance need to pay the HF for the capitation financing."/>
+  </concept>
+  <concept>
+    <code value="fees"/>
+    <display value="Fees"/>
+    <definition value="How much the insurance need to pay the payment platform for the fee for payment service."/>
+  </concept>
+</CodeSystem>

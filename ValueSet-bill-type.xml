@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="bill-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-bill-type.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type</code></a></li></ul></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/bill-type"/>
+  <version value="0.1.0"/>
+  <name value="BillTypeVS"/>
+  <title value="Type (Bill Invoice)"/>
+  <status value="active"/>
+  <date value="2021-11-16T09:50:19+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the Type for Bill. Values defined by openIMIS. Can not be extended."/>
+  <compose>
+    <include>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type"/>
+    </include>
+  </compose>
+</ValueSet>

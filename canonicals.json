@@ -35,6 +35,20 @@
     "name": "ActivityDefinitionUsageContextWorkflowTypeCS"
   },
   {
+    "id": "bill-charge-item",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-charge-item",
+    "version": "0.1.0",
+    "name": "BillChargeItemCS"
+  },
+  {
+    "id": "bill-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type",
+    "version": "0.1.0",
+    "name": "BillTypeCS"
+  },
+  {
     "id": "claim-item-category",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category",
@@ -518,9 +532,16 @@
     "name": "OpenIMISInsurancePlan"
   },
   {
-    "id": "openimis-invoice",
+    "id": "openimis-invoice-bill",
     "type": "StructureDefinition",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice-bill",
+    "version": "0.1.0",
+    "name": "OpenIMISBill"
+  },
+  {
+    "id": "openimis-invoice-invoice",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice-invoice",
     "version": "0.1.0",
     "name": "OpenIMISInvoice"
   },
@@ -670,6 +691,20 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-workflow-type",
     "version": "0.1.0",
     "name": "ActivityDefinitionUsageContextWorkflowTypeVS"
+  },
+  {
+    "id": "bill-charge-item",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/bill-charge-item",
+    "version": "0.1.0",
+    "name": "BillChargeItemVS"
+  },
+  {
+    "id": "bill-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/bill-type",
+    "version": "0.1.0",
+    "name": "BillTypeVS"
   },
   {
     "id": "claim-item-category",
