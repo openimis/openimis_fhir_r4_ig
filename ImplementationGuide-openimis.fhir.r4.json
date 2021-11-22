@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-11-16T09:50:19+00:00",
+  "date": "2021-11-22T10:47:57+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -872,6 +872,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/organization-hf-care-type"
+        },
+        "name": "Health Facility Care Type (Organization)",
+        "description": "Indicates the care type of the Health Facility (Organization).",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/organization-hf-legal-form"
         },
         "name": "Legal Forms (Organization)",
@@ -1600,6 +1614,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/organization-hf-care-type"
+        },
+        "name": "Health Facility Care Type (Organization)",
+        "description": "Indicates the care type of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/organization-hf-legal-form"
         },
         "name": "Legal Forms (Organization)",
@@ -2150,6 +2178,20 @@
         },
         "name": "openIMIS Identifiers code system",
         "description": "Identifiers that are specific to openIMIS and could not be found in standard sources.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/organization-hf-care-type"
+        },
+        "name": "Health Facility Care Type (Organization)",
+        "description": "Indicates the care type of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended.",
         "exampleBoolean": false
       },
       {

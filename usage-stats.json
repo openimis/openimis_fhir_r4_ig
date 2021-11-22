@@ -448,6 +448,14 @@
       ]
     },
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-care-type",
+      "title": "Health Facility Care Type (Organization)",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form",
       "title": "Legal Forms (Organization)",
       "types": [
@@ -823,6 +831,9 @@
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context": [
       "Medication"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-care-type": [
+      "Organization"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form": [
       "Organization"

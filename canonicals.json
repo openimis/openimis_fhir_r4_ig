@@ -217,6 +217,13 @@
     "name": "OpenIMISIdentifierCS"
   },
   {
+    "id": "organization-hf-care-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-care-type",
+    "version": "0.1.0",
+    "name": "OrganizationHFCareTypeCS"
+  },
+  {
     "id": "organization-hf-legal-form",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form",
@@ -572,6 +579,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization",
     "version": "0.1.0",
     "name": "OpenIMISPolicyHolderOrganization"
+  },
+  {
+    "id": "organization-hf-care-type",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-care-type",
+    "version": "0.1.0",
+    "name": "OrganizationHFCareTypeExtension"
   },
   {
     "id": "organization-hf-legal-form",
@@ -936,6 +950,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-identifiers",
     "version": "0.1.0",
     "name": "OpenIMISIdentifierVS"
+  },
+  {
+    "id": "organization-hf-care-type",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-care-type",
+    "version": "0.1.0",
+    "name": "OrganizationHFCareTypeVS"
   },
   {
     "id": "organization-hf-legal-form",

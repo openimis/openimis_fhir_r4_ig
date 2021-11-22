@@ -1,52 +1,53 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 185, warn = 30, info = 18
-IG Publisher Version: 1.1.86
-Generated Tue Nov 16 09:52:50 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+err = 186, warn = 30, info = 57
+IG Publisher Version: 1.1.88
+Generated Mon Nov 22 10:50:31 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
  Build Errors : 7 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/Claim-Claim001 : 3 / 0 / 1
  /github/workspace/fsh-generated/resources/ClaimResponse-Claim001 : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-service-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-bill-charge-item : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-bill-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-claim-item-category : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-claim-rejection-reasons : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-claim-status : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-claim-supporting-info-category : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-claim-visit-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-category : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-payer : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-contract-resource-party-role : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-contract-scope : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-coverage-item-benefit-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-coverage-item-category : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-diagnosis-ICD10-level1 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-feedback-payload : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-feedback-status : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-group-confirmation-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-group-types : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-insurance-plan-coverage-benefit-limit : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-insurance-plan-general-cost-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-invoice-charge-item : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-invoice-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-location-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-medication-item-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-openimis-identifiers : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-organization-hf-legal-form : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-organization-hf-level : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-organization-ph-activity : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-organization-ph-legal-form : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-patient-contact-relationship : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-patient-education-level : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-patient-identification-types : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-patient-profession : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-practitioner-qualification-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-usage-context-age-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-service-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-bill-charge-item : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-bill-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-claim-item-category : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-claim-rejection-reasons : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-claim-status : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-claim-supporting-info-category : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-claim-visit-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-category : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-payer : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-contract-premium-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-contract-resource-party-role : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-contract-scope : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-coverage-item-benefit-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-coverage-item-category : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-diagnosis-ICD10-level1 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-feedback-payload : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-feedback-status : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-group-confirmation-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-group-types : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-insurance-plan-coverage-benefit-limit : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-insurance-plan-general-cost-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-invoice-charge-item : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-invoice-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-location-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-medication-item-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-openimis-identifiers : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-organization-hf-care-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-organization-hf-legal-form : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-organization-hf-level : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-organization-ph-activity : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-organization-ph-legal-form : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-patient-contact-relationship : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-patient-education-level : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-patient-identification-types : 1 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-patient-profession : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-practitioner-qualification-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-usage-context-age-type : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Communication-Claim001Communication : 10 / 0 / 6
  /github/workspace/fsh-generated/resources/CommunicationRequest-Claim001CommunicationRequest : 10 / 0 / 6
  /github/workspace/fsh-generated/resources/Contract-InformalSectorContract : 1 / 0 / 1
@@ -63,7 +64,7 @@ Generated Tue Nov 16 09:52:50 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/Location-Upper-River-Region : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Medication-AspirinMedication : 5 / 1 / 1
  /github/workspace/fsh-generated/resources/Organization-MyTradePolicyHolder : 2 / 0 / 1
- /github/workspace/fsh-generated/resources/Organization-RaptaDistrictHospital : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-RaptaDistrictHospital : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-jane-doe : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-john-doe : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Practitioner-Roberts-Jeb-EO : 0 / 0 / 1
@@ -109,6 +110,7 @@ Generated Tue Nov 16 09:52:50 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-medication : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-policy-holder-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-organization-hf-care-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-organization-hf-legal-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-organization-hf-level : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-organization-ph-activity : 0 / 0 / 1
@@ -161,6 +163,7 @@ Generated Tue Nov 16 09:52:50 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ValueSet-location-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-medication-item-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-openimis-identifiers : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-organization-hf-care-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-organization-hf-legal-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-organization-hf-level : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-organization-ph-activity : 0 / 0 / 1
@@ -200,44 +203,84 @@ ERROR: Claim/Claim001: Claim.supportingInfo[0]: Slicing cannot be evaluated: Cou
 == fsh-generated/resources/ClaimResponse-Claim001.json ==
 ERROR: ClaimResponse/Claim001: ClaimResponse.insurer: Unable to resolve resource 'openIMIS'
 == fsh-generated/resources/CodeSystem-activity-definition-service-type.json ==
+INFORMATION: CodeSystem/activity-definition-service-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-activity-definition-usage-context-workflow-type.json ==
+INFORMATION: CodeSystem/activity-definition-usage-context-workflow-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-bill-charge-item.json ==
+INFORMATION: CodeSystem/bill-charge-item: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-bill-type.json ==
+INFORMATION: CodeSystem/bill-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-claim-item-category.json ==
+INFORMATION: CodeSystem/claim-item-category: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-claim-rejection-reasons.json ==
+INFORMATION: CodeSystem/claim-rejection-reasons: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-claim-status.json ==
+INFORMATION: CodeSystem/claim-status: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-claim-supporting-info-category.json ==
+INFORMATION: CodeSystem/claim-supporting-info-category: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-claim-visit-type.json ==
+INFORMATION: CodeSystem/claim-visit-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-contract-premium-category.json ==
+INFORMATION: CodeSystem/contract-premium-category: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-contract-premium-payer.json ==
+INFORMATION: CodeSystem/contract-premium-payer: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-contract-premium-type.json ==
+INFORMATION: CodeSystem/contract-premium-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-contract-resource-party-role.json ==
+INFORMATION: CodeSystem/contract-resource-party-role: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-contract-scope.json ==
+INFORMATION: CodeSystem/contract-scope: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-coverage-item-benefit-type.json ==
+INFORMATION: CodeSystem/coverage-item-benefit-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-coverage-item-category.json ==
+INFORMATION: CodeSystem/coverage-item-category: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-diagnosis-ICD10-level1.json ==
+INFORMATION: CodeSystem/diagnosis-ICD10-level1: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-feedback-payload.json ==
+INFORMATION: CodeSystem/feedback-payload: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-feedback-status.json ==
+INFORMATION: CodeSystem/feedback-status: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-group-confirmation-type.json ==
+INFORMATION: CodeSystem/group-confirmation-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-group-types.json ==
+INFORMATION: CodeSystem/group-types: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-insurance-plan-coverage-benefit-limit.json ==
+INFORMATION: CodeSystem/insurance-plan-coverage-benefit-limit: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-insurance-plan-general-cost-type.json ==
+INFORMATION: CodeSystem/insurance-plan-general-cost-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-invoice-charge-item.json ==
+INFORMATION: CodeSystem/invoice-charge-item: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-invoice-type.json ==
+INFORMATION: CodeSystem/invoice-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-location-type.json ==
+INFORMATION: CodeSystem/location-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-medication-item-type.json ==
+INFORMATION: CodeSystem/medication-item-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-openimis-identifiers.json ==
+INFORMATION: CodeSystem/openimis-identifiers: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-organization-hf-care-type.json ==
+INFORMATION: CodeSystem/organization-hf-care-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-organization-hf-legal-form.json ==
+INFORMATION: CodeSystem/organization-hf-legal-form: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-organization-hf-level.json ==
+INFORMATION: CodeSystem/organization-hf-level: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-organization-ph-activity.json ==
+INFORMATION: CodeSystem/organization-ph-activity: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-organization-ph-legal-form.json ==
+INFORMATION: CodeSystem/organization-ph-legal-form: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-patient-contact-relationship.json ==
+INFORMATION: CodeSystem/patient-contact-relationship: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-patient-education-level.json ==
+INFORMATION: CodeSystem/patient-education-level: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-patient-identification-types.json ==
 ERROR: CodeSystem.url: Resource id/url mismatch: patient-identification-types/https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types
+INFORMATION: CodeSystem/patient-identification-types: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-patient-profession.json ==
+INFORMATION: CodeSystem/patient-profession: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-practitioner-qualification-type.json ==
+INFORMATION: CodeSystem/practitioner-qualification-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-usage-context-age-type.json ==
+INFORMATION: CodeSystem/usage-context-age-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/Communication-Claim001Communication.json ==
 ERROR: Communication/Claim001Communication: Communication.payload[0]: Slicing cannot be evaluated: illegal function name null() in discriminator
 ERROR: Communication/Claim001Communication: Communication.payload[1]: Slicing cannot be evaluated: illegal function name null() in discriminator
@@ -284,7 +327,7 @@ ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.it
 ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.item[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice CoverageEligibilityRequest.item:service in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
 ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.patient: Unable to resolve resource 'joe-doe'
 ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.insurer: Unable to resolve resource 'openIMIS'
-ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.item[0].category: None of the codings provided are in the value set https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category (https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category), and a coding from this value set is required) (codes = https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category#service)
+ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.item[0].category: None of the codings provided are in the value set 'Category of the item (Coverage)' (https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category), and a coding from this value set is required) (codes = https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category#service)
 == fsh-generated/resources/CoverageEligibilityResponse-JoeDoeEnquiringResponse.json ==
 ERROR: CoverageEligibilityResponse/JoeDoeEnquiringResponse: CoverageEligibilityResponse.patient: Unable to resolve resource 'joe-doe'
 ERROR: CoverageEligibilityResponse/JoeDoeEnquiringResponse: CoverageEligibilityResponse.insurer: Unable to resolve resource 'openIMIS'
@@ -302,15 +345,15 @@ WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name 
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[8].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[26].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[28].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[41].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[44].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[144].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[145].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[146].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[150].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[154].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[155].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[156].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[42].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[45].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[147].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[148].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[149].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[153].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[157].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[158].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[159].description: value should not start or finish with whitespace
 == fsh-generated/resources/InsurancePlan-RX01.json ==
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[5]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[6]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
@@ -438,6 +481,7 @@ ERROR: Medication/AspirinMedication: Medication.amount: rat-1: 'Numerator and de
 ERROR: Organization/MyTradePolicyHolder: Organization: The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])
 ERROR: Organization/MyTradePolicyHolder: Organization: The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity is not allowed to be used at this point (allowed = e:OpenIMISPolicyHolderOrganization; this element is [[Organization])
 == fsh-generated/resources/Organization-RaptaDistrictHospital.json ==
+ERROR: Organization/RaptaDistrictHospital: Organization: The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-care-type is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])
 ERROR: Organization/RaptaDistrictHospital: Organization: The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])
 == fsh-generated/resources/Patient-jane-doe.json ==
 == fsh-generated/resources/Patient-john-doe.json ==
@@ -515,6 +559,7 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/StructureDefinition-openimis-medication.json ==
 == fsh-generated/resources/StructureDefinition-openimis-patient.json ==
 == fsh-generated/resources/StructureDefinition-openimis-policy-holder-organization.json ==
+== fsh-generated/resources/StructureDefinition-organization-hf-care-type.json ==
 == fsh-generated/resources/StructureDefinition-organization-hf-legal-form.json ==
 == fsh-generated/resources/StructureDefinition-organization-hf-level.json ==
 WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level'): The Implementation Guide contains no examples for this extension
@@ -569,6 +614,7 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/ValueSet-location-type.json ==
 == fsh-generated/resources/ValueSet-medication-item-type.json ==
 == fsh-generated/resources/ValueSet-openimis-identifiers.json ==
+== fsh-generated/resources/ValueSet-organization-hf-care-type.json ==
 == fsh-generated/resources/ValueSet-organization-hf-legal-form.json ==
 == fsh-generated/resources/ValueSet-organization-hf-level.json ==
 == fsh-generated/resources/ValueSet-organization-ph-activity.json ==

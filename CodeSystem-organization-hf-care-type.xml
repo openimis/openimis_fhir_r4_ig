@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="organization-hf-care-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-care-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">I<a name="organization-hf-care-type-I"> </a></td><td>In-Patient</td></tr><tr><td style="white-space:nowrap">O<a name="organization-hf-care-type-O"> </a></td><td>Out-Patient</td></tr><tr><td style="white-space:nowrap">B<a name="organization-hf-care-type-B"> </a></td><td>Both</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-care-type"/>
+  <version value="0.1.0"/>
+  <name value="OrganizationHFCareTypeCS"/>
+  <title value="Health Facility Care Type (Organization)"/>
+  <status value="active"/>
+  <date value="2021-11-22T10:47:57+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the care type of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended."/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="I"/>
+    <display value="In-Patient"/>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="Out-Patient"/>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="Both"/>
+  </concept>
+</CodeSystem>
