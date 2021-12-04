@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "ActivityDefinitionUsageContextVenueTypeVS"];
   fhir:ValueSet.title [ fhir:value "Usage Context for Venue Type (ActivityDefinition)"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-12-04T14:00:22+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-12-04T14:25:43+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Swiss TPH"];
   fhir:ValueSet.contact [
      fhir:index 0;

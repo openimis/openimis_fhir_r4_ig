@@ -259,7 +259,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "ClaimResponse.requestor","","","",1,1,"","","","Reference {[]} {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner]]}
 ","Party responsible for the claim","The provider which is responsible for the claim, predetermination or preauthorization.","Typically this field would be 1..1 where this party is responsible for the claim but not necessarily professionally responsible for the provision of the individual products and services listed below.","","","","","","","","",,,,,"",,,,"ClaimResponse.requestor",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FiveWs.source"
-"ClaimResponse.request","","","",0,0,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Claim]]}
+"ClaimResponse.request","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Claim]]}
 ","Id of resource triggering adjudication","Original request resource reference.","","","","","","","","","",,,,,"",,,,"ClaimResponse.request",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.basedOn","FiveWs.why[x]"
 "ClaimResponse.outcome","","","",1,1,"","","Y","code {[]} {[]}
