@@ -4,6 +4,14 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/activity-definition-level",
+      "title": "Level (ActivityDefinition)",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference",
       "title": "Location Reference (Address)",
       "types": [
@@ -347,6 +355,14 @@
         "time",
         "code",
         "unsignedInt",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-level",
+      "title": "Level (Medication)",
+      "types": [
+        "CodeableConcept",
         "CodeableConcept"
       ]
     },
@@ -722,6 +738,12 @@
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient",
         "title": "openIMIS Patient"
       }
+    ],
+    "Subscription": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-subscription",
+        "title": "openIMIS Subscription"
+      }
     ]
   },
   "usage": {
@@ -770,6 +792,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/activity-definition-level": [
+      "ActivityDefinition"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference": [
       "Extension.value[x]",
@@ -824,6 +849,9 @@
       "InsurancePlan"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency": [
+      "Medication"
+    ],
+    "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-level": [
       "Medication"
     ],
     "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type": [

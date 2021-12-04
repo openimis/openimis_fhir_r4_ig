@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "medication-level",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-level defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"medication-level-M\"> </a></td><td>Medication</td></tr></table></div>"
+  },
+  "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-level",
+  "version": "0.1.0",
+  "name": "MedicationLevelCS",
+  "title": "Level (Medication)",
+  "status": "active",
+  "date": "2021-12-04T14:00:22+00:00",
+  "publisher": "Swiss TPH",
+  "contact": [
+    {
+      "name": "Swiss TPH",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.swisstph.ch/en/"
+        }
+      ]
+    },
+    {
+      "name": "Dragos Dobre",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "dragos.dobre@swisstph.ch",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Indicates the Level for a Medication. Values defined by openIMIS. Can not be extended.",
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "M",
+      "display": "Medication"
+    }
+  ]
+}

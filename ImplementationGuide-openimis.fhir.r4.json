@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-11-22T10:47:57+00:00",
+  "date": "2021-12-04T14:00:22+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -602,6 +602,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-subscription"
+        },
+        "name": "openIMIS Subscription",
+        "description": "Allows to subscribe to notification of new or updates entitities.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/activity-definition-level"
+        },
+        "name": "Level (ActivityDefinition)",
+        "description": "Indicates the Level for an ActivityDefinition.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:extension"
           }
         ],
@@ -844,6 +872,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/medication-level"
+        },
+        "name": "Level (Medication)",
+        "description": "Indicates the Level for a Medication.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/medication-type"
         },
         "name": "Medication Type (Medication)",
@@ -1058,6 +1100,20 @@
         },
         "name": "Unit Price (Medication|ActivityDefinition)",
         "description": "The unit price for a Medication or ActivityDefinition.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/activity-definition-level"
+        },
+        "name": "Level (ActivityDefinition)",
+        "description": "Indicates the Level for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
         "exampleBoolean": false
       },
       {
@@ -1600,6 +1656,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/medication-level"
+        },
+        "name": "Level (Medication)",
+        "description": "Indicates the Level for a Medication. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/openimis-identifiers"
         },
         "name": "openIMIS Identifiers Value Set",
@@ -1786,6 +1856,20 @@
         },
         "name": "Usage Context for Gender Type (ActivityDefinition|Medication)",
         "description": "Indicates the Usage Context for Gender Type for an ActivityDefinition or Medication.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/activity-definition-level"
+        },
+        "name": "Level (ActivityDefinition)",
+        "description": "Indicates the Level for an ActivityDefinition. Values defined by openIMIS. Can not be extended.",
         "exampleBoolean": false
       },
       {
@@ -2164,6 +2248,20 @@
         },
         "name": "Item Type (Medication)",
         "description": "Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/medication-level"
+        },
+        "name": "Level (Medication)",
+        "description": "Indicates the Level for a Medication. Values defined by openIMIS. Can not be extended.",
         "exampleBoolean": false
       },
       {

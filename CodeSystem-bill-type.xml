@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="bill-type"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">fee-for-service<a name="bill-type-fee-for-service"> </a></td><td>Fee for service</td><td>How much the insurance need to pay the HF for the fee for service health financing.</td></tr><tr><td style="white-space:nowrap">commission<a name="bill-type-commission"> </a></td><td>Commission</td><td>How much the insurance need to pay the commission to EO.</td></tr><tr><td style="white-space:nowrap">capitation<a name="bill-type-capitation"> </a></td><td>Capitation</td><td>How much the insurance need to pay the HF for the capitation financing.</td></tr><tr><td style="white-space:nowrap">fees<a name="bill-type-fees"> </a></td><td>Fees</td><td>How much the insurance need to pay the payment platform for the fee for payment service.</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">claim-batch<a name="bill-type-claim-batch"> </a></td><td>Claim batch payment</td><td>How much the insurance need to pay the HF for the claims reimbursment.</td></tr><tr><td style="white-space:nowrap">commission<a name="bill-type-commission"> </a></td><td>Commission</td><td>How much the insurance need to pay the commission to EO.</td></tr><tr><td style="white-space:nowrap">fees<a name="bill-type-fees"> </a></td><td>Fees</td><td>How much the insurance need to pay the payment platform for the fee for payment service.</td></tr></table></div>
   </text>
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type"/>
   <version value="0.1.0"/>
   <name value="BillTypeCS"/>
   <title value="Type (Bill Invoice)"/>
   <status value="active"/>
-  <date value="2021-11-22T10:47:57+00:00"/>
+  <date value="2021-12-04T14:00:22+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>
@@ -29,21 +29,16 @@
   </contact>
   <description value="Indicates the Type for Bill. Values defined by openIMIS. Can not be extended."/>
   <content value="complete"/>
-  <count value="4"/>
+  <count value="3"/>
   <concept>
-    <code value="fee-for-service"/>
-    <display value="Fee for service"/>
-    <definition value="How much the insurance need to pay the HF for the fee for service health financing."/>
+    <code value="claim-batch"/>
+    <display value="Claim batch payment"/>
+    <definition value="How much the insurance need to pay the HF for the claims reimbursment."/>
   </concept>
   <concept>
     <code value="commission"/>
     <display value="Commission"/>
     <definition value="How much the insurance need to pay the commission to EO."/>
-  </concept>
-  <concept>
-    <code value="capitation"/>
-    <display value="Capitation"/>
-    <definition value="How much the insurance need to pay the HF for the capitation financing."/>
   </concept>
   <concept>
     <code value="fees"/>

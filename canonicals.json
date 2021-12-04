@@ -21,6 +21,13 @@
     "name": "PatientIdentificationTypesCS"
   },
   {
+    "id": "activity-definition-level",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-level",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionLevelCS"
+  },
+  {
     "id": "activity-definition-service-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type",
@@ -210,6 +217,13 @@
     "name": "MedicationItemTypeCS"
   },
   {
+    "id": "medication-level",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-level",
+    "version": "0.1.0",
+    "name": "MedicationLevelCS"
+  },
+  {
     "id": "openimis-identifiers",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
@@ -292,6 +306,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ImplementationGuide/openimis.fhir.r4",
     "version": "0.1.0",
     "name": "openIMISFHIRR4"
+  },
+  {
+    "id": "activity-definition-level",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/activity-definition-level",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionLevelExtension"
   },
   {
     "id": "address-location-reference",
@@ -411,6 +432,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency",
     "version": "0.1.0",
     "name": "MedicationFrequencyExtension"
+  },
+  {
+    "id": "medication-level",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-level",
+    "version": "0.1.0",
+    "name": "MedicationLevelExtension"
   },
   {
     "id": "medication-type",
@@ -581,6 +609,13 @@
     "name": "OpenIMISPolicyHolderOrganization"
   },
   {
+    "id": "openimis-subscription",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-subscription",
+    "version": "0.1.0",
+    "name": "OpenIMISSubscription"
+  },
+  {
     "id": "organization-hf-care-type",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-care-type",
@@ -677,6 +712,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price",
     "version": "0.1.0",
     "name": "UnitPriceExtension"
+  },
+  {
+    "id": "activity-definition-level",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-level",
+    "version": "0.1.0",
+    "name": "ActivityDefinitionLevelVS"
   },
   {
     "id": "activity-definition-service-type",
@@ -943,6 +985,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/medication-item-type",
     "version": "0.1.0",
     "name": "MedicationItemTypeVS"
+  },
+  {
+    "id": "medication-level",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/medication-level",
+    "version": "0.1.0",
+    "name": "MedicationLevelVS"
   },
   {
     "id": "openimis-identifiers",

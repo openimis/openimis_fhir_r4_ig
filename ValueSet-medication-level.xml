@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="medication-level"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-medication-level.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-level</code></a></li></ul></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/medication-level"/>
+  <version value="0.1.0"/>
+  <name value="MedicationLevelVS"/>
+  <title value="Level (Medication)"/>
+  <status value="active"/>
+  <date value="2021-12-04T14:00:22+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the Level for a Medication. Values defined by openIMIS. Can not be extended."/>
+  <compose>
+    <include>
+      <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-level"/>
+    </include>
+  </compose>
+</ValueSet>

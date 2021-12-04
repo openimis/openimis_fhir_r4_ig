@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "CoverageItemCategoryCS"];
   fhir:CodeSystem.title [ fhir:value "Category of the item (Coverage)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-11-22T10:47:57+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-12-04T14:00:22+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;

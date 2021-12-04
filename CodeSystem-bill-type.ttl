@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "bill-type"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">fee-for-service<a name=\"bill-type-fee-for-service\"> </a></td><td>Fee for service</td><td>How much the insurance need to pay the HF for the fee for service health financing.</td></tr><tr><td style=\"white-space:nowrap\">commission<a name=\"bill-type-commission\"> </a></td><td>Commission</td><td>How much the insurance need to pay the commission to EO.</td></tr><tr><td style=\"white-space:nowrap\">capitation<a name=\"bill-type-capitation\"> </a></td><td>Capitation</td><td>How much the insurance need to pay the HF for the capitation financing.</td></tr><tr><td style=\"white-space:nowrap\">fees<a name=\"bill-type-fees\"> </a></td><td>Fees</td><td>How much the insurance need to pay the payment platform for the fee for payment service.</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">claim-batch<a name=\"bill-type-claim-batch\"> </a></td><td>Claim batch payment</td><td>How much the insurance need to pay the HF for the claims reimbursment.</td></tr><tr><td style=\"white-space:nowrap\">commission<a name=\"bill-type-commission\"> </a></td><td>Commission</td><td>How much the insurance need to pay the commission to EO.</td></tr><tr><td style=\"white-space:nowrap\">fees<a name=\"bill-type-fees\"> </a></td><td>Fees</td><td>How much the insurance need to pay the payment platform for the fee for payment service.</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "BillTypeCS"];
   fhir:CodeSystem.title [ fhir:value "Type (Bill Invoice)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-11-22T10:47:57+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-12-04T14:00:22+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -39,12 +39,12 @@
   ];
   fhir:CodeSystem.description [ fhir:value "Indicates the Type for Bill. Values defined by openIMIS. Can not be extended."];
   fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [
      fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "fee-for-service" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Fee for service" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "How much the insurance need to pay the HF for the fee for service health financing." ]
+     fhir:CodeSystem.concept.code [ fhir:value "claim-batch" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Claim batch payment" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How much the insurance need to pay the HF for the claims reimbursment." ]
   ], [
      fhir:index 1;
      fhir:CodeSystem.concept.code [ fhir:value "commission" ];
@@ -52,11 +52,6 @@
      fhir:CodeSystem.concept.definition [ fhir:value "How much the insurance need to pay the commission to EO." ]
   ], [
      fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "capitation" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Capitation" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "How much the insurance need to pay the HF for the capitation financing." ]
-  ], [
-     fhir:index 3;
      fhir:CodeSystem.concept.code [ fhir:value "fees" ];
      fhir:CodeSystem.concept.display [ fhir:value "Fees" ];
      fhir:CodeSystem.concept.definition [ fhir:value "How much the insurance need to pay the payment platform for the fee for payment service." ]
