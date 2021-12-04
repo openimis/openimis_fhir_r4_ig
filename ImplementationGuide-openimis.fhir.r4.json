@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-12-04T14:25:43+00:00",
+  "date": "2021-12-04T14:41:27+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -2501,6 +2501,20 @@
         "name": "Claim001CommunicationRequest",
         "description": "* Example of a CommunicationRequest",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Subscription"
+          }
+        ],
+        "reference": {
+          "reference": "Subscription/ContributionInvoiceSubscription"
+        },
+        "name": "ContributionInvoiceSubscription",
+        "description": "Example of openIMIS Subscription request.",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-subscription"
       },
       {
         "extension": [

@@ -1,0 +1,40 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/Subscription/ContributionInvoiceSubscription> a fhir:Subscription;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ContributionInvoiceSubscription"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-subscription";
+       fhir:index 0;
+       fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-subscription>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"ContributionInvoiceSubscription\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-openimis-subscription.html\">openIMIS Subscription</a></p></div><p><b>status</b>: requested</p><p><b>reason</b>: Accounting system integration</p><p><b>criteria</b>: Invoice?type=contribution</p><h3>Channels</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Endpoint</b></td><td><b>Header</b></td></tr><tr><td>*</td><td>rest-hook</td><td><a href=\"https://api.accounting.org/invoice/contribution\">https://api.accounting.org/invoice/contribution</a></td><td>Authorization: Bearer secret-token-abc-123</td></tr></table></div>"
+  ];
+  fhir:Subscription.status [ fhir:value "requested"];
+  fhir:Subscription.reason [ fhir:value "Accounting system integration"];
+  fhir:Subscription.criteria [ fhir:value "Invoice?type=contribution"];
+  fhir:Subscription.channel [
+     fhir:Subscription.channel.type [ fhir:value "rest-hook" ];
+     fhir:Subscription.channel.endpoint [ fhir:value "https://api.accounting.org/invoice/contribution" ];
+     fhir:Subscription.channel.header [
+       fhir:value "Authorization: Bearer secret-token-abc-123";
+       fhir:index 0
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://openimis.github.io/openimis_fhir_r4_ig/Subscription/ContributionInvoiceSubscription.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

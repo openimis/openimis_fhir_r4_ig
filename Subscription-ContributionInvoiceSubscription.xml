@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Subscription xmlns="http://hl7.org/fhir">
+  <id value="ContributionInvoiceSubscription"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-subscription"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "ContributionInvoiceSubscription" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-openimis-subscription.html">openIMIS Subscription</a></p></div><p><b>status</b>: requested</p><p><b>reason</b>: Accounting system integration</p><p><b>criteria</b>: Invoice?type=contribution</p><h3>Channels</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Endpoint</b></td><td><b>Header</b></td></tr><tr><td>*</td><td>rest-hook</td><td><a href="https://api.accounting.org/invoice/contribution">https://api.accounting.org/invoice/contribution</a></td><td>Authorization: Bearer secret-token-abc-123</td></tr></table></div>
+  </text>
+  <status value="requested"/>
+  <reason value="Accounting system integration"/>
+  <criteria value="Invoice?type=contribution"/>
+  <channel>
+    <type value="rest-hook"/>
+    <endpoint value="https://api.accounting.org/invoice/contribution"/>
+    <header value="Authorization: Bearer secret-token-abc-123"/>
+  </channel>
+</Subscription>

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "openIMISFHIRR4"];
   fhir:ImplementationGuide.title [ fhir:value "openIMIS FHIR R4 Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-12-04T14:25:43+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-04T14:41:27+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Swiss TPH"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -2506,6 +2506,23 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Subscription" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/Subscription/ContributionInvoiceSubscription>;
+         fhir:Reference.reference [ fhir:value "Subscription/ContributionInvoiceSubscription" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ContributionInvoiceSubscription" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of openIMIS Subscription request." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-subscription";
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-subscription>
+       ]
+     ], [
+       fhir:index 159;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CapabilityStatement" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -2515,7 +2532,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Create a Capability Statement using RuleSets" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 159;
+       fhir:index 160;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2532,7 +2549,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition>
        ]
      ], [
-       fhir:index 160;
+       fhir:index 161;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2549,7 +2566,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-contract>
        ]
      ], [
-       fhir:index 161;
+       fhir:index 162;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2566,7 +2583,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location>
        ]
      ], [
-       fhir:index 162;
+       fhir:index 163;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2583,7 +2600,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location>
        ]
      ], [
-       fhir:index 163;
+       fhir:index 164;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2600,7 +2617,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location>
        ]
      ], [
-       fhir:index 164;
+       fhir:index 165;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2617,7 +2634,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage>
        ]
      ], [
-       fhir:index 165;
+       fhir:index 166;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2634,7 +2651,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request>
        ]
      ], [
-       fhir:index 166;
+       fhir:index 167;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2651,7 +2668,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-response>
        ]
      ], [
-       fhir:index 167;
+       fhir:index 168;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2668,7 +2685,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization>
        ]
      ], [
-       fhir:index 168;
+       fhir:index 169;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2685,7 +2702,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan>
        ]
      ], [
-       fhir:index 169;
+       fhir:index 170;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2702,7 +2719,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan>
        ]
      ], [
-       fhir:index 170;
+       fhir:index 171;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2719,7 +2736,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization>
        ]
      ], [
-       fhir:index 171;
+       fhir:index 172;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2736,7 +2753,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner>
        ]
      ], [
-       fhir:index 172;
+       fhir:index 173;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2753,7 +2770,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner>
        ]
      ], [
-       fhir:index 173;
+       fhir:index 174;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2770,7 +2787,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location>
        ]
      ], [
-       fhir:index 174;
+       fhir:index 175;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2787,7 +2804,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group>
        ]
      ], [
-       fhir:index 175;
+       fhir:index 176;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2804,7 +2821,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient>
        ]
      ], [
-       fhir:index 176;
+       fhir:index 177;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
