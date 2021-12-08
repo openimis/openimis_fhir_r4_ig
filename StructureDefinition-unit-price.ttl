@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "UnitPriceExtension"];
   fhir:StructureDefinition.title [ fhir:value "Unit Price (Medication|ActivityDefinition)"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-12-04T14:41:27+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-12-08T10:28:46+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

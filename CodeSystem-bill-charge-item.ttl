@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "bill-charge-item"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-charge-item defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">claim<a name=\"bill-charge-item-claim\"> </a></td><td>Claim</td></tr><tr><td style=\"white-space:nowrap\">contribution<a name=\"bill-charge-item-contribution\"> </a></td><td>Contribution</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-charge-item defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">claim<a name=\"bill-charge-item-claim\"> </a></td><td>Claim</td><td>Fee-for-service or Capitation amount</td></tr><tr><td style=\"white-space:nowrap\">commission<a name=\"bill-charge-item-commission\"> </a></td><td>Commission</td><td>Commission amount</td></tr><tr><td style=\"white-space:nowrap\">fees<a name=\"bill-charge-item-fees\"> </a></td><td>Fees</td><td>Fees amount</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-charge-item"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "BillChargeItemCS"];
   fhir:CodeSystem.title [ fhir:value "ChargeItem (Bill Invoice)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-12-04T14:41:27+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-12-08T10:28:46+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -39,15 +39,22 @@
   ];
   fhir:CodeSystem.description [ fhir:value "Indicates the ChargeItem for a lineItem from a Bill. Values defined by openIMIS. Can not be extended."];
   fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "claim" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Claim" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Claim" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Fee-for-service or Capitation amount" ]
   ], [
      fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "contribution" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Contribution" ]
+     fhir:CodeSystem.concept.code [ fhir:value "commission" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Commission" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Commission amount" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "fees" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Fees" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Fees amount" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
