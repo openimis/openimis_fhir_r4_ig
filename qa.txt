@@ -1,9 +1,9 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 186, warn = 16, info = 59
-IG Publisher Version: 1.1.90
-Generated Wed Dec 08 10:30:53 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+err = 187, warn = 20, info = 59
+IG Publisher Version: 1.1.91
+Generated Thu Dec 16 15:31:29 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
  Build Errors : 7 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement : 2 / 1 / 1
@@ -60,6 +60,7 @@ Generated Wed Dec 08 10:30:53 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ImplementationGuide-openimis.fhir.r4 : 0 / 13 / 1
  /github/workspace/fsh-generated/resources/InsurancePlan-RX01 : 52 / 0 / 4
  /github/workspace/fsh-generated/resources/InsurancePlan-RX02 : 51 / 0 / 4
+ /github/workspace/fsh-generated/resources/Invoice-InformalSectorContributionInvoice : 1 / 4 / 1
  /github/workspace/fsh-generated/resources/Location-Jamu-municipality : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Location-Jamula-village : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Location-Jimara-district : 0 / 0 / 1
@@ -67,6 +68,7 @@ Generated Wed Dec 08 10:30:53 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/Medication-AspirinMedication : 5 / 1 / 1
  /github/workspace/fsh-generated/resources/Organization-MyTradePolicyHolder : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/Organization-RaptaDistrictHospital : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-openIMIS-Implementation : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-jane-doe : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-john-doe : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Practitioner-Roberts-Jeb-EO : 0 / 0 / 1
@@ -107,9 +109,10 @@ Generated Wed Dec 08 10:30:53 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner-role : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-group : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-health-facility-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-insurance-organization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-insurance-plan : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-invoice-bill : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-openimis-invoice-invoice : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-openimis-invoice-invoice : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-location : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-medication : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-openimis-patient : 0 / 0 / 1
@@ -166,6 +169,7 @@ Generated Wed Dec 08 10:30:53 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
  /github/workspace/fsh-generated/resources/ValueSet-insurance-plan-publication-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-invoice-charge-item : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-invoice-price-component-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-invoice-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-invoice-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-location-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-medication-item-type : 0 / 0 / 1
@@ -465,6 +469,12 @@ ERROR: InsurancePlan/RX02: InsurancePlan.plan[0].generalCost[2]: Slicing cannot 
 ERROR: InsurancePlan/RX02: InsurancePlan.plan[0].generalCost[3]: Slicing cannot be evaluated: Could not match discriminator ([type.coding.code]) for slice InsurancePlan.plan.generalCost:generalAssemblyFee in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan - the discriminator [type.coding.code] does not have fixed value, binding or existence assertions
 INFORMATION: InsurancePlan/RX02: InsurancePlan.plan[0]: InsurancePlan.plan.generalCost: Unable to check max allowed (InsurancePlan.plan.generalCost) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan)
 INFORMATION: InsurancePlan/RX02: InsurancePlan.plan[0]: InsurancePlan.plan.generalCost:lumpsum: Unable to check minimum required (InsurancePlan.plan.generalCost) due to lack of slicing validation (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan)
+== fsh-generated/resources/Invoice-InformalSectorContributionInvoice.json ==
+WARNING: Invoice/InformalSectorContributionInvoice: Invoice.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Invoice/InformalSectorContributionInvoice: Invoice.identifier[1].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Invoice/InformalSectorContributionInvoice: Invoice.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Invoice/InformalSectorContributionInvoice: Invoice.lineItem[0].priceComponent[0]: The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition, e:OpenIMISInvoice; this element is [[Invoice.lineItem.priceComponent, BackboneElement.priceComponent, BackboneElement])
+WARNING: Invoice/InformalSectorContributionInvoice: Invoice.lineItem[0].priceComponent[0].code.coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/Location-Jamu-municipality.json ==
 == fsh-generated/resources/Location-Jamula-village.json ==
 WARNING: Location/Jamula-village: Location.physicalType: Display Name for https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type#V should be one of 'City/Village, City/Village' instead of 'Village'
@@ -483,6 +493,7 @@ ERROR: Organization/MyTradePolicyHolder: Organization: The modifier extension ht
 == fsh-generated/resources/Organization-RaptaDistrictHospital.json ==
 ERROR: Organization/RaptaDistrictHospital: Organization: The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-care-type is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])
 ERROR: Organization/RaptaDistrictHospital: Organization: The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form is not allowed to be used at this point (allowed = e:OpenIMISHealthFacilityOrganization; this element is [[Organization])
+== fsh-generated/resources/Organization-openIMIS-Implementation.json ==
 == fsh-generated/resources/Patient-jane-doe.json ==
 == fsh-generated/resources/Patient-john-doe.json ==
 == fsh-generated/resources/Practitioner-Roberts-Jeb-EO.json ==
@@ -552,6 +563,7 @@ ERROR: StructureDefinition/openimis-coverage-eligibility-response: StructureDefi
 == fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner-role.json ==
 == fsh-generated/resources/StructureDefinition-openimis-group.json ==
 == fsh-generated/resources/StructureDefinition-openimis-health-facility-organization.json ==
+== fsh-generated/resources/StructureDefinition-openimis-insurance-organization.json ==
 == fsh-generated/resources/StructureDefinition-openimis-insurance-plan.json ==
 == fsh-generated/resources/StructureDefinition-openimis-invoice-bill.json ==
 == fsh-generated/resources/StructureDefinition-openimis-invoice-invoice.json ==
@@ -613,6 +625,7 @@ WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fh
 == fsh-generated/resources/ValueSet-insurance-plan-publication-status.json ==
 == fsh-generated/resources/ValueSet-invoice-charge-item.json ==
 == fsh-generated/resources/ValueSet-invoice-price-component-type.json ==
+== fsh-generated/resources/ValueSet-invoice-status.json ==
 == fsh-generated/resources/ValueSet-invoice-type.json ==
 == fsh-generated/resources/ValueSet-location-type.json ==
 == fsh-generated/resources/ValueSet-medication-item-type.json ==

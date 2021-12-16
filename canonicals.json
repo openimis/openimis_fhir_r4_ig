@@ -560,6 +560,13 @@
     "name": "OpenIMISHealthFacilityOrganization"
   },
   {
+    "id": "openimis-insurance-organization",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-organization",
+    "version": "0.1.0",
+    "name": "OpenIMISInsuranceOrganization"
+  },
+  {
     "id": "openimis-insurance-plan",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan",
@@ -964,6 +971,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-price-component-type",
     "version": "0.1.0",
     "name": "InvoicePriceComponentTypeVS"
+  },
+  {
+    "id": "invoice-status",
+    "type": "ValueSet",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-status",
+    "version": "0.1.0",
+    "name": "InvoiceStatusVS"
   },
   {
     "id": "invoice-type",

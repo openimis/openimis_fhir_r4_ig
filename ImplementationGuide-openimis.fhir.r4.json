@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-12-08T10:28:46+00:00",
+  "date": "2021-12-16T15:29:31+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -512,6 +512,20 @@
         },
         "name": "openIMIS Health Facility Organization",
         "description": "Defines an Organization for openIMIS which maps to a Health Facility",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-insurance-organization"
+        },
+        "name": "openIMIS Insurance Organization",
+        "description": "Defines an Organization for openIMIS which maps to the openIMIS implementation as Insurance. \nThis is required in different resources.",
         "exampleBoolean": false
       },
       {
@@ -1614,6 +1628,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/invoice-status"
+        },
+        "name": "Status (Invoice)",
+        "description": "Indicates the status for an Invoice. Values limited by openIMIS. Can not be extended.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/invoice-type"
         },
         "name": "Type (Invoice)",
@@ -2561,6 +2589,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Invoice"
+          }
+        ],
+        "reference": {
+          "reference": "Invoice/InformalSectorContributionInvoice"
+        },
+        "name": "InformalSectorContributionInvoice",
+        "description": "Example of an Invoice covering the contribution payment by a family under Informal Sector scheme.",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice-invoice"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Location"
           }
         ],
@@ -2780,6 +2822,20 @@
         "name": "john-doe",
         "description": "Example of openIMIS Patient",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/openIMIS-Implementation"
+        },
+        "name": "openIMIS-Implementation",
+        "description": "Example of openIMIS Insurance.",
+        "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-organization"
       }
     ],
     "page": {

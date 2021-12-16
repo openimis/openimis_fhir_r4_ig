@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "invoice-type"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">contribution<a name=\"invoice-type-contribution\"> </a></td><td>Contribution</td></tr><tr><td style=\"white-space:nowrap\">contract<a name=\"invoice-type-contract\"> </a></td><td>Contract</td></tr><tr><td style=\"white-space:nowrap\">funding<a name=\"invoice-type-funding\"> </a></td><td>Funding</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">contribution<a name=\"invoice-type-contribution\"> </a></td><td>Contribution</td><td>To pay the contribution for a Policy under the Informal Sector coverage.</td></tr><tr><td style=\"white-space:nowrap\">contract<a name=\"invoice-type-contract\"> </a></td><td>Contract</td><td>To pay the contributions under the Formal Sector coverage.</td></tr><tr><td style=\"white-space:nowrap\">funding<a name=\"invoice-type-funding\"> </a></td><td>Funding</td><td>To create a request for external funds.</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "InvoiceTypeCS"];
   fhir:CodeSystem.title [ fhir:value "Type (Invoice)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-12-08T10:28:46+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-12-16T15:29:31+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -43,15 +43,18 @@
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "contribution" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Contribution" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Contribution" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "To pay the contribution for a Policy under the Informal Sector coverage." ]
   ], [
      fhir:index 1;
      fhir:CodeSystem.concept.code [ fhir:value "contract" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Contract" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Contract" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "To pay the contributions under the Formal Sector coverage." ]
   ], [
      fhir:index 2;
      fhir:CodeSystem.concept.code [ fhir:value "funding" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Funding" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Funding" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "To create a request for external funds." ]
   ] .
 
 # - ontology header ------------------------------------------------------------

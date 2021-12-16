@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="invoice-status"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-invoice-status.html"><code>http://hl7.org/fhir/invoice-status</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-invoice-status.html#invoice-status-issued">issued</a></td><td>Issued</td><td>the invoice has been finalized and sent to the recipient.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-invoice-status.html#invoice-status-balanced">balanced</a></td><td>Balanced</td><td>the invoice has been balaced / completely paid.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-invoice-status.html#invoice-status-cancelled">cancelled</a></td><td>Cancelled</td><td>the invoice was cancelled.</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-status"/>
+  <version value="0.1.0"/>
+  <name value="InvoiceStatusVS"/>
+  <title value="Status (Invoice)"/>
+  <status value="active"/>
+  <date value="2021-12-16T15:29:31+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the status for an Invoice. Values limited by openIMIS. Can not be extended."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/invoice-status"/>
+      <concept>
+        <code value="issued"/>
+        <display value="Issued"/>
+      </concept>
+      <concept>
+        <code value="balanced"/>
+        <display value="Balanced"/>
+      </concept>
+      <concept>
+        <code value="cancelled"/>
+        <display value="Cancelled"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

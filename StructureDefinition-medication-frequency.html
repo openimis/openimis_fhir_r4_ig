@@ -50,8 +50,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.42"}
-    h3,h4,h5,h6{--heading-prefix:"8.42"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.43"}
+    h3,h4,h5,h6{--heading-prefix:"8.43"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -611,44 +611,44 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   <!--Constraints  heading in the fragment -->
   <h4>Constraints</h4>
 <table class="list">
-<tr><td width="60"><b>Id</b></td><td><b>Path</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
-<tr><td>ele-1</td><td>Extension</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>Extension</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.extension</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>Extension.value[x]:valueTiming.extension</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.modifierExtension</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>Extension.value[x]:valueTiming.modifierExtension</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.event</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>tim-1</td><td>Extension.value[x]:valueTiming.repeat</td><td>if there's a duration, there needs to be duration units<br/>: duration.empty() or durationUnit.exists()</td><td></td></tr>
-<tr><td>tim-2</td><td>Extension.value[x]:valueTiming.repeat</td><td>if there's a period, there needs to be period units<br/>: period.empty() or periodUnit.exists()</td><td></td></tr>
-<tr><td>tim-4</td><td>Extension.value[x]:valueTiming.repeat</td><td>duration SHALL be a non-negative value<br/>: duration.exists() implies duration &gt;= 0</td><td></td></tr>
-<tr><td>tim-5</td><td>Extension.value[x]:valueTiming.repeat</td><td>period SHALL be a non-negative value<br/>: period.exists() implies period &gt;= 0</td><td></td></tr>
-<tr><td>tim-6</td><td>Extension.value[x]:valueTiming.repeat</td><td>If there's a periodMax, there must be a period<br/>: periodMax.empty() or period.exists()</td><td></td></tr>
-<tr><td>tim-7</td><td>Extension.value[x]:valueTiming.repeat</td><td>If there's a durationMax, there must be a duration<br/>: durationMax.empty() or duration.exists()</td><td></td></tr>
-<tr><td>tim-8</td><td>Extension.value[x]:valueTiming.repeat</td><td>If there's a countMax, there must be a count<br/>: countMax.empty() or count.exists()</td><td></td></tr>
-<tr><td>tim-9</td><td>Extension.value[x]:valueTiming.repeat</td><td>If there's an offset, there must be a when (and not C, CM, CD, CV)<br/>: offset.empty() or (when.exists() and ((when in ('C' | 'CM' | 'CD' | 'CV')).not()))</td><td></td></tr>
-<tr><td>tim-10</td><td>Extension.value[x]:valueTiming.repeat</td><td>If there's a timeOfDay, there cannot be a when, or vice versa<br/>: timeOfDay.empty() or when.empty()</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.extension</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>Extension.value[x]:valueTiming.repeat.extension</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.bounds[x]</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.count</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.countMax</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.duration</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.durationMax</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.durationUnit</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.frequency</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.frequencyMax</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.period</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.periodMax</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.periodUnit</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.dayOfWeek</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.timeOfDay</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.when</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.repeat.offset</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ele-1</td><td>Extension.value[x]:valueTiming.code</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ext-1</td><td>error</td><td>Extension</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.extension</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ext-1</td><td>error</td><td>Extension.value[x]:valueTiming.extension</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.modifierExtension</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ext-1</td><td>error</td><td>Extension.value[x]:valueTiming.modifierExtension</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.event</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>tim-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat</td><td>if there's a duration, there needs to be duration units<br/>: duration.empty() or durationUnit.exists()</td><td></td></tr>
+<tr><td>tim-2</td><td>error</td><td>Extension.value[x]:valueTiming.repeat</td><td>if there's a period, there needs to be period units<br/>: period.empty() or periodUnit.exists()</td><td></td></tr>
+<tr><td>tim-4</td><td>error</td><td>Extension.value[x]:valueTiming.repeat</td><td>duration SHALL be a non-negative value<br/>: duration.exists() implies duration &gt;= 0</td><td></td></tr>
+<tr><td>tim-5</td><td>error</td><td>Extension.value[x]:valueTiming.repeat</td><td>period SHALL be a non-negative value<br/>: period.exists() implies period &gt;= 0</td><td></td></tr>
+<tr><td>tim-6</td><td>error</td><td>Extension.value[x]:valueTiming.repeat</td><td>If there's a periodMax, there must be a period<br/>: periodMax.empty() or period.exists()</td><td></td></tr>
+<tr><td>tim-7</td><td>error</td><td>Extension.value[x]:valueTiming.repeat</td><td>If there's a durationMax, there must be a duration<br/>: durationMax.empty() or duration.exists()</td><td></td></tr>
+<tr><td>tim-8</td><td>error</td><td>Extension.value[x]:valueTiming.repeat</td><td>If there's a countMax, there must be a count<br/>: countMax.empty() or count.exists()</td><td></td></tr>
+<tr><td>tim-9</td><td>error</td><td>Extension.value[x]:valueTiming.repeat</td><td>If there's an offset, there must be a when (and not C, CM, CD, CV)<br/>: offset.empty() or (when.exists() and ((when in ('C' | 'CM' | 'CD' | 'CV')).not()))</td><td></td></tr>
+<tr><td>tim-10</td><td>error</td><td>Extension.value[x]:valueTiming.repeat</td><td>If there's a timeOfDay, there cannot be a when, or vice versa<br/>: timeOfDay.empty() or when.empty()</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.extension</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ext-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.extension</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.bounds[x]</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.count</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.countMax</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.duration</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.durationMax</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.durationUnit</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.frequency</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.frequencyMax</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.period</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.periodMax</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.periodUnit</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.dayOfWeek</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.timeOfDay</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.when</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.repeat.offset</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>Extension.value[x]:valueTiming.code</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
 </table>
 
 
@@ -704,7 +704,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Dec 8, 2021 10:28+0000">2021-12-08</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 16, 2021 15:29+0000">2021-12-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

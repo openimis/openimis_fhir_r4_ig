@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Invoice xmlns="http://hl7.org/fhir">
+  <id value="InformalSectorContributionInvoice"/>
+  <meta>
+    <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice-invoice"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "InformalSectorContributionInvoice" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-openimis-invoice-invoice.html">openIMIS Invoice</a></p></div><p><b>identifier</b>: Code: IV-BCUL0001-13000001-2021-09, UUID: D33E703F-D10B-43D8-9578-5137C118AD84</p><p><b>status</b>: issued</p><p><b>type</b>: contribution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#contribution)</span></p><p><b>recipient</b>: <a href="Patient-jane-doe.html">Patient/jane-doe</a> " DOE"</p><p><b>date</b>: 2021-01-28</p><p><b>issuer</b>: <a href="Organization-openIMIS-Implementation.html">Organization/openIMIS-Implementation</a> "openIMIS Implementation"</p><blockquote><p><b>lineItem</b></p><p><b>chargeItem</b>: Policy <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-invoice-charge-item.html">ChargeItem (Invoice)</a>#policy)</span></p><blockquote><p><b>priceComponent</b></p><p><b>Unit Price (Medication|ActivityDefinition)</b>: </p></blockquote></blockquote><p><b style="color: maroon">Exception generating Narrative: null</b></p></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <code value="Code"/>
+      </coding>
+    </type>
+    <value value="IV-BCUL0001-13000001-2021-09"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <code value="UUID"/>
+      </coding>
+    </type>
+    <value value="D33E703F-D10B-43D8-9578-5137C118AD84"/>
+  </identifier>
+  <status value="issued"/>
+  <type>
+    <coding>
+      <code value="contribution"/>
+    </coding>
+  </type>
+  <recipient>
+    <reference value="Patient/jane-doe"/>
+  </recipient>
+  <date value="2021-01-28"/>
+  <issuer>
+    <reference value="Organization/openIMIS-Implementation"/>
+  </issuer>
+  <lineItem>
+    <chargeItemCodeableConcept>
+      <coding>
+        <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-charge-item"/>
+        <code value="policy"/>
+        <display value="Policy"/>
+      </coding>
+    </chargeItemCodeableConcept>
+    <priceComponent>
+      <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price">
+        <valueMoney>
+          <value value="10000"/>
+        </valueMoney>
+      </extension>
+      <type value="base"/>
+      <code>
+        <coding>
+          <code value="Code"/>
+        </coding>
+        <text value="BCUL0001"/>
+      </code>
+      <factor value="1"/>
+      <amount>
+        <value value="10000"/>
+      </amount>
+    </priceComponent>
+  </lineItem>
+  <totalNet>
+    <value value="10000"/>
+    <currency value="EUR"/>
+  </totalNet>
+  <totalGross>
+    <value value="10000"/>
+    <currency value="EUR"/>
+  </totalGross>
+</Invoice>

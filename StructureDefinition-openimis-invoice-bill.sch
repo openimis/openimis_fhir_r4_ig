@@ -18,7 +18,6 @@
       <sch:assert test="count(f:recipient) &gt;= 1">recipient: minimum cardinality of 'recipient' is 1</sch:assert>
       <sch:assert test="count(f:date) &gt;= 1">date: minimum cardinality of 'date' is 1</sch:assert>
       <sch:assert test="count(f:participant) &lt;= 0">participant: maximum cardinality of 'participant' is 0</sch:assert>
-      <sch:assert test="count(f:issuer) &lt;= 0">issuer: maximum cardinality of 'issuer' is 0</sch:assert>
       <sch:assert test="count(f:account) &lt;= 0">account: maximum cardinality of 'account' is 0</sch:assert>
       <sch:assert test="count(f:lineItem) &gt;= 1">lineItem: minimum cardinality of 'lineItem' is 1</sch:assert>
       <sch:assert test="count(f:totalPriceComponent) &lt;= 0">totalPriceComponent: maximum cardinality of 'totalPriceComponent' is 0</sch:assert>

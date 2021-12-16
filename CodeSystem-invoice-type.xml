@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="invoice-type"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">contribution<a name="invoice-type-contribution"> </a></td><td>Contribution</td></tr><tr><td style="white-space:nowrap">contract<a name="invoice-type-contract"> </a></td><td>Contract</td></tr><tr><td style="white-space:nowrap">funding<a name="invoice-type-funding"> </a></td><td>Funding</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">contribution<a name="invoice-type-contribution"> </a></td><td>Contribution</td><td>To pay the contribution for a Policy under the Informal Sector coverage.</td></tr><tr><td style="white-space:nowrap">contract<a name="invoice-type-contract"> </a></td><td>Contract</td><td>To pay the contributions under the Formal Sector coverage.</td></tr><tr><td style="white-space:nowrap">funding<a name="invoice-type-funding"> </a></td><td>Funding</td><td>To create a request for external funds.</td></tr></table></div>
   </text>
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type"/>
   <version value="0.1.0"/>
   <name value="InvoiceTypeCS"/>
   <title value="Type (Invoice)"/>
   <status value="active"/>
-  <date value="2021-12-08T10:28:46+00:00"/>
+  <date value="2021-12-16T15:29:31+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>
@@ -33,13 +33,16 @@
   <concept>
     <code value="contribution"/>
     <display value="Contribution"/>
+    <definition value="To pay the contribution for a Policy under the Informal Sector coverage."/>
   </concept>
   <concept>
     <code value="contract"/>
     <display value="Contract"/>
+    <definition value="To pay the contributions under the Formal Sector coverage."/>
   </concept>
   <concept>
     <code value="funding"/>
     <display value="Funding"/>
+    <definition value="To create a request for external funds."/>
   </concept>
 </CodeSystem>
