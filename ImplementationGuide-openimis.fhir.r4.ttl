@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "openIMISFHIRR4"];
   fhir:ImplementationGuide.title [ fhir:value "openIMIS FHIR R4 Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-12-16T15:29:31+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-20T14:56:49+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Swiss TPH"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1514,10 +1514,10 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-types>;
-         fhir:Reference.reference [ fhir:value "ValueSet/group-types" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-type>;
+         fhir:Reference.reference [ fhir:value "ValueSet/group-type" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Group Types (Group)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Group Type (Group)" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the type of the Group. Values defined by openIMIS. Can be extended." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -1794,10 +1794,10 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-types>;
-         fhir:Reference.reference [ fhir:value "ValueSet/patient-identification-types" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-type>;
+         fhir:Reference.reference [ fhir:value "ValueSet/patient-identification-type" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Identification Types (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Identification Type (Patient)" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the type of document the Patient used to identify himself." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -1825,7 +1825,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession>;
          fhir:Reference.reference [ fhir:value "ValueSet/patient-profession" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Profession Value Set" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profession (Patient)" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the profession of a Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2119,7 +2119,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/diagnosis-ICD10-level1>;
          fhir:Reference.reference [ fhir:value "CodeSystem/diagnosis-ICD10-level1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ICD 10 Level 1 diagnosis" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ICD 10 Level 1 diagnosis (Claim)" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2172,10 +2172,10 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/group-types" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/group-type" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Group Types (Group)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Group Type (Group)" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the type of the Group. Values defined by openIMIS. Can be extended." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2287,7 +2287,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers>;
          fhir:Reference.reference [ fhir:value "CodeSystem/openimis-identifiers" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Identifiers code system" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "openIMIS Identifiers (All)" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifiers that are specific to openIMIS and could not be found in standard sources." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2371,7 +2371,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship>;
          fhir:Reference.reference [ fhir:value "CodeSystem/patient-contact-relationship" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Contact Relationship code system" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Contact Relationship (Patient)" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Relationship of a Patient with the Head of the Family. Values defined by openIMIS." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2385,7 +2385,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level>;
          fhir:Reference.reference [ fhir:value "CodeSystem/patient-education-level" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Education Level Code System" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Education Level (Patient)" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Education level of a Patient. Values defined by openIMIS. Can be extended." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2396,10 +2396,10 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-identification-types>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/patient-identification-types" ]
+         fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-identification-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/patient-identification-type" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Identification Types (Patient)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Identification Type (Patient)" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the type of document the Patient used to identify himself. Values defined by openIMIS. Can be extended." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2413,7 +2413,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession>;
          fhir:Reference.reference [ fhir:value "CodeSystem/patient-profession" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Profession Code System" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profession (Patient)" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the profession of a Patient. Values defined by openIMIS. Can be extended." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2427,7 +2427,7 @@
          fhir:link <https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type>;
          fhir:Reference.reference [ fhir:value "CodeSystem/practitioner-qualification-type" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner Qualification Type" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Qualification Type (Practitioner)" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates the Qualification Type of a Practitioner." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2911,31 +2911,11 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 1;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "specification.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "FHIR Design and Overview" ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "usecase-enrollment.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Enrollment Use Case" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 2;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "usecases.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Integration Use Cases" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index 3;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "connected_partner.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Becoming a Connected Partner" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index 4;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "future.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Future Plans" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index 5;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "glossary.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Glossary" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index 6;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "credits.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Credits" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]

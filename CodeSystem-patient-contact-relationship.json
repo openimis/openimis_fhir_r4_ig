@@ -8,9 +8,9 @@
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship",
   "version": "0.1.0",
   "name": "PatientContactRelationshipCS",
-  "title": "Patient Contact Relationship code system",
+  "title": "Contact Relationship (Patient)",
   "status": "active",
-  "date": "2021-12-16T15:29:31+00:00",
+  "date": "2021-12-20T14:56:49+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {

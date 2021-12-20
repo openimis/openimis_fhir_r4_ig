@@ -180,10 +180,8 @@ Period {[]} {[]}","Estimated date or dates of service","The date or dates when t
 "CoverageEligibilityRequest.provider","","","",0,0,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
 ","Party responsible for the request","The provider which is responsible for the request.","Typically this field would be 1..1 where this party is responsible for the eligibility request but not necessarily professionally responsible for the provision of the individual products and services listed below.","Needed to identify the requestor.","","","","","","","",,,,,"",,,,"CoverageEligibilityRequest.provider",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Request.requester","FiveWs.source"
-"CoverageEligibilityRequest.insurer","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
-","Coverage issuer","Hardcodded as openIMIS doesn't support multiple insurance organizations.","","Need to identify the recipient.","","","","<valueReference xmlns=""http://hl7.org/fhir"">
-  <reference value=""openIMIS""/>
-</valueReference>","","","",,,,,"",,,,"CoverageEligibilityRequest.insurer",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"CoverageEligibilityRequest.insurer","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-organization]]}
+","Coverage issuer","Hardcodded as openIMIS doesn't support multiple insurance organizations.","","Need to identify the recipient.","","","","","","","",,,,,"",,,,"CoverageEligibilityRequest.insurer",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Request.performer","FiveWs.who"
 "CoverageEligibilityRequest.facility","","","",0,0,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Location]]}
 ","Servicing facility","Facility where the services are intended to be provided.","","Insurance adjudication can be dependant on where services were delivered.","","","","","","","",,,,,"",,,,"CoverageEligibilityRequest.facility",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

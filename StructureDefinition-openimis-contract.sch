@@ -23,7 +23,7 @@
       <sch:assert test="count(f:expirationType) &lt;= 0">expirationType: maximum cardinality of 'expirationType' is 0</sch:assert>
       <sch:assert test="count(f:subject) &gt;= 1">subject: minimum cardinality of 'subject' is 1</sch:assert>
       <sch:assert test="count(f:subject) &lt;= 1">subject: maximum cardinality of 'subject' is 1</sch:assert>
-      <sch:assert test="count(f:authority) &lt;= 0">authority: maximum cardinality of 'authority' is 0</sch:assert>
+      <sch:assert test="count(f:authority) &lt;= 1">authority: maximum cardinality of 'authority' is 1</sch:assert>
       <sch:assert test="count(f:domain) &lt;= 0">domain: maximum cardinality of 'domain' is 0</sch:assert>
       <sch:assert test="count(f:site) &lt;= 0">site: maximum cardinality of 'site' is 0</sch:assert>
       <sch:assert test="count(f:name) &lt;= 0">name: maximum cardinality of 'name' is 0</sch:assert>

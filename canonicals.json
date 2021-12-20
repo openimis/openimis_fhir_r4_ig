@@ -14,13 +14,6 @@
     "name": "Example Capability Statement"
   },
   {
-    "id": "patient-identification-types",
-    "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem-patient-identification-types",
-    "version": "0.1.0",
-    "name": "PatientIdentificationTypesCS"
-  },
-  {
     "id": "activity-definition-level",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-level",
@@ -168,11 +161,11 @@
     "name": "GroupConfirmationTypeCS"
   },
   {
-    "id": "group-types",
+    "id": "group-type",
     "type": "CodeSystem",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-types",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-type",
     "version": "0.1.0",
-    "name": "GroupTypesCS"
+    "name": "GroupTypeCS"
   },
   {
     "id": "insurance-plan-coverage-benefit-limit",
@@ -278,6 +271,13 @@
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level",
     "version": "0.1.0",
     "name": "PatientEducationLevelCS"
+  },
+  {
+    "id": "patient-identification-type",
+    "type": "CodeSystem",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-identification-type",
+    "version": "0.1.0",
+    "name": "PatientIdentificationTypeCS"
   },
   {
     "id": "patient-profession",
@@ -924,11 +924,11 @@
     "name": "GroupConfirmationTypeVS"
   },
   {
-    "id": "group-types",
+    "id": "group-type",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-types",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-type",
     "version": "0.1.0",
-    "name": "GroupTypesVS"
+    "name": "GroupTypeVS"
   },
   {
     "id": "insurance-plan-coverage-benefit-limit",
@@ -1064,11 +1064,11 @@
     "name": "PatientEducationLevelVS"
   },
   {
-    "id": "patient-identification-types",
+    "id": "patient-identification-type",
     "type": "ValueSet",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-types",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-type",
     "version": "0.1.0",
-    "name": "PatientIdentificationTypesVS"
+    "name": "PatientIdentificationTypeVS"
   },
   {
     "id": "patient-marital-status",

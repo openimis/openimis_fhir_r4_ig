@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="group-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/codesystem-group-type.html"><code>http://hl7.org/fhir/group-type</code></a></li></ul></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-type"/>
+  <version value="0.1.0"/>
+  <name value="GroupTypeVS"/>
+  <title value="Group Type (Group)"/>
+  <status value="active"/>
+  <date value="2021-12-20T14:56:49+00:00"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/group-type"/>
+    </include>
+  </compose>
+</ValueSet>

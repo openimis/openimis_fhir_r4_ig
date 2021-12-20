@@ -8,9 +8,9 @@
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level"/>
   <version value="0.1.0"/>
   <name value="PatientEducationLevelCS"/>
-  <title value="Patient Education Level Code System"/>
+  <title value="Education Level (Patient)"/>
   <status value="active"/>
-  <date value="2021-12-16T15:29:31+00:00"/>
+  <date value="2021-12-20T14:56:49+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>

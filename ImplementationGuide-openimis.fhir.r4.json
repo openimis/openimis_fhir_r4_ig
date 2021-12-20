@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-12-16T15:29:31+00:00",
+  "date": "2021-12-20T14:56:49+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -1530,9 +1530,9 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/group-types"
+          "reference": "ValueSet/group-type"
         },
-        "name": "Group Types (Group)",
+        "name": "Group Type (Group)",
         "description": "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
@@ -1810,9 +1810,9 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/patient-identification-types"
+          "reference": "ValueSet/patient-identification-type"
         },
-        "name": "Identification Types (Patient)",
+        "name": "Identification Type (Patient)",
         "description": "Indicates the type of document the Patient used to identify himself.",
         "exampleBoolean": false
       },
@@ -1840,7 +1840,7 @@
         "reference": {
           "reference": "ValueSet/patient-profession"
         },
-        "name": "Patient Profession Value Set",
+        "name": "Profession (Patient)",
         "description": "Indicates the profession of a Patient",
         "exampleBoolean": false
       },
@@ -2134,7 +2134,7 @@
         "reference": {
           "reference": "CodeSystem/diagnosis-ICD10-level1"
         },
-        "name": "ICD 10 Level 1 diagnosis",
+        "name": "ICD 10 Level 1 diagnosis (Claim)",
         "description": "Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS.",
         "exampleBoolean": false
       },
@@ -2188,9 +2188,9 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/group-types"
+          "reference": "CodeSystem/group-type"
         },
-        "name": "Group Types (Group)",
+        "name": "Group Type (Group)",
         "description": "Indicates the type of the Group. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
@@ -2302,7 +2302,7 @@
         "reference": {
           "reference": "CodeSystem/openimis-identifiers"
         },
-        "name": "openIMIS Identifiers code system",
+        "name": "openIMIS Identifiers (All)",
         "description": "Identifiers that are specific to openIMIS and could not be found in standard sources.",
         "exampleBoolean": false
       },
@@ -2386,7 +2386,7 @@
         "reference": {
           "reference": "CodeSystem/patient-contact-relationship"
         },
-        "name": "Patient Contact Relationship code system",
+        "name": "Contact Relationship (Patient)",
         "description": "Indicates the Relationship of a Patient with the Head of the Family. Values defined by openIMIS.",
         "exampleBoolean": false
       },
@@ -2400,7 +2400,7 @@
         "reference": {
           "reference": "CodeSystem/patient-education-level"
         },
-        "name": "Patient Education Level Code System",
+        "name": "Education Level (Patient)",
         "description": "Indicates the Education level of a Patient. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
@@ -2412,9 +2412,9 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/patient-identification-types"
+          "reference": "CodeSystem/patient-identification-type"
         },
-        "name": "Identification Types (Patient)",
+        "name": "Identification Type (Patient)",
         "description": "Indicates the type of document the Patient used to identify himself. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
@@ -2428,7 +2428,7 @@
         "reference": {
           "reference": "CodeSystem/patient-profession"
         },
-        "name": "Patient Profession Code System",
+        "name": "Profession (Patient)",
         "description": "Indicates the profession of a Patient. Values defined by openIMIS. Can be extended.",
         "exampleBoolean": false
       },
@@ -2442,7 +2442,7 @@
         "reference": {
           "reference": "CodeSystem/practitioner-qualification-type"
         },
-        "name": "Practitioner Qualification Type",
+        "name": "Qualification Type (Practitioner)",
         "description": "Indicates the Qualification Type of a Practitioner.",
         "exampleBoolean": false
       },
@@ -2849,28 +2849,8 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "specification.html",
-          "title": "FHIR Design and Overview",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "usecases.html",
-          "title": "Integration Use Cases",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "connected_partner.html",
-          "title": "Becoming a Connected Partner",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "future.html",
-          "title": "Future Plans",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "glossary.html",
-          "title": "Glossary",
+          "nameUrl": "usecase-enrollment.html",
+          "title": "Enrollment Use Case",
           "generation": "markdown"
         },
         {

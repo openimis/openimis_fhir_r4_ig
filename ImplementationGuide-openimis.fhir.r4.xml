@@ -11,7 +11,7 @@
   <name value="openIMISFHIRR4"/>
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-12-16T15:29:31+00:00"/>
+  <date value="2021-12-20T14:56:49+00:00"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>
@@ -1158,9 +1158,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/group-types"/>
+        <reference value="ValueSet/group-type"/>
       </reference>
-      <name value="Group Types (Group)"/>
+      <name value="Group Type (Group)"/>
       <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1378,9 +1378,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/patient-identification-types"/>
+        <reference value="ValueSet/patient-identification-type"/>
       </reference>
-      <name value="Identification Types (Patient)"/>
+      <name value="Identification Type (Patient)"/>
       <description value="Indicates the type of document the Patient used to identify himself."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1402,7 +1402,7 @@
       <reference>
         <reference value="ValueSet/patient-profession"/>
       </reference>
-      <name value="Patient Profession Value Set"/>
+      <name value="Profession (Patient)"/>
       <description value="Indicates the profession of a Patient"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1633,7 +1633,7 @@
       <reference>
         <reference value="CodeSystem/diagnosis-ICD10-level1"/>
       </reference>
-      <name value="ICD 10 Level 1 diagnosis"/>
+      <name value="ICD 10 Level 1 diagnosis (Claim)"/>
       <description value="Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1675,9 +1675,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/group-types"/>
+        <reference value="CodeSystem/group-type"/>
       </reference>
-      <name value="Group Types (Group)"/>
+      <name value="Group Type (Group)"/>
       <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1765,7 +1765,7 @@
       <reference>
         <reference value="CodeSystem/openimis-identifiers"/>
       </reference>
-      <name value="openIMIS Identifiers code system"/>
+      <name value="openIMIS Identifiers (All)"/>
       <description value="Identifiers that are specific to openIMIS and could not be found in standard sources."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1831,7 +1831,7 @@
       <reference>
         <reference value="CodeSystem/patient-contact-relationship"/>
       </reference>
-      <name value="Patient Contact Relationship code system"/>
+      <name value="Contact Relationship (Patient)"/>
       <description value="Indicates the Relationship of a Patient with the Head of the Family. Values defined by openIMIS."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1842,7 +1842,7 @@
       <reference>
         <reference value="CodeSystem/patient-education-level"/>
       </reference>
-      <name value="Patient Education Level Code System"/>
+      <name value="Education Level (Patient)"/>
       <description value="Indicates the Education level of a Patient. Values defined by openIMIS. Can be extended."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1851,9 +1851,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/patient-identification-types"/>
+        <reference value="CodeSystem/patient-identification-type"/>
       </reference>
-      <name value="Identification Types (Patient)"/>
+      <name value="Identification Type (Patient)"/>
       <description value="Indicates the type of document the Patient used to identify himself. Values defined by openIMIS. Can be extended."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1864,7 +1864,7 @@
       <reference>
         <reference value="CodeSystem/patient-profession"/>
       </reference>
-      <name value="Patient Profession Code System"/>
+      <name value="Profession (Patient)"/>
       <description value="Indicates the profession of a Patient. Values defined by openIMIS. Can be extended."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1875,7 +1875,7 @@
       <reference>
         <reference value="CodeSystem/practitioner-qualification-type"/>
       </reference>
-      <name value="Practitioner Qualification Type"/>
+      <name value="Qualification Type (Practitioner)"/>
       <description value="Indicates the Qualification Type of a Practitioner."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -2196,28 +2196,8 @@
         <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="specification.html"/>
-        <title value="FHIR Design and Overview"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <nameUrl value="usecases.html"/>
-        <title value="Integration Use Cases"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <nameUrl value="connected_partner.html"/>
-        <title value="Becoming a Connected Partner"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <nameUrl value="future.html"/>
-        <title value="Future Plans"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <nameUrl value="glossary.html"/>
-        <title value="Glossary"/>
+        <nameUrl value="usecase-enrollment.html"/>
+        <title value="Enrollment Use Case"/>
         <generation value="markdown"/>
       </page>
       <page>
