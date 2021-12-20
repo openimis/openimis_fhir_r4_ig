@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>OPENIMIS.FHIR.R4\Claiming Use Case - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/hl7-be.css" rel="stylesheet"/>
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+<!--
+  Questionnaire:
+-->
+    <link href="assets/css/lforms.min.css" rel="stylesheet"/>
+
+
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="https://openimis.org">
+      <img height="71" alt="Project home" src="assets/images/openimis.svg"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+<!--  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="70" alt="FHIR website" src="assets/images/fire.png"/> </a>
+  </div>
+-->
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">openIMIS FHIR R4 Implementation Guide</span><br/>0.1.0 - ci-build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Overview</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Use Cases
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="usecase-enrollment.html">Enrollment</a>
+      </li>
+      <li>
+        <a href="usecase-enquire.html">Enquire</a>
+      </li>
+      <li>
+        <a href="usecase-claiming.html">Claiming</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="credits.html">Credits</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Claiming Use Case</b></li>
+          
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">openIMIS FHIR R4 Implementation Guide - Local Development build (v0.1.0). See the <a href="https://openimis.github.io/openimis_fhir_r4_ig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Claiming Use Case</h2>
+  
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<p>In this use case, a Point of Service (PoS) is submitting a claim.</p>
+
+<p>The following code systems are involved in this workflow:</p>
+<ul>
+  <li><a href="CodeSystem-diagnosis-ICD10-level1.html">diagnosis</a> list configured in openIMIS (ICD10 level 1 diagnosis is provided as an example)</li>
+</ul>
+
+<p>The following resources are involved in this workflow:</p>
+<ul>
+  <li><a href="StructureDefinition-openimis-activitiy-definition.html">ActivityDefinition</a> for the reference to the medical service</li>
+  <li><a href="StructureDefinition-openimis-medication.html">Medication</a> for the reference to the medical item</li>
+  <li><a href="StructureDefinition-openimis-claim-administrator-practitioner.html">Practitioner</a> for the reference to the Claim Administrator submitting the claim</li>
+  <li><a href="StructureDefinition-openimis-health-facility-organization.html">Organization</a> for the reference to the Health Facility providing the medical services and items</li>
+</ul>
+
+<p>The process is done in two steps:</p>
+<ol>
+  <li>Synchronization of the openIMIS configuration referenced by the necessary resources.</li>
+  <li>Posting the Patients (members of the family), Group (the family) and Contract (enrolment information).</li>
+</ol>
+
+<p>&lt;?xml version=”1.0” encoding=”UTF-8” standalone=”no”?&gt;<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="843px" preserveAspectRatio="none" style="width:681px;height:843px;" version="1.1" viewBox="0 0 681 843" width="681px" zoomAndPan="magnify"><defs><filter height="300%" id="f1veuy58wdif9p" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"></feGaussianBlur><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"></feColorMatrix><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"></feOffset><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"></feBlend></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1veuy58wdif9p)" height="426.9922" style="stroke:#000000;stroke-width:2.0;" width="657" x="10" y="57.2969"></rect><rect fill="#FFFFFF" filter="url(#f1veuy58wdif9p)" height="190.9297" style="stroke:#000000;stroke-width:2.0;" width="603.5" x="20" y="81.4297"></rect><rect fill="#FFFFFF" filter="url(#f1veuy58wdif9p)" height="190.9297" style="stroke:#000000;stroke-width:2.0;" width="637" x="20" y="286.3594"></rect><rect fill="#FFFFFF" filter="url(#f1veuy58wdif9p)" height="217.9297" style="stroke:#000000;stroke-width:2.0;" width="633.5" x="20" y="565.4219"></rect><line style="stroke:#A80036;stroke-width:1.0;" x1="52" x2="52" y1="40.2969" y2="491.2891"></line><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="52" x2="52" y1="491.2891" y2="519.2891"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="52" x2="52" y1="519.2891" y2="800.3516"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="260" x2="260" y1="40.2969" y2="491.2891"></line><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="260" x2="260" y1="491.2891" y2="519.2891"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="260" x2="260" y1="519.2891" y2="800.3516"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="468" x2="468" y1="40.2969" y2="491.2891"></line><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="468" x2="468" y1="491.2891" y2="519.2891"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="468" x2="468" y1="519.2891" y2="800.3516"></line><rect fill="#FEFECE" filter="url(#f1veuy58wdif9p)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="41" x="30" y="5"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="37" y="24.9951">PoS</text><rect fill="#FEFECE" filter="url(#f1veuy58wdif9p)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="41" x="30" y="799.3516"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="37" y="819.3467">PoS</text><rect fill="#FEFECE" filter="url(#f1veuy58wdif9p)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="39" x="239" y="5"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="246" y="24.9951">HIM</text><rect fill="#FEFECE" filter="url(#f1veuy58wdif9p)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="39" x="239" y="799.3516"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="246" y="819.3467">HIM</text><rect fill="#FEFECE" filter="url(#f1veuy58wdif9p)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="77" x="428" y="5"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="435" y="24.9951">openIMIS</text><rect fill="#FEFECE" filter="url(#f1veuy58wdif9p)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="77" x="428" y="799.3516"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="435" y="819.3467">openIMIS</text><path d="M10,57.2969 L256,57.2969 L256,64.2969 L246,74.2969 L10,74.2969 L10,57.2969 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"></path><rect fill="none" height="426.9922" style="stroke:#000000;stroke-width:2.0;" width="657" x="10" y="57.2969"></rect><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="201" x="25" y="70.3638">Get openIMIS configuration</text><path d="M20,81.4297 L97,81.4297 L97,88.4297 L87,98.4297 L20,98.4297 L20,81.4297 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"></path><rect fill="none" height="190.9297" style="stroke:#000000;stroke-width:2.0;" width="603.5" x="20" y="81.4297"></rect><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="32" x="35" y="94.4966">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="203" x="112" y="93.6401">[for CodeSystem in (diagnosis)]</text><polygon fill="#A80036" points="248.5,115.6953,258.5,119.6953,248.5,123.6953,252.5,119.6953" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;" x1="52.5" x2="254.5" y1="119.6953" y2="119.6953"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="59.5" y="114.6294">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="72.5" y="114.6294">GET CodeSystem</text><polygon fill="#A80036" points="456.5,144.8281,466.5,148.8281,456.5,152.8281,460.5,148.8281" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;" x1="260.5" x2="462.5" y1="148.8281" y2="148.8281"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="267.5" y="143.7622">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="280.5" y="143.7622">GET CodeSystem</text><line style="stroke:#A80036;stroke-width:1.0;" x1="468.5" x2="510.5" y1="193.0938" y2="193.0938"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="510.5" x2="510.5" y1="193.0938" y2="206.0938"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="469.5" x2="510.5" y1="206.0938" y2="206.0938"></line><polygon fill="#A80036" points="479.5,202.0938,469.5,206.0938,479.5,210.0938,475.5,206.0938" style="stroke:#A80036;stroke-width:1.0;"></polygon><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="475.5" y="180.4614">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="119" x="488.5" y="172.895">Read configuration</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="488.5" y="188.0278">from DB</text><polygon fill="#A80036" points="271.5,231.2266,261.5,235.2266,271.5,239.2266,267.5,235.2266" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="265.5" x2="467.5" y1="235.2266" y2="235.2266"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="277.5" y="230.1606">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="290.5" y="230.1606">HTTP 200 CodeSystem</text><polygon fill="#A80036" points="63.5,260.3594,53.5,264.3594,63.5,268.3594,59.5,264.3594" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="57.5" x2="259.5" y1="264.3594" y2="264.3594"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="69.5" y="259.2935">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="82.5" y="259.2935">HTTP 200 CodeSystem</text><path d="M20,286.3594 L97,286.3594 L97,293.3594 L87,303.3594 L20,303.3594 L20,286.3594 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"></path><rect fill="none" height="190.9297" style="stroke:#000000;stroke-width:2.0;" width="637" x="20" y="286.3594"></rect><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="32" x="35" y="299.4263">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="540" x="112" y="298.5698">[for Resource in (ActivityDefinition, Medication, Practitioner@CA, Organization@HF)]</text><polygon fill="#A80036" points="248.5,320.625,258.5,324.625,248.5,328.625,252.5,324.625" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;" x1="52.5" x2="254.5" y1="324.625" y2="324.625"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="59.5" y="319.5591">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="72.5" y="319.5591">GET Resource</text><polygon fill="#A80036" points="456.5,349.7578,466.5,353.7578,456.5,357.7578,460.5,353.7578" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;" x1="260.5" x2="462.5" y1="353.7578" y2="353.7578"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="267.5" y="348.6919">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="280.5" y="348.6919">GET Resource</text><line style="stroke:#A80036;stroke-width:1.0;" x1="468.5" x2="510.5" y1="398.0234" y2="398.0234"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="510.5" x2="510.5" y1="398.0234" y2="411.0234"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="469.5" x2="510.5" y1="411.0234" y2="411.0234"></line><polygon fill="#A80036" points="479.5,407.0234,469.5,411.0234,479.5,415.0234,475.5,411.0234" style="stroke:#A80036;stroke-width:1.0;"></polygon><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="475.5" y="385.3911">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="488.5" y="377.8247">Read Resource</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="488.5" y="392.9575">from DB</text><polygon fill="#A80036" points="271.5,436.1563,261.5,440.1563,271.5,444.1563,267.5,440.1563" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="265.5" x2="467.5" y1="440.1563" y2="440.1563"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="277.5" y="435.0903">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="290.5" y="435.0903">HTTP 200 Resource</text><polygon fill="#A80036" points="63.5,465.2891,53.5,469.2891,63.5,473.2891,59.5,469.2891" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="57.5" x2="259.5" y1="469.2891" y2="469.2891"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="18" x="69.5" y="464.2231">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="91.5" y="464.2231">HTTP 200 Resource</text><path d="M23,524.2891 L23,549.2891 L497,549.2891 L497,534.2891 L487,524.2891 L23,524.2891 " fill="#FBFB77" filter="url(#f1veuy58wdif9p)" style="stroke:#A80036;stroke-width:1.0;"></path><path d="M487,524.2891 L487,534.2891 L497,534.2891 L487,524.2891 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"></path><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="268" x="119.5" y="541.356">Enquire Workflow (Get Patient's Coverage)</text><path d="M20,565.4219 L163,565.4219 L163,572.4219 L153,582.4219 L20,582.4219 L20,565.4219 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"></path><rect fill="none" height="217.9297" style="stroke:#000000;stroke-width:2.0;" width="633.5" x="20" y="565.4219"></rect><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="98" x="35" y="578.4888">Submit Claim</text><polygon fill="#A80036" points="248.5,599.6875,258.5,603.6875,248.5,607.6875,252.5,603.6875" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;" x1="52.5" x2="254.5" y1="603.6875" y2="603.6875"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="18" x="59.5" y="598.6216">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="81.5" y="598.6216">POST Claim</text><polygon fill="#A80036" points="456.5,628.8203,466.5,632.8203,456.5,636.8203,460.5,632.8203" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;" x1="260.5" x2="462.5" y1="632.8203" y2="632.8203"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="18" x="267.5" y="627.7544">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="289.5" y="627.7544">POST Claim</text><line style="stroke:#A80036;stroke-width:1.0;" x1="468.5" x2="510.5" y1="661.9531" y2="661.9531"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="510.5" x2="510.5" y1="661.9531" y2="674.9531"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="469.5" x2="510.5" y1="674.9531" y2="674.9531"></line><polygon fill="#A80036" points="479.5,670.9531,469.5,674.9531,479.5,678.9531,475.5,674.9531" style="stroke:#A80036;stroke-width:1.0;"></polygon><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="18" x="475.5" y="656.8872">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="497.5" y="656.8872">Create Claim</text><line style="stroke:#A80036;stroke-width:1.0;" x1="468.5" x2="510.5" y1="704.0859" y2="704.0859"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="510.5" x2="510.5" y1="704.0859" y2="717.0859"></line><line style="stroke:#A80036;stroke-width:1.0;" x1="469.5" x2="510.5" y1="717.0859" y2="717.0859"></line><polygon fill="#A80036" points="479.5,713.0859,469.5,717.0859,479.5,721.0859,475.5,717.0859" style="stroke:#A80036;stroke-width:1.0;"></polygon><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="18" x="475.5" y="699.02">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="497.5" y="699.02">Run rule-based checks</text><polygon fill="#A80036" points="271.5,742.2188,261.5,746.2188,271.5,750.2188,267.5,746.2188" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="265.5" x2="467.5" y1="746.2188" y2="746.2188"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="18" x="277.5" y="741.1528">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="299.5" y="741.1528">HTTP 200 ClaimResponse</text><polygon fill="#A80036" points="63.5,771.3516,53.5,775.3516,63.5,779.3516,59.5,775.3516" style="stroke:#A80036;stroke-width:1.0;"></polygon><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="57.5" x2="259.5" y1="775.3516" y2="775.3516"></line><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="18" x="69.5" y="770.2856">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="91.5" y="770.2856">HTTP 200 ClaimResponse</text></g></svg></p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.swisstph.ch/en/">Swiss TPH</a>.  Package openimis.fhir.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 20, 2021 16:29+0000">2021-12-20</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                  | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://openimis.atlassian.net/servicedesk/customer/user/requests?page=1&reporter=all&status=open">Issues</a> | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://openimis.atlassian.net/servicedesk/customer/portal/1">Submit issue</a>
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+  
+    
+  
+
+
+  
+    
+  
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

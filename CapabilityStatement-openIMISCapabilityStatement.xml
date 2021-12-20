@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="openIMISCapabilityStatement"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>openIMIS Capability Statement</h2><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th><th><b title="DELETE a resource (delete interaction)">Delete</b></th></tr><tr><td>ActivityDefinition</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-activitiy-definition.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-activitiy-definition.html</a></td><td>y</td><td>y</td><td></td><td></td><td></td></tr><tr><td>Claim</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim.html</a></td><td>y</td><td>y</td><td></td><td>y</td><td></td></tr><tr><td>ClaimResponse</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim-response.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim-response.html</a></td><td>y</td><td>y</td><td></td><td></td><td></td></tr><tr><td>Communication</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-communication.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-communication.html</a></td><td></td><td></td><td></td><td>y</td><td></td></tr><tr><td>CommunicationRequest</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-communication-request.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-communication-request.html</a></td><td>y</td><td>y</td><td></td><td></td><td></td></tr><tr><td>Contract</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-contract.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-contract.html</a></td><td>y</td><td>y</td><td></td><td>y</td><td></td></tr><tr><td>Coverage</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-coverage.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-coverage.html</a></td><td>y</td><td>y</td><td></td><td></td><td></td></tr><tr><td>CoverageEligibilityRequest</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-coverage-eligibility-request.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-coverage-eligibility-request.html</a></td><td></td><td></td><td></td><td>y</td><td></td></tr><tr><td>Group</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-group.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-group.html</a></td><td>y</td><td>y</td><td></td><td>y</td><td></td></tr><tr><td>Organization</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-health-facility-organization.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-health-facility-organization.html</a><br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-policy-holder-organization.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-policy-holder-organization.html</a><br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-insurance-organization.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-insurance-organization.html</a></td><td>y</td><td>y</td><td></td><td></td><td></td></tr><tr><td>InsurancePlan</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-insurance-plan.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-insurance-plan.html</a></td><td>y</td><td>y</td><td></td><td></td><td></td></tr><tr><td>Invoice</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-invoice-invoice.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-invoice-invoice.html</a><br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-invoice-bill.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-invoice-bill.html</a></td><td>y</td><td>y</td><td></td><td></td><td></td></tr><tr><td>Location</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-location.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-location.html</a></td><td>y</td><td>y</td><td></td><td></td><td></td></tr><tr><td>Medication</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-medication.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-medication.html</a></td><td>y</td><td>y</td><td></td><td></td><td></td></tr><tr><td>Patient</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-patient.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-patient.html</a></td><td>y</td><td>y</td><td>y</td><td>y</td><td></td></tr><tr><td>Practitioner</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim-administrator-practitioner.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim-administrator-practitioner.html</a><br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-enrolment-officer-practitioner.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-enrolment-officer-practitioner.html</a></td><td>y</td><td>y</td><td></td><td></td><td></td></tr><tr><td>PractitionerRole</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim-administrator-practitioner-role.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim-administrator-practitioner-role.html</a><br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-enrolment-officer-practitioner-role.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-enrolment-officer-practitioner-role.html</a></td><td>y</td><td>y</td><td></td><td></td><td></td></tr><tr><td>Patient</td><td>Supported profiles:<br/>  <a href="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-subscription.html">https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-subscription.html</a></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr></table></div>
+  </text>
+  <url value="https://openimis.github.io/openimis_fhir_r4_ig/CapabilityStatement/openIMISCapabilityStatement"/>
+  <version value="0.1.0"/>
+  <name value="openIMIS Capability Statement"/>
+  <status value="draft"/>
+  <date value="2021-05-07"/>
+  <publisher value="Swiss TPH"/>
+  <contact>
+    <name value="Swiss TPH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.swisstph.ch/en/"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Dragos Dobre"/>
+    <telecom>
+      <system value="email"/>
+      <value value="dragos.dobre@swisstph.ch"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <kind value="requirements"/>
+  <fhirVersion value="4.0.1"/>
+  <format value="json"/>
+  <rest>
+    <mode value="server"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="ActivityDefinition"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-activitiy-definition.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Location-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Claim"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Claim-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="ClaimResponse"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim-response.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Claim-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Communication"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-communication.html"/>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="CommunicationRequest"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-communication-request.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Claim-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Contract"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-contract.html"/>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Practitioner-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Coverage"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-coverage.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="CoverageEligibilityRequest"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-coverage-eligibility-request.html"/>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Group"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-group.html"/>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Group-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Organization"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-health-facility-organization.html"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-policy-holder-organization.html"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-insurance-organization.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="InsurancePlan"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-insurance-plan.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/InsurancePlan-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Invoice"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-invoice-invoice.html"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-invoice-bill.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Location"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-location.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Location-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Medication"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-medication.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Medication-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Patient"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-patient.html"/>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Patient-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Practitioner"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim-administrator-practitioner.html"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-enrolment-officer-practitioner.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Practitioner-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="PractitionerRole"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-claim-administrator-practitioner-role.html"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-enrolment-officer-practitioner-role.html"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PractitionerRole-identifier"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Patient"/>
+      <supportedProfile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition-openimis-subscription.html"/>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchParam>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <name value="_lastUpdated"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+        <type value="date"/>
+      </searchParam>
+    </resource>
+  </rest>
+</CapabilityStatement>

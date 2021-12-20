@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "BillChargeItemCS"];
   fhir:CodeSystem.title [ fhir:value "ChargeItem (Bill Invoice)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-12-20T14:56:49+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-12-20T16:29:48+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Swiss TPH"];
   fhir:CodeSystem.contact [
      fhir:index 0;

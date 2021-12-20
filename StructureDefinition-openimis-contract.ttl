@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "OpenIMISContract"];
   fhir:StructureDefinition.title [ fhir:value "openIMIS Contract"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-12-20T14:56:49+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-12-20T16:29:48+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

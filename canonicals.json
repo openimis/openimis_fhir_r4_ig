@@ -7,11 +7,11 @@
     "name": "A1"
   },
   {
-    "id": "ExampleCapabilityStatement",
+    "id": "openIMISCapabilityStatement",
     "type": "CapabilityStatement",
-    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CapabilityStatement/ExampleCapabilityStatement",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/CapabilityStatement/openIMISCapabilityStatement",
     "version": "0.1.0",
-    "name": "Example Capability Statement"
+    "name": "openIMIS Capability Statement"
   },
   {
     "id": "activity-definition-level",

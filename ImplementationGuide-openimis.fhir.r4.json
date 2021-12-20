@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-12-20T14:56:49+00:00",
+  "date": "2021-12-20T16:29:48+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -2548,19 +2548,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CapabilityStatement"
-          }
-        ],
-        "reference": {
-          "reference": "CapabilityStatement/ExampleCapabilityStatement"
-        },
-        "name": "Create a Capability Statement using RuleSets",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ActivityDefinition"
           }
         ],
@@ -2836,6 +2823,19 @@
         "name": "openIMIS-Implementation",
         "description": "Example of openIMIS Insurance.",
         "exampleCanonical": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-organization"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/openIMISCapabilityStatement"
+        },
+        "name": "openIMIS Capability Statement",
+        "exampleBoolean": false
       }
     ],
     "page": {
@@ -2851,6 +2851,16 @@
         {
           "nameUrl": "usecase-enrollment.html",
           "title": "Enrollment Use Case",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "usecase-enquire.html",
+          "title": "Enquire Use Case",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "usecase-claiming.html",
+          "title": "Claiming Use Case",
           "generation": "markdown"
         },
         {

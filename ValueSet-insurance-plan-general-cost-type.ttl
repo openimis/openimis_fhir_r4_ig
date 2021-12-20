@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "InsurancePlanGeneralCostTypeVS"];
   fhir:ValueSet.title [ fhir:value "General Cost Type (InsurancePlan)"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-12-20T14:56:49+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-12-20T16:29:48+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Swiss TPH"];
   fhir:ValueSet.contact [
      fhir:index 0;
