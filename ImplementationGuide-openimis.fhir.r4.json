@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-12-20T16:29:48+00:00",
+  "date": "2021-12-21T09:16:10+00:00",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -2861,6 +2861,11 @@
         {
           "nameUrl": "usecase-claiming.html",
           "title": "Claiming Use Case",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "security.html",
+          "title": "Security management",
           "generation": "markdown"
         },
         {

@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="openIMIS Capability Statement"/>
   <status value="draft"/>
-  <date value="2021-05-07"/>
+  <date value="2021-12-21"/>
   <publisher value="Swiss TPH"/>
   <contact>
     <name value="Swiss TPH"/>
@@ -31,6 +31,15 @@
   <format value="json"/>
   <rest>
     <mode value="server"/>
+    <security>
+      <service>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/restful-security-service"/>
+          <code value="OAuth"/>
+          <display value="OAuth"/>
+        </coding>
+      </service>
+    </security>
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
         <valueCode value="SHALL"/>

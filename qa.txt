@@ -3,7 +3,7 @@
 
 err = 177, warn = 20, info = 59
 IG Publisher Version: 1.1.92
-Generated Mon Dec 20 16:32:06 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+Generated Tue Dec 21 09:19:03 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
  Build Errors : 6 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
  /github/workspace/fsh-generated/resources/CapabilityStatement-openIMISCapabilityStatement : 2 / 1 / 1
@@ -191,12 +191,12 @@ Generated Mon Dec 20 16:32:06 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CapabilityStatement/openIMISCapabilityStatement.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/Coverage-JoeDoeCoverage.html#/html/body/div/div/div/div/div/div/p/a at Line 204, column 742: The link 'joe-doe' for "joe-doe" cannot be resolved
-ERROR: /github/workspace/output/CoverageEligibilityRequest-JoeDoeEnquiring.html#/html/body/div/div/div/div/div/div/p/a at Line 204, column 629: The link 'joe-doe' for "joe-doe" cannot be resolved
-ERROR: /github/workspace/output/CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#/html/body/div/div/div/div/div/div/p/a at Line 204, column 639: The link 'joe-doe' for "joe-doe" cannot be resolved
-ERROR: /github/workspace/output/credits.html#/html/body/div/div/div/div/div/ul/li/a at Line 177, column 8: The link 'www.swisstph.ch' for "Swiss Tropical and Public Health Institute" cannot be resolved
-ERROR: /github/workspace/output/usecase-enrollment.html#/html/body/div/div/div/div/div/ul/li/a at Line 180, column 8: The link 'CodeSystem-patient-identification-types.html' for "patient-identification-type" cannot be resolved
-ERROR: /github/workspace/output/usecase-enrollment.html#/html/body/div/div/div/div/div/ul/li/a at Line 182, column 8: The link 'CodeSystem-group-types.html' for "group-type" cannot be resolved
+ERROR: /github/workspace/output/Coverage-JoeDoeCoverage.html#/html/body/div/div/div/div/div/div/p/a at Line 207, column 742: The link 'joe-doe' for "joe-doe" cannot be resolved
+ERROR: /github/workspace/output/CoverageEligibilityRequest-JoeDoeEnquiring.html#/html/body/div/div/div/div/div/div/p/a at Line 207, column 629: The link 'joe-doe' for "joe-doe" cannot be resolved
+ERROR: /github/workspace/output/CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#/html/body/div/div/div/div/div/div/p/a at Line 207, column 639: The link 'joe-doe' for "joe-doe" cannot be resolved
+ERROR: /github/workspace/output/credits.html#/html/body/div/div/div/div/div/ul/li/a at Line 180, column 8: The link 'www.swisstph.ch' for "Swiss Tropical and Public Health Institute" cannot be resolved
+ERROR: /github/workspace/output/usecase-enrollment.html#/html/body/div/div/div/div/div/ul/li/a at Line 183, column 8: The link 'CodeSystem-patient-identification-types.html' for "patient-identification-type" cannot be resolved
+ERROR: /github/workspace/output/usecase-enrollment.html#/html/body/div/div/div/div/div/ul/li/a at Line 185, column 8: The link 'CodeSystem-group-types.html' for "group-type" cannot be resolved
 == fsh-generated/resources/ActivityDefinition-GeneralConsultationService.json ==
 ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition, e:OpenIMISInvoice; this element is [[ActivityDefinition])
 WARNING: ActivityDefinition/GeneralConsultationService: ActivityDefinition.useContext[2].code: Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'

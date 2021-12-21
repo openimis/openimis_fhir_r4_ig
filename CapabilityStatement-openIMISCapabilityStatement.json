@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "openIMIS Capability Statement",
   "status": "draft",
-  "date": "2021-05-07",
+  "date": "2021-12-21",
   "publisher": "Swiss TPH",
   "contact": [
     {
@@ -40,6 +40,19 @@
   "rest": [
     {
       "mode": "server",
+      "security": {
+        "service": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/restful-security-service",
+                "code": "OAuth",
+                "display": "OAuth"
+              }
+            ]
+          }
+        ]
+      },
       "resource": [
         {
           "extension": [

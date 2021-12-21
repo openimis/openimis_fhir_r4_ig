@@ -16,7 +16,7 @@
   fhir:CapabilityStatement.version [ fhir:value "0.1.0"];
   fhir:CapabilityStatement.name [ fhir:value "openIMIS Capability Statement"];
   fhir:CapabilityStatement.status [ fhir:value "draft"];
-  fhir:CapabilityStatement.date [ fhir:value "2021-05-07"^^xsd:date];
+  fhir:CapabilityStatement.date [ fhir:value "2021-12-21"^^xsd:date];
   fhir:CapabilityStatement.publisher [ fhir:value "Swiss TPH"];
   fhir:CapabilityStatement.contact [
      fhir:index 0;
@@ -45,6 +45,17 @@
   fhir:CapabilityStatement.rest [
      fhir:index 0;
      fhir:CapabilityStatement.rest.mode [ fhir:value "server" ];
+     fhir:CapabilityStatement.rest.security [
+       fhir:CapabilityStatement.rest.security.service [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/restful-security-service" ];
+           fhir:Coding.code [ fhir:value "OAuth" ];
+           fhir:Coding.display [ fhir:value "OAuth" ]
+         ]
+       ]
+     ];
      fhir:CapabilityStatement.rest.resource [
        fhir:index 0;
        fhir:Element.extension [
