@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "OpenIMISCoverageEligibilityRequest"];
   fhir:StructureDefinition.title [ fhir:value "openIMIS CoverageEligibilityRequest"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-12-21T09:16:10+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-12-22T09:53:41+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
