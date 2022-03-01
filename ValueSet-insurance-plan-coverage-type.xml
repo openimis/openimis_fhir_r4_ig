@@ -3,20 +3,20 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="insurance-plan-coverage-type"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/3.0.0/CodeSystem-insurance-plan-type.html"><code>http://terminology.hl7.org/CodeSystem/insurance-plan-type</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>medical</td><td>Medical</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/3.1.0/CodeSystem-insurance-plan-type.html"><code>http://terminology.hl7.org/CodeSystem/insurance-plan-type</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>medical</td><td>Medical</td></tr></table></li></ul></div>
   </text>
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-coverage-type"/>
   <version value="0.1.0"/>
   <name value="InsurancePlanCoverageTypeVS"/>
   <title value="Coverage Type (InsurancePlan)"/>
   <status value="active"/>
-  <date value="2021-12-22T09:53:41+00:00"/>
-  <publisher value="Swiss TPH"/>
+  <date value="2022-03-01T16:36:49+00:00"/>
+  <publisher value="openIMIS Initiative"/>
   <contact>
-    <name value="Swiss TPH"/>
+    <name value="openIMIS Initiative"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.swisstph.ch/en/"/>
+      <value value="https://www.openimis.org"/>
     </telecom>
   </contact>
   <contact>

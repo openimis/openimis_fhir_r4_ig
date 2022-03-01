@@ -1,11 +1,11 @@
 ﻿openIMISFHIRR4 : Validation Results
 =========================================
 
-err = 177, warn = 20, info = 59
-IG Publisher Version: 1.1.92
-Generated Wed Dec 22 09:55:55 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+err = 177, warn = 35, info = 59
+IG Publisher Version: 1.1.111
+Generated Tue Mar 01 16:39:19 UTC 2022. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
  Build Errors : 6 / 1 / 0
- /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 2
+ /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 1
  /github/workspace/fsh-generated/resources/CapabilityStatement-openIMISCapabilityStatement : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/Claim-Claim001 : 3 / 0 / 1
  /github/workspace/fsh-generated/resources/ClaimResponse-Claim001 : 0 / 0 / 1
@@ -191,18 +191,18 @@ Generated Wed Dec 22 09:55:55 UTC 2021. FHIR version 4.0.1 for openimis.fhir.r4#
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CapabilityStatement/openIMISCapabilityStatement.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/Coverage-JoeDoeCoverage.html#/html/body/div/div/div/div/div/div/p/a at Line 207, column 742: The link 'joe-doe' for "joe-doe" cannot be resolved
-ERROR: /github/workspace/output/CoverageEligibilityRequest-JoeDoeEnquiring.html#/html/body/div/div/div/div/div/div/p/a at Line 207, column 629: The link 'joe-doe' for "joe-doe" cannot be resolved
-ERROR: /github/workspace/output/CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#/html/body/div/div/div/div/div/div/p/a at Line 207, column 639: The link 'joe-doe' for "joe-doe" cannot be resolved
-ERROR: /github/workspace/output/credits.html#/html/body/div/div/div/div/div/ul/li/a at Line 180, column 8: The link 'www.swisstph.ch' for "Swiss Tropical and Public Health Institute" cannot be resolved
-ERROR: /github/workspace/output/usecase-enrollment.html#/html/body/div/div/div/div/div/ul/li/a at Line 183, column 8: The link 'CodeSystem-patient-identification-types.html' for "patient-identification-type" cannot be resolved
-ERROR: /github/workspace/output/usecase-enrollment.html#/html/body/div/div/div/div/div/ul/li/a at Line 185, column 8: The link 'CodeSystem-group-types.html' for "group-type" cannot be resolved
+ERROR: /github/workspace/output/Coverage-JoeDoeCoverage.html#/html/body/div/div/div/div/div/div/p/a at Line 220, column 742: The link 'joe-doe' for "joe-doe" cannot be resolved
+ERROR: /github/workspace/output/CoverageEligibilityRequest-JoeDoeEnquiring.html#/html/body/div/div/div/div/div/div/p/a at Line 220, column 629: The link 'joe-doe' for "joe-doe" cannot be resolved
+ERROR: /github/workspace/output/CoverageEligibilityResponse-JoeDoeEnquiringResponse.html#/html/body/div/div/div/div/div/div/p/a at Line 220, column 639: The link 'joe-doe' for "joe-doe" cannot be resolved
+ERROR: /github/workspace/output/credits.html#/html/body/div/div/div/div/div/ul/li/a at Line 183, column 8: The link 'www.swisstph.ch' for "Swiss Tropical and Public Health Institute" cannot be resolved
+ERROR: /github/workspace/output/usecase-enrollment.html#/html/body/div/div/div/div/div/ul/li/a at Line 186, column 8: The link 'CodeSystem-patient-identification-types.html' for "patient-identification-type" cannot be resolved
+ERROR: /github/workspace/output/usecase-enrollment.html#/html/body/div/div/div/div/div/ul/li/a at Line 188, column 8: The link 'CodeSystem-group-types.html' for "group-type" cannot be resolved
 == fsh-generated/resources/ActivityDefinition-GeneralConsultationService.json ==
-ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition, e:OpenIMISInvoice; this element is [[ActivityDefinition])
-WARNING: ActivityDefinition/GeneralConsultationService: ActivityDefinition.useContext[2].code: Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
 ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: ActivityDefinition.version: max allowed = 0, but found 1 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition)
 ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: ActivityDefinition.publisher: max allowed = 0, but found 1 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition)
 ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: ActivityDefinition.contact: max allowed = 0, but found 2 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition)
+ERROR: ActivityDefinition/GeneralConsultationService: ActivityDefinition: The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price is not allowed to be used at this point (allowed = e:OpenIMISMedication, e:OpenIMISActivityDefinition, e:OpenIMISInvoice; this element is [[ActivityDefinition])
+WARNING: ActivityDefinition/GeneralConsultationService: ActivityDefinition.useContext[2].code: Display Name for http://terminology.hl7.org/CodeSystem/usage-context-type#age should be one of 'Age Range' instead of 'Age' for 'http://terminology.hl7.org/CodeSystem/usage-context-type#age'
 == fsh-generated/resources/CapabilityStatement-openIMISCapabilityStatement.json ==
 WARNING: CapabilityStatement/openIMISCapabilityStatement: CapabilityStatement: cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: CapabilityStatement/openIMISCapabilityStatement: CapabilityStatement: cpb-2: 'A Capability Statement SHALL have at least one of description, software, or implementation element.' Rule 'A Capability Statement SHALL have at least one of description, software, or implementation element.' Failed
@@ -354,6 +354,18 @@ ERROR: CoverageEligibilityResponse/JoeDoeEnquiringResponse: CoverageEligibilityR
 ERROR: Group/doe-family: Group.extension[2].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/group-type#H in http://hl7.org/fhir/group-type for 'http://hl7.org/fhir/group-type#H'
 == fsh-generated/resources/ImplementationGuide-openimis.fhir.r4.json ==
 WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[8].description: value should not start or finish with whitespace 'Defines...Patient/Insurees. '
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[29].description: value should not start or finish with whitespace 'Indicates...extension. '
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[31].description: value should not start or finish with whitespace 'Indicates...Coverage. '
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[46].description: value should not start or finish with whitespace 'Indicates...Organization. '
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[49].description: value should not start or finish with whitespace 'Indicates...Organization. '
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[156].description: value should not start or finish with whitespace '*...Claim   '
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[157].description: value should not start or finish with whitespace '*...Claim   '
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[158].description: value should not start or finish with whitespace '*...(Feedback)  '
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[162].description: value should not start or finish with whitespace '*...enrolment  '
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[167].description: value should not start or finish with whitespace '*...Coverage   '
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[168].description: value should not start or finish with whitespace '*...CoverageEligibilityRequest   '
+WARNING: ImplementationGuide/openimis.fhir.r4: ImplementationGuide.definition.resource[169].description: value should not start or finish with whitespace '*...CoverageEligibilityResponse   '
 == fsh-generated/resources/InsurancePlan-RX01.json ==
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[5]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
 ERROR: InsurancePlan/RX01: InsurancePlan.extension[6]: Profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan, Element matches more than one slice - administrationPeriod, gracePeriodPayment
@@ -526,6 +538,7 @@ WARNING: StructureDefinition/openimis-activitiy-definition: StructureDefinition.
 == fsh-generated/resources/StructureDefinition-openimis-claim.json ==
 == fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner.json ==
 == fsh-generated/resources/StructureDefinition-openimis-claim-administrator-practitioner-role.json ==
+WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner-role'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-openimis-claim-response.json ==
 == fsh-generated/resources/StructureDefinition-openimis-communication.json ==
 == fsh-generated/resources/StructureDefinition-openimis-communication-request.json ==
@@ -551,11 +564,13 @@ INFORMATION: StructureDefinition/openimis-contract: StructureDefinition.snapshot
 == fsh-generated/resources/StructureDefinition-openimis-coverage-eligibility-response.json ==
 == fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner.json ==
 == fsh-generated/resources/StructureDefinition-openimis-enrolment-officer-practitioner-role.json ==
+WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner-role'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-openimis-group.json ==
 == fsh-generated/resources/StructureDefinition-openimis-health-facility-organization.json ==
 == fsh-generated/resources/StructureDefinition-openimis-insurance-organization.json ==
 == fsh-generated/resources/StructureDefinition-openimis-insurance-plan.json ==
 == fsh-generated/resources/StructureDefinition-openimis-invoice-bill.json ==
+WARNING: StructureDefinition.where(url = 'https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice-bill'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-openimis-invoice-invoice.json ==
 == fsh-generated/resources/StructureDefinition-openimis-location.json ==
 == fsh-generated/resources/StructureDefinition-openimis-medication.json ==

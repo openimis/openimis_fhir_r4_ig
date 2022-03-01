@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"GeneralConsultationService\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-openimis-activitiy-definition.html\">openIMIS ActivityDefinition</a></p></div><p><b>Unit Price (Medication|ActivityDefinition)</b>: <span title=\"Euro\">€40.00</span> (EUR)</p><p><b>url</b>: <code>https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService</code></p><p><b>identifier</b>: Unique code: A1, UUID unique identifier: db2c3a6c-af07-49bd-8f6a-96aa1fc2bcf9</p><p><b>version</b>: 0.1.0</p><p><b>name</b>: A1</p><p><b>title</b>: General Consultation</p><p><b>status</b>: active</p><p><b>date</b>: 2020-01-01</p><p><b>publisher</b>: Swiss TPH</p><p><b>contact</b>: Swiss TPH: <a href=\"https://www.swisstph.ch/en/\">https://www.swisstph.ch/en/</a>, Dragos Dobre: <a href=\"mailto:dragos.dobre@swisstph.ch\">dragos.dobre@swisstph.ch</a></p><p><b>topic</b>: Preventive <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-activity-definition-service-type.html\">Service Type (ActivityDefinition)</a>#P)</span></p><p><b>timing</b>: Do Once per 0 days</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"GeneralConsultationService\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-openimis-activitiy-definition.html\">openIMIS ActivityDefinition</a></p></div><p><b>Unit Price (Medication|ActivityDefinition)</b>: <span title=\"Euro\">€40.00</span> (EUR)</p><p><b>url</b>: <code>https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService</code></p><p><b>identifier</b>: Unique code: A1, UUID unique identifier: db2c3a6c-af07-49bd-8f6a-96aa1fc2bcf9</p><p><b>version</b>: 0.1.0</p><p><b>name</b>: A1</p><p><b>title</b>: General Consultation</p><p><b>status</b>: active</p><p><b>date</b>: 2020-01-01</p><p><b>publisher</b>: openIMIS Initiative</p><p><b>contact</b>: openIMIS Initiative: <a href=\"https://www.openimis.org\">https://www.openimis.org</a>, Dragos Dobre: <a href=\"mailto:dragos.dobre@swisstph.ch\">dragos.dobre@swisstph.ch</a></p><p><b>topic</b>: Preventive <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-activity-definition-service-type.html\">Service Type (ActivityDefinition)</a>#P)</span></p><p><b>timing</b>: Do Once per 0 days</p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -54,14 +54,14 @@
   fhir:ActivityDefinition.title [ fhir:value "General Consultation"];
   fhir:ActivityDefinition.status [ fhir:value "active"];
   fhir:ActivityDefinition.date [ fhir:value "2020-01-01"^^xsd:date];
-  fhir:ActivityDefinition.publisher [ fhir:value "Swiss TPH"];
+  fhir:ActivityDefinition.publisher [ fhir:value "openIMIS Initiative"];
   fhir:ActivityDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Swiss TPH" ];
+     fhir:ContactDetail.name [ fhir:value "openIMIS Initiative" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://www.swisstph.ch/en/" ]
+       fhir:ContactPoint.value [ fhir:value "https://www.openimis.org" ]
      ]
   ], [
      fhir:index 1;

@@ -10,13 +10,13 @@
   <name value="OrganizationHFLevelVS"/>
   <title value="Health Facility Level (Organization)"/>
   <status value="active"/>
-  <date value="2021-12-22T09:53:41+00:00"/>
-  <publisher value="Swiss TPH"/>
+  <date value="2022-03-01T16:36:49+00:00"/>
+  <publisher value="openIMIS Initiative"/>
   <contact>
-    <name value="Swiss TPH"/>
+    <name value="openIMIS Initiative"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.swisstph.ch/en/"/>
+      <value value="https://www.openimis.org"/>
     </telecom>
   </contact>
   <contact>

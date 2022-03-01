@@ -17,14 +17,14 @@
   fhir:CapabilityStatement.name [ fhir:value "openIMIS Capability Statement"];
   fhir:CapabilityStatement.status [ fhir:value "draft"];
   fhir:CapabilityStatement.date [ fhir:value "2021-12-21"^^xsd:date];
-  fhir:CapabilityStatement.publisher [ fhir:value "Swiss TPH"];
+  fhir:CapabilityStatement.publisher [ fhir:value "openIMIS Initiative"];
   fhir:CapabilityStatement.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Swiss TPH" ];
+     fhir:ContactDetail.name [ fhir:value "openIMIS Initiative" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://www.swisstph.ch/en/" ]
+       fhir:ContactPoint.value [ fhir:value "https://www.openimis.org" ]
      ]
   ], [
      fhir:index 1;

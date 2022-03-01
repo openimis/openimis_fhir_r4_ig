@@ -10,14 +10,14 @@
   "name": "openIMIS Capability Statement",
   "status": "draft",
   "date": "2021-12-21",
-  "publisher": "Swiss TPH",
+  "publisher": "openIMIS Initiative",
   "contact": [
     {
-      "name": "Swiss TPH",
+      "name": "openIMIS Initiative",
       "telecom": [
         {
           "system": "url",
-          "value": "https://www.swisstph.ch/en/"
+          "value": "https://www.openimis.org"
         }
       ]
     },

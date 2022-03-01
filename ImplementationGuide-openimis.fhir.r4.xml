@@ -11,13 +11,13 @@
   <name value="openIMISFHIRR4"/>
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-12-22T09:53:41+00:00"/>
-  <publisher value="Swiss TPH"/>
+  <date value="2022-03-01T16:36:49+00:00"/>
+  <publisher value="openIMIS Initiative"/>
   <contact>
-    <name value="Swiss TPH"/>
+    <name value="openIMIS Initiative"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.swisstph.ch/en/"/>
+      <value value="https://www.openimis.org"/>
     </telecom>
   </contact>
   <contact>
@@ -180,6 +180,22 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>

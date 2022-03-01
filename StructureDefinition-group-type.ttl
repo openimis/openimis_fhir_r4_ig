@@ -17,15 +17,15 @@
   fhir:StructureDefinition.name [ fhir:value "GroupTypeExtension"];
   fhir:StructureDefinition.title [ fhir:value "Group Type (Group)"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-12-22T09:53:41+00:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "Swiss TPH"];
+  fhir:StructureDefinition.date [ fhir:value "2022-03-01T16:36:49+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "openIMIS Initiative"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Swiss TPH" ];
+     fhir:ContactDetail.name [ fhir:value "openIMIS Initiative" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://www.swisstph.ch/en/" ]
+       fhir:ContactPoint.value [ fhir:value "https://www.openimis.org" ]
      ]
   ], [
      fhir:index 1;

@@ -10,15 +10,15 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2021-12-22T09:53:41+00:00",
-  "publisher": "Swiss TPH",
+  "date": "2022-03-01T16:36:49+00:00",
+  "publisher": "openIMIS Initiative",
   "contact": [
     {
-      "name": "Swiss TPH",
+      "name": "openIMIS Initiative",
       "telecom": [
         {
           "system": "url",
-          "value": "https://www.swisstph.ch/en/"
+          "value": "https://www.openimis.org"
         }
       ]
     },
@@ -280,6 +280,32 @@
           {
             "url": "code",
             "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
           },
           {
             "url": "value",
