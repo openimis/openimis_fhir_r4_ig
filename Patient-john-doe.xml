@@ -6,7 +6,7 @@
     <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>John Doe </b> (no stated gender) 1962-02-05 ( Unique code: 123456789)</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>John Doe </b> male, DoB: 1962-02-05 ( Unique code: 123456789)</p></div>
   </text>
   <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-is-head">
     <valueBoolean value="false"/>

@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Jane Doe </b> (no stated gender) 1964-05-15 ( Unique code: 123456788)</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Jane Doe </b> female, DoB: 1964-05-15 ( Unique code: 123456788)</p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;

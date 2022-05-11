@@ -609,6 +609,13 @@
     "name": "OpenIMISPatient"
   },
   {
+    "id": "openimis-payment-notice",
+    "type": "StructureDefinition",
+    "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-payment-notice",
+    "version": "0.1.0",
+    "name": "OpenIMISPaymentNotice"
+  },
+  {
     "id": "openimis-policy-holder-organization",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization",

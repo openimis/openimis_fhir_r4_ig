@@ -20,7 +20,7 @@
   "name": "OpenIMISActivityDefinition",
   "title": "openIMIS ActivityDefinition",
   "status": "active",
-  "date": "2022-03-01T16:36:49+00:00",
+  "date": "2022-05-11T15:46:18+00:00",
   "publisher": "openIMIS Initiative",
   "contact": [
     {
@@ -7286,63 +7286,72 @@
             "severity": "error",
             "human": "if there's a duration, there needs to be duration units",
             "expression": "duration.empty() or durationUnit.exists()",
-            "xpath": "not(exists(f:duration)) or exists(f:durationUnit)"
+            "xpath": "not(exists(f:duration)) or exists(f:durationUnit)",
+            "source": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"
           },
           {
             "key": "tim-2",
             "severity": "error",
             "human": "if there's a period, there needs to be period units",
             "expression": "period.empty() or periodUnit.exists()",
-            "xpath": "not(exists(f:period)) or exists(f:periodUnit)"
+            "xpath": "not(exists(f:period)) or exists(f:periodUnit)",
+            "source": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"
           },
           {
             "key": "tim-4",
             "severity": "error",
             "human": "duration SHALL be a non-negative value",
             "expression": "duration.exists() implies duration >= 0",
-            "xpath": "f:duration/@value >= 0 or not(f:duration/@value)"
+            "xpath": "f:duration/@value >= 0 or not(f:duration/@value)",
+            "source": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"
           },
           {
             "key": "tim-5",
             "severity": "error",
             "human": "period SHALL be a non-negative value",
             "expression": "period.exists() implies period >= 0",
-            "xpath": "f:period/@value >= 0 or not(f:period/@value)"
+            "xpath": "f:period/@value >= 0 or not(f:period/@value)",
+            "source": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"
           },
           {
             "key": "tim-6",
             "severity": "error",
             "human": "If there's a periodMax, there must be a period",
             "expression": "periodMax.empty() or period.exists()",
-            "xpath": "not(exists(f:periodMax)) or exists(f:period)"
+            "xpath": "not(exists(f:periodMax)) or exists(f:period)",
+            "source": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"
           },
           {
             "key": "tim-7",
             "severity": "error",
             "human": "If there's a durationMax, there must be a duration",
             "expression": "durationMax.empty() or duration.exists()",
-            "xpath": "not(exists(f:durationMax)) or exists(f:duration)"
+            "xpath": "not(exists(f:durationMax)) or exists(f:duration)",
+            "source": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"
           },
           {
             "key": "tim-8",
             "severity": "error",
             "human": "If there's a countMax, there must be a count",
             "expression": "countMax.empty() or count.exists()",
-            "xpath": "not(exists(f:countMax)) or exists(f:count)"
+            "xpath": "not(exists(f:countMax)) or exists(f:count)",
+            "source": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"
           },
           {
             "key": "tim-9",
             "severity": "error",
             "human": "If there's an offset, there must be a when (and not C, CM, CD, CV)",
             "expression": "offset.empty() or (when.exists() and ((when in ('C' | 'CM' | 'CD' | 'CV')).not()))",
-            "xpath": "not(exists(f:offset)) or exists(f:when)"
+            "xpath": "not(exists(f:offset)) or exists(f:when)",
+            "source": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"
           },
           {
             "key": "tim-10",
             "severity": "error",
             "human": "If there's a timeOfDay, there cannot be a when, or vice versa",
             "expression": "timeOfDay.empty() or when.empty()",
-            "xpath": "not(exists(f:timeOfDay)) or not(exists(f:when))"
+            "xpath": "not(exists(f:timeOfDay)) or not(exists(f:when))",
+            "source": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"
           }
         ],
         "isModifier": false,

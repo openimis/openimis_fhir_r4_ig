@@ -26,7 +26,7 @@
   <name value="GroupAddressExtension"/>
   <title value="Poverty Status (Group)"/>
   <status value="active"/>
-  <date value="2022-03-01T16:36:49+00:00"/>
+  <date value="2022-05-11T15:46:18+00:00"/>
   <publisher value="openIMIS Initiative"/>
   <contact>
     <name value="openIMIS Initiative"/>
@@ -85,7 +85,7 @@
         <severity value="error"/>
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="false"/>
@@ -356,7 +356,7 @@
       <path value="Extension.value[x].extension"/>
       <sliceName value="location"/>
       <short value="Location Reference (Address)"/>
-      <definition value="The reference to address&#39; location for City/Village level."/>
+      <definition value="The reference to address' location for City/Village level."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -496,7 +496,7 @@
       <path value="Extension.value[x].text"/>
       <short value="Text representation of the address"/>
       <definition value="Specifies the entire address as it should be displayed e.g. on a postal label. This may be provided instead of or as well as the specific parts."/>
-      <comment value="Can provide both a text representation and parts. Applications updating an address SHALL ensure that  when both text and parts are present,  no content is included in the text that isn&#39;t found in a part."/>
+      <comment value="Can provide both a text representation and parts. Applications updating an address SHALL ensure that  when both text and parts are present,  no content is included in the text that isn't found in a part."/>
       <requirements value="A renderable, unencoded form."/>
       <min value="0"/>
       <max value="1"/>
@@ -584,7 +584,7 @@
     <element id="Extension.value[x]:valueAddress.city">
       <path value="Extension.value[x].city"/>
       <short value="City/Village"/>
-      <definition value="Insuree&#39;s City/Village name as it is configured in openIMIS."/>
+      <definition value="Insuree's City/Village name as it is configured in openIMIS."/>
       <alias value="Municpality"/>
       <min value="0"/>
       <max value="1"/>
@@ -631,8 +631,8 @@
     <element id="Extension.value[x]:valueAddress.district">
       <path value="Extension.value[x].district"/>
       <short value="District"/>
-      <definition value="Insuree&#39;s District name as it is configured in openIMIS."/>
-      <comment value="District is sometimes known as county, but in some regions &#39;county&#39; is used in place of city (municipality), so county name should be conveyed in city instead."/>
+      <definition value="Insuree's District name as it is configured in openIMIS."/>
+      <comment value="District is sometimes known as county, but in some regions 'county' is used in place of city (municipality), so county name should be conveyed in city instead."/>
       <alias value="County"/>
       <min value="0"/>
       <max value="1"/>
@@ -671,7 +671,7 @@
     <element id="Extension.value[x]:valueAddress.state">
       <path value="Extension.value[x].state"/>
       <short value="State/Region"/>
-      <definition value="Insuree&#39;s State/Region name as it is configured in openIMIS."/>
+      <definition value="Insuree's State/Region name as it is configured in openIMIS."/>
       <alias value="Province"/>
       <alias value="Territory"/>
       <min value="0"/>
@@ -922,19 +922,19 @@
     <element id="Extension.valueAddress.city">
       <path value="Extension.valueAddress.city"/>
       <short value="City/Village"/>
-      <definition value="Insuree&#39;s City/Village name as it is configured in openIMIS."/>
+      <definition value="Insuree's City/Village name as it is configured in openIMIS."/>
       <mustSupport value="true"/>
     </element>
     <element id="Extension.valueAddress.district">
       <path value="Extension.valueAddress.district"/>
       <short value="District"/>
-      <definition value="Insuree&#39;s District name as it is configured in openIMIS."/>
+      <definition value="Insuree's District name as it is configured in openIMIS."/>
       <mustSupport value="true"/>
     </element>
     <element id="Extension.valueAddress.state">
       <path value="Extension.valueAddress.state"/>
       <short value="State/Region"/>
-      <definition value="Insuree&#39;s State/Region name as it is configured in openIMIS."/>
+      <definition value="Insuree's State/Region name as it is configured in openIMIS."/>
       <mustSupport value="true"/>
     </element>
     <element id="Extension.valueAddress.postalCode">

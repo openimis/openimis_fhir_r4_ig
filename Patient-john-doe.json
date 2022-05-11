@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>John Doe </b> (no stated gender) 1962-02-05 ( Unique code: 123456789)</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>John Doe </b> male, DoB: 1962-02-05 ( Unique code: 123456789)</p></div>"
   },
   "extension": [
     {

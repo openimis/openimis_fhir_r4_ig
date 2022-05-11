@@ -10,7 +10,7 @@
   <name value="DiagnosisICD10Level1CS"/>
   <title value="ICD 10 Level 1 diagnosis (Claim)"/>
   <status value="active"/>
-  <date value="2022-03-01T16:36:49+00:00"/>
+  <date value="2022-05-11T15:46:18+00:00"/>
   <publisher value="openIMIS Initiative"/>
   <contact>
     <name value="openIMIS Initiative"/>
@@ -124,7 +124,7 @@
   </concept>
   <concept>
     <code value="A30"/>
-    <display value="Leprosy [Hansen&#39;s disease]"/>
+    <display value="Leprosy [Hansen's disease]"/>
   </concept>
   <concept>
     <code value="A31"/>
@@ -552,7 +552,7 @@
   </concept>
   <concept>
     <code value="B57"/>
-    <display value="Chagas&#39; disease"/>
+    <display value="Chagas' disease"/>
   </concept>
   <concept>
     <code value="B58"/>
@@ -864,7 +864,7 @@
   </concept>
   <concept>
     <code value="C46"/>
-    <display value="Kaposi&#39;s sarcoma"/>
+    <display value="Kaposi's sarcoma"/>
   </concept>
   <concept>
     <code value="C47"/>
@@ -1480,7 +1480,7 @@
   </concept>
   <concept>
     <code value="E24"/>
-    <display value="Cushing&#39;s syndrome"/>
+    <display value="Cushing's syndrome"/>
   </concept>
   <concept>
     <code value="E25"/>
@@ -2024,7 +2024,7 @@
   </concept>
   <concept>
     <code value="G10"/>
-    <display value="Huntington&#39;s disease"/>
+    <display value="Huntington's disease"/>
   </concept>
   <concept>
     <code value="G11"/>
@@ -2044,7 +2044,7 @@
   </concept>
   <concept>
     <code value="G20"/>
-    <display value="Parkinson&#39;s disease"/>
+    <display value="Parkinson's disease"/>
   </concept>
   <concept>
     <code value="G21"/>
@@ -2068,7 +2068,7 @@
   </concept>
   <concept>
     <code value="G30"/>
-    <display value="Alzheimer&#39;s disease"/>
+    <display value="Alzheimer's disease"/>
   </concept>
   <concept>
     <code value="G31"/>
@@ -2972,7 +2972,7 @@
   </concept>
   <concept>
     <code value="J60"/>
-    <display value="Coalworker&#39;s pneumoconiosis"/>
+    <display value="Coalworker's pneumoconiosis"/>
   </concept>
   <concept>
     <code value="J61"/>
@@ -3216,7 +3216,7 @@
   </concept>
   <concept>
     <code value="K50"/>
-    <display value="Crohn&#39;s disease [regional enteritis]"/>
+    <display value="Crohn's disease [regional enteritis]"/>
   </concept>
   <concept>
     <code value="K51"/>
@@ -3932,7 +3932,7 @@
   </concept>
   <concept>
     <code value="M88"/>
-    <display value="Osteitis deformans [Paget&#39;s disease of bone]"/>
+    <display value="Osteitis deformans [Paget's disease of bone]"/>
   </concept>
   <concept>
     <code value="M89"/>
@@ -4224,7 +4224,7 @@
   </concept>
   <concept>
     <code value="N75"/>
-    <display value="Diseases of Bartholin&#39;s gland"/>
+    <display value="Diseases of Bartholin's gland"/>
   </concept>
   <concept>
     <code value="N76"/>
@@ -5172,7 +5172,7 @@
   </concept>
   <concept>
     <code value="Q96"/>
-    <display value="Turner&#39;s syndrome"/>
+    <display value="Turner's syndrome"/>
   </concept>
   <concept>
     <code value="Q97"/>
@@ -6568,11 +6568,11 @@
   </concept>
   <concept>
     <code value="V87"/>
-    <display value="Traffic accident of specified type but victim&#39;s mode of transport unknown"/>
+    <display value="Traffic accident of specified type but victim's mode of transport unknown"/>
   </concept>
   <concept>
     <code value="V88"/>
-    <display value="Nontraffic accident of specified type but victim&#39;s mode of transport unknown"/>
+    <display value="Nontraffic accident of specified type but victim's mode of transport unknown"/>
   </concept>
   <concept>
     <code value="V89"/>

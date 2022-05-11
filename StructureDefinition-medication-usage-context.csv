@@ -1,171 +1,171 @@
-"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
-"Extension","","","",0,*,"","","","","UsageContext (Medication)","The Context a Medication can be prescribed.","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"Extension","Extension","","","",0,*,"","","","","UsageContext (Medication)","The Context a Medication can be prescribed.","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Extension.extension","Extension.extension","","","",1,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension","Gender","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:Gender","Extension.extension","Gender","","",0,1,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:Gender.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:Gender.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:Gender.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""Gender""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","UsageContext {[]} {[]}
+"Extension.extension:Gender.value[x]","Extension.extension.value[x]","","","",0,1,"","","","UsageContext {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"","type:$this}
 ","",,"closed","Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension.value[x]","valueUsageContext","","",0,1,"","","","UsageContext {[]} {[]}
+"Extension.extension:Gender.value[x]:valueUsageContext","Extension.extension.value[x]","valueUsageContext","","",0,1,"","","","UsageContext {[]} {[]}
 ","Usage Context per Gender","Usage Context per Gender male and female.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension.value[x].id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:Gender.value[x]:valueUsageContext.id","Extension.extension.value[x].id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.value[x].extension","","extensions
+"Extension.extension:Gender.value[x]:valueUsageContext.extension","Extension.extension.value[x].extension","","extensions
 user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
-"Extension.extension.value[x].code","","","",1,1,"","","Y","Coding {[]} {[]}
+"Extension.extension:Gender.value[x]:valueUsageContext.code","Extension.extension.value[x].code","","","",1,1,"","","Y","Coding {[]} {[]}
 ","Type of context being specified","A code that identifies the type of context being specified by this usage context.","","","","","","<valueCoding xmlns=""http://hl7.org/fhir"">
   <system value=""http://terminology.hl7.org/CodeSystem/usage-context-type""/>
   <code value=""gender""/>
   <display value=""Gender""/>
 </valueCoding>","","","",,"extensible","A code that specifies a type of context being specified by a usage context.","http://hl7.org/fhir/ValueSet/usage-context-type","",,,,"UsageContext.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Extension.extension.value[x].value[x]","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
+"Extension.extension:Gender.value[x]:valueUsageContext.value[x]","Extension.extension.value[x].value[x]","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Value that defines the context","A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.","","","","","","","","","",,"example","A code that defines the specific value for the context being specified.","http://hl7.org/fhir/ValueSet/use-context","","type:$this}
 ","",,"closed","UsageContext.value[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Extension.extension.value[x].value[x]","valueCodeableConcept","","",1,1,"","","Y","CodeableConcept {[]} {[]}
+"Extension.extension:Gender.value[x]:valueUsageContext.value[x]:valueCodeableConcept","Extension.extension.value[x].value[x]","valueCodeableConcept","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Value that defines the context","A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.","","","","","","","","","",,"example","A code that defines the specific value for the context being specified.","http://hl7.org/fhir/ValueSet/use-context","",,,,"UsageContext.value[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Extension.extension.value[x].value[x].id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:Gender.value[x]:valueUsageContext.value[x]:valueCodeableConcept.id","Extension.extension.value[x].value[x].id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.value[x].value[x].extension","","extensions
+"Extension.extension:Gender.value[x]:valueUsageContext.value[x]:valueCodeableConcept.extension","Extension.extension.value[x].value[x].extension","","extensions
 user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
-"Extension.extension.value[x].value[x].coding","","","",1,2,"","","Y","Coding {[]} {[]}
+"Extension.extension:Gender.value[x]:valueUsageContext.value[x]:valueCodeableConcept.coding","Extension.extension.value[x].value[x].coding","","","",1,2,"","","Y","Coding {[]} {[]}
 ","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,"required","","https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/usage-context-gender-type","",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","union(., ./translation)"
-"Extension.extension.value[x].value[x].text","","","",0,1,"","","Y","string {[]} {[]}
+"Extension.extension:Gender.value[x]:valueUsageContext.value[x]:valueCodeableConcept.text","Extension.extension.value[x].value[x].text","","","",0,1,"","","Y","string {[]} {[]}
 ","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./originalText[mediaType/code=""text/plain""]/data"
-"Extension.extension","Age","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:Age","Extension.extension","Age","","",0,1,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:Age.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:Age.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:Age.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""Age""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","UsageContext {[]} {[]}
+"Extension.extension:Age.value[x]","Extension.extension.value[x]","","","",0,1,"","","","UsageContext {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"","type:$this}
 ","",,"closed","Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension.value[x]","valueUsageContext","","",0,1,"","","","UsageContext {[]} {[]}
+"Extension.extension:Age.value[x]:valueUsageContext","Extension.extension.value[x]","valueUsageContext","","",0,1,"","","","UsageContext {[]} {[]}
 ","Usage Context per Age","Usage Context per Age adult and child.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension.value[x].id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:Age.value[x]:valueUsageContext.id","Extension.extension.value[x].id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.value[x].extension","","extensions
+"Extension.extension:Age.value[x]:valueUsageContext.extension","Extension.extension.value[x].extension","","extensions
 user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
-"Extension.extension.value[x].code","","","",1,1,"","","Y","Coding {[]} {[]}
+"Extension.extension:Age.value[x]:valueUsageContext.code","Extension.extension.value[x].code","","","",1,1,"","","Y","Coding {[]} {[]}
 ","Type of context being specified","A code that identifies the type of context being specified by this usage context.","","","","","","<valueCoding xmlns=""http://hl7.org/fhir"">
   <system value=""http://terminology.hl7.org/CodeSystem/usage-context-type""/>
   <code value=""age""/>
   <display value=""Age""/>
 </valueCoding>","","","",,"extensible","A code that specifies a type of context being specified by a usage context.","http://hl7.org/fhir/ValueSet/usage-context-type","",,,,"UsageContext.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Extension.extension.value[x].value[x]","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
+"Extension.extension:Age.value[x]:valueUsageContext.value[x]","Extension.extension.value[x].value[x]","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Value that defines the context","A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.","","","","","","","","","",,"example","A code that defines the specific value for the context being specified.","http://hl7.org/fhir/ValueSet/use-context","","type:$this}
 ","",,"closed","UsageContext.value[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Extension.extension.value[x].value[x]","valueCodeableConcept","","",1,1,"","","Y","CodeableConcept {[]} {[]}
+"Extension.extension:Age.value[x]:valueUsageContext.value[x]:valueCodeableConcept","Extension.extension.value[x].value[x]","valueCodeableConcept","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Value that defines the context","A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.","","","","","","","","","",,"example","A code that defines the specific value for the context being specified.","http://hl7.org/fhir/ValueSet/use-context","",,,,"UsageContext.value[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Extension.extension.value[x].value[x].id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:Age.value[x]:valueUsageContext.value[x]:valueCodeableConcept.id","Extension.extension.value[x].value[x].id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.value[x].value[x].extension","","extensions
+"Extension.extension:Age.value[x]:valueUsageContext.value[x]:valueCodeableConcept.extension","Extension.extension.value[x].value[x].extension","","extensions
 user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
-"Extension.extension.value[x].value[x].coding","","","",1,2,"","","Y","Coding {[]} {[]}
+"Extension.extension:Age.value[x]:valueUsageContext.value[x]:valueCodeableConcept.coding","Extension.extension.value[x].value[x].coding","","","",1,2,"","","Y","Coding {[]} {[]}
 ","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,"required","","https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/usage-context-age-type","",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","union(., ./translation)"
-"Extension.extension.value[x].value[x].text","","","",0,1,"","","Y","string {[]} {[]}
+"Extension.extension:Age.value[x]:valueUsageContext.value[x]:valueCodeableConcept.text","Extension.extension.value[x].value[x].text","","","",0,1,"","","Y","string {[]} {[]}
 ","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./originalText[mediaType/code=""text/plain""]/data"
-"Extension.extension","CareType","","",1,1,"","","","Extension {[]} {[]}
+"Extension.extension:CareType","Extension.extension","CareType","","",1,1,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:CareType.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:CareType.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:CareType.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""CareType""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","UsageContext {[]} {[]}
+"Extension.extension:CareType.value[x]","Extension.extension.value[x]","","","",0,1,"","","","UsageContext {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"","type:$this}
 ","",,"closed","Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension.value[x]","valueUsageContext","","",0,1,"","","","UsageContext {[]} {[]}
+"Extension.extension:CareType.value[x]:valueUsageContext","Extension.extension.value[x]","valueUsageContext","","",0,1,"","","","UsageContext {[]} {[]}
 ","Usage Context per Care Type","Usage Context per Care Type. openIMIS `both` value will have both `AMB` and `IMP` codes listed.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension.value[x].id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:CareType.value[x]:valueUsageContext.id","Extension.extension.value[x].id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.value[x].extension","","extensions
+"Extension.extension:CareType.value[x]:valueUsageContext.extension","Extension.extension.value[x].extension","","extensions
 user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
-"Extension.extension.value[x].code","","","",1,1,"","","Y","Coding {[]} {[]}
+"Extension.extension:CareType.value[x]:valueUsageContext.code","Extension.extension.value[x].code","","","",1,1,"","","Y","Coding {[]} {[]}
 ","Type of context being specified","A code that identifies the type of context being specified by this usage context.","","","","","","<valueCoding xmlns=""http://hl7.org/fhir"">
   <system value=""http://terminology.hl7.org/CodeSystem/usage-context-type""/>
   <code value=""venue""/>
   <display value=""Clinical Venue""/>
 </valueCoding>","","","",,"extensible","A code that specifies a type of context being specified by a usage context.","http://hl7.org/fhir/ValueSet/usage-context-type","",,,,"UsageContext.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Extension.extension.value[x].value[x]","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
+"Extension.extension:CareType.value[x]:valueUsageContext.value[x]","Extension.extension.value[x].value[x]","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Value that defines the context","A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.","","","","","","","","","",,"example","A code that defines the specific value for the context being specified.","http://hl7.org/fhir/ValueSet/use-context","","type:$this}
 ","",,"closed","UsageContext.value[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Extension.extension.value[x].value[x]","valueCodeableConcept","","",1,1,"","","Y","CodeableConcept {[]} {[]}
+"Extension.extension:CareType.value[x]:valueUsageContext.value[x]:valueCodeableConcept","Extension.extension.value[x].value[x]","valueCodeableConcept","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Value that defines the context","A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.","","","","","","","","","",,"example","A code that defines the specific value for the context being specified.","http://hl7.org/fhir/ValueSet/use-context","",,,,"UsageContext.value[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Extension.extension.value[x].value[x].id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:CareType.value[x]:valueUsageContext.value[x]:valueCodeableConcept.id","Extension.extension.value[x].value[x].id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.value[x].value[x].extension","","extensions
+"Extension.extension:CareType.value[x]:valueUsageContext.value[x]:valueCodeableConcept.extension","Extension.extension.value[x].value[x].extension","","extensions
 user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
-"Extension.extension.value[x].value[x].coding","","","",1,2,"","","Y","Coding {[]} {[]}
+"Extension.extension:CareType.value[x]:valueUsageContext.value[x]:valueCodeableConcept.coding","Extension.extension.value[x].value[x].coding","","","",1,2,"","","Y","Coding {[]} {[]}
 ","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,"required","","https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-venue-type","",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","union(., ./translation)"
-"Extension.extension.value[x].value[x].text","","","",0,1,"","","Y","string {[]} {[]}
+"Extension.extension:CareType.value[x]:valueUsageContext.value[x]:valueCodeableConcept.text","Extension.extension.value[x].value[x].text","","","",0,1,"","","Y","string {[]} {[]}
 ","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./originalText[mediaType/code=""text/plain""]/data"
-"Extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.value[x]","","","",0,0,"","","","base64Binary {[]} {[]}
+"Extension.value[x]","Extension.value[x]","","","",0,0,"","","","base64Binary {[]} {[]}
 boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[]}decimal {[]} {[]}id {[]} {[]}instant {[]} {[]}integer {[]} {[]}markdown {[]} {[]}oid {[]} {[]}positiveInt {[]} {[]}string {[]} {[]}time {[]} {[]}unsignedInt {[]} {[]}uri {[]} {[]}url {[]} {[]}uuid {[]} {[]}Address {[]} {[]}Age {[]} {[]}Annotation {[]} {[]}Attachment {[]} {[]}CodeableConcept {[]} {[]}Coding {[]} {[]}ContactPoint {[]} {[]}Count {[]} {[]}Distance {[]} {[]}Duration {[]} {[]}HumanName {[]} {[]}Identifier {[]} {[]}Money {[]} {[]}Period {[]} {[]}Quantity {[]} {[]}Range {[]} {[]}Ratio {[]} {[]}Reference {[]} {[]}SampledData {[]} {[]}Signature {[]} {[]}Timing {[]} {[]}ContactDetail {[]} {[]}Contributor {[]} {[]}DataRequirement {[]} {[]}Expression {[]} {[]}ParameterDefinition {[]} {[]}RelatedArtifact {[]} {[]}TriggerDefinition {[]} {[]}UsageContext {[]} {[]}Dosage {[]} {[]}Meta {[]} {[]}","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"

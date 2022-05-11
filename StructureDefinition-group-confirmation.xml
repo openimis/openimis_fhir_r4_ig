@@ -23,7 +23,7 @@
   <name value="GroupConfirmationExtension"/>
   <title value="Confirmation (Group)"/>
   <status value="active"/>
-  <date value="2022-03-01T16:36:49+00:00"/>
+  <date value="2022-05-11T15:46:18+00:00"/>
   <publisher value="openIMIS Initiative"/>
   <contact>
     <name value="openIMIS Initiative"/>
@@ -82,7 +82,7 @@
         <severity value="error"/>
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="false"/>
@@ -157,7 +157,7 @@
       <path value="Extension.extension"/>
       <sliceName value="number"/>
       <short value="Group Confirmation Number"/>
-      <definition value="Specifies the Group&#39;s confirmation number."/>
+      <definition value="Specifies the Group's confirmation number."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -314,7 +314,7 @@
       <path value="Extension.extension"/>
       <sliceName value="type"/>
       <short value="Group Confirmation Type"/>
-      <definition value="Specifies the Group&#39;s confirmation type."/>
+      <definition value="Specifies the Group's confirmation type."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -727,7 +727,7 @@
       <path value="Extension.extension"/>
       <sliceName value="number"/>
       <short value="Group Confirmation Number"/>
-      <definition value="Specifies the Group&#39;s confirmation number."/>
+      <definition value="Specifies the Group's confirmation number."/>
       <min value="1"/>
       <max value="1"/>
       <mustSupport value="true"/>
@@ -750,7 +750,7 @@
       <path value="Extension.extension"/>
       <sliceName value="type"/>
       <short value="Group Confirmation Type"/>
-      <definition value="Specifies the Group&#39;s confirmation type."/>
+      <definition value="Specifies the Group's confirmation type."/>
       <min value="0"/>
       <max value="1"/>
       <mustSupport value="true"/>

@@ -10,7 +10,7 @@
   "name": "openIMISFHIRR4",
   "title": "openIMIS FHIR R4 Implementation Guide",
   "status": "draft",
-  "date": "2022-03-01T16:36:49+00:00",
+  "date": "2022-05-11T15:46:18+00:00",
   "publisher": "openIMIS Initiative",
   "contact": [
     {
@@ -306,6 +306,19 @@
           {
             "url": "code",
             "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludelogbinaryformat"
           },
           {
             "url": "value",
@@ -622,6 +635,20 @@
         },
         "name": "openIMIS Patient",
         "description": "Defines a Patient for openIMIS which maps to an Insuree",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/openimis-payment-notice"
+        },
+        "name": "openIMIS Payment Notice",
+        "description": "Submit payment notice.",
         "exampleBoolean": false
       },
       {

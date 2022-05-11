@@ -19,7 +19,7 @@
   <name value="MedicationFrequencyExtension"/>
   <title value="Frequency (Medication)"/>
   <status value="active"/>
-  <date value="2022-03-01T16:36:49+00:00"/>
+  <date value="2022-05-11T15:46:18+00:00"/>
   <publisher value="openIMIS Initiative"/>
   <contact>
     <name value="openIMIS Initiative"/>
@@ -78,7 +78,7 @@
         <severity value="error"/>
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="false"/>
@@ -319,7 +319,7 @@
     <element id="Extension.value[x]:valueTiming.modifierExtension">
       <path value="Extension.value[x].modifierExtension"/>
       <short value="Extensions that cannot be ignored even if unrecognized"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element&#39;s descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
       <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
@@ -415,16 +415,18 @@
       <constraint>
         <key value="tim-1"/>
         <severity value="error"/>
-        <human value="if there&#39;s a duration, there needs to be duration units"/>
+        <human value="if there's a duration, there needs to be duration units"/>
         <expression value="duration.empty() or durationUnit.exists()"/>
         <xpath value="not(exists(f:duration)) or exists(f:durationUnit)"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <constraint>
         <key value="tim-2"/>
         <severity value="error"/>
-        <human value="if there&#39;s a period, there needs to be period units"/>
+        <human value="if there's a period, there needs to be period units"/>
         <expression value="period.empty() or periodUnit.exists()"/>
         <xpath value="not(exists(f:period)) or exists(f:periodUnit)"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <constraint>
         <key value="tim-4"/>
@@ -432,6 +434,7 @@
         <human value="duration SHALL be a non-negative value"/>
         <expression value="duration.exists() implies duration &gt;= 0"/>
         <xpath value="f:duration/@value &gt;= 0 or not(f:duration/@value)"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <constraint>
         <key value="tim-5"/>
@@ -439,41 +442,47 @@
         <human value="period SHALL be a non-negative value"/>
         <expression value="period.exists() implies period &gt;= 0"/>
         <xpath value="f:period/@value &gt;= 0 or not(f:period/@value)"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <constraint>
         <key value="tim-6"/>
         <severity value="error"/>
-        <human value="If there&#39;s a periodMax, there must be a period"/>
+        <human value="If there's a periodMax, there must be a period"/>
         <expression value="periodMax.empty() or period.exists()"/>
         <xpath value="not(exists(f:periodMax)) or exists(f:period)"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <constraint>
         <key value="tim-7"/>
         <severity value="error"/>
-        <human value="If there&#39;s a durationMax, there must be a duration"/>
+        <human value="If there's a durationMax, there must be a duration"/>
         <expression value="durationMax.empty() or duration.exists()"/>
         <xpath value="not(exists(f:durationMax)) or exists(f:duration)"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <constraint>
         <key value="tim-8"/>
         <severity value="error"/>
-        <human value="If there&#39;s a countMax, there must be a count"/>
+        <human value="If there's a countMax, there must be a count"/>
         <expression value="countMax.empty() or count.exists()"/>
         <xpath value="not(exists(f:countMax)) or exists(f:count)"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <constraint>
         <key value="tim-9"/>
         <severity value="error"/>
-        <human value="If there&#39;s an offset, there must be a when (and not C, CM, CD, CV)"/>
-        <expression value="offset.empty() or (when.exists() and ((when in (&#39;C&#39; | &#39;CM&#39; | &#39;CD&#39; | &#39;CV&#39;)).not()))"/>
+        <human value="If there's an offset, there must be a when (and not C, CM, CD, CV)"/>
+        <expression value="offset.empty() or (when.exists() and ((when in ('C' | 'CM' | 'CD' | 'CV')).not()))"/>
         <xpath value="not(exists(f:offset)) or exists(f:when)"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <constraint>
         <key value="tim-10"/>
         <severity value="error"/>
-        <human value="If there&#39;s a timeOfDay, there cannot be a when, or vice versa"/>
+        <human value="If there's a timeOfDay, there cannot be a when, or vice versa"/>
         <expression value="timeOfDay.empty() or when.empty()"/>
         <xpath value="not(exists(f:timeOfDay)) or not(exists(f:when))"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="false"/>
       <isSummary value="true"/>
@@ -654,7 +663,7 @@
       <path value="Extension.value[x].repeat.duration"/>
       <short value="How long when it happens"/>
       <definition value="How long this thing happens for when it happens. If durationMax is present, this element indicates the lower bound of the allowed range of the duration."/>
-      <comment value="For some events the duration is part of the definition of the event (e.g. IV infusions, where the duration is implicit in the specified quantity and rate). For others, it&#39;s part of the timing specification (e.g. exercise)."/>
+      <comment value="For some events the duration is part of the definition of the event (e.g. IV infusions, where the duration is implicit in the specified quantity and rate). For others, it's part of the timing specification (e.g. exercise)."/>
       <requirements value="Some activities are not instantaneous and need to be maintained for a period of time."/>
       <min value="0"/>
       <max value="1"/>
@@ -685,7 +694,7 @@
       <path value="Extension.value[x].repeat.durationMax"/>
       <short value="How long when it happens (Max)"/>
       <definition value="If present, indicates that the duration is a range - so to perform the action between [duration] and [durationMax] time length."/>
-      <comment value="For some events the duration is part of the definition of the event (e.g. IV infusions, where the duration is implicit in the specified quantity and rate). For others, it&#39;s part of the timing specification (e.g. exercise)."/>
+      <comment value="For some events the duration is part of the definition of the event (e.g. IV infusions, where the duration is implicit in the specified quantity and rate). For others, it's part of the timing specification (e.g. exercise)."/>
       <requirements value="Some activities are not instantaneous and need to be maintained for a period of time."/>
       <min value="0"/>
       <max value="1"/>
@@ -1044,7 +1053,7 @@
       <path value="Extension.value[x].code"/>
       <short value="BID | TID | QID | AM | PM | QD | QOD | +"/>
       <definition value="A code for the timing schedule (or just text in code.text). Some codes such as BID are ubiquitous, but many institutions define their own additional codes. If a code is provided, the code is understood to be a complete statement of whatever is specified in the structured timing data, and either the code or the data may be used to interpret the Timing, with the exception that .repeat.bounds still applies over the code (and is not contained in the code)."/>
-      <comment value="BID etc. are defined as &#39;at institutionally specified times&#39;. For example, an institution may choose that BID is &quot;always at 7am and 6pm&quot;.  If it is inappropriate for this choice to be made, the code BID should not be used. Instead, a distinct organization-specific code should be used in place of the HL7-defined BID code and/or a structured representation should be used (in this case, specifying the two event times)."/>
+      <comment value="BID etc. are defined as 'at institutionally specified times'. For example, an institution may choose that BID is &quot;always at 7am and 6pm&quot;.  If it is inappropriate for this choice to be made, the code BID should not be used. Instead, a distinct organization-specific code should be used in place of the HL7-defined BID code and/or a structured representation should be used (in this case, specifying the two event times)."/>
       <min value="0"/>
       <max value="1"/>
       <base>

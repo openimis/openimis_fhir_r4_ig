@@ -739,6 +739,12 @@
         "title": "openIMIS Patient"
       }
     ],
+    "PaymentNotice": [
+      {
+        "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-payment-notice",
+        "title": "openIMIS Payment Notice"
+      }
+    ],
     "Subscription": [
       {
         "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-subscription",

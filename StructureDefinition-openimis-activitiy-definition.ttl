@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "OpenIMISActivityDefinition"];
   fhir:StructureDefinition.title [ fhir:value "openIMIS ActivityDefinition"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-03-01T16:36:49+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-11T15:46:18+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "openIMIS Initiative"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -7519,63 +7519,99 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "if there's a duration, there needs to be duration units" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "duration.empty() or durationUnit.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:duration)) or exists(f:durationUnit)" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:duration)) or exists(f:durationUnit)" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/ActivityDefinition";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
+         ]
        ], [
          fhir:index 2;
          fhir:ElementDefinition.constraint.key [ fhir:value "tim-2" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "if there's a period, there needs to be period units" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "period.empty() or periodUnit.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:period)) or exists(f:periodUnit)" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:period)) or exists(f:periodUnit)" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/ActivityDefinition";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
+         ]
        ], [
          fhir:index 3;
          fhir:ElementDefinition.constraint.key [ fhir:value "tim-4" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "duration SHALL be a non-negative value" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "duration.exists() implies duration >= 0" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "f:duration/@value >= 0 or not(f:duration/@value)" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "f:duration/@value >= 0 or not(f:duration/@value)" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/ActivityDefinition";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
+         ]
        ], [
          fhir:index 4;
          fhir:ElementDefinition.constraint.key [ fhir:value "tim-5" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "period SHALL be a non-negative value" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "period.exists() implies period >= 0" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "f:period/@value >= 0 or not(f:period/@value)" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "f:period/@value >= 0 or not(f:period/@value)" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/ActivityDefinition";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
+         ]
        ], [
          fhir:index 5;
          fhir:ElementDefinition.constraint.key [ fhir:value "tim-6" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "If there's a periodMax, there must be a period" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "periodMax.empty() or period.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:periodMax)) or exists(f:period)" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:periodMax)) or exists(f:period)" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/ActivityDefinition";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
+         ]
        ], [
          fhir:index 6;
          fhir:ElementDefinition.constraint.key [ fhir:value "tim-7" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "If there's a durationMax, there must be a duration" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "durationMax.empty() or duration.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:durationMax)) or exists(f:duration)" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:durationMax)) or exists(f:duration)" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/ActivityDefinition";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
+         ]
        ], [
          fhir:index 7;
          fhir:ElementDefinition.constraint.key [ fhir:value "tim-8" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "If there's a countMax, there must be a count" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "countMax.empty() or count.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:countMax)) or exists(f:count)" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:countMax)) or exists(f:count)" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/ActivityDefinition";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
+         ]
        ], [
          fhir:index 8;
          fhir:ElementDefinition.constraint.key [ fhir:value "tim-9" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "If there's an offset, there must be a when (and not C, CM, CD, CV)" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "offset.empty() or (when.exists() and ((when in ('C' | 'CM' | 'CD' | 'CV')).not()))" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:offset)) or exists(f:when)" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:offset)) or exists(f:when)" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/ActivityDefinition";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
+         ]
        ], [
          fhir:index 9;
          fhir:ElementDefinition.constraint.key [ fhir:value "tim-10" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "If there's a timeOfDay, there cannot be a when, or vice versa" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "timeOfDay.empty() or when.empty()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:timeOfDay)) or not(exists(f:when))" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:timeOfDay)) or not(exists(f:when))" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/ActivityDefinition";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
+         ]
        ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
