@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "UsageContextAgeTypeCS"];
   fhir:CodeSystem.title [ fhir:value "Usage Context for Age Type (ActivityDefinition|Medication)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-05-11T15:46:18+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-12T06:50:16+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "openIMIS Initiative"];
   fhir:CodeSystem.contact [
      fhir:index 0;

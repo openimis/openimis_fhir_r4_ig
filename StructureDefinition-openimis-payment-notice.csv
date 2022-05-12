@@ -135,6 +135,6 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "PaymentNotice.amount.currency","PaymentNotice.amount.currency","","","",0,1,"","","Y","code {[]} {[]}
 ","ISO 4217 Currency Code","ISO 4217 Currency Code.","","A code indicating the currency, taken from ISO 4217.","","","","","","","",,"required","A code indicating the currency, taken from ISO 4217.","http://hl7.org/fhir/ValueSet/currencies|4.0.1","",,,,"Money.currency",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","MO.Currency"
-"PaymentNotice.paymentStatus","PaymentNotice.paymentStatus","","","",0,1,"","","","CodeableConcept {[]} {[]}
+"PaymentNotice.paymentStatus","PaymentNotice.paymentStatus","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Issued or cleared Status of the payment","A code indicating whether payment has been sent or cleared.","Typically paid: payment sent, cleared: payment received.","The purpose of the notification.","","","","","","","",,"example","The payment conveyance status codes.","http://hl7.org/fhir/ValueSet/payment-status","",,,,"PaymentNotice.paymentStatus",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a"

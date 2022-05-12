@@ -19,6 +19,7 @@
       <sch:assert test="count(f:provider) &lt;= 0">provider: maximum cardinality of 'provider' is 0</sch:assert>
       <sch:assert test="count(f:paymentDate) &gt;= 1">paymentDate: minimum cardinality of 'paymentDate' is 1</sch:assert>
       <sch:assert test="count(f:payee) &lt;= 0">payee: maximum cardinality of 'payee' is 0</sch:assert>
+      <sch:assert test="count(f:paymentStatus) &gt;= 1">paymentStatus: minimum cardinality of 'paymentStatus' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

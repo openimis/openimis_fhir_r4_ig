@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "UnitPriceExtension"];
   fhir:StructureDefinition.title [ fhir:value "Unit Price (Medication|ActivityDefinition)"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-11T15:46:18+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-12T06:50:16+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "openIMIS Initiative"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
