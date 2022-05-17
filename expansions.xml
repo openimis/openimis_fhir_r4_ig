@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4f1b1e1f-54ce-4614-b87b-cc4c989d23ac"/>
+  <id value="0b7a0fc9-09e7-4312-8dff-1b73b3521006"/>
   <meta>
-    <lastUpdated value="2022-05-12T07:23:31.412+00:00"/>
+    <lastUpdated value="2022-05-17T09:34:33.151+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -68,7 +68,7 @@
         <name value="ActivityDefinitionLevelVS"/>
         <title value="Level (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -87,8 +87,8 @@
         </contact>
         <description value="Indicates the Level for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:0d5e97b5-f388-4607-855e-90ec1d9caacb"/>
-          <timestamp value="2022-05-12T07:25:08+00:00"/>
+          <identifier value="urn:uuid:0489ebe3-6140-45bd-a433-aad42a882434"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -170,7 +170,7 @@
         <name value="ActivityDefinitionServiceTypeVS"/>
         <title value="Service Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -189,8 +189,8 @@
         </contact>
         <description value="Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:ef0bd768-d868-4de2-b2c5-a6c06ba9c208"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:e2c8e67b-3f46-4d98-9543-ee1668285f8d"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -283,7 +283,7 @@
         <name value="ActivityDefinitionUsageContextTypeVS"/>
         <title value="Usage Context Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -302,8 +302,8 @@
         </contact>
         <description value="Indicates the Usage Context Type for an ActivityDefinition."/>
         <expansion>
-          <identifier value="urn:uuid:9cf1f32d-0651-49bb-9440-03dd389937b2"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:f8fb30b3-871d-48ea-a7a0-281b171b6250"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -390,7 +390,7 @@
         <name value="ActivityDefinitionUsageContextVenueTypeVS"/>
         <title value="Usage Context for Venue Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -409,8 +409,8 @@
         </contact>
         <description value="Indicates the Usage Context for Venue Type for an ActivityDefinition."/>
         <expansion>
-          <identifier value="urn:uuid:80c554bf-8e34-4003-8ca6-d4d7680961d1"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:4dad71ed-c983-4f6b-8800-d526d75c0d58"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -503,7 +503,7 @@
         <name value="ActivityDefinitionUsageContextWorkflowTypeVS"/>
         <title value="Usage Context for Workflow Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -522,8 +522,8 @@
         </contact>
         <description value="Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:eb1d1860-2b2a-4d35-ac7b-1a5209756f46"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:6860f653-7d16-4755-b029-d003486abf3a"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -623,7 +623,7 @@
         <name value="BillChargeItemVS"/>
         <title value="ChargeItem (Bill Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -642,8 +642,8 @@
         </contact>
         <description value="Indicates the ChargeItem for a lineItem from a Bill. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:00deec48-9b6d-430d-80b5-52fba3624898"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:0e185e3d-8551-4e1e-ba6c-19fea3b3f559"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -733,7 +733,7 @@
         <name value="BillTypeVS"/>
         <title value="Type (Bill Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -752,8 +752,8 @@
         </contact>
         <description value="Indicates the Type for Bill. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:e89924b9-0c55-4ab6-9523-6ba012182814"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:b3e2876f-ffd0-4e89-895b-6382c805cdea"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -830,7 +830,7 @@
         <name value="ClaimItemCategoryVS"/>
         <title value="Category of the item (Claim)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -849,8 +849,8 @@
         </contact>
         <description value="Indicates the category for the item under a Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:9df831f3-03f2-4665-b91d-1b662a87e5f9"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:25ba3626-1876-4a53-8fab-f7ebf424d543"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1048,7 +1048,7 @@
         <name value="ClaimRejectionReasonsVS"/>
         <title value="Rejection reasons (Claim)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1067,8 +1067,8 @@
         </contact>
         <description value="Indicates the rejection reason of an item from a Claim. &#xA;Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:fa008805-5f99-4315-98c1-01f33ab089c7"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:de8e6d25-c7d8-44fe-983b-2a7575a26781"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1251,7 +1251,7 @@
         <name value="ClaimStatusVS"/>
         <title value="Status of the claim (Claim|ClaimResponse)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1270,8 +1270,8 @@
         </contact>
         <description value="Indicates the status of the Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:fbbb4ceb-0885-421b-915d-741ee8b45352"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:4b78e691-9777-4b81-abb5-6d83820ce46e"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1372,7 +1372,7 @@
         <name value="ClaimSupportingInfoCategoryVS"/>
         <title value="Category of the supporting info (Claim)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1391,8 +1391,8 @@
         </contact>
         <description value="Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:cc0b761e-8712-4ef1-94c9-3ac03753221c"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:6227450f-1b8a-4a22-8aff-e2dca15437a9"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1481,7 +1481,7 @@
         <name value="ClaimVisitTypeVS"/>
         <title value="Visit Type Codes (Claim)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1500,8 +1500,8 @@
         </contact>
         <description value="Indicates the visit type of the Claim. &#xA;Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:57c35de3-30d6-4a4b-8388-fdf332792926"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:78a27610-f3ca-4c15-974e-e4700bff6144"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1591,7 +1591,7 @@
         <name value="CommunicationRequestStatusVS"/>
         <title value="Claim Feedback Status (CommunicationRequest)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1610,8 +1610,8 @@
         </contact>
         <description value="Indicates the status of a feedback (Claim)."/>
         <expansion>
-          <identifier value="urn:uuid:3aebc360-5355-4168-b9d4-b3fcac166a2d"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:e58d9906-9ccb-4936-8da7-c5906639f339"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1688,7 +1688,7 @@
         <name value="ContractPremiumCategoryVS"/>
         <title value="Premium Category (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1707,8 +1707,8 @@
         </contact>
         <description value="Indicates the category of the premium for the Contract. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:ce9b8a01-578b-4cd8-bf53-730df870a111"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:96380b2a-eedb-4194-932e-68c9ac89c286"/>
+          <timestamp value="2022-05-17T09:36:35+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1773,7 +1773,7 @@
         <name value="ContractPremiumPayerVS"/>
         <title value="Premium Payer (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1792,8 +1792,8 @@
         </contact>
         <description value="Indicates the payer of the premium for the Contract. Can be extended in openIMIS. Need to match openIMIS database payer list."/>
         <expansion>
-          <identifier value="urn:uuid:894373d7-598e-42bd-b408-66e893e39aac"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:5013581d-7dbe-4d67-8e07-02195d1861e1"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1867,7 +1867,7 @@
         <name value="ContractPremiumTypeVS"/>
         <title value="Premium Type (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1886,8 +1886,8 @@
         </contact>
         <description value="Indicates the type of the premium for the Contract. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:bb41b1dc-0310-49cb-a5a1-0f1470867af0"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:85346a7b-bf63-42f0-b481-81548fbb88e6"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1957,7 +1957,7 @@
         <name value="ContractResourcePartyRoleVS"/>
         <title value="Resource Party Role (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1976,8 +1976,8 @@
         </contact>
         <description value="Indicates the participant engagement type for the Contract term."/>
         <expansion>
-          <identifier value="urn:uuid:0bf92f9d-e5d1-43f9-8147-585cbc83f957"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:61cb9c85-808d-4068-89f0-64978b091a51"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2044,7 +2044,7 @@
         <name value="ContractScopeVS"/>
         <title value="Scope (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2063,8 +2063,8 @@
         </contact>
         <description value="Indicates the scope for the Contract. Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:846aa44b-14a0-49a7-a33c-b9b6712af818"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:f26911d5-557d-4966-a089-6dbcfe63f02b"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2141,7 +2141,7 @@
         <name value="ContractStatusCodesVS"/>
         <title value="Status Codes (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2160,8 +2160,8 @@
         </contact>
         <description value="Indicates the status of the Contract. Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:b2ef3dc8-6185-462b-9a69-70844588ab01"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:7c342d0f-13e8-4ed1-a74d-0f3eace60fd3"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2282,7 +2282,7 @@
         <name value="CoverageItemBenefitTypeAmountLeftVS"/>
         <title value="Type of benefit as amount left (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2301,8 +2301,8 @@
         </contact>
         <description value="Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:b953a42e-15ac-4463-be7d-a5b08d19ea54"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:9039f5a8-f5df-4f97-ae2c-6683d8975e68"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2409,7 +2409,7 @@
         <name value="CoverageItemBenefitTypeItemServiceVS"/>
         <title value="Type of benefit (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2428,8 +2428,8 @@
         </contact>
         <description value="Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:3ef621f2-5c7f-48ec-b40b-b736b0979c62"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:f02ed80c-29ee-4dac-bac4-0b52e2b01a61"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2529,7 +2529,7 @@
         <name value="CoverageItemBenefitTypeTotalLeftVS"/>
         <title value="Type of benefit as total left (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2548,8 +2548,8 @@
         </contact>
         <description value="Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:b51976e9-03ad-40ab-9e41-528f7ff04907"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:cd281874-d1f1-4825-b4e7-a2aa300d69f7"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2641,7 +2641,7 @@
         <name value="CoverageItemCategoryItemServiceVS"/>
         <title value="Partial categories of the item (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2660,8 +2660,8 @@
         </contact>
         <description value="Indicates the category for the item, only for medical items and services, under a Coverage. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:5aa35863-92b9-478f-8002-0358fdec6a4c"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:ef71cd9f-cb1b-4ab6-a7ca-494405540ae2"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2740,7 +2740,7 @@
         <name value="CoverageItemCategoryVS"/>
         <title value="Category of the item (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2759,8 +2759,8 @@
         </contact>
         <description value="Indicates the category for the item under a Coverage. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:7584aee0-2a13-41ab-9ad2-0d81dc11f5c0"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:c89a5308-55f1-41a0-87e9-8683f38547c3"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2850,7 +2850,7 @@
         <name value="CoverageStatusVS"/>
         <title value="Coverage Status (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2869,8 +2869,8 @@
         </contact>
         <description value="Indicates the status of a Coverage (Policy)."/>
         <expansion>
-          <identifier value="urn:uuid:3701f785-5c89-4636-af3d-674fbc81b0e3"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:d2265579-f627-4a5b-a4b7-81def5c96c3d"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -16303,7 +16303,7 @@
         <name value="DiagnosisICD10Level1VS"/>
         <title value="ICD 10 Level 1 diagnosis"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -16322,8 +16322,8 @@
         </contact>
         <description value="Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:2b748303-5900-4601-8630-aa68c963c293"/>
-          <timestamp value="2022-05-12T07:25:09+00:00"/>
+          <identifier value="urn:uuid:c9fd3bc6-fcab-4e53-9ca4-bb132431dc8c"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="1910"/>
           <parameter>
             <name value="excludeNested"/>
@@ -25956,7 +25956,7 @@
         <name value="FeedbackPayloadVS"/>
         <title value="Feedback Payload (CommunicationRequest | Communication)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -25975,8 +25975,8 @@
         </contact>
         <description value="Indicates the Feedback Payload code for a CommunicationRequest and Communication. List defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:0e6ee2b5-e2e1-42c2-8265-62e63d717873"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:39260089-f0a0-4e9e-ad6f-00f2a511c368"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26076,7 +26076,7 @@
         <name value="FeedbackStatusVS"/>
         <title value="Feedback Status (CommunicationRequest)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26095,8 +26095,8 @@
         </contact>
         <description value="Indicates the Feedback Status for a CommunicationRequest. Partial list defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:167b856d-fdd6-41c1-8a83-a1e534448e81"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:e38a006c-3aa0-48f6-bc50-10c4fbb1a264"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26187,7 +26187,7 @@
         <name value="GroupConfirmationTypeVS"/>
         <title value="Confirmation Types (Group)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26206,8 +26206,8 @@
         </contact>
         <description value="Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:ed3c8dd5-bdca-4344-a752-78f93adafebf"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:e97db57f-3add-43ff-9793-93fbcc22392e"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26326,7 +26326,7 @@
         <name value="GroupTypeVS"/>
         <title value="Group Type (Group)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26345,8 +26345,8 @@
         </contact>
         <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:a165f242-e222-49d8-a590-0c435bd18282"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:c603c379-3a0b-48c2-82cb-f9a86ab3bdc1"/>
+          <timestamp value="2022-05-17T09:36:36+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26443,7 +26443,7 @@
         <name value="InsurancePlanCoverageBenefitLimitVS"/>
         <title value="Coverage Benefit Limit Types (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26462,8 +26462,8 @@
         </contact>
         <description value="Indicates the Coverage Benefit Limit Types for an InsurancePlan. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:8ba81a69-3325-4ae9-a278-295e0a40f3c5"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:cfb799bf-1050-4a5a-87fe-ea249044162a"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26528,7 +26528,7 @@
         <name value="InsurancePlanCoverageTypeVS"/>
         <title value="Coverage Type (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26547,8 +26547,8 @@
         </contact>
         <description value="Indicates the Coverage Type for an InsurancePlan."/>
         <expansion>
-          <identifier value="urn:uuid:1a1e01e6-2726-40ed-a241-000eac672450"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:28f9fd47-e0a5-4ed8-9360-bf824b451ebd"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26650,7 +26650,7 @@
         <name value="InsurancePlanGeneralCostTypeVS"/>
         <title value="General Cost Type (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26669,8 +26669,8 @@
         </contact>
         <description value="Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:ccbe4be7-9328-47b4-893c-cb226fe07cdb"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:7c1a360b-a206-4101-a353-1d35ef5fe591"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26780,7 +26780,7 @@
         <name value="InsurancePlanPublicationStatusVS"/>
         <title value="Publication Status (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26799,8 +26799,8 @@
         </contact>
         <description value="Indicates the Publication Status for an InsurancePlan."/>
         <expansion>
-          <identifier value="urn:uuid:45b3fd47-a027-4728-a72f-82d88d79206f"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:8b35ff1d-298c-4316-b4aa-48007dc0ceb1"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26877,7 +26877,7 @@
         <name value="InvoiceChargeItemVS"/>
         <title value="ChargeItem (Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26896,8 +26896,8 @@
         </contact>
         <description value="Indicates the ChargeItem for a lineItem from an Invoice. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:e24b3d9f-aadc-42aa-ac69-34ab77c50c71"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:bd801eff-a9e9-47a3-84fb-360aa7d071fe"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26990,7 +26990,7 @@
         <name value="InvoicePriceComponentTypeVS"/>
         <title value="PriceComponent Type (Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27009,8 +27009,8 @@
         </contact>
         <description value="Indicates the Type for a PriceComponent from an Invoice."/>
         <expansion>
-          <identifier value="urn:uuid:a85b3514-c26d-46a5-a521-cadac56d7ab7"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:d8141626-e5f7-46ae-9279-4997ce50e1c6"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27105,7 +27105,7 @@
         <name value="InvoiceStatusVS"/>
         <title value="Status (Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27124,8 +27124,8 @@
         </contact>
         <description value="Indicates the status for an Invoice. Values limited by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:2ed3fe37-c518-4c87-b115-9c86966638fd"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:62ed4076-b7d9-49bd-b6b0-f8cf5387fece"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27215,7 +27215,7 @@
         <name value="InvoiceTypeVS"/>
         <title value="Type (Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27234,8 +27234,8 @@
         </contact>
         <description value="Indicates the Type for an Invoice. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:18b770fd-06b1-4771-9ad4-3094362578bb"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:747c53dc-aca1-4dc2-86c4-5ecbbe677713"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27334,10 +27334,10 @@
         <name value="LocationTypeVS"/>
         <title value="Location Type (Location)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:fa04c76b-b4ba-4e43-aef2-46de5ebc17ce"/>
-          <timestamp value="2022-05-12T07:25:06.942Z"/>
+          <identifier value="urn:uuid:4428aa9a-8434-4201-a7c1-5222d6a37a8f"/>
+          <timestamp value="2022-05-17T09:36:37.330Z"/>
           <parameter>
             <name value="expansion-source"/>
             <valueUri value="ValueSet/location-type"/>
@@ -27434,7 +27434,7 @@
         <name value="MedicationItemTypeVS"/>
         <title value="Item Type (Medication)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27453,8 +27453,8 @@
         </contact>
         <description value="Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:7770c69d-a41d-4ded-9ec1-ec4b1eeef0fc"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:774515fe-4938-4810-bd61-9ffe6acc78f3"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27519,7 +27519,7 @@
         <name value="MedicationLevelVS"/>
         <title value="Level (Medication)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27538,8 +27538,8 @@
         </contact>
         <description value="Indicates the Level for a Medication. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:20f95c17-b7bd-4967-95fa-b8ad13bd3a0b"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:a6aee6ba-b55c-44ae-ae5b-cea4252e0326"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27611,7 +27611,7 @@
         <name value="OpenIMISIdentifierVS"/>
         <title value="openIMIS Identifiers Value Set"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27630,8 +27630,8 @@
         </contact>
         <description value="Indicates the Identifier type"/>
         <expansion>
-          <identifier value="urn:uuid:fc20d312-1173-4b89-8422-6e121e4be108"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:cf404a4a-1fa0-422c-8d98-24659f1dc870"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27710,7 +27710,7 @@
         <name value="OrganizationHFCareTypeVS"/>
         <title value="Health Facility Care Type (Organization)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27729,8 +27729,8 @@
         </contact>
         <description value="Indicates the care type of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:167cfa47-96a9-4493-ac2b-0a6658128782"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:67fcab51-eae4-4c9e-b294-9c9d4c552c38"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27821,7 +27821,7 @@
         <name value="OrganizationHFLegalFormVS"/>
         <title value="Legal Forms (Organization)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27840,8 +27840,8 @@
         </contact>
         <description value="Indicates the legal forms of the Health Facility Organization. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:967dd3a6-48fa-4336-8bab-82efacf39105"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:6ed7c3d1-0625-46d7-94ee-95a23cec50c5"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27930,7 +27930,7 @@
         <name value="OrganizationHFLevelVS"/>
         <title value="Health Facility Level (Organization)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27949,8 +27949,8 @@
         </contact>
         <description value="Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:dcb09a73-8b6f-40fa-8917-da2177749cd7"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:b24b1144-b4d6-4448-b6da-b52f2213cc26"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28048,7 +28048,7 @@
         <name value="OrganizationPHActivityVS"/>
         <title value="Activity (Organization)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28067,8 +28067,8 @@
         </contact>
         <description value="Indicates the activity of the PolicyHolder Organization. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:50c1f653-4504-4b92-af19-4c71f5015d06"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:1185e332-2265-449f-a5da-e61ac11bcfca"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28176,7 +28176,7 @@
         <name value="OrganizationPHLegalFormVS"/>
         <title value="Legal Forms (Organization)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28195,8 +28195,8 @@
         </contact>
         <description value="Indicates the legal forms of the PolicyHolder Organization. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:aab10c41-e13f-453f-99fa-dee4d97125a5"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:169ca097-ae5d-49b7-b53f-99e8b8dcedc3"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28325,7 +28325,7 @@
         <name value="PatientContactRelationshipVS"/>
         <title value="Contact Relationship (Patient)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28344,8 +28344,8 @@
         </contact>
         <description value="Indicates the Relationship of a Patient with the Head of the Family."/>
         <expansion>
-          <identifier value="urn:uuid:e48b44ed-96e4-41ef-a6f2-2e3306d069cf"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:d276e851-1293-4658-b549-4d0411252aef"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28482,7 +28482,7 @@
         <name value="PatientEducationLevelVS"/>
         <title value="Education Level (Patient)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28501,8 +28501,8 @@
         </contact>
         <description value="Indicates the Education level of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:2d1caa1a-f4cd-47ee-b22d-e656fde2fe40"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:5a73412e-6c4c-4f9e-afbd-4d267a5b0168"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28613,7 +28613,7 @@
         <name value="PatientIdentificationTypeVS"/>
         <title value="Identification Type (Patient)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28632,8 +28632,8 @@
         </contact>
         <description value="Indicates the type of document the Patient used to identify himself."/>
         <expansion>
-          <identifier value="urn:uuid:df1b11ad-0e4e-410b-8091-f30b7ca4363b"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:c8a2547d-fafa-4311-8c80-14c996bfb06d"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28744,7 +28744,7 @@
         <name value="PatientMaritalStatusVS"/>
         <title value="Marital Status (Patient)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28763,8 +28763,8 @@
         </contact>
         <description value="Indicates the Marital status of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:348e548e-0ac7-4f15-8525-fba76bcb8bff"/>
-          <timestamp value="2022-05-12T07:25:10+00:00"/>
+          <identifier value="urn:uuid:76ec67f4-d829-43b2-8c87-db92188fac61"/>
+          <timestamp value="2022-05-17T09:36:37+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28865,7 +28865,7 @@
         <name value="PatientProfessionVS"/>
         <title value="Profession (Patient)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28884,8 +28884,8 @@
         </contact>
         <description value="Indicates the profession of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:f74448db-55cb-4cb7-8a25-0889cbb642d9"/>
-          <timestamp value="2022-05-12T07:25:11+00:00"/>
+          <identifier value="urn:uuid:f76cdbc8-b708-46a4-8d80-18b70af7ce9c"/>
+          <timestamp value="2022-05-17T09:36:38+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28967,7 +28967,7 @@
         <name value="PractitionerQualificationTypeVS"/>
         <title value="Practitioner Qualification Type"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28986,8 +28986,8 @@
         </contact>
         <description value="Indicates the Qualification Type of a Practitioner."/>
         <expansion>
-          <identifier value="urn:uuid:3e4ab17f-97db-47c2-a471-def37aac51df"/>
-          <timestamp value="2022-05-12T07:25:11+00:00"/>
+          <identifier value="urn:uuid:e5c6dbfd-b4e0-46f0-996b-1cc825349ef1"/>
+          <timestamp value="2022-05-17T09:36:38+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -29059,7 +29059,7 @@
         <name value="UsageContextAgeTypeVS"/>
         <title value="Usage Context for Age Type (ActivityDefinition|Medication)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -29078,8 +29078,8 @@
         </contact>
         <description value="Indicates the Usage Context for Age Type for an ActivityDefinition or Medication."/>
         <expansion>
-          <identifier value="urn:uuid:4e6d005b-de94-44c9-be1d-68b9734a10dd"/>
-          <timestamp value="2022-05-12T07:25:11+00:00"/>
+          <identifier value="urn:uuid:79be1219-1f5f-4210-8ba4-3c0ba29d02ec"/>
+          <timestamp value="2022-05-17T09:36:38+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -29156,7 +29156,7 @@
         <name value="UsageContextGenderTypeVS"/>
         <title value="Usage Context for Gender Type (ActivityDefinition|Medication)"/>
         <status value="active"/>
-        <date value="2022-05-12T07:23:31+00:00"/>
+        <date value="2022-05-17T09:34:33+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -29175,8 +29175,8 @@
         </contact>
         <description value="Indicates the Usage Context for Gender Type for an ActivityDefinition or Medication."/>
         <expansion>
-          <identifier value="urn:uuid:438cd1db-0e05-445e-b7ec-1d6729c96deb"/>
-          <timestamp value="2022-05-12T07:25:11+00:00"/>
+          <identifier value="urn:uuid:c774029b-2453-4eec-94f0-80b4919a8e26"/>
+          <timestamp value="2022-05-17T09:36:38+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>

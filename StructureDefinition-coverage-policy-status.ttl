@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "CoveragPolicyStatusExtension"];
   fhir:StructureDefinition.title [ fhir:value "Policy Status (Coverage)"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-12T07:23:31+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-17T09:34:33+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "openIMIS Initiative"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
