@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "ContractPremiumTypeCS"];
   fhir:CodeSystem.title [ fhir:value "Premium Type (Contract)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-05-31T10:54:20+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-31T10:56:28+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "openIMIS Initiative"];
   fhir:CodeSystem.contact [
      fhir:index 0;
