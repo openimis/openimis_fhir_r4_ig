@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">lumpsum<a name=\"insurance-plan-general-cost-type-lumpsum\"> </a></td><td>Lumpsum</td></tr><tr><td style=\"white-space:nowrap\">premiumAdult<a name=\"insurance-plan-general-cost-type-premiumAdult\"> </a></td><td>Premium Adult</td></tr><tr><td style=\"white-space:nowrap\">premiumChild<a name=\"insurance-plan-general-cost-type-premiumChild\"> </a></td><td>Premium Child</td></tr><tr><td style=\"white-space:nowrap\">registrationLumpsum<a name=\"insurance-plan-general-cost-type-registrationLumpsum\"> </a></td><td>Registration Lumpsum</td></tr><tr><td style=\"white-space:nowrap\">registrationFee<a name=\"insurance-plan-general-cost-type-registrationFee\"> </a></td><td>Registration Fee</td></tr><tr><td style=\"white-space:nowrap\">generalAssemblyLumpSum<a name=\"insurance-plan-general-cost-type-generalAssemblyLumpSum\"> </a></td><td>General Assembly Lump Sum</td></tr><tr><td style=\"white-space:nowrap\">generalAssemblyFee<a name=\"insurance-plan-general-cost-type-generalAssemblyFee\"> </a></td><td>General Assembly Fee</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type"];
-  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.version [ fhir:value "1.0.0"];
   fhir:CodeSystem.name [ fhir:value "InsurancePlanGeneralCostTypeCS"];
   fhir:CodeSystem.title [ fhir:value "General Cost Type (InsurancePlan)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-05-17T09:34:33+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-31T10:54:20+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "openIMIS Initiative"];
   fhir:CodeSystem.contact [
      fhir:index 0;

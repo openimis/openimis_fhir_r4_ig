@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"feedback-status-4\"> </a></td><td>Selected</td><td>Selected for Feedback</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"feedback-status-8\"> </a></td><td>Delivered</td><td>Feedback delivered</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"feedback-status-16\"> </a></td><td>Bypassed</td><td>Feedback bypassed</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status"];
-  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.version [ fhir:value "1.0.0"];
   fhir:CodeSystem.name [ fhir:value "FeedbackStatusCS"];
   fhir:CodeSystem.title [ fhir:value "Feedback Status (CommunicationRequest)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-05-17T09:34:33+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-31T10:54:20+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "openIMIS Initiative"];
   fhir:CodeSystem.contact [
      fhir:index 0;

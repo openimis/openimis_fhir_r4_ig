@@ -6,7 +6,7 @@
     <profile value="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "GeneralConsultationService" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-openimis-activitiy-definition.html">openIMIS ActivityDefinition</a></p></div><p><b>Unit Price (Medication|ActivityDefinition)</b>: <span title="Euro">€40.00</span> (EUR)</p><p><b>url</b>: <code>https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService</code></p><p><b>identifier</b>: Unique code: A1, UUID unique identifier: db2c3a6c-af07-49bd-8f6a-96aa1fc2bcf9</p><p><b>version</b>: 0.1.0</p><p><b>name</b>: A1</p><p><b>title</b>: General Consultation</p><p><b>status</b>: active</p><p><b>date</b>: 2020-01-01</p><p><b>publisher</b>: openIMIS Initiative</p><p><b>contact</b>: openIMIS Initiative: <a href="https://www.openimis.org">https://www.openimis.org</a>, Dragos Dobre: <a href="mailto:dragos.dobre@swisstph.ch">dragos.dobre@swisstph.ch</a></p><p><b>topic</b>: Preventive <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-activity-definition-service-type.html">Service Type (ActivityDefinition)</a>#P)</span></p><p><b>timing</b>: Do Once per 0 days</p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "GeneralConsultationService" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-openimis-activitiy-definition.html">openIMIS ActivityDefinition</a></p></div><p><b>Unit Price (Medication|ActivityDefinition)</b>: <span title="Euro">€40.00</span> (EUR)</p><p><b>url</b>: <code>https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService</code></p><p><b>identifier</b>: Unique code: A1, UUID unique identifier: db2c3a6c-af07-49bd-8f6a-96aa1fc2bcf9</p><p><b>version</b>: 1.0.0</p><p><b>name</b>: A1</p><p><b>title</b>: General Consultation</p><p><b>status</b>: active</p><p><b>date</b>: 2020-01-01</p><p><b>publisher</b>: openIMIS Initiative</p><p><b>contact</b>: openIMIS Initiative: <a href="https://www.openimis.org">https://www.openimis.org</a>, Dragos Dobre: <a href="mailto:dragos.dobre@swisstph.ch">dragos.dobre@swisstph.ch</a></p><p><b>topic</b>: Preventive <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-activity-definition-service-type.html">Service Type (ActivityDefinition)</a>#P)</span></p><p><b>timing</b>: Do Once per 0 days</p></div>
   </text>
   <extension url="https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price">
     <valueMoney>
@@ -33,7 +33,7 @@
     </type>
     <value value="db2c3a6c-af07-49bd-8f6a-96aa1fc2bcf9"/>
   </identifier>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="A1"/>
   <title value="General Consultation"/>
   <status value="active"/>

@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"patient-contact-relationship-1\"> </a></td><td>Brother/Sister</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"patient-contact-relationship-2\"> </a></td><td>Father/Mother</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"patient-contact-relationship-3\"> </a></td><td>Uncle/Aunt</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"patient-contact-relationship-4\"> </a></td><td>Son/Daughter</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"patient-contact-relationship-5\"> </a></td><td>Grand parents</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"patient-contact-relationship-6\"> </a></td><td>Employee</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"patient-contact-relationship-7\"> </a></td><td>Others</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"patient-contact-relationship-8\"> </a></td><td>Spouse</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship"];
-  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.version [ fhir:value "1.0.0"];
   fhir:CodeSystem.name [ fhir:value "PatientContactRelationshipCS"];
   fhir:CodeSystem.title [ fhir:value "Contact Relationship (Patient)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-05-17T09:34:33+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-31T10:54:20+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "openIMIS Initiative"];
   fhir:CodeSystem.contact [
      fhir:index 0;

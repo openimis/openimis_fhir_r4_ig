@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-claim-visit-type.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-visit-type</code></a></li></ul></div>"
   },
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-visit-type",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "ClaimVisitTypeVS",
   "title": "Visit Type Codes (Claim)",
   "status": "active",
-  "date": "2022-05-17T09:34:33+00:00",
+  "date": "2022-05-31T10:54:20+00:00",
   "publisher": "openIMIS Initiative",
   "contact": [
     {

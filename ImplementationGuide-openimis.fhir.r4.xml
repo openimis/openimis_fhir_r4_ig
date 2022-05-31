@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/ImplementationGuide/openimis.fhir.r4"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="openIMISFHIRR4"/>
   <title value="openIMIS FHIR R4 Implementation Guide"/>
   <status value="draft"/>
-  <date value="2022-05-17T09:34:33+00:00"/>
+  <date value="2022-05-31T10:54:20+00:00"/>
   <publisher value="openIMIS Initiative"/>
   <contact>
     <name value="openIMIS Initiative"/>

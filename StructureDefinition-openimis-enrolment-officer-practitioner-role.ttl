@@ -22,11 +22,11 @@
      fhir:Extension.valueCode [ fhir:value "individual" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner-role"];
-  fhir:StructureDefinition.version [ fhir:value "0.1.0"];
+  fhir:StructureDefinition.version [ fhir:value "1.0.0"];
   fhir:StructureDefinition.name [ fhir:value "OpenIMISEnrolmentOfficerPractitionerRole"];
   fhir:StructureDefinition.title [ fhir:value "openIMIS Enrolment Officer Practitioner Role"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-17T09:34:33+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-31T10:54:20+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "openIMIS Initiative"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

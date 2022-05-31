@@ -6,11 +6,11 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-invoice-status.html"><code>http://hl7.org/fhir/invoice-status</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-invoice-status.html#invoice-status-issued">issued</a></td><td>Issued</td><td>the invoice has been finalized and sent to the recipient.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-invoice-status.html#invoice-status-balanced">balanced</a></td><td>Balanced</td><td>the invoice has been balaced / completely paid.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-invoice-status.html#invoice-status-cancelled">cancelled</a></td><td>Cancelled</td><td>the invoice was cancelled.</td></tr></table></li></ul></div>
   </text>
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-status"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="InvoiceStatusVS"/>
   <title value="Status (Invoice)"/>
   <status value="active"/>
-  <date value="2022-05-17T09:34:33+00:00"/>
+  <date value="2022-05-31T10:54:20+00:00"/>
   <publisher value="openIMIS Initiative"/>
   <contact>
     <name value="openIMIS Initiative"/>

@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="CodeSystem-coverage-item-benefit-type.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-consultation_amount">consultation_amount</a></td><td>consultation_amount</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-surgery_amount">surgery_amount</a></td><td>surgery_amount</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-delivery_amount">delivery_amount</a></td><td>delivery_amount</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-hospitalization_amount">hospitalization_amount</a></td><td>hospitalization_amount</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-antenatal_amount">antenatal_amount</a></td><td>antenatal_amount</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-hospital_deduction">hospital_deduction</a></td><td>hospital_deduction</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-non_hospital_deduction">non_hospital_deduction</a></td><td>non_hospital_deduction</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-hospital_ceiling">hospital_ceiling</a></td><td>hospital_ceiling</td></tr><tr><td><a href="CodeSystem-coverage-item-benefit-type.html#coverage-item-benefit-type-non_hospital_ceiling">non_hospital_ceiling</a></td><td>non_hospital_ceiling</td></tr></table></li></ul></div>
   </text>
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-amount-left"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="CoverageItemBenefitTypeAmountLeftVS"/>
   <title value="Type of benefit as amount left (Coverage)"/>
   <status value="active"/>
-  <date value="2022-05-17T09:34:33+00:00"/>
+  <date value="2022-05-31T10:54:20+00:00"/>
   <publisher value="openIMIS Initiative"/>
   <contact>
     <name value="openIMIS Initiative"/>

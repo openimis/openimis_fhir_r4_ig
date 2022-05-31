@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="0b7a0fc9-09e7-4312-8dff-1b73b3521006"/>
+  <id value="d414d193-c27e-4631-963a-f421bf6d4aec"/>
   <meta>
-    <lastUpdated value="2022-05-17T09:34:33.151+00:00"/>
+    <lastUpdated value="2022-05-31T10:54:20.864+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -16,7 +16,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-activity-definition-level.html">Level (ActivityDefinition) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-activity-definition-level.html">Level (ActivityDefinition) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-activity-definition-level.html">
@@ -64,11 +64,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-level"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ActivityDefinitionLevelVS"/>
         <title value="Level (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -87,8 +87,8 @@
         </contact>
         <description value="Indicates the Level for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:0489ebe3-6140-45bd-a433-aad42a882434"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:efd7eb97-2217-4193-ba72-f4923fbc5447"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -96,7 +96,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-level|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-level|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-level"/>
@@ -132,7 +132,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-activity-definition-service-type.html">Service Type (ActivityDefinition) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-activity-definition-service-type.html">Service Type (ActivityDefinition) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-activity-definition-service-type.html">
@@ -166,11 +166,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-service-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ActivityDefinitionServiceTypeVS"/>
         <title value="Service Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -189,8 +189,8 @@
         </contact>
         <description value="Indicates the Service Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:e2c8e67b-3f46-4d98-9543-ee1668285f8d"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:fe73be2e-1399-4759-93d4-30ebbfffc9c1"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -198,7 +198,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type"/>
@@ -279,11 +279,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ActivityDefinitionUsageContextTypeVS"/>
         <title value="Usage Context Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -302,8 +302,8 @@
         </contact>
         <description value="Indicates the Usage Context Type for an ActivityDefinition."/>
         <expansion>
-          <identifier value="urn:uuid:f8fb30b3-871d-48ea-a7a0-281b171b6250"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:a9874056-53ce-4680-930f-b1ecff20504f"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -386,11 +386,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-venue-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ActivityDefinitionUsageContextVenueTypeVS"/>
         <title value="Usage Context for Venue Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -409,8 +409,8 @@
         </contact>
         <description value="Indicates the Usage Context for Venue Type for an ActivityDefinition."/>
         <expansion>
-          <identifier value="urn:uuid:4dad71ed-c983-4f6b-8800-d526d75c0d58"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:1c5f9a71-ea3b-47f1-a1be-349c02c4a125"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -444,7 +444,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-activity-definition-usage-context-workflow-type.html">Usage Context for Workflow Type (ActivityDefinition) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-activity-definition-usage-context-workflow-type.html">Usage Context for Workflow Type (ActivityDefinition) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-activity-definition-usage-context-workflow-type.html">
@@ -499,11 +499,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-workflow-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ActivityDefinitionUsageContextWorkflowTypeVS"/>
         <title value="Usage Context for Workflow Type (ActivityDefinition)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -522,8 +522,8 @@
         </contact>
         <description value="Indicates the Usage Context for Workflow Type for an ActivityDefinition. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:6860f653-7d16-4755-b029-d003486abf3a"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:a7e63088-9e34-4d8c-b0c3-355ba467c765"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -531,7 +531,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type"/>
@@ -572,7 +572,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-bill-charge-item.html">ChargeItem (Bill Invoice) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-bill-charge-item.html">ChargeItem (Bill Invoice) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-bill-charge-item.html">
@@ -619,11 +619,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/bill-charge-item"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="BillChargeItemVS"/>
         <title value="ChargeItem (Bill Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -642,8 +642,8 @@
         </contact>
         <description value="Indicates the ChargeItem for a lineItem from a Bill. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:0e185e3d-8551-4e1e-ba6c-19fea3b3f559"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:396fc4cc-844d-41f0-bab3-81384ea91414"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -651,7 +651,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-charge-item|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-charge-item|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-charge-item"/>
@@ -682,7 +682,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-bill-type.html">Type (Bill Invoice) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-bill-type.html">Type (Bill Invoice) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-bill-type.html">
@@ -729,11 +729,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/bill-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="BillTypeVS"/>
         <title value="Type (Bill Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -752,8 +752,8 @@
         </contact>
         <description value="Indicates the Type for Bill. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:b3e2876f-ffd0-4e89-895b-6382c805cdea"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:5defe459-91a8-447b-bfb4-de0be834c4a2"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -761,7 +761,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type"/>
@@ -792,7 +792,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-claim-item-category.html">Category of the item (Claim) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-claim-item-category.html">Category of the item (Claim) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-claim-item-category.html">
@@ -826,11 +826,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-item-category"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ClaimItemCategoryVS"/>
         <title value="Category of the item (Claim)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -849,8 +849,8 @@
         </contact>
         <description value="Indicates the category for the item under a Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:25ba3626-1876-4a53-8fab-f7ebf424d543"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:9c72ce1e-fc9e-4413-a7e4-8da4ae637f85"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -858,7 +858,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category"/>
@@ -884,7 +884,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 20 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-claim-rejection-reasons.html">Rejection Reasons (Claim) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-claim-rejection-reasons.html">Rejection Reasons (Claim) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-claim-rejection-reasons.html">
@@ -1044,11 +1044,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-rejection-reasons"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ClaimRejectionReasonsVS"/>
         <title value="Rejection reasons (Claim)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1067,8 +1067,8 @@
         </contact>
         <description value="Indicates the rejection reason of an item from a Claim. &#xA;Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:de8e6d25-c7d8-44fe-983b-2a7575a26781"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:e4678259-f2f5-4c69-ac81-31186d2fb03a"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1076,7 +1076,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-rejection-reasons|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-rejection-reasons|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-rejection-reasons"/>
@@ -1192,7 +1192,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-claim-status.html">Status of the claim (Claim|ClaimResponse) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-claim-status.html">Status of the claim (Claim|ClaimResponse) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-claim-status.html">
@@ -1247,11 +1247,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-status"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ClaimStatusVS"/>
         <title value="Status of the claim (Claim|ClaimResponse)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1270,8 +1270,8 @@
         </contact>
         <description value="Indicates the status of the Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:4b78e691-9777-4b81-abb5-6d83820ce46e"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:d801422a-bfad-4e48-a997-4606dff033dd"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1279,7 +1279,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status"/>
@@ -1320,7 +1320,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-claim-supporting-info-category.html">Category of the supporting info (Claim) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-claim-supporting-info-category.html">Category of the supporting info (Claim) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-claim-supporting-info-category.html">
@@ -1368,11 +1368,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-supporting-info-category"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ClaimSupportingInfoCategoryVS"/>
         <title value="Category of the supporting info (Claim)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1391,8 +1391,8 @@
         </contact>
         <description value="Indicates the category for the supportiong info under a Claim. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:6227450f-1b8a-4a22-8aff-e2dca15437a9"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:2c80c66d-67c8-413d-be1d-305301cfaff3"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1400,7 +1400,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category"/>
@@ -1436,7 +1436,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-claim-visit-type.html">Visit Type (Claim) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-claim-visit-type.html">Visit Type (Claim) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-claim-visit-type.html">
@@ -1477,11 +1477,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-visit-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ClaimVisitTypeVS"/>
         <title value="Visit Type Codes (Claim)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1500,8 +1500,8 @@
         </contact>
         <description value="Indicates the visit type of the Claim. &#xA;Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:78a27610-f3ca-4c15-974e-e4700bff6144"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:f9a52195-9b84-4c44-ac17-6a2bbd406999"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1509,7 +1509,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-visit-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-visit-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-visit-type"/>
@@ -1587,11 +1587,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/communication-request-status"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="CommunicationRequestStatusVS"/>
         <title value="Claim Feedback Status (CommunicationRequest)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1610,8 +1610,8 @@
         </contact>
         <description value="Indicates the status of a feedback (Claim)."/>
         <expansion>
-          <identifier value="urn:uuid:e58d9906-9ccb-4936-8da7-c5906639f339"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:12fa068c-e20f-4c30-b742-cc633578efd6"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1650,7 +1650,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-contract-premium-category.html">Premium Category (Contract) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-contract-premium-category.html">Premium Category (Contract) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-contract-premium-category.html">
@@ -1684,11 +1684,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-premium-category"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ContractPremiumCategoryVS"/>
         <title value="Premium Category (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1707,8 +1707,8 @@
         </contact>
         <description value="Indicates the category of the premium for the Contract. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:96380b2a-eedb-4194-932e-68c9ac89c286"/>
-          <timestamp value="2022-05-17T09:36:35+00:00"/>
+          <identifier value="urn:uuid:3b574da0-b61b-432c-8e9f-77c625d4ea1c"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1716,7 +1716,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-category|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-category|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-category"/>
@@ -1742,7 +1742,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 1 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-contract-premium-payer.html">Premium Payer (Contract) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-contract-premium-payer.html">Premium Payer (Contract) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-contract-premium-payer.html">
@@ -1769,11 +1769,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-premium-payer"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ContractPremiumPayerVS"/>
         <title value="Premium Payer (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1792,8 +1792,8 @@
         </contact>
         <description value="Indicates the payer of the premium for the Contract. Can be extended in openIMIS. Need to match openIMIS database payer list."/>
         <expansion>
-          <identifier value="urn:uuid:5013581d-7dbe-4d67-8e07-02195d1861e1"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:3daeec4c-2195-4b72-af75-5315b4528b46"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1801,7 +1801,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-payer|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-payer|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-payer"/>
@@ -1822,7 +1822,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-contract-premium-type.html">Premium Type (Contract) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-contract-premium-type.html">Premium Type (Contract) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-contract-premium-type.html">
@@ -1863,11 +1863,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-premium-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ContractPremiumTypeVS"/>
         <title value="Premium Type (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1886,8 +1886,8 @@
         </contact>
         <description value="Indicates the type of the premium for the Contract. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:85346a7b-bf63-42f0-b481-81548fbb88e6"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:ec0952d6-2159-476a-affd-fc8456221fe9"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1895,7 +1895,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-type"/>
@@ -1926,7 +1926,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 1 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-contract-resource-party-role.html">Resource Party Role (Contract) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-contract-resource-party-role.html">Resource Party Role (Contract) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-contract-resource-party-role.html">
@@ -1953,11 +1953,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-resource-party-role"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ContractResourcePartyRoleVS"/>
         <title value="Resource Party Role (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -1976,8 +1976,8 @@
         </contact>
         <description value="Indicates the participant engagement type for the Contract term."/>
         <expansion>
-          <identifier value="urn:uuid:61cb9c85-808d-4068-89f0-64978b091a51"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:ceb45e11-107d-414d-b87f-82aefc316730"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1985,7 +1985,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-resource-party-role|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-resource-party-role|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-resource-party-role"/>
@@ -2006,7 +2006,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-contract-scope.html">Scope (Contract) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-contract-scope.html">Scope (Contract) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-contract-scope.html">
@@ -2040,11 +2040,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-scope"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ContractScopeVS"/>
         <title value="Scope (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2063,8 +2063,8 @@
         </contact>
         <description value="Indicates the scope for the Contract. Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:f26911d5-557d-4966-a089-6dbcfe63f02b"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:79e76bfc-d2ac-48db-88ce-8a41fe23f59e"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2072,7 +2072,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-scope|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-scope|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-scope"/>
@@ -2137,11 +2137,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-status-codes"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ContractStatusCodesVS"/>
         <title value="Status Codes (Contract)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2160,8 +2160,8 @@
         </contact>
         <description value="Indicates the status of the Contract. Values limited by openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:7c342d0f-13e8-4ed1-a74d-0f3eace60fd3"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:2731f02e-1426-4d65-91c4-5785d04a584d"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2195,7 +2195,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 9 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-coverage-item-benefit-type.html">Type of benefit (Coverage) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-coverage-item-benefit-type.html">Type of benefit (Coverage) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-coverage-item-benefit-type.html">
@@ -2278,11 +2278,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-amount-left"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="CoverageItemBenefitTypeAmountLeftVS"/>
         <title value="Type of benefit as amount left (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2301,8 +2301,8 @@
         </contact>
         <description value="Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:9039f5a8-f5df-4f97-ae2c-6683d8975e68"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:e5452e64-35cb-489e-8afb-849402eec972"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2310,7 +2310,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
@@ -2371,7 +2371,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-coverage-item-benefit-type.html">Type of benefit (Coverage) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-coverage-item-benefit-type.html">Type of benefit (Coverage) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-coverage-item-benefit-type.html">
@@ -2405,11 +2405,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="CoverageItemBenefitTypeItemServiceVS"/>
         <title value="Type of benefit (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2428,8 +2428,8 @@
         </contact>
         <description value="Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:f02ed80c-29ee-4dac-bac4-0b52e2b01a61"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:c28d52b0-0ffe-49a6-a46b-d9d4535b888a"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2437,7 +2437,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
@@ -2463,7 +2463,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 6 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-coverage-item-benefit-type.html">Type of benefit (Coverage) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-coverage-item-benefit-type.html">Type of benefit (Coverage) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-coverage-item-benefit-type.html">
@@ -2525,11 +2525,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-total-left"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="CoverageItemBenefitTypeTotalLeftVS"/>
         <title value="Type of benefit as total left (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2548,8 +2548,8 @@
         </contact>
         <description value="Indicates the type of benefit under a Coverage. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:cd281874-d1f1-4825-b4e7-a2aa300d69f7"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:b95dfdbc-d7a7-45bb-b839-b6b2233465a1"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2557,7 +2557,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type"/>
@@ -2603,7 +2603,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-coverage-item-category.html">Category of the item (Coverage) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-coverage-item-category.html">Category of the item (Coverage) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-coverage-item-category.html">
@@ -2637,11 +2637,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category-item-service"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="CoverageItemCategoryItemServiceVS"/>
         <title value="Partial categories of the item (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2660,8 +2660,8 @@
         </contact>
         <description value="Indicates the category for the item, only for medical items and services, under a Coverage. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:ef71cd9f-cb1b-4ab6-a7ca-494405540ae2"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:7e6191c8-13ac-42e1-8528-5bd253deed7a"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2669,7 +2669,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category"/>
@@ -2695,7 +2695,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-coverage-item-category.html">Category of the item (Coverage) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-coverage-item-category.html">Category of the item (Coverage) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-coverage-item-category.html">
@@ -2736,11 +2736,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="CoverageItemCategoryVS"/>
         <title value="Category of the item (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2759,8 +2759,8 @@
         </contact>
         <description value="Indicates the category for the item under a Coverage. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:c89a5308-55f1-41a0-87e9-8683f38547c3"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:f10d3674-8029-479c-9c2d-5674f3a2c68d"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2768,7 +2768,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category"/>
@@ -2846,11 +2846,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-status"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="CoverageStatusVS"/>
         <title value="Coverage Status (Coverage)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -2869,8 +2869,8 @@
         </contact>
         <description value="Indicates the status of a Coverage (Policy)."/>
         <expansion>
-          <identifier value="urn:uuid:d2265579-f627-4a5b-a4b7-81def5c96c3d"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:5f2b1f69-ef8b-4db8-b124-3e10fc3c6cc8"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2909,7 +2909,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 1910 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-diagnosis-ICD10-level1.html">ICD 10 Level 1 diagnosis (Claim) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-diagnosis-ICD10-level1.html">ICD 10 Level 1 diagnosis (Claim) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-diagnosis-ICD10-level1.html">
@@ -16299,11 +16299,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/diagnosis-ICD10-level1"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="DiagnosisICD10Level1VS"/>
         <title value="ICD 10 Level 1 diagnosis"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -16322,8 +16322,8 @@
         </contact>
         <description value="Example of diagnosis to be used with Claim resource. The actual list is configured in openIMIS."/>
         <expansion>
-          <identifier value="urn:uuid:c9fd3bc6-fcab-4e53-9ca4-bb132431dc8c"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:7c2f328c-0cee-459c-80cd-3e74f3e3d31c"/>
+          <timestamp value="2022-05-31T10:55:52+00:00"/>
           <total value="1910"/>
           <parameter>
             <name value="excludeNested"/>
@@ -16331,7 +16331,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/diagnosis-ICD10-level1|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/diagnosis-ICD10-level1|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/diagnosis-ICD10-level1"/>
@@ -25897,7 +25897,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-feedback-payload.html">Feedback Payload (CommunicationRequest | Communication) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-feedback-payload.html">Feedback Payload (CommunicationRequest | Communication) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-feedback-payload.html">
@@ -25952,11 +25952,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/feedback-payload"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="FeedbackPayloadVS"/>
         <title value="Feedback Payload (CommunicationRequest | Communication)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -25975,8 +25975,8 @@
         </contact>
         <description value="Indicates the Feedback Payload code for a CommunicationRequest and Communication. List defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:39260089-f0a0-4e9e-ad6f-00f2a511c368"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:03c9d44f-dfcc-43cf-9018-a6fb75d70860"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -25984,7 +25984,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload"/>
@@ -26025,7 +26025,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-feedback-status.html">Feedback Status (CommunicationRequest) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-feedback-status.html">Feedback Status (CommunicationRequest) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-feedback-status.html">
@@ -26072,11 +26072,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/feedback-status"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="FeedbackStatusVS"/>
         <title value="Feedback Status (CommunicationRequest)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26095,8 +26095,8 @@
         </contact>
         <description value="Indicates the Feedback Status for a CommunicationRequest. Partial list defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:e38a006c-3aa0-48f6-bc50-10c4fbb1a264"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:f4593835-2fb1-49aa-93a6-64059421a198"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26104,7 +26104,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status"/>
@@ -26135,7 +26135,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-group-confirmation-type.html">Confirmation Types (Group) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-group-confirmation-type.html">Confirmation Types (Group) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-group-confirmation-type.html">
@@ -26183,11 +26183,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-confirmation-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="GroupConfirmationTypeVS"/>
         <title value="Confirmation Types (Group)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26206,8 +26206,8 @@
         </contact>
         <description value="Indicates the confirmation type for the Group. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:e97db57f-3add-43ff-9793-93fbcc22392e"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:0d0139d5-b4bb-4be0-a633-42a027252370"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26215,7 +26215,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type"/>
@@ -26322,11 +26322,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="GroupTypeVS"/>
         <title value="Group Type (Group)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26345,8 +26345,8 @@
         </contact>
         <description value="Indicates the type of the Group. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:c603c379-3a0b-48c2-82cb-f9a86ab3bdc1"/>
-          <timestamp value="2022-05-17T09:36:36+00:00"/>
+          <identifier value="urn:uuid:8a1fd1d8-caa2-4e59-9075-d3c6b845e622"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26400,7 +26400,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-insurance-plan-coverage-benefit-limit.html">Coverage Benefit Limit Types (InsurancePlan) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-insurance-plan-coverage-benefit-limit.html">Coverage Benefit Limit Types (InsurancePlan) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-insurance-plan-coverage-benefit-limit.html">
@@ -26439,11 +26439,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-coverage-benefit-limit"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="InsurancePlanCoverageBenefitLimitVS"/>
         <title value="Coverage Benefit Limit Types (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26462,8 +26462,8 @@
         </contact>
         <description value="Indicates the Coverage Benefit Limit Types for an InsurancePlan. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:cfb799bf-1050-4a5a-87fe-ea249044162a"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:5ff87513-f573-4b20-9741-80a5908c4a68"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26471,7 +26471,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit"/>
@@ -26524,11 +26524,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-coverage-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="InsurancePlanCoverageTypeVS"/>
         <title value="Coverage Type (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26547,8 +26547,8 @@
         </contact>
         <description value="Indicates the Coverage Type for an InsurancePlan."/>
         <expansion>
-          <identifier value="urn:uuid:28f9fd47-e0a5-4ed8-9360-bf824b451ebd"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:075d0c34-e91d-4e95-a8b3-adf134277044"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26577,7 +26577,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-insurance-plan-general-cost-type.html">General Cost Type (InsurancePlan) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-insurance-plan-general-cost-type.html">General Cost Type (InsurancePlan) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-insurance-plan-general-cost-type.html">
@@ -26646,11 +26646,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-general-cost-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="InsurancePlanGeneralCostTypeVS"/>
         <title value="General Cost Type (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26669,8 +26669,8 @@
         </contact>
         <description value="Indicates the General Cost Type for an InsurancePlan. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:7c1a360b-a206-4101-a353-1d35ef5fe591"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:65100981-52b8-4beb-a0dc-b1aa680b1f3e"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26678,7 +26678,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type"/>
@@ -26776,11 +26776,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-publication-status"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="InsurancePlanPublicationStatusVS"/>
         <title value="Publication Status (InsurancePlan)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26799,8 +26799,8 @@
         </contact>
         <description value="Indicates the Publication Status for an InsurancePlan."/>
         <expansion>
-          <identifier value="urn:uuid:8b35ff1d-298c-4316-b4aa-48007dc0ceb1"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:77b6569f-5b8a-4f6d-aed7-de48271d788c"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26839,7 +26839,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-invoice-charge-item.html">ChargeItem (Invoice) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-invoice-charge-item.html">ChargeItem (Invoice) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-invoice-charge-item.html">
@@ -26873,11 +26873,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-charge-item"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="InvoiceChargeItemVS"/>
         <title value="ChargeItem (Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -26896,8 +26896,8 @@
         </contact>
         <description value="Indicates the ChargeItem for a lineItem from an Invoice. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:bd801eff-a9e9-47a3-84fb-360aa7d071fe"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:64728e90-56f4-46d6-aca0-87f719df59b8"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -26905,7 +26905,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-charge-item|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-charge-item|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-charge-item"/>
@@ -26986,11 +26986,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-price-component-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="InvoicePriceComponentTypeVS"/>
         <title value="PriceComponent Type (Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27009,8 +27009,8 @@
         </contact>
         <description value="Indicates the Type for a PriceComponent from an Invoice."/>
         <expansion>
-          <identifier value="urn:uuid:d8141626-e5f7-46ae-9279-4997ce50e1c6"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:d39cce7c-a396-4e0d-ad5f-48a3bd7b9847"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27101,11 +27101,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-status"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="InvoiceStatusVS"/>
         <title value="Status (Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27124,8 +27124,8 @@
         </contact>
         <description value="Indicates the status for an Invoice. Values limited by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:62ed4076-b7d9-49bd-b6b0-f8cf5387fece"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:945b4385-33a3-4dcb-a0f3-a03871037c56"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27164,7 +27164,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-invoice-type.html">Type (Invoice) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-invoice-type.html">Type (Invoice) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-invoice-type.html">
@@ -27211,11 +27211,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="InvoiceTypeVS"/>
         <title value="Type (Invoice)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27234,8 +27234,8 @@
         </contact>
         <description value="Indicates the Type for an Invoice. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:747c53dc-aca1-4dc2-86c4-5ecbbe677713"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:b3330fa6-ae94-43ce-8e36-57b1e4cb283d"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27243,7 +27243,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type"/>
@@ -27275,7 +27275,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
             <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-location-type.html">Location Type (Location) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-location-type.html">Location Type (Location) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-location-type.html">
@@ -27330,14 +27330,14 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/location-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="LocationTypeVS"/>
         <title value="Location Type (Location)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4428aa9a-8434-4201-a7c1-5222d6a37a8f"/>
-          <timestamp value="2022-05-17T09:36:37.330Z"/>
+          <identifier value="urn:uuid:dc031b50-d3f8-4108-8906-3a8bae4fdd2c"/>
+          <timestamp value="2022-05-31T10:55:53.373Z"/>
           <parameter>
             <name value="expansion-source"/>
             <valueUri value="ValueSet/location-type"/>
@@ -27348,7 +27348,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type|1.0.0"/>
           </parameter>
           <contains>
             <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
@@ -27396,7 +27396,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-medication-item-type.html">Item Type (Medication) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-medication-item-type.html">Item Type (Medication) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-medication-item-type.html">
@@ -27430,11 +27430,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/medication-item-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="MedicationItemTypeVS"/>
         <title value="Item Type (Medication)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27453,8 +27453,8 @@
         </contact>
         <description value="Indicates the Medical Item Type for an Medication. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:774515fe-4938-4810-bd61-9ffe6acc78f3"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:fffc4eeb-7da6-4946-8bb4-e8d5d7c780ce"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27462,7 +27462,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-item-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-item-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-item-type"/>
@@ -27488,7 +27488,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 1 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-medication-level.html">Level (Medication) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-medication-level.html">Level (Medication) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-medication-level.html">
@@ -27515,11 +27515,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/medication-level"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="MedicationLevelVS"/>
         <title value="Level (Medication)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27538,8 +27538,8 @@
         </contact>
         <description value="Indicates the Level for a Medication. Values defined by openIMIS. Can not be extended."/>
         <expansion>
-          <identifier value="urn:uuid:a6aee6ba-b55c-44ae-ae5b-cea4252e0326"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:2a0858f9-fdcb-4e6b-b7f1-c56a5a5d16b7"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27547,7 +27547,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-level|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-level|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-level"/>
@@ -27568,7 +27568,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-openimis-identifiers.html">openIMIS Identifiers (All) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-openimis-identifiers.html">openIMIS Identifiers (All) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-openimis-identifiers.html">
@@ -27607,11 +27607,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-identifiers"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="OpenIMISIdentifierVS"/>
         <title value="openIMIS Identifiers Value Set"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27630,8 +27630,8 @@
         </contact>
         <description value="Indicates the Identifier type"/>
         <expansion>
-          <identifier value="urn:uuid:cf404a4a-1fa0-422c-8d98-24659f1dc870"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:92fd8fe0-d124-4ac3-8885-659374021d58"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27639,7 +27639,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers"/>
@@ -27665,7 +27665,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-organization-hf-care-type.html">Health Facility Care Type (Organization) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-organization-hf-care-type.html">Health Facility Care Type (Organization) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-organization-hf-care-type.html">
@@ -27706,11 +27706,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-care-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="OrganizationHFCareTypeVS"/>
         <title value="Health Facility Care Type (Organization)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27729,8 +27729,8 @@
         </contact>
         <description value="Indicates the care type of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:67fcab51-eae4-4c9e-b294-9c9d4c552c38"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:9103dca0-9299-40a0-9e6a-c8f6168fe5c0"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27738,7 +27738,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-care-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-care-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-care-type"/>
@@ -27769,7 +27769,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-organization-hf-legal-form.html">Legal Forms (Organization) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-organization-hf-legal-form.html">Legal Forms (Organization) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-organization-hf-legal-form.html">
@@ -27817,11 +27817,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-legal-form"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="OrganizationHFLegalFormVS"/>
         <title value="Legal Forms (Organization)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27840,8 +27840,8 @@
         </contact>
         <description value="Indicates the legal forms of the Health Facility Organization. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:6ed7c3d1-0625-46d7-94ee-95a23cec50c5"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:ae242126-1b47-44c2-9186-4a2106c8345f"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27849,7 +27849,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form"/>
@@ -27885,7 +27885,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-organization-hf-level.html">Health Facility Level (Organization) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-organization-hf-level.html">Health Facility Level (Organization) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-organization-hf-level.html">
@@ -27926,11 +27926,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-level"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="OrganizationHFLevelVS"/>
         <title value="Health Facility Level (Organization)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -27949,8 +27949,8 @@
         </contact>
         <description value="Indicates the level of the Health Facility (Organization). Values defined by openIMIS. Cannot be extended."/>
         <expansion>
-          <identifier value="urn:uuid:b24b1144-b4d6-4448-b6da-b52f2213cc26"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:6e9126d4-4eb6-4dc6-b4f3-82b71152dea3"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -27958,7 +27958,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level"/>
@@ -27989,7 +27989,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-organization-ph-activity.html">Activity (Organization) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-organization-ph-activity.html">Activity (Organization) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-organization-ph-activity.html">
@@ -28044,11 +28044,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-ph-activity"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="OrganizationPHActivityVS"/>
         <title value="Activity (Organization)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28067,8 +28067,8 @@
         </contact>
         <description value="Indicates the activity of the PolicyHolder Organization. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:1185e332-2265-449f-a5da-e61ac11bcfca"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:4f3b64fa-cc89-4089-8684-9adaa0556fe2"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28076,7 +28076,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity"/>
@@ -28117,7 +28117,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-organization-ph-legal-form.html">Legal Forms (Organization) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-organization-ph-legal-form.html">Legal Forms (Organization) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-organization-ph-legal-form.html">
@@ -28172,11 +28172,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-ph-legal-form"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="OrganizationPHLegalFormVS"/>
         <title value="Legal Forms (Organization)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28195,8 +28195,8 @@
         </contact>
         <description value="Indicates the legal forms of the PolicyHolder Organization. Values defined by openIMIS. Can be extended."/>
         <expansion>
-          <identifier value="urn:uuid:169ca097-ae5d-49b7-b53f-99e8b8dcedc3"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:cc64b4d5-d65f-492b-a44f-b3d413fa730d"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28204,7 +28204,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form"/>
@@ -28245,7 +28245,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 8 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-patient-contact-relationship.html">Contact Relationship (Patient) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-patient-contact-relationship.html">Contact Relationship (Patient) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-patient-contact-relationship.html">
@@ -28321,11 +28321,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="PatientContactRelationshipVS"/>
         <title value="Contact Relationship (Patient)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28344,8 +28344,8 @@
         </contact>
         <description value="Indicates the Relationship of a Patient with the Head of the Family."/>
         <expansion>
-          <identifier value="urn:uuid:d276e851-1293-4658-b549-4d0411252aef"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:fbed92e0-998d-4c73-b745-3fcb02c1aae9"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28353,7 +28353,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship"/>
@@ -28409,7 +28409,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-patient-education-level.html">Education Level (Patient) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-patient-education-level.html">Education Level (Patient) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-patient-education-level.html">
@@ -28478,11 +28478,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-education-level"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="PatientEducationLevelVS"/>
         <title value="Education Level (Patient)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28501,8 +28501,8 @@
         </contact>
         <description value="Indicates the Education level of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:5a73412e-6c4c-4f9e-afbd-4d267a5b0168"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:1b46ce71-dda0-4717-8bae-c60aae094a7c"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28510,7 +28510,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level"/>
@@ -28561,7 +28561,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-patient-identification-type.html">Identification Type (Patient) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-patient-identification-type.html">Identification Type (Patient) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-patient-identification-type.html">
@@ -28609,11 +28609,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="PatientIdentificationTypeVS"/>
         <title value="Identification Type (Patient)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28632,8 +28632,8 @@
         </contact>
         <description value="Indicates the type of document the Patient used to identify himself."/>
         <expansion>
-          <identifier value="urn:uuid:c8a2547d-fafa-4311-8c80-14c996bfb06d"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:b80c1af7-1f4b-4fd6-aca7-648dc23133a9"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28641,7 +28641,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-identification-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-identification-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-identification-type"/>
@@ -28740,11 +28740,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-marital-status"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="PatientMaritalStatusVS"/>
         <title value="Marital Status (Patient)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28763,8 +28763,8 @@
         </contact>
         <description value="Indicates the Marital status of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:76ec67f4-d829-43b2-8c87-db92188fac61"/>
-          <timestamp value="2022-05-17T09:36:37+00:00"/>
+          <identifier value="urn:uuid:0e63cf06-97f8-4d36-bc0e-280dad12892e"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28813,7 +28813,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-patient-profession.html">Profession (Patient) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-patient-profession.html">Profession (Patient) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-patient-profession.html">
@@ -28861,11 +28861,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="PatientProfessionVS"/>
         <title value="Profession (Patient)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28884,8 +28884,8 @@
         </contact>
         <description value="Indicates the profession of a Patient"/>
         <expansion>
-          <identifier value="urn:uuid:f76cdbc8-b708-46a4-8d80-18b70af7ce9c"/>
-          <timestamp value="2022-05-17T09:36:38+00:00"/>
+          <identifier value="urn:uuid:37d4ca19-072b-4a71-8ec8-7d900a93f177"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28893,7 +28893,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession"/>
@@ -28929,7 +28929,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-practitioner-qualification-type.html">Qualification Type (Practitioner) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-practitioner-qualification-type.html">Qualification Type (Practitioner) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-practitioner-qualification-type.html">
@@ -28963,11 +28963,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/practitioner-qualification-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="PractitionerQualificationTypeVS"/>
         <title value="Practitioner Qualification Type"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -28986,8 +28986,8 @@
         </contact>
         <description value="Indicates the Qualification Type of a Practitioner."/>
         <expansion>
-          <identifier value="urn:uuid:e5c6dbfd-b4e0-46f0-996b-1cc825349ef1"/>
-          <timestamp value="2022-05-17T09:36:38+00:00"/>
+          <identifier value="urn:uuid:611d4578-83fd-4a1c-a58c-7342572b721f"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28995,7 +28995,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type"/>
@@ -29021,7 +29021,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-usage-context-age-type.html">Usage Context for Age Type (ActivityDefinition|Medication) v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-usage-context-age-type.html">Usage Context for Age Type (ActivityDefinition|Medication) v1.0.0 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-usage-context-age-type.html">
@@ -29055,11 +29055,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/usage-context-age-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="UsageContextAgeTypeVS"/>
         <title value="Usage Context for Age Type (ActivityDefinition|Medication)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -29078,8 +29078,8 @@
         </contact>
         <description value="Indicates the Usage Context for Age Type for an ActivityDefinition or Medication."/>
         <expansion>
-          <identifier value="urn:uuid:79be1219-1f5f-4210-8ba4-3c0ba29d02ec"/>
-          <timestamp value="2022-05-17T09:36:38+00:00"/>
+          <identifier value="urn:uuid:a9281c59-c54f-4e8d-8ae7-3d67473a00f5"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -29087,7 +29087,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type|0.1.0"/>
+            <valueUri value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type"/>
@@ -29152,11 +29152,11 @@
           </div>
         </text>
         <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/usage-context-gender-type"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="UsageContextGenderTypeVS"/>
         <title value="Usage Context for Gender Type (ActivityDefinition|Medication)"/>
         <status value="active"/>
-        <date value="2022-05-17T09:34:33+00:00"/>
+        <date value="2022-05-31T10:54:20+00:00"/>
         <publisher value="openIMIS Initiative"/>
         <contact>
           <name value="openIMIS Initiative"/>
@@ -29175,8 +29175,8 @@
         </contact>
         <description value="Indicates the Usage Context for Gender Type for an ActivityDefinition or Medication."/>
         <expansion>
-          <identifier value="urn:uuid:c774029b-2453-4eec-94f0-80b4919a8e26"/>
-          <timestamp value="2022-05-17T09:36:38+00:00"/>
+          <identifier value="urn:uuid:0068d001-272a-4fd2-a396-70f428312397"/>
+          <timestamp value="2022-05-31T10:55:53+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>

@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-identification-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">D<a name=\"patient-identification-type-D\"> </a></td><td>Driver's License</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"patient-identification-type-N\"> </a></td><td>National ID</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"patient-identification-type-P\"> </a></td><td>Passport</td></tr><tr><td style=\"white-space:nowrap\">V<a name=\"patient-identification-type-V\"> </a></td><td>Voter Card</td></tr></table></div>"
   },
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-identification-type",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "PatientIdentificationTypeCS",
   "title": "Identification Type (Patient)",
   "status": "active",
-  "date": "2022-05-17T09:34:33+00:00",
+  "date": "2022-05-31T10:54:20+00:00",
   "publisher": "openIMIS Initiative",
   "contact": [
     {

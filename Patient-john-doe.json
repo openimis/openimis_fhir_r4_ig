@@ -51,7 +51,8 @@
             "coding": [
               {
                 "system": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-identification-type",
-                "code": "N"
+                "code": "N",
+                "display": "National ID"
               }
             ]
           }

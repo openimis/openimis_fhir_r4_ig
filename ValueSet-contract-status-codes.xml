@@ -6,11 +6,11 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-contract-status.html"><code>http://hl7.org/fhir/contract-status</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-contract-status.html#contract-status-offered">offered</a></td><td>Offered</td><td>Contract is a proposal by either the Grantor or the Grantee. Aka - A Contract hard copy or electronic 'template', 'form' or 'application'. E.g., health insurance application; consent directive form. Usage: Beginning of contract negotiation, which may have been completed as a precondition because used for 0..* contracts. Precedence Order = 2. Comparable FHIR and v.3 status codes: requested; new.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-contract-status.html#contract-status-executed">executed</a></td><td>Executed</td><td>Contract is activated for period stipulated when both the Grantor and Grantee have signed it. Usage: Required state for normal completion of contracting activity.  Precedence Order = 6. Comparable FHIR and v.3 status codes: accepted; completed.</td></tr></table></li></ul></div>
   </text>
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-status-codes"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="ContractStatusCodesVS"/>
   <title value="Status Codes (Contract)"/>
   <status value="active"/>
-  <date value="2022-05-17T09:34:33+00:00"/>
+  <date value="2022-05-31T10:54:20+00:00"/>
   <publisher value="openIMIS Initiative"/>
   <contact>
     <name value="openIMIS Initiative"/>

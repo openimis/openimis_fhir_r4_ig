@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-patient-contact-relationship.html"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship</code></a></li></ul></div>
   </text>
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="PatientContactRelationshipVS"/>
   <title value="Contact Relationship (Patient)"/>
   <status value="active"/>
-  <date value="2022-05-17T09:34:33+00:00"/>
+  <date value="2022-05-31T10:54:20+00:00"/>
   <publisher value="openIMIS Initiative"/>
   <contact>
     <name value="openIMIS Initiative"/>

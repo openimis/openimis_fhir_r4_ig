@@ -2,8 +2,8 @@
 =========================================
 
 err = 177, warn = 36, info = 61
-IG Publisher Version: 1.1.120
-Generated Tue May 17 09:37:54 UTC 2022. FHIR version 4.0.1 for openimis.fhir.r4#0.1.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
+IG Publisher Version: 1.1.121
+Generated Tue May 31 10:57:01 UTC 2022. FHIR version 4.0.1 for openimis.fhir.r4#1.0.0 (canonical = https://openimis.github.io/openimis_fhir_r4_ig)
  Build Errors : 6 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-GeneralConsultationService : 4 / 1 / 1
  /github/workspace/fsh-generated/resources/CapabilityStatement-openIMISCapabilityStatement : 2 / 1 / 1
@@ -335,14 +335,14 @@ ERROR: Coverage/JoeDoeCoverage: Coverage.extension[1]: Profile https://openimis.
 ERROR: Coverage/JoeDoeCoverage: Coverage: Coverage.extension:enrollDate: max allowed = 1, but found 2 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage)
 ERROR: Coverage/JoeDoeCoverage: Coverage: Coverage.extension:effectiveDate: minimum required = 1, but only found 0 (from https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage)
 ERROR: Coverage/JoeDoeCoverage: Coverage: The modifier extension https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date is not allowed to be used at this point (allowed = e:OpenIMISCoverage; this element is [[Coverage])
-ERROR: Coverage/JoeDoeCoverage: Coverage.beneficiary: Unable to resolve resource 'joe-doe'
+ERROR: Coverage/JoeDoeCoverage: Coverage.beneficiary: Unable to resolve resource with reference 'joe-doe'
 == fsh-generated/resources/CoverageEligibilityRequest-JoeDoeEnquiring.json ==
 ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.item[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice CoverageEligibilityRequest.item:item in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
 ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.item[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice CoverageEligibilityRequest.item:service in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
-ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.patient: Unable to resolve resource 'joe-doe'
+ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.patient: Unable to resolve resource with reference 'joe-doe'
 ERROR: CoverageEligibilityRequest/JoeDoeEnquiring: CoverageEligibilityRequest.item[0].category: None of the codings provided are in the value set 'Category of the item (Coverage)' (https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category), and a coding from this value set is required) (codes = https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category#service)
 == fsh-generated/resources/CoverageEligibilityResponse-JoeDoeEnquiringResponse.json ==
-ERROR: CoverageEligibilityResponse/JoeDoeEnquiringResponse: CoverageEligibilityResponse.patient: Unable to resolve resource 'joe-doe'
+ERROR: CoverageEligibilityResponse/JoeDoeEnquiringResponse: CoverageEligibilityResponse.patient: Unable to resolve resource with reference 'joe-doe'
 ERROR: CoverageEligibilityResponse/JoeDoeEnquiringResponse: CoverageEligibilityResponse.insurance[0].item[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice CoverageEligibilityResponse.insurance.item:benefit in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-response - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
 ERROR: CoverageEligibilityResponse/JoeDoeEnquiringResponse: CoverageEligibilityResponse.insurance[0].item[1]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice CoverageEligibilityResponse.insurance.item:benefit in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-response - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions
 ERROR: CoverageEligibilityResponse/JoeDoeEnquiringResponse: CoverageEligibilityResponse.insurance[0].item[0]: Slicing cannot be evaluated: Could not match discriminator ([category.coding.code]) for slice CoverageEligibilityResponse.insurance.item:item in profile https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-response - the discriminator [category.coding.code] does not have fixed value, binding or existence assertions

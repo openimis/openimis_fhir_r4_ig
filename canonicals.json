@@ -3,1113 +3,1113 @@
     "id": "GeneralConsultationService",
     "type": "ActivityDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ActivityDefinition/GeneralConsultationService",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "A1"
   },
   {
     "id": "openIMISCapabilityStatement",
     "type": "CapabilityStatement",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CapabilityStatement/openIMISCapabilityStatement",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "openIMIS Capability Statement"
   },
   {
     "id": "activity-definition-level",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ActivityDefinitionLevelCS"
   },
   {
     "id": "activity-definition-service-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-service-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ActivityDefinitionServiceTypeCS"
   },
   {
     "id": "activity-definition-usage-context-workflow-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/activity-definition-usage-context-workflow-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ActivityDefinitionUsageContextWorkflowTypeCS"
   },
   {
     "id": "bill-charge-item",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-charge-item",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "BillChargeItemCS"
   },
   {
     "id": "bill-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "BillTypeCS"
   },
   {
     "id": "claim-item-category",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-item-category",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ClaimItemCategoryCS"
   },
   {
     "id": "claim-rejection-reasons",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-rejection-reasons",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ClaimRejectionReasonsCS"
   },
   {
     "id": "claim-status",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ClaimStatusCS"
   },
   {
     "id": "claim-supporting-info-category",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-supporting-info-category",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ClaimSupportingInfoCategoryCS"
   },
   {
     "id": "claim-visit-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/claim-visit-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ClaimVisitTypeCS"
   },
   {
     "id": "contract-premium-category",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-category",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractPremiumCategoryCS"
   },
   {
     "id": "contract-premium-payer",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-payer",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractPremiumPayerCS"
   },
   {
     "id": "contract-premium-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-premium-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractPremiumTypeCS"
   },
   {
     "id": "contract-resource-party-role",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-resource-party-role",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractResourcePartyRoleCS"
   },
   {
     "id": "contract-scope",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/contract-scope",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractScopeCS"
   },
   {
     "id": "coverage-item-benefit-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-benefit-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CoverageItemBenefitTypeCS"
   },
   {
     "id": "coverage-item-category",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/coverage-item-category",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CoverageItemCategoryCS"
   },
   {
     "id": "diagnosis-ICD10-level1",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/diagnosis-ICD10-level1",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "DiagnosisICD10Level1CS"
   },
   {
     "id": "feedback-payload",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-payload",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "FeedbackPayloadCS"
   },
   {
     "id": "feedback-status",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "FeedbackStatusCS"
   },
   {
     "id": "group-confirmation-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "GroupConfirmationTypeCS"
   },
   {
     "id": "group-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "GroupTypeCS"
   },
   {
     "id": "insurance-plan-coverage-benefit-limit",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-coverage-benefit-limit",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InsurancePlanCoverageBenefitLimitCS"
   },
   {
     "id": "insurance-plan-general-cost-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/insurance-plan-general-cost-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InsurancePlanGeneralCostTypeCS"
   },
   {
     "id": "invoice-charge-item",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-charge-item",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InvoiceChargeItemCS"
   },
   {
     "id": "invoice-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/invoice-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InvoiceTypeCS"
   },
   {
     "id": "location-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/location-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "LocationTypeCS"
   },
   {
     "id": "medication-item-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-item-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MedicationItemTypeCS"
   },
   {
     "id": "medication-level",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/medication-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MedicationLevelCS"
   },
   {
     "id": "openimis-identifiers",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/openimis-identifiers",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISIdentifierCS"
   },
   {
     "id": "organization-hf-care-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-care-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationHFCareTypeCS"
   },
   {
     "id": "organization-hf-legal-form",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-legal-form",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationHFLegalFormCS"
   },
   {
     "id": "organization-hf-level",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-hf-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationHFLevelCS"
   },
   {
     "id": "organization-ph-activity",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationPHActivityCS"
   },
   {
     "id": "organization-ph-legal-form",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-legal-form",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationPHLegalFormCS"
   },
   {
     "id": "patient-contact-relationship",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-contact-relationship",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientContactRelationshipCS"
   },
   {
     "id": "patient-education-level",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-education-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientEducationLevelCS"
   },
   {
     "id": "patient-identification-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-identification-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientIdentificationTypeCS"
   },
   {
     "id": "patient-profession",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/patient-profession",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientProfessionCS"
   },
   {
     "id": "practitioner-qualification-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/practitioner-qualification-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PractitionerQualificationTypeCS"
   },
   {
     "id": "usage-context-age-type",
     "type": "CodeSystem",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/usage-context-age-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "UsageContextAgeTypeCS"
   },
   {
     "id": "openimis.fhir.r4",
     "type": "ImplementationGuide",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ImplementationGuide/openimis.fhir.r4",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "openIMISFHIRR4"
   },
   {
     "id": "activity-definition-level",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/activity-definition-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ActivityDefinitionLevelExtension"
   },
   {
     "id": "address-location-reference",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-location-reference",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "AddressLocationReferenceExtension"
   },
   {
     "id": "address-municipality",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/address-municipality",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "AddressMunicipalityExtension"
   },
   {
     "id": "claim-item-reference",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/claim-item-reference",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ClaimItemReferenceExtension"
   },
   {
     "id": "communication-payload-type",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/communication-payload-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CommunicationPayloadTypeExtension"
   },
   {
     "id": "contract-premium",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/contract-premium",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractPremiumExtension"
   },
   {
     "id": "coverage-date",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-date",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CoverageDateExtension"
   },
   {
     "id": "coverage-policy-status",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/coverage-policy-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CoveragPolicyStatusExtension"
   },
   {
     "id": "group-address",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-address",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "GroupAddressExtension"
   },
   {
     "id": "group-confirmation",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-confirmation",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "GroupConfirmationExtension"
   },
   {
     "id": "group-poverty-status",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-poverty-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "GroupPovertyStatusExtension"
   },
   {
     "id": "group-type",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/group-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "GroupTypeExtension"
   },
   {
     "id": "insurance-plan-conversion",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-conversion",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InsurancePlanConversionExtension"
   },
   {
     "id": "insurance-plan-discount",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-discount",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InsurancePlanDiscountExtension"
   },
   {
     "id": "insurance-plan-max-installments",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-max-installments",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InsurancePlanMaxInstallmentsExtension"
   },
   {
     "id": "insurance-plan-period",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-period",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InsurancePlanPeriodExtension"
   },
   {
     "id": "insurance-plan-start-cycle",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/insurance-plan-start-cycle",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InsurancePlanStartCycleExtension"
   },
   {
     "id": "medication-frequency",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-frequency",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MedicationFrequencyExtension"
   },
   {
     "id": "medication-level",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MedicationLevelExtension"
   },
   {
     "id": "medication-type",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MedicationTypeExtension"
   },
   {
     "id": "medication-usage-context",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/medication-usage-context",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MedicationUsageContextExtension"
   },
   {
     "id": "openimis-activitiy-definition",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-activitiy-definition",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISActivityDefinition"
   },
   {
     "id": "openimis-claim",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISClaim"
   },
   {
     "id": "openimis-claim-administrator-practitioner",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISClaimAdministratorPractitioner"
   },
   {
     "id": "openimis-claim-administrator-practitioner-role",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-administrator-practitioner-role",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISClaimAdministratorPractitionerRole"
   },
   {
     "id": "openimis-claim-response",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-claim-response",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISClaimResponse"
   },
   {
     "id": "openimis-communication",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISCommunication"
   },
   {
     "id": "openimis-communication-request",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-communication-request",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISCommunicationRequest"
   },
   {
     "id": "openimis-contract",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-contract",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISContract"
   },
   {
     "id": "openimis-coverage",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISCoverage"
   },
   {
     "id": "openimis-coverage-eligibility-request",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-request",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISCoverageEligibilityRequest"
   },
   {
     "id": "openimis-coverage-eligibility-response",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-coverage-eligibility-response",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISCoverageEligibilityResponse"
   },
   {
     "id": "openimis-enrolment-officer-practitioner",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISEnrolmentOfficerPractitioner"
   },
   {
     "id": "openimis-enrolment-officer-practitioner-role",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-enrolment-officer-practitioner-role",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISEnrolmentOfficerPractitionerRole"
   },
   {
     "id": "openimis-group",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-group",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISGroup"
   },
   {
     "id": "openimis-health-facility-organization",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-health-facility-organization",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISHealthFacilityOrganization"
   },
   {
     "id": "openimis-insurance-organization",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-organization",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISInsuranceOrganization"
   },
   {
     "id": "openimis-insurance-plan",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-insurance-plan",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISInsurancePlan"
   },
   {
     "id": "openimis-invoice-bill",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice-bill",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISBill"
   },
   {
     "id": "openimis-invoice-invoice",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-invoice-invoice",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISInvoice"
   },
   {
     "id": "openimis-location",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-location",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISLocation"
   },
   {
     "id": "openimis-medication",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-medication",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISMedication"
   },
   {
     "id": "openimis-patient",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-patient",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISPatient"
   },
   {
     "id": "openimis-payment-notice",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-payment-notice",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISPaymentNotice"
   },
   {
     "id": "openimis-policy-holder-organization",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-policy-holder-organization",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISPolicyHolderOrganization"
   },
   {
     "id": "openimis-subscription",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-subscription",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISSubscription"
   },
   {
     "id": "organization-hf-care-type",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-care-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationHFCareTypeExtension"
   },
   {
     "id": "organization-hf-legal-form",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-legal-form",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationHFLegalFormExtension"
   },
   {
     "id": "organization-hf-level",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-hf-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationHFLevelExtension"
   },
   {
     "id": "organization-ph-activity",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-activity",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationPHActivityExtension"
   },
   {
     "id": "organization-ph-legal-form",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/organization-ph-legal-form",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationPHLegalFormExtension"
   },
   {
     "id": "patient-card-issued",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-card-issued",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientCardIssuedExtension"
   },
   {
     "id": "patient-education-level",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-education-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientEducationLevelExtension"
   },
   {
     "id": "patient-group-reference",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-group-reference",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientGroupReference"
   },
   {
     "id": "patient-identification",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-identification",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientIdentificationExtension"
   },
   {
     "id": "patient-is-head",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-is-head",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientIsHeadExtension"
   },
   {
     "id": "patient-profession",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-profession",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientProfessionExtension"
   },
   {
     "id": "patient-vulnerability-status",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/patient-vulnerability-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientVulnerabilityStatusExtension"
   },
   {
     "id": "practitioner-role-substitution-reference",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/practitioner-role-substitution-reference",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PractitionerRoleSubstitutionReferenceExtension"
   },
   {
     "id": "unit-price",
     "type": "StructureDefinition",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/unit-price",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "UnitPriceExtension"
   },
   {
     "id": "activity-definition-level",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ActivityDefinitionLevelVS"
   },
   {
     "id": "activity-definition-service-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-service-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ActivityDefinitionServiceTypeVS"
   },
   {
     "id": "activity-definition-usage-context-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ActivityDefinitionUsageContextTypeVS"
   },
   {
     "id": "activity-definition-usage-context-venue-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-venue-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ActivityDefinitionUsageContextVenueTypeVS"
   },
   {
     "id": "activity-definition-usage-context-workflow-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/activity-definition-usage-context-workflow-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ActivityDefinitionUsageContextWorkflowTypeVS"
   },
   {
     "id": "bill-charge-item",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/bill-charge-item",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "BillChargeItemVS"
   },
   {
     "id": "bill-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/bill-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "BillTypeVS"
   },
   {
     "id": "claim-item-category",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-item-category",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ClaimItemCategoryVS"
   },
   {
     "id": "claim-rejection-reasons",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-rejection-reasons",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ClaimRejectionReasonsVS"
   },
   {
     "id": "claim-status",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ClaimStatusVS"
   },
   {
     "id": "claim-supporting-info-category",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-supporting-info-category",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ClaimSupportingInfoCategoryVS"
   },
   {
     "id": "claim-visit-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/claim-visit-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ClaimVisitTypeVS"
   },
   {
     "id": "communication-request-status",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/communication-request-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CommunicationRequestStatusVS"
   },
   {
     "id": "contract-premium-category",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-premium-category",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractPremiumCategoryVS"
   },
   {
     "id": "contract-premium-payer",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-premium-payer",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractPremiumPayerVS"
   },
   {
     "id": "contract-premium-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-premium-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractPremiumTypeVS"
   },
   {
     "id": "contract-resource-party-role",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-resource-party-role",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractResourcePartyRoleVS"
   },
   {
     "id": "contract-scope",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-scope",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractScopeVS"
   },
   {
     "id": "contract-status-codes",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/contract-status-codes",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ContractStatusCodesVS"
   },
   {
     "id": "coverage-item-benefit-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CoverageItemBenefitTypeItemServiceVS"
   },
   {
     "id": "coverage-item-benefit-type-amount-left",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-amount-left",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CoverageItemBenefitTypeAmountLeftVS"
   },
   {
     "id": "coverage-item-benefit-type-total-left",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-benefit-type-total-left",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CoverageItemBenefitTypeTotalLeftVS"
   },
   {
     "id": "coverage-item-category",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CoverageItemCategoryVS"
   },
   {
     "id": "coverage-item-category-item-service",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-item-category-item-service",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CoverageItemCategoryItemServiceVS"
   },
   {
     "id": "coverage-status",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/coverage-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CoverageStatusVS"
   },
   {
     "id": "diagnosis-ICD10-level1",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/diagnosis-ICD10-level1",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "DiagnosisICD10Level1VS"
   },
   {
     "id": "feedback-payload",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/feedback-payload",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "FeedbackPayloadVS"
   },
   {
     "id": "feedback-status",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/feedback-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "FeedbackStatusVS"
   },
   {
     "id": "group-confirmation-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-confirmation-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "GroupConfirmationTypeVS"
   },
   {
     "id": "group-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/group-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "GroupTypeVS"
   },
   {
     "id": "insurance-plan-coverage-benefit-limit",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-coverage-benefit-limit",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InsurancePlanCoverageBenefitLimitVS"
   },
   {
     "id": "insurance-plan-coverage-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-coverage-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InsurancePlanCoverageTypeVS"
   },
   {
     "id": "insurance-plan-general-cost-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-general-cost-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InsurancePlanGeneralCostTypeVS"
   },
   {
     "id": "insurance-plan-publication-status",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/insurance-plan-publication-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InsurancePlanPublicationStatusVS"
   },
   {
     "id": "invoice-charge-item",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-charge-item",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InvoiceChargeItemVS"
   },
   {
     "id": "invoice-price-component-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-price-component-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InvoicePriceComponentTypeVS"
   },
   {
     "id": "invoice-status",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InvoiceStatusVS"
   },
   {
     "id": "invoice-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/invoice-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "InvoiceTypeVS"
   },
   {
     "id": "location-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/location-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "LocationTypeVS"
   },
   {
     "id": "medication-item-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/medication-item-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MedicationItemTypeVS"
   },
   {
     "id": "medication-level",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/medication-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MedicationLevelVS"
   },
   {
     "id": "openimis-identifiers",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/openimis-identifiers",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OpenIMISIdentifierVS"
   },
   {
     "id": "organization-hf-care-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-care-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationHFCareTypeVS"
   },
   {
     "id": "organization-hf-legal-form",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-legal-form",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationHFLegalFormVS"
   },
   {
     "id": "organization-hf-level",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-hf-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationHFLevelVS"
   },
   {
     "id": "organization-ph-activity",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-ph-activity",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationPHActivityVS"
   },
   {
     "id": "organization-ph-legal-form",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/organization-ph-legal-form",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "OrganizationPHLegalFormVS"
   },
   {
     "id": "patient-contact-relationship",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-contact-relationship",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientContactRelationshipVS"
   },
   {
     "id": "patient-education-level",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-education-level",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientEducationLevelVS"
   },
   {
     "id": "patient-identification-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-identification-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientIdentificationTypeVS"
   },
   {
     "id": "patient-marital-status",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-marital-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientMaritalStatusVS"
   },
   {
     "id": "patient-profession",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/patient-profession",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PatientProfessionVS"
   },
   {
     "id": "practitioner-qualification-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/practitioner-qualification-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PractitionerQualificationTypeVS"
   },
   {
     "id": "usage-context-age-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/usage-context-age-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "UsageContextAgeTypeVS"
   },
   {
     "id": "usage-context-gender-type",
     "type": "ValueSet",
     "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/usage-context-gender-type",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "UsageContextGenderTypeVS"
   }
 ]

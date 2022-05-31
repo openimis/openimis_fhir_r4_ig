@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-feedback-status.html\"><code>https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/feedback-status</code></a></li></ul></div>"
   },
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/ValueSet/feedback-status",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "FeedbackStatusVS",
   "title": "Feedback Status (CommunicationRequest)",
   "status": "active",
-  "date": "2022-05-17T09:34:33+00:00",
+  "date": "2022-05-31T10:54:20+00:00",
   "publisher": "openIMIS Initiative",
   "contact": [
     {

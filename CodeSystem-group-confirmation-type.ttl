@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"group-confirmation-type-A\"> </a></td><td>Local council</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"group-confirmation-type-B\"> </a></td><td>Municipality</td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"group-confirmation-type-C\"> </a></td><td>State</td></tr><tr><td style=\"white-space:nowrap\">D<a name=\"group-confirmation-type-D\"> </a></td><td>Other</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-confirmation-type"];
-  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.version [ fhir:value "1.0.0"];
   fhir:CodeSystem.name [ fhir:value "GroupConfirmationTypeCS"];
   fhir:CodeSystem.title [ fhir:value "Confirmation Types (Group)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-05-17T09:34:33+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-31T10:54:20+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "openIMIS Initiative"];
   fhir:CodeSystem.contact [
      fhir:index 0;

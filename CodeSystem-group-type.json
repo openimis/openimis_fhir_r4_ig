@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"group-type-C\"> </a></td><td>Council</td></tr><tr><td style=\"white-space:nowrap\">G<a name=\"group-type-G\"> </a></td><td>Organization</td></tr><tr><td style=\"white-space:nowrap\">H<a name=\"group-type-H\"> </a></td><td>Household</td></tr><tr><td style=\"white-space:nowrap\">O<a name=\"group-type-O\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"group-type-P\"> </a></td><td>Priests</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"group-type-S\"> </a></td><td>Students</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"group-type-T\"> </a></td><td>Teachers</td></tr></table></div>"
   },
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/group-type",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "GroupTypeCS",
   "title": "Group Type (Group)",
   "status": "active",
-  "date": "2022-05-17T09:34:33+00:00",
+  "date": "2022-05-31T10:54:20+00:00",
   "publisher": "openIMIS Initiative",
   "contact": [
     {

@@ -16,11 +16,11 @@
     }
   ],
   "url": "https://openimis.github.io/openimis_fhir_r4_ig/StructureDefinition/openimis-medication",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "OpenIMISMedication",
   "title": "openIMIS Medication",
   "status": "active",
-  "date": "2022-05-17T09:34:33+00:00",
+  "date": "2022-05-31T10:54:20+00:00",
   "publisher": "openIMIS Initiative",
   "contact": [
     {

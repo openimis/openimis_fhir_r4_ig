@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="organization-ph-activity-1"> </a></td><td>Retail</td></tr><tr><td style="white-space:nowrap">2<a name="organization-ph-activity-2"> </a></td><td>Industry</td></tr><tr><td style="white-space:nowrap">3<a name="organization-ph-activity-3"> </a></td><td>Building</td></tr><tr><td style="white-space:nowrap">4<a name="organization-ph-activity-4"> </a></td><td>Sailing</td></tr><tr><td style="white-space:nowrap">5<a name="organization-ph-activity-5"> </a></td><td>Services</td></tr></table></div>
   </text>
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/organization-ph-activity"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="OrganizationPHActivityCS"/>
   <title value="Activity (Organization)"/>
   <status value="active"/>
-  <date value="2022-05-17T09:34:33+00:00"/>
+  <date value="2022-05-31T10:54:20+00:00"/>
   <publisher value="openIMIS Initiative"/>
   <contact>
     <name value="openIMIS Initiative"/>

@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">claim-batch<a name="bill-type-claim-batch"> </a></td><td>Claim batch payment</td><td>How much the insurance need to pay the HF for the claims reimbursment.</td></tr><tr><td style="white-space:nowrap">commission<a name="bill-type-commission"> </a></td><td>Commission</td><td>How much the insurance need to pay the commission to EO.</td></tr><tr><td style="white-space:nowrap">fees<a name="bill-type-fees"> </a></td><td>Fees</td><td>How much the insurance need to pay the payment platform for the fee for payment service.</td></tr></table></div>
   </text>
   <url value="https://openimis.github.io/openimis_fhir_r4_ig/CodeSystem/bill-type"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="BillTypeCS"/>
   <title value="Type (Bill Invoice)"/>
   <status value="active"/>
-  <date value="2022-05-17T09:34:33+00:00"/>
+  <date value="2022-05-31T10:54:20+00:00"/>
   <publisher value="openIMIS Initiative"/>
   <contact>
     <name value="openIMIS Initiative"/>
